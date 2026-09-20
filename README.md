@@ -11,15 +11,11 @@ lado, no para proteger secretos.
 
 ## Las fotos
 
-Cada destino toma hasta 5 fotos:
-
-    public/photos/<lugar>/01.jpg
-    public/photos/<lugar>/02.jpg
-    ...
-
-Sirven `.jpg`, `.jpeg`, `.png` y `.webp`. Si una foto falta, la página dibuja un
-degradado con el color del viaje y sigue andando. Carpetas: `mancora`, `lima`,
-`cartagena`, `baru`, `miami`, `bahamas`, `cdmx`, `puerto-escondido`.
+Una carpeta por lugar en `public/photos/`. Se sueltan los archivos como
+vengan, sin renombrar: `scripts/fotos.mjs` corre antes del build, arma
+`data/fotos.json` y las ordena alfabéticamente. La primera de cada carpeta
+va en la tarjeta del home. Si falta una, el hueco queda vacío y no se rompe
+nada. Ver `public/photos/README.md`.
 
 ## Notas, votos y propuestas
 
