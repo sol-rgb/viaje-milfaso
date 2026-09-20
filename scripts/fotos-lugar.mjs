@@ -73,6 +73,10 @@ for (const [lugar, consultas] of Object.entries(BUSQUEDAS)) {
     continue;
   }
 
+  // Commons devuelve primeros planos de flores, edificios municipales y
+  // cementerios cuando busca por nombre de ciudad: no van en una galería.
+  const DESCARTE = /flower|flor|cemetery|cementerio|grave|city hall|school|escuela|church interior|coat of arms|escudo|map|mapa|plaque|placa|logo|portrait|retrato|statue of|monumento a/i;
+
   const vistos = new Set();
   let n = yaHay;
 
@@ -82,6 +86,7 @@ for (const [lugar, consultas] of Object.entries(BUSQUEDAS)) {
       if (n >= POR_LUGAR) break;
       if (vistos.has(src)) continue;
       vistos.add(src);
+      if (DESCARTE.test(decodeURIComponent(src))) continue;
 
       const hash = createHash("sha1").update(src).digest("hex").slice(0, 12);
       const tmp = `${dir}${hash}.tmp`;
