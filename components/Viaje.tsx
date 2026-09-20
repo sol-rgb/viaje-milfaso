@@ -359,29 +359,40 @@ function Cama({ h, i, target }: { h: Hotel; i: number; target: string }) {
   const [abierto, setAbierto] = useState(false);
   return (
     <li className={abierto ? "fila cama on" : "fila cama"}>
-      <button className="cama-cab" onClick={() => setAbierto(!abierto)}>
-        <span className="idx fila-i">{String(i + 1).padStart(2, "0")}</span>
-        <span className="fila-n">
-          {h.name}
-          {h.over && <em className="over" title="arriba del presupuesto">·</em>}
-        </span>
-        <span className="fila-d label">{h.area}</span>
-        <span className="fila-p">
-          {h.estimate && <em className="est">~</em>}
-          {plata(h.ppUsd)}
-          <em className="por">/ p / noche</em>
-        </span>
+      <div className="cama-cab">
+        <button
+          className="cama-toggle"
+          onClick={() => setAbierto(!abierto)}
+          aria-expanded={abierto}
+        >
+          <span className="idx fila-i">{String(i + 1).padStart(2, "0")}</span>
+          <span className="fila-n">
+            {h.name}
+            {h.over && <em className="over" title="arriba del presupuesto">·</em>}
+          </span>
+          <span className="fila-d label">{h.area}</span>
+          <span className="fila-p">
+            {h.estimate && <em className="est">~</em>}
+            {plata(h.ppUsd)}
+            <em className="por">/ p / noche</em>
+          </span>
+        </button>
         <Voto target={target} chico />
-        <span className="fila-mas" aria-hidden>
+        <Contador target={target} />
+        <button
+          className="fila-mas"
+          onClick={() => setAbierto(!abierto)}
+          aria-label={abierto ? "cerrar" : "abrir"}
+        >
           {abierto ? "−" : "+"}
-        </span>
-      </button>
+        </button>
+      </div>
 
       {abierto && (
         <div className="cama-cuerpo">
           <p className="body-s">{h.why}</p>
           <p className="label">
-            habitación doble us$ {plata(h.nightUsd)} la noche
+            las habitaciones para los 5, us$ {plata(h.nightUsd)} la noche
             {h.score ? ` · ${h.score}` : ""}
             {h.over ? " · arriba del presupuesto" : ""}
           </p>
@@ -398,7 +409,6 @@ function Cama({ h, i, target }: { h: Hotel; i: number; target: string }) {
           <Hilo target={target} etiqueta="anotar algo" />
         </div>
       )}
-      <Contador target={target} />
     </li>
   );
 }
@@ -407,28 +417,37 @@ function Casa({ r, i, target }: { r: Rental; i: number; target: string }) {
   const [abierto, setAbierto] = useState(false);
   return (
     <li className={abierto ? "fila cama on" : "fila cama"}>
-      <button className="cama-cab" onClick={() => setAbierto(!abierto)}>
-        <span className="idx fila-i">{String(i + 1).padStart(2, "0")}</span>
-        <span className="fila-n">{r.name}</span>
-        <span className="fila-d label">
-          {r.area} · {r.sleeps} personas
-        </span>
-        <span className="fila-p">
-          {plata(r.ppUsd)}
-          <em className="por">/ p / noche</em>
-        </span>
+      <div className="cama-cab">
+        <button
+          className="cama-toggle"
+          onClick={() => setAbierto(!abierto)}
+          aria-expanded={abierto}
+        >
+          <span className="idx fila-i">{String(i + 1).padStart(2, "0")}</span>
+          <span className="fila-n">{r.name}</span>
+          <span className="fila-d label">
+            {r.area} · duerme {r.sleeps}
+          </span>
+          <span className="fila-p">
+            {plata(r.ppUsd)}
+            <em className="por">/ p / noche</em>
+          </span>
+        </button>
         <Voto target={target} chico />
-        <span className="fila-mas" aria-hidden>
+        <Contador target={target} />
+        <button
+          className="fila-mas"
+          onClick={() => setAbierto(!abierto)}
+          aria-label={abierto ? "cerrar" : "abrir"}
+        >
           {abierto ? "−" : "+"}
-        </span>
-      </button>
+        </button>
+      </div>
 
       {abierto && (
         <div className="cama-cuerpo">
           <p className="body-s">{r.why}</p>
-          <p className="label">
-            la casa entera us$ {plata(r.nightUsd)} la noche
-          </p>
+          <p className="label">la casa entera us$ {plata(r.nightUsd)} la noche</p>
           <p className="enlaces">
             <a href={r.url} target="_blank" rel="noopener noreferrer">
               {r.isSearch ? "buscar en airbnb" : "ver"} <em className="ext">↗</em>
@@ -437,7 +456,6 @@ function Casa({ r, i, target }: { r: Rental; i: number; target: string }) {
           <Hilo target={target} etiqueta="anotar algo" />
         </div>
       )}
-      <Contador target={target} />
     </li>
   );
 }

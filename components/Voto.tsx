@@ -14,14 +14,7 @@ export default function Voto({
   const { si, no, mio } = marcadorDe(target);
 
   return (
-    <span
-      className={chico ? "voto voto-c" : "voto"}
-      onClick={(e) => {
-        // no abrir la fila de abajo al votar
-        e.stopPropagation();
-        e.preventDefault();
-      }}
-    >
+    <span className={chico ? "voto voto-c" : "voto"}>
       <button
         className={mio === 1 ? "voto-b si on" : "voto-b si"}
         onClick={() => votar(target, 1)}

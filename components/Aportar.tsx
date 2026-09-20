@@ -214,28 +214,37 @@ function Item({
 
   return (
     <li className={abierto ? "fila cama aporte on" : "fila cama aporte"}>
-      <button className="cama-cab" onClick={() => setAbierto(!abierto)}>
-        <span className="idx fila-i">+{String(i + 1).padStart(2, "0")}</span>
-        <span className="fila-n">{a.nombre}</span>
-        <span className="fila-d label">
-          {[a.zona, `propuso ${a.quien}`].filter(Boolean).join(" · ")}
-        </span>
-        <span className="fila-p">
-          {a.precio ? (
-            <>
-              {plata(a.precio)}
-              <em className="por">{unidad}</em>
-            </>
-          ) : (
-            <em className="por">sin precio</em>
-          )}
-        </span>
+      <div className="cama-cab">
+        <button
+          className="cama-toggle"
+          onClick={() => setAbierto(!abierto)}
+          aria-expanded={abierto}
+        >
+          <span className="idx fila-i">+{String(i + 1).padStart(2, "0")}</span>
+          <span className="fila-n">{a.nombre}</span>
+          <span className="fila-d label">
+            {[a.zona, `propuso ${a.quien}`].filter(Boolean).join(" · ")}
+          </span>
+          <span className="fila-p">
+            {a.precio ? (
+              <>
+                {plata(a.precio)}
+                <em className="por">{unidad}</em>
+              </>
+            ) : (
+              <em className="por">sin precio</em>
+            )}
+          </span>
+        </button>
         <Voto target={target} chico />
-        <span className="fila-mas" aria-hidden>
+        <button
+          className="fila-mas"
+          onClick={() => setAbierto(!abierto)}
+          aria-label={abierto ? "cerrar" : "abrir"}
+        >
           {abierto ? "−" : "+"}
-        </span>
-      </button>
-
+        </button>
+      </div>
       {abierto && (
         <div className="cama-cuerpo">
           {a.detalle && <p className="body-s">{a.detalle}</p>}

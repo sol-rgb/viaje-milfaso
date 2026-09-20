@@ -798,3 +798,36 @@ img { display: block; max-width: 100%; }
   white-space: nowrap;
   border: 0;
 }
+
+/* fila que se abre: el toggle y los votos son hermanos, no anidados */
+.cama-cab {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto auto;
+  gap: 12px;
+  align-items: center;
+}
+.cama-toggle {
+  display: grid;
+  grid-template-columns: 30px minmax(0, 1.05fr) minmax(0, 1fr) auto;
+  gap: 16px;
+  align-items: baseline;
+  text-align: left;
+  padding-block: 13px;
+  width: 100%;
+  transition: opacity 220ms var(--ease);
+}
+.cama-toggle:hover { opacity: 0.62; }
+.fila-mas {
+  font-family: var(--mono);
+  font-size: 14px;
+  color: var(--ink-ghost);
+  width: 18px;
+  text-align: center;
+  transition: color 200ms var(--ease);
+}
+.fila-mas:hover { color: var(--ink); }
+
+@media (max-width: 900px) {
+  .cama-toggle { grid-template-columns: 26px minmax(0, 1fr) auto; }
+  .cama-toggle .fila-d { grid-column: 2 / -1; }
+}
