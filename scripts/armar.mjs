@@ -163,17 +163,31 @@ const ARCHIVOS = {
 const num = (v) => (typeof v === "number" && Number.isFinite(v) ? Math.round(v) : 0);
 const http = (u) => (typeof u === "string" && /^https?:\/\//.test(u) ? u : "");
 
+const hora = (v) => {
+  const x = String(v ?? "").trim();
+  return /^\d{1,2}:\d{2}/.test(x) ? x : "";
+};
+
 function vuelo(f, kind) {
+  const desde = String(f.from ?? "EZE").trim();
+  const hasta = String(f.to ?? "").trim();
+
   const o = {
     kind,
     airline: sinRaya(f.airline ?? ""),
-    route: `${f.from ?? "EZE"} → ${f.to ?? ""}`,
+    route: `${desde} → ${hasta}`,
+    from: desde,
+    to: hasta,
     duration: f.duration ?? "",
     priceUsd: num(f.rt_price_usd),
   };
   if (f.via) o.via = f.via;
+  if (hora(f.dep_time)) o.dep = hora(f.dep_time);
+  if (hora(f.arr_time)) o.arr = hora(f.arr_time);
+  if (f.flight_no && !/not yet|n\/a/i.test(String(f.flight_no))) {
+    o.flight = sinRaya(String(f.flight_no));
+  }
   if (f.is_estimate) o.estimate = true;
-  if (f.flight_no && kind === "directo") o.note = sinRaya(String(f.flight_no));
   return o;
 }
 

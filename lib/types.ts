@@ -12,8 +12,15 @@ export type Flight = {
   kind: "directo" | "escala";
   airline: string;
   route: string;
+  /** códigos de aeropuerto, para armar el link de búsqueda */
+  from: string;
+  to: string;
   via?: string;
   duration: string;
+  /** horarios cuando la investigación los tiene */
+  dep?: string;
+  arr?: string;
+  flight?: string;
   priceUsd: number;
   estimate?: boolean;
   note?: string;

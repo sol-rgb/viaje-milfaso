@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Galeria from "./Galeria";
 import { Derecha, Mas, Menos } from "./Icono";
+import { Prosa } from "./Pop";
 import Pop from "./Pop";
 import Modal from "./Modal";
 import Voto from "./Voto";
@@ -11,6 +12,7 @@ import Aportar, { ListaAportes } from "./Aportar";
 import Picker, { useSemana } from "./Semana";
 import { precio, plata } from "@/lib/precio";
 import { fechaDia } from "@/lib/fechas";
+import { linkBusqueda, sitioAerolinea } from "@/lib/vuelos";
 import type { Trip, Stop, Day } from "@/lib/types";
 
 export default function Viaje({ t }: { t: Trip }) {
@@ -79,7 +81,9 @@ function Antes({ t }: { t: Trip }) {
           {items.map((it, i) => (
             <div key={i} className={it.alerta ? "chica-i alerta" : "chica-i"}>
               <dt className="chica-k">{it.k}</dt>
-              <dd className="chica-v">{it.v}</dd>
+              <dd className="chica-v">
+                <Prosa texto={it.v} clase="chica-p" />
+              </dd>
             </div>
           ))}
         </dl>
@@ -125,12 +129,27 @@ function Vuelos({ t }: { t: Trip }) {
                 d={{
                   titulo: f.airline,
                   target: `vuelo:${t.slug}:${semana}:${modo}:${i}`,
-                  linea: `${f.route}${f.via ? `, vía ${f.via}` : ""}. ${f.duration}.`,
+                  filas: [
+                    {
+                      k: "Ruta",
+                      v: `${f.route}${f.via ? `, vía ${f.via}` : ""}`,
+                    },
+                    {
+                      k: "Horario",
+                      v:
+                        f.dep && f.arr
+                          ? `Sale ${f.dep}, llega ${f.arr}. ${f.duration}`
+                          : f.duration,
+                    },
+                    ...(f.flight ? [{ k: "Vuelo", v: f.flight }] : []),
+                  ],
                   precio: f.priceUsd,
                   unidad: "ida y vuelta",
-                  extra: [f.note, f.estimate ? "precio estimado" : ""].filter(
-                    Boolean
-                  ) as string[],
+                  url: linkBusqueda(f, semana),
+                  urlTexto: "Buscar en Google Flights",
+                  url2: sitioAerolinea(f.airline),
+                  url2Texto: f.airline,
+                  extra: f.estimate ? ["Precio estimado"] : [],
                 }}
               >
                 {f.airline}
@@ -154,10 +173,16 @@ function Vuelos({ t }: { t: Trip }) {
                   d={{
                     titulo: h.route,
                     target: `hop:${t.slug}:${i}`,
-                    linea: `${h.airline}. ${h.duration}.${h.frequency ? ` ${h.frequency}.` : ""}`,
+                    filas: [
+                      { k: "Aerolínea", v: h.airline },
+                      { k: "Duración", v: h.duration },
+                      ...(h.frequency ? [{ k: "Frecuencia", v: h.frequency }] : []),
+                    ],
                     precio: h.priceUsd,
                     unidad: "ida y vuelta",
-                    extra: h.estimate ? ["precio estimado"] : [],
+                    url2: sitioAerolinea(h.airline),
+                    url2Texto: h.airline,
+                    extra: h.estimate ? ["Precio estimado"] : [],
                   }}
                 >
                   {h.route}

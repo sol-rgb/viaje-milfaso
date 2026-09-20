@@ -8,6 +8,7 @@ import { useEstado } from "./Estado";
 import { plata } from "@/lib/precio";
 import { imagenDe, esPropia } from "@/lib/fotos";
 import { Salida } from "./Icono";
+import { enOraciones } from "@/lib/texto";
 
 export type Detalle = {
   titulo: string;
@@ -15,9 +16,14 @@ export type Detalle = {
   /** carpetas de fotos del viaje, para cuando no hay foto del lugar exacto */
   dirs?: string[];
   linea?: string;
+  /** datos uno abajo del otro, antes del precio */
+  filas?: { k: string; v: string }[];
   precio?: number;
   unidad?: string;
   url?: string;
+  urlTexto?: string;
+  url2?: string;
+  url2Texto?: string;
   extra?: string[];
 };
 
@@ -26,6 +32,19 @@ export type Detalle = {
  * Se ve el nombre; al tocarlo sale la tarjeta con el link, los pulgares,
  * el precio y una línea.
  */
+/** Un párrafo si es una sola oración; viñetas si son varias. */
+export function Prosa({ texto, clase }: { texto: string; clase: string }) {
+  const partes = enOraciones(texto);
+  if (partes.length <= 1) return <p className={clase}>{texto}</p>;
+  return (
+    <ul className={`${clase} prosa`}>
+      {partes.map((o, i) => (
+        <li key={i}>{o}</li>
+      ))}
+    </ul>
+  );
+}
+
 export default function Pop({
   d,
   children,
@@ -66,7 +85,18 @@ export default function Pop({
           />
         )}
 
-        {d.linea && <p className="pop-linea">{d.linea}</p>}
+        {d.linea && <Prosa texto={d.linea} clase="pop-linea" />}
+
+        {d.filas && d.filas.length > 0 && (
+          <dl className="pop-filas">
+            {d.filas.map((f, i) => (
+              <div key={i}>
+                <dt>{f.k}</dt>
+                <dd>{f.v}</dd>
+              </div>
+            ))}
+          </dl>
+        )}
 
         <div className="pop-fila">
           <span className="pop-precio">
@@ -85,19 +115,28 @@ export default function Pop({
 
         {d.extra && d.extra.length > 0 && (
           <ul className="pop-datos">
-            {d.extra.map((x, i) => (
-              <li key={i} className="label">
-                {x}
-              </li>
-            ))}
+            {d.extra.flatMap((x, i) =>
+              enOraciones(x).map((o, j) => (
+                <li key={`${i}-${j}`} className="label">
+                  {o}
+                </li>
+              ))
+            )}
           </ul>
         )}
 
-        {d.url && (
+        {(d.url || d.url2) && (
           <p className="enlaces">
-            <a href={d.url} target="_blank" rel="noopener noreferrer nofollow">
-              Abrir <Salida size={13} className="ext" />
-            </a>
+            {d.url && (
+              <a href={d.url} target="_blank" rel="noopener noreferrer nofollow">
+                {d.urlTexto ?? "Abrir"} <Salida size={13} className="ext" />
+              </a>
+            )}
+            {d.url2 && (
+              <a href={d.url2} target="_blank" rel="noopener noreferrer nofollow">
+                {d.url2Texto ?? "Sitio"} <Salida size={13} className="ext" />
+              </a>
+            )}
           </p>
         )}
 

@@ -119,31 +119,38 @@ async function portadaConNavegador(ctx, url) {
   const page = await ctx.newPage();
   try {
     await page.goto(url, { waitUntil: "domcontentloaded", timeout: 28000 });
-    await page.waitForTimeout(2200);
+    await page.waitForTimeout(3200);
+    await page.mouse.wheel(0, 600);
+    await page.waitForTimeout(1200);
 
     const src = await page.evaluate(() => {
-      const meta = (sel) => document.querySelector(sel)?.getAttribute("content");
-      const og =
-        meta('meta[property="og:image"]') ||
-        meta('meta[property="og:image:secure_url"]') ||
-        meta('meta[name="twitter:image"]');
-      if (og) return og;
+      // las portadas genéricas del sitio no sirven: son el logo de siempre
+      const generica = (u) =>
+        /og[-_]image|default|placeholder|logo|airbnb-platform-assets|social[-_]share|bstatic\.com\/static/i.test(u);
 
-      // si no declara portada, la imagen más grande que se esté viendo
+      const meta = (sel) => document.querySelector(sel)?.getAttribute("content");
+
+      // la foto más grande que se esté viendo, que suele ser la de la galería
       let mejor = null;
       let area = 0;
       for (const img of document.querySelectorAll("img")) {
         const r = img.getBoundingClientRect();
-        const a = r.width * r.height;
         const s = img.currentSrc || img.src;
-        if (!s || !/^https?:/.test(s)) continue;
-        if (r.width < 220 || r.height < 160) continue;
+        if (!s || !/^https?:/.test(s) || generica(s)) continue;
+        if (r.width < 260 || r.height < 180) continue;
+        const a = r.width * r.height;
         if (a > area) {
           area = a;
           mejor = s;
         }
       }
-      return mejor;
+      if (mejor) return mejor;
+
+      const og =
+        meta('meta[property="og:image"]') ||
+        meta('meta[property="og:image:secure_url"]') ||
+        meta('meta[name="twitter:image"]');
+      return og && !generica(og) ? og : null;
     });
 
     if (!src) return null;
@@ -170,7 +177,8 @@ async function carril(lista) {
   });
 
   for (const o of lista) {
-    let src = o.url ? await portadaConNavegador(ctx, o.url) : null;
+    const esBusqueda = /\/s\/|\?query=|search/i.test(o.url ?? "");
+    let src = o.url && !esBusqueda ? await portadaConNavegador(ctx, o.url) : null;
     if (!src) src = await openverse(o.nombre, o.lugar);
 
     const archivo = src ? await bajar(src, o.key) : null;
