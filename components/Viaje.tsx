@@ -40,14 +40,14 @@ export default function Viaje({ t }: { t: Trip }) {
       <Seccion n={3} titulo="ruta">
         <div className="dias">
           {t.days.map((d) => (
-            <Dia key={d.n} d={d} slug={t.slug} tint={t.tint} />
+            <Dia key={d.n} d={d} slug={t.slug} />
           ))}
         </div>
       </Seccion>
 
       <Seccion n={4} titulo="dónde dormir">
         {t.stops.map((st) => (
-          <Dormir key={st.slug} st={st} slug={t.slug} tint={t.tint} />
+          <Dormir key={st.slug} st={st} slug={t.slug} />
         ))}
       </Seccion>
 
@@ -233,7 +233,7 @@ function Vuelos({ t }: { t: Trip }) {
 
 /* ---------------------------------------------------------- días */
 
-function Dia({ d, slug, tint }: { d: Day; slug: string; tint: string }) {
+function Dia({ d, slug }: { d: Day; slug: string }) {
   const [abierto, setAbierto] = useState(false);
   const target = `dia:${slug}:${d.n}`;
 
@@ -299,7 +299,7 @@ function Dia({ d, slug, tint }: { d: Day; slug: string; tint: string }) {
 
 /* ---------------------------------------------------------- dormir */
 
-function Dormir({ st, slug, tint }: { st: Stop; slug: string; tint: string }) {
+function Dormir({ st, slug }: { st: Stop; slug: string }) {
   const [modo, setModo] = useState<"hotel" | "airbnb">("hotel");
 
   return (

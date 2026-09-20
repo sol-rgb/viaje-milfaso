@@ -24,6 +24,7 @@ function Casa() {
   return (
     <main className="casa">
       <Drift />
+      <h1 className="oculto">Viaje Milfaso: cuatro viajes para marzo 2027</h1>
 
       <section className="casa-semana wrap max">
         <div className="casa-semana-l">
