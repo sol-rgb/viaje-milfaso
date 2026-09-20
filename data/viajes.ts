@@ -149,7 +149,7 @@ export const VIAJES: Trip[] = [
             "level": "$ - us$7 a 15 por persona"
           }
         ],
-        "weather": "Principios de marzo es el final del verano limeño y el mejor clima del año: máximas de 26 a 28C, noches de 19 a 20C, humedad alta (70 a 85%), UV fuerte y prácticamente nada de lluvia: Lima es un desierto costero y la garúa gris es cosa de mayo a octubre, no de marzo. El mar está en su punto más cálido del año pero la corriente de Humboldt lo mantiene fresco, de 20 a 22C, así que las playas del malecón se pueden nadar pero frías, nada tropical."
+        "weather": "Principios de marzo es el final del verano limeño y el mejor clima del año: máximas de 26 a 28C, noches de 19 a 20C, humedad alta (70 a 85%), UV fuerte y prácticamente nada de lluvia: Lima es un desierto costero y la garúa gris es cosa de mayo a octubre, no de marzo. El mar está en su punto más cálido del año pero la corriente de Humboldt lo mantiene fresco, de 20 a 22C: las playas del malecón se nadan pero frías, nada tropical."
       },
       {
         "slug": "mancora",
@@ -425,7 +425,7 @@ export const VIAJES: Trip[] = [
           },
           {
             "name": "Almuerzo en Los Organos y la izquierda de La Vuelta",
-            "what": "Almuerzo de pueblo pesquero y después mirar o surfear La Vuelta, una izquierda de arrecife potente y tubular.",
+            "what": "Almuerzo de pueblo pesquero y mirar o surfear La Vuelta, izquierda de arrecife potente y tubular.",
             "ppUsd": 15,
             "duration": "3 o 4 horas",
             "when": "Del mediodía a la caída de la tarde",
@@ -448,7 +448,7 @@ export const VIAJES: Trip[] = [
           },
           {
             "name": "Cabo Blanco: el club de pesca de Hemingway y el tubo",
-            "what": "Cuarenta minutos al sur; el sitio del club de pesca mayor de los años 50 y una izquierda tubera famosa en el mundo.",
+            "what": "Cuarenta minutos al sur; el club de pesca mayor de los años 50 y una izquierda tubera famosa.",
             "ppUsd": 25,
             "duration": "Medio día",
             "when": "Mañana, al amanecer por la ola",
@@ -770,7 +770,7 @@ export const VIAJES: Trip[] = [
             "estimate": true
           },
           {
-            "name": "Hotel Capellán de Getsemaní  [SPLURGE - OVER BUDGET]",
+            "name": "Hotel Capellán de Getsemaní",
             "area": "Getsemaní, Carrera 9 No. 29-52, al lado del Parque Centenario",
             "nightUsd": 540,
             "ppUsd": 108,
@@ -807,7 +807,7 @@ export const VIAJES: Trip[] = [
             "sleeps": 12,
             "nightUsd": 450,
             "ppUsd": 90,
-            "why": "Pileta en planta baja más jacuzzi en la azotea, cuartos con baño propio, mayordomo; la casa buena más barata.",
+            "why": "Pileta abajo más jacuzzi en la azotea, cuartos con baño propio, mayordomo; la casa buena más barata.",
             "url": "https://www.airbnb.com/rooms/856462808151932857"
           },
           {
@@ -833,7 +833,7 @@ export const VIAJES: Trip[] = [
         "food": [
           {
             "name": "Celele",
-            "what": "Caribe colombiano, No.5 del Latin America's 50 Best, Getsemaní. Principales $16 a 23, degustación unos $78. Reservá con 1 o 2 semanas; piden tarjeta y consumo mínimo, y una mesa de cinco necesita más anticipación.",
+            "what": "Caribe colombiano, No.5 del Latin America's 50 Best, Getsemaní. Principales $16 a 23, degustación unos $78. Reservá con 1 o 2 semanas; piden tarjeta y consumo mínimo, y una mesa de cinco necesita más.",
             "level": "$$$$"
           },
           {
@@ -865,7 +865,7 @@ export const VIAJES: Trip[] = [
             "area": "La punta tranquila de Playa Blanca, norte de Barú (Pendales)",
             "nightUsd": 420,
             "ppUsd": 84,
-            "why": "El mejor hotel de playa dentro del presupuesto en Barú; kayak y paddle gratis, cuartos familiares con vista al mar.",
+            "why": "El mejor hotel de playa en presupuesto en Barú; kayak y paddle gratis, cuartos familiares con vista al mar.",
             "url": "https://www.booking.com/hotel/co/thani-ecobeach-baru.html",
             "score": "Strong; 234 verified Booking.com reviews",
             "estimate": true
@@ -881,7 +881,7 @@ export const VIAJES: Trip[] = [
             "estimate": true
           },
           {
-            "name": "Playa Manglares Isla Barú  [OVER BUDGET]",
+            "name": "Playa Manglares Isla Barú",
             "area": "Norte de Barú, lado manglar y playa",
             "nightUsd": 571,
             "ppUsd": 114,
@@ -892,7 +892,7 @@ export const VIAJES: Trip[] = [
             "estimate": true
           },
           {
-            "name": "Sabai Beach Hotel  [SPLURGE - WELL OVER BUDGET]",
+            "name": "Sabai Beach Hotel",
             "area": "Punta suroeste de Barú, dentro del Parque Natural Corales del Rosario",
             "nightUsd": 784,
             "ppUsd": 157,
@@ -1010,7 +1010,7 @@ export const VIAJES: Trip[] = [
         "title": "Bazurto, San Felipe y champeta",
         "acts": [
           {
-            "name": "Tour gastronómico por el mercado de Bazurto",
+            "name": "Tour de comida por el mercado de Bazurto",
             "what": "No la Cartagena turística: el mercado mayorista de verdad al este del centro, con guía, comiendo entre puestos de fruta, fritangas, carnicerías y un almuerzo sentados. Lo hacen Cartagena Connections y Juan Ballena, en general arranque 10:30 con transporte en bus local, degustación de frutas y almuerzo incluidos. Cinco es un buen número: casi todos topan el grupo chico en seis. Andá con operador, no por tu cuenta.",
             "ppUsd": 50,
             "duration": "4 horas",
@@ -1027,7 +1027,7 @@ export const VIAJES: Trip[] = [
           },
           {
             "name": "Celele y después champeta en Bazurto Social Club",
-            "what": "Celele, en Getsemaní, es el motivo por el que los foodies viajan acá: No.5 en Latin America's 50 Best 2025, No.48 en el World's 50 Best, cocina caribeña colombiana salida de la investigación del Caribe Project. Principales $16 a 23, degustación unos $78. Reservar es prácticamente obligatorio: cierran la puerta después del check in, piden tarjeta y consumo mínimo, y hace falta una semana entre semana y dos para el fin de semana; una mesa para cinco cuesta más que una para dos, así que reservá apenas tengan fechas. Después, cinco minutos a pie hasta Bazurto Social Club, en la Avenida del Centenario, para champeta en vivo y cultura de picó: el lado palenquero y afrocaribeño de la ciudad que la ciudad amurallada tapa.",
+            "what": "Celele, en Getsemaní, es por lo que los foodies viajan acá: No.5 en Latin America's 50 Best 2025, No.48 en el World's 50 Best, cocina caribeña colombiana salida de la investigación del Caribe Project. Principales $16 a 23, degustación unos $78. Reservar es casi obligatorio: cierran la puerta después del check in, piden tarjeta y consumo mínimo, y hace falta una semana entre semana y dos para el finde; una mesa para cinco cuesta más que una para dos, así que reservá apenas tengan fechas. Después, cinco minutos a pie hasta Bazurto Social Club, en la Avenida del Centenario, para champeta en vivo y cultura de picó: el lado palenquero y afrocaribeño de la ciudad que la ciudad amurallada tapa.",
             "ppUsd": 85,
             "duration": "5 horas",
             "when": "Día 2, cena 19:30, champeta 22:30",
@@ -1050,7 +1050,7 @@ export const VIAJES: Trip[] = [
           },
           {
             "name": "Volcán de lodo del Totumo (opcional: evaluarlo con honestidad)",
-            "what": "Un cono de barro de 15 metros a una hora al norte: te metés y flotás en arcilla gris tibia y después te enjuagás en la laguna. Tours grupales de medio día $35 a 45 por persona, en grupo chico o privados $50 a 65, o $5 a 6 en la puerta si van manejando. Antes de decidir: es kitsch y está lleno, y el 'masaje', la 'ayuda con las fotos' y el 'lavado' esperan $2 de propina cada uno y se suman. Saltealo si el grupo prefiere una clase de cocina caribeña en serio ($70 a 90 por persona): mismo horario de mañana, mejor recuerdo.",
+            "what": "Cono de barro de 15 metros a una hora al norte: te metés, flotás en arcilla gris tibia y te enjuagás en la laguna. Tours grupales de medio día $35 a 45 por persona, en grupo chico o privados $50 a 65, o $5 a 6 en la puerta si van manejando. Antes de decidir: es kitsch y está lleno, y el 'masaje', la 'ayuda con las fotos' y el 'lavado' esperan $2 de propina cada uno. Saltealo si el grupo prefiere una clase de cocina caribeña en serio ($70 a 90 por persona): mismo horario de mañana, mejor recuerdo.",
             "ppUsd": 45,
             "duration": "4 o 5 horas",
             "when": "Día 3, 08:00",
@@ -1058,7 +1058,7 @@ export const VIAJES: Trip[] = [
           },
           {
             "name": "Velero al atardecer por la bahía, después chiva o Alquímico",
-            "what": "Catamarán compartido al atardecer por la bahía de Cartagena, de 90 minutos a dos horas, $25 a 50 por persona, casi siempre con barra libre de tragos con ron; el más recomendado es Sibarita Express. Un charter privado de noche para los cinco sale $500 a 750, o sea $100 a 150 por persona: solo vale si quieren el barco para ustedes. Después elijan la noche: la chiva rumbera, el bus pintado con banda de bronces y barra libre de aguardiente (unos $25 a 40 por persona, 3 horas, ridículo a propósito), o la versión adulta: Alquímico, en la Calle del Colegio, tres pisos, botellas con hierbas brillando en estantes de dos pisos de alto, habitual del World's 50 Best Bars, y después salsa en Café Havana, en Getsemaní.",
+            "what": "Catamarán compartido al atardecer por la bahía, de 90 minutos a dos horas, $25 a 50 por persona, casi siempre con barra libre de ron; el más recomendado es Sibarita Express. Un charter privado de noche para los cinco sale $500 a 750, o sea $100 a 150 por persona: solo vale si quieren el barco para ustedes. Después elijan la noche: la chiva rumbera, el bus pintado con banda de bronces y barra libre de aguardiente (unos $25 a 40 por persona, 3 horas, ridículo a propósito), o la versión adulta: Alquímico, en la Calle del Colegio, tres pisos, botellas con hierbas brillando en estantes de dos pisos, habitual del World's 50 Best Bars, y después salsa en Café Havana, en Getsemaní.",
             "ppUsd": 45,
             "duration": "6 horas",
             "when": "Día 3, zarpan 17:00, desde las 21:00",
@@ -1530,7 +1530,7 @@ export const VIAJES: Trip[] = [
             "level": "$$$$"
           }
         ],
-        "weather": "Principios de marzo es el mejor clima que da Miami. Las máximas promedio suben de 78F a 81F (26 a 27C) a lo largo del mes, mínima promedio 70F (21C), mar a unos 76F (24C): se puede nadar pero no está tibio."
+        "weather": "Principios de marzo es el mejor clima que da Miami. Máximas promedio de 78F a 81F (26 a 27C) en el mes, mínima promedio 70F (21C), mar a unos 76F (24C): nadable pero no tibio."
       },
       {
         "slug": "islamorada-keys",
@@ -1543,7 +1543,7 @@ export const VIAJES: Trip[] = [
             "area": "Islamorada, 80241 Overseas Hwy (MM 80.2, lado océano)",
             "nightUsd": 685,
             "ppUsd": 137,
-            "why": "La opción de hotel más barata para cinco bajo un mismo techo; las villas se renovaron hasta fines de 2026.",
+            "why": "El hotel más barato para cinco bajo un techo; las villas se renovaron hasta fines de 2026.",
             "url": "https://www.booking.com/searchresults.html?ss=La+Siesta+Resort+Villas+Islamorada",
             "score": "Tripadvisor Travellers' Choice; #8 of 12 Islamorada hotels per U.S. News",
             "site": "https://www.islamoradaresortcollection.com/la-siesta-resort",
@@ -1760,7 +1760,7 @@ export const VIAJES: Trip[] = [
         "acts": [
           {
             "name": "Manejar de Miami a Islamorada y después sábalos en Robbie's",
-            "what": "1h45 a 2h30 por la US-1. Parada en Alabama Jack's camino a Card Sound o en Key Largo Fisheries. Check in y después Robbie's of Islamorada, en el MM 77.5, para darle de comer en la mano a sábalos de 2m desde el muelle: acceso al muelle us$2,50 por persona, balde de carnada us$5. Dura cinco minutos y es la foto favorita de todos. Quedate para el atardecer en Morada Bay o Lorelei.",
+            "what": "1h45 a 2h30 por la US-1. Parada en Alabama Jack's camino a Card Sound o en Key Largo Fisheries. Check in y Robbie's of Islamorada, MM 77.5, a darle de comer en la mano a sábalos de 2m desde el muelle: acceso al muelle us$2,50 por persona, balde de carnada us$5. Dura cinco minutos, la foto favorita de todos. Quedate para el atardecer en Morada Bay o Lorelei.",
             "ppUsd": 10,
             "duration": "Medio día manejando, 1 hora en Robbie's",
             "when": "Día 4, salir de Miami antes de las 10:00 para ganarle al causeway",
@@ -1775,7 +1775,7 @@ export const VIAJES: Trip[] = [
         "acts": [
           {
             "name": "Día de lancha al banco de arena y el arrecife (reservar esto primero)",
-            "what": "Charter con capitán desde Islamorada, 4 a 6 horas: el banco de arena de Islamorada con marea baja (agua a la cintura, ancla, conservadora, música) y después snorkel en Alligator Reef Lighthouse o Cheeca Rocks. Calculá us$600 a 900 por un barco privado de medio día para seis en temporada alta, o sea us$120 a 180 por persona: el único lujo por el que vale romper la regla. Más barato en Robbie's: snorkel grupal dos veces por día, 10:00 y 13:30, o pesca en barco fiestero a us$100 por persona a la mañana y us$75 por persona a la tarde.",
+            "what": "Charter con capitán desde Islamorada, 4 a 6 horas: el banco de arena con marea baja (agua a la cintura, ancla, conservadora, música) y después snorkel en Alligator Reef Lighthouse o Cheeca Rocks. Calculá us$600 a 900 por un barco privado de medio día para seis en temporada alta, o sea us$120 a 180 por persona: el único lujo por el que vale romper la regla. Más barato en Robbie's: snorkel grupal dos veces por día, 10:00 y 13:30, o pesca en barco fiestero a us$100 por persona a la mañana y us$75 a la tarde.",
             "ppUsd": 140,
             "duration": "4 a 6 horas",
             "when": "Día 5, pero pasalo al día de los cuatro con menos viento",
@@ -1790,7 +1790,7 @@ export const VIAJES: Trip[] = [
         "acts": [
           {
             "name": "Excursión a Cayo Hueso: Bahia Honda, atardecer en Mallory Square",
-            "what": "2h por tramo por el Seven Mile Bridge. Parada en Bahia Honda State Park, MM 37, us$8 por auto: la única playa natural realmente linda de los Cayos y vale por sí sola. En Cayo Hueso: Hemingway House, café cubano en Cuban Coffee Queen, la cola del Southernmost Point y después el festejo gratis del atardecer en Mallory Square con artistas callejeros, arranca ~90 min antes del atardecer (unas 18:30 a principios de marzo). Duval va a estar llena de spring breakers: tomá algo en el Green Parrot. Día largo, elijan quién maneja.",
+            "what": "2h por tramo por el Seven Mile Bridge. Parada en Bahia Honda State Park, MM 37, us$8 por auto: la única playa natural realmente linda de los Cayos y vale por sí sola. En Cayo Hueso: Hemingway House, café cubano en Cuban Coffee Queen, la cola del Southernmost Point y el festejo gratis del atardecer en Mallory Square con artistas callejeros, arranca ~90 min antes (unas 18:30 a principios de marzo). Duval va a estar llena de spring breakers: tomá algo en el Green Parrot. Día largo, elijan quién maneja.",
             "ppUsd": 35,
             "duration": "12 horas puerta a puerta",
             "when": "Día 6, salir antes de las 09:00",
@@ -1805,7 +1805,7 @@ export const VIAJES: Trip[] = [
         "acts": [
           {
             "name": "Snorkel en el John Pennekamp Coral Reef State Park",
-            "what": "40 min al norte hasta Key Largo, MM 102.5. El barco de snorkel guiado del parque, 2,5 horas, us$45 por persona; operadores privados desde us$50 por persona, guía en el agua unos us$120 más us$70 por cada snorkelista extra. Arrecifes bajos, la estatua del Cristo del Abismo, buena visibilidad cuando baja el viento. Combinalo con el History of Diving Museum, en el MM 83, a la vuelta: chico, raro y muy bueno.",
+            "what": "40 min al norte hasta Key Largo, MM 102.5. El barco de snorkel guiado del parque, 2,5 horas, us$45 por persona; privados desde us$50 por persona, guía en el agua unos us$120 más us$70 por snorkelista extra. Arrecifes bajos, la estatua del Cristo del Abismo, buena visibilidad cuando baja el viento. Combinalo con el History of Diving Museum, MM 83, a la vuelta: chico, raro y muy bueno.",
             "ppUsd": 45,
             "duration": "Medio día",
             "when": "Día 7 a la mañana, antes de que crezca el viento de la tarde",
@@ -1813,7 +1813,7 @@ export const VIAJES: Trip[] = [
           },
           {
             "name": "Kayak en Indian Key y el último atardecer en Morada Bay",
-            "what": "Casi todos los resorts de Islamorada y muchas casas de alquiler incluyen kayaks y SUP gratis. Remá desde Indian Key Fill, en el MM 79, hasta Indian Key Historic State Park: las ruinas de un pueblo de naufragios de 1830 en una isla mínima. Agua calma del lado de la bahía, sin barco, y funciona incluso con viento. Cerrá con cena y atardecer en Morada Bay, con los pies en la arena.",
+            "what": "Casi todos los resorts de Islamorada y muchas casas incluyen kayaks y SUP gratis. Remá desde Indian Key Fill, en el MM 79, hasta Indian Key Historic State Park: las ruinas de un pueblo de naufragios de 1830 en una isla mínima. Agua calma del lado de la bahía, sin barco, y sirve hasta con viento. Cerrá con cena y atardecer en Morada Bay, con los pies en la arena.",
             "ppUsd": 0,
             "duration": "3 horas",
             "when": "Día 7, al final de la tarde",
@@ -2171,7 +2171,7 @@ export const VIAJES: Trip[] = [
         "food": [
           {
             "name": "Contramar",
-            "what": "Calle Durango 200, Roma Norte. El almuerzo de mariscos que define a la ciudad desde 1998: tostadas de atún y el pescado a la talla, un pescado entero abierto, mitad chile rojo, mitad verde de perejil. Ruidoso, luminoso, ahí come todo el que importa en Ciudad de México.",
+            "what": "Calle Durango 200, Roma Norte. El almuerzo de mariscos que define la ciudad desde 1998: tostadas de atún y el pescado a la talla, entero y abierto, mitad chile rojo, mitad verde de perejil. Ruidoso, luminoso, ahí come todo el que importa en Ciudad de México.",
             "level": "$$$ - unos us$45 a 60 por persona con tragos. Solo almuerzo, más o menos 13:00-18:30. Reservá con semanas para cinco; sin reserva se espera."
           },
           {
@@ -2187,10 +2187,10 @@ export const VIAJES: Trip[] = [
           {
             "name": "Lardo",
             "what": "Agustín Melgar 6, Condesa. El lugar de barrio de Elena Reygadas: panes al horno de leña, platos mediterráneos simples, el mejor desayuno de la Condesa. Adonde vas cuando no conseguís lugar en Rosetta.",
-            "level": "$$ - unos us$20 a 30 por persona. No toman reservas para grupos chicos en el desayuno; andá antes de las 10:00."
+            "level": "$$ - unos us$20 a 30 por persona. Sin reservas para grupos chicos en el desayuno; andá antes de las 10:00."
           }
         ],
-        "weather": "Principios de marzo en Ciudad de México es el final de la temporada seca y casi lo mejor que hay: máximas de 25 a 27C, mínimas de 10 a 12C, casi nada de lluvia y UV muy fuerte a 2.240 m. Dos advertencias reales."
+        "weather": "Principios de marzo en Ciudad de México es el final de la seca y casi lo mejor que hay: máximas de 25 a 27C, mínimas de 10 a 12C, casi nada de lluvia y UV muy fuerte a 2.240 m. Dos salvedades."
       },
       {
         "slug": "puerto-escondido",
@@ -2235,7 +2235,7 @@ export const VIAJES: Trip[] = [
             "area": "Heroes Oaxaquenos 116, Punta Zicatela (La Punta), 5 min a pie de la playa",
             "nightUsd": 537,
             "ppUsd": 107,
-            "why": "El alojamiento mejor puntuado de La Punta; cuartos modernos y limpios, pileta amplia, cinco minutos a la punta.",
+            "why": "Lo mejor puntuado de La Punta; cuartos modernos y limpios, pileta amplia, cinco minutos a la punta.",
             "url": "https://www.booking.com/hotel/mx/casa-bicachi.html",
             "score": "9.5/10 Booking.com (308 verified reviews) - the highest verified score of any property on this list",
             "site": "https://www.casabicachi.com/",
@@ -2271,7 +2271,7 @@ export const VIAJES: Trip[] = [
             "sleeps": 6,
             "nightUsd": 414,
             "ppUsd": 83,
-            "why": "Diseño en serio: construcción minimalista sobre el acantilado, pileta privada, cinco camas reales justas.",
+            "why": "Diseño en serio: minimalista sobre el acantilado, pileta privada, cinco camas reales justas.",
             "url": "https://www.airbnb.com/rooms/747742226679490405"
           },
           {
@@ -2324,7 +2324,7 @@ export const VIAJES: Trip[] = [
             "level": "$$ - unos us$20 a 30 por persona."
           }
         ],
-        "weather": "Principios de marzo en la costa de Oaxaca es plena temporada seca y casi perfecto. Máximas de 31 a 33C, mínimas de 21 a 23C, mar a 27 o 28C, humedad moderada y estadísticamente casi cero lluvia: marzo es el mes más seco del año acá."
+        "weather": "Principios de marzo en la costa de Oaxaca es plena seca y casi perfecto. Máximas de 31 a 33C, mínimas de 21 a 23C, mar a 27 o 28C, humedad moderada y estadísticamente casi cero lluvia: marzo es el mes más seco del año acá."
       }
     ],
     "days": [
@@ -2346,7 +2346,7 @@ export const VIAJES: Trip[] = [
             "what": "La casa estudio de 1948 del único Pritzker mexicano, Patrimonio de la Humanidad de la UNESCO en Tacubaya. Solo visita guiada, grupos chicos, paredes rosas y ocres, la famosa escalera flotante y la terraza abierta solo al cielo.",
             "ppUsd": 26,
             "duration": "1 hora 15 min",
-            "when": "Día 1, a la tarde. Reservá apenas tengan fechas. Las entradas se venden solo por anticipado en visit.casaluisbarragan.org y el sitio aclara en sus términos que sin entrada previa no se garantiza el ingreso. Los lugares para cinco en un mismo tour se agotan con semanas. Edad mínima 12, sin excepciones. Las respuestas por mail tardan 2 a 4 días hábiles, así que no lo dejes para un llamado.",
+            "when": "Día 1, a la tarde. Reservá apenas tengan fechas. Las entradas se venden solo por anticipado en visit.casaluisbarragan.org y el sitio aclara que sin entrada previa no se garantiza el ingreso. Los lugares para cinco en un mismo tour se agotan con semanas. Edad mínima 12, sin excepciones. Las respuestas por mail tardan 2 a 4 días hábiles; no lo dejes para un llamado.",
             "url": "https://visit.casaluisbarragan.org/mx"
           },
           {
@@ -2369,7 +2369,7 @@ export const VIAJES: Trip[] = [
             "what": "El mejor museo de México: el edificio de 1964 de Pedro Ramirez Vazquez con la enorme fuente paraguas en voladizo del patio, la Piedra del Sol, las cabezas olmecas y las salas a escala real de Teotihuacan y maya. Después se entra al Bosque de Chapultepec; el Castillo de Chapultepec está en el cerro de arriba, si queda tiempo.",
             "ppUsd": 11,
             "duration": "3 o 4 horas el museo, más el parque",
-            "when": "Día 2, desde las 09:00. Abre de martes a domingo 09:00-18:00, cierra los lunes. Entrada general MXN 210; la entrada gratis del domingo es solo para mexicanos y residentes, así que un grupo extranjero paga igual. Ir un domingo es ver el parque en su mejor momento (familias, vendedores de globos, carritos de comida) pero el museo con más gente.",
+            "when": "Día 2, desde las 09:00. Abre de martes a domingo 09:00-18:00, cierra los lunes. Entrada general MXN 210; la entrada gratis del domingo es solo para mexicanos y residentes, así que un grupo extranjero paga igual. El domingo el parque está en su mejor momento (familias, globos, carritos de comida) pero el museo con más gente.",
             "url": "https://mna.inah.gob.mx/"
           },
           {
@@ -2407,7 +2407,7 @@ export const VIAJES: Trip[] = [
             "what": "Volaris y Aeromexico Connect vuelan Ciudad de México a Puerto Escondido directo en unas 1h20. PXM está a 15 minutos de La Punta. Dejar las valijas, caminar hasta la punta del extremo sur de la playa, donde todos se juntan en las rocas para el atardecer, y después tostadas de atún y una cerveza.",
             "ppUsd": 70,
             "duration": "Medio día con el vuelo incluido",
-            "when": "Día 3. Los pasajes ida y vuelta MEX-PXM se vieron desde us$40 a 70; comprá con 2 o 3 meses. Tomá el vuelo de la mañana: el de la tarde se come el primer atardecer, y la pista de PXM está pegada a la costa, así que los vientos cruzados de la tarde desvían vuelos.",
+            "when": "Día 3. Pasajes MEX-PXM ida y vuelta desde us$40 a 70; comprá con 2 o 3 meses. Tomá el vuelo de la mañana: el de la tarde se come el primer atardecer, y la pista de PXM está pegada a la costa: los vientos cruzados de la tarde desvían vuelos.",
             "url": "https://www.volaris.com/en-mx/flights-from-mexico-city-to-puerto-escondido"
           }
         ]
@@ -2422,7 +2422,7 @@ export const VIAJES: Trip[] = [
             "what": "El banco de arena de La Punta larga una izquierda larga y perdonadora que es la razón de ser del pueblo: es la ola de principiantes y longboard de la costa de Oaxaca, lo opuesto al tubo cerrado de Zicatela, 3 km al norte. Clase grupal de dos horas, tabla y licra incluidas, una docena de escuelas en la calle de tierra principal.",
             "ppUsd": 53,
             "duration": "2 horas",
-            "when": "Día 4, 07:00-09:00. Andá temprano: a media mañana entra el viento del mar y al amanecer el agua está de aceite. El precio corriente es MXN 1.000 por persona. Marzo es el final de la temporada de olas chicas, justo lo que quiere un principiante.",
+            "when": "Día 4, 07:00-09:00. Andá temprano: a media mañana entra el viento y al amanecer el agua está de aceite. Precio corriente MXN 1.000 por persona. Marzo es el final de la temporada de olas chicas, justo lo que quiere un principiante.",
             "url": "https://www.puerto-escondido.mx/en/adventures/"
           },
           {
@@ -2430,7 +2430,7 @@ export const VIAJES: Trip[] = [
             "what": "Taxi hasta lo alto del acantilado y bajar los 170 escalones de cemento a una caleta chica en herradura. Es la única playa de Puerto Escondido donde nadar es realmente seguro: espuma suave, pendiente leve, sin la resaca de Zicatela. Los bares de palapa te llevan micheladas y pescado a la parrilla a la reposera. Quedate al atardecer; las paredes del acantilado lo enmarcan. Después subir los 170 escalones, que a 32 grados es el verdadero ejercicio del día.",
             "ppUsd": 15,
             "duration": "4 a 6 horas",
-            "when": "Día 4, desde las 14:00 hasta el atardecer (cerca de 18:45 a principios de marzo). El alquiler de reposera y sombrilla no suele cobrarse si pedís comida. Taxi desde La Punta, unos MXN 120 a 150 por auto."
+            "when": "Día 4, desde las 14:00 hasta el atardecer (cerca de 18:45 a principios de marzo). No suelen cobrar reposera y sombrilla si pedís comida. Taxi desde La Punta, unos MXN 120 a 150 por auto."
           }
         ]
       },
@@ -2441,10 +2441,10 @@ export const VIAJES: Trip[] = [
         "acts": [
           {
             "name": "Tour nocturno de bioluminiscencia, Laguna de Manialtepec",
-            "what": "Una laguna de manglar 20 km al oeste del pueblo donde los dinoflagelados se encienden blanco azulado al mover el agua. Salís en lancha chica después de que oscurece y después nadás: cada brazada deja luz y los peces dejan estelas debajo tuyo. Mejor en noches sin luna.",
+            "what": "Una laguna de manglar 20 km al oeste del pueblo donde los dinoflagelados se encienden blanco azulado al mover el agua. Salís en lancha chica cuando oscurece y nadás: cada brazada deja luz y los peces dejan estelas debajo tuyo. Mejor en noches sin luna.",
             "ppUsd": 50,
             "duration": "2,5 horas más el traslado",
-            "when": "Día 5, después de oscurecer. MXN 950 por persona, verificado. Clave: esto solo funciona en noches oscuras. La luna nueva cae alrededor del 8 de marzo de 2027 (calculado, aproximado), así que del 4 al 12 de marzo es la mejor ventana del mes. Reservá para la noche más oscura de la estadía y nada de meterse al agua con protector o repelente.",
+            "when": "Día 5, después de oscurecer. MXN 950 por persona, verificado. Clave: solo funciona en noches oscuras. La luna nueva cae alrededor del 8 de marzo de 2027 (calculado, aproximado), así que del 4 al 12 de marzo es la mejor ventana del mes. Reservá la noche más oscura de la estadía y nada de agua con protector o repelente.",
             "url": "https://www.puerto-escondido.mx/en/adventures/"
           },
           {
@@ -2466,7 +2466,7 @@ export const VIAJES: Trip[] = [
             "what": "Un día largo hacia el este por la Carretera 200. Arrancar en San Agustinillo, una sola medialuna de arena y el mejor baño de los tres. Después Mazunte por el Centro Mexicano de la Tortuga, el centro nacional de investigación de tortugas marinas con piletas de las siete especies que anidan en México, y la cooperativa Cosmeticos Naturales. Al caer la tarde, caminata de 25 minutos hasta Punta Cometa, el punto más al sur de Oaxaca, un espolón de roca donde se ve el sol meterse en mar abierto y en marzo pasan ballenas soplando. Cerrar en Zipolite para cenar: la única playa nudista legal de México, ambiente más nocturno y zarpado, y una resaca brava, así que no te metas al agua después de tomar.",
             "ppUsd": 105,
             "duration": "10 a 12 horas",
-            "when": "Día 6, todo el día. MXN 2.000 por persona por el tour organizado Mazunte-Zipolite-Punta Cometa, verificado. Más barato en colectivo o taxi si lo hacen ustedes: como 1h15 por tramo. Calculá Punta Cometa para las 17:45 y estar en posición para un atardecer de 18:45. El centro de tortugas cierra cerca de 16:30 y los lunes no abre.",
+            "when": "Día 6, todo el día. MXN 2.000 por persona por el tour organizado Mazunte-Zipolite-Punta Cometa, verificado. Más barato en colectivo o taxi: como 1h15 por tramo. Calculá Punta Cometa 17:45 para un atardecer de 18:45. El centro de tortugas cierra 16:30 y los lunes no abre.",
             "url": "https://www.puerto-escondido.mx/en/adventures/"
           }
         ]
@@ -2481,7 +2481,7 @@ export const VIAJES: Trip[] = [
             "what": "Salida al amanecer desde Playa Puerto Angelito o Playa Principal en panga tradicional. Manadas de delfines tornillo de a cientos, tortugas golfinas apareándose en la superficie, mantarrayas y, en marzo, ballenas jorobadas todavía subiendo al norte. Suele terminar con una parada de snorkel en Puerto Angelito o Manzanillo.",
             "ppUsd": 47,
             "duration": "3 horas",
-            "when": "Día 7, salida 06:00-06:30: el mar está más plano y los delfines más activos con la primera luz. MXN 895 por persona, verificado. Marzo sigue dentro de la temporada de ballenas. Llevá pastillas para el mareo, el oleaje hamaca.",
+            "when": "Día 7, salida 06:00-06:30: el mar más plano y los delfines más activos con la primera luz. MXN 895 por persona, verificado. Marzo sigue dentro de la temporada de ballenas. Llevá pastillas para el mareo, el oleaje hamaca.",
             "url": "https://www.puerto-escondido.mx/en/adventures/"
           },
           {
@@ -2489,7 +2489,7 @@ export const VIAJES: Trip[] = [
             "what": "Un baño de vapor prehispánico: una cámara baja de adobe con cúpula, piedras volcánicas calentadas afuera y llevadas adentro, copal y hierbas, cuatro rondas con un guía. Pesado físico y emocional, no es spa. Varios operadores los hacen en La Punta y en la ruta a Manialtepec.",
             "ppUsd": 47,
             "duration": "2 a 2,5 horas",
-            "when": "Día 7, al final de la tarde para salir con el atardecer. MXN 900 por persona, verificado. Hacelo después del barco del amanecer, no antes. No apto para claustrofóbicos, embarazadas ni gente con problemas cardíacos o de presión. Tomá mucha agua antes y no tomes alcohol ese mediodía.",
+            "when": "Día 7, al final de la tarde para salir al atardecer. MXN 900 por persona, verificado. Hacelo después del barco del amanecer, no antes. No apto para claustrofóbicos, embarazadas ni con problemas cardíacos o de presión. Tomá mucha agua antes y nada de alcohol ese mediodía.",
             "url": "https://www.puerto-escondido.mx/en/adventures/"
           },
           {

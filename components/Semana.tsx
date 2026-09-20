@@ -42,7 +42,6 @@ export function useSemana() {
 
 export default function Picker() {
   const { semana, setSemana } = useSemana();
-  const elegida = SEMANAS.find((s) => s.id === semana);
 
   return (
     <div className="fechas">
@@ -61,7 +60,6 @@ export default function Picker() {
           );
         })}
       </div>
-      {elegida?.note && <p className="fechas-nota">{elegida.note}</p>}
     </div>
   );
 }

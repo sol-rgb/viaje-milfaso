@@ -168,11 +168,15 @@ function vuelo(f, kind) {
   return o;
 }
 
+/** Los research meten rótulos en el nombre: "Casa X [SPLURGE - OVER BUDGET]". */
+const limpioNombre = (n) =>
+  sinRaya(String(n ?? "").replace(/\s*\[[^\]]*\]\s*/g, " ").replace(/\s{2,}/g, " ").trim());
+
 function hotel(h) {
   const grupo = num(h.group_night_usd) || num(h.price_night_usd) * 3;
   const pp = num(h.pp_night_usd) || Math.round(grupo / 5);
   const o = {
-    name: sinRaya(h.name),
+    name: limpioNombre(h.name),
     area: t(h.area),
     nightUsd: grupo,
     ppUsd: pp,
@@ -189,7 +193,7 @@ function hotel(h) {
 function casa(b) {
   const noche = num(b.price_night_usd) || num(b.headline_night_usd);
   const o = {
-    name: sinRaya(b.name),
+    name: limpioNombre(b.name),
     area: t(b.area),
     sleeps: num(b.sleeps) || 5,
     nightUsd: noche,
@@ -233,7 +237,7 @@ const VIAJES = Object.entries(PROSA).map(([id, p]) => {
       .slice(0, 5)
       .map(casa),
     food: (st.food ?? []).slice(0, 4).map((f) => ({
-      name: sinRaya(f.name),
+      name: limpioNombre(f.name),
       what: t(f.what),
       level: t(f.price_level),
     })),
