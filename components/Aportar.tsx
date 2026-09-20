@@ -4,6 +4,7 @@ import { useState } from "react";
 import Modal from "./Modal";
 import Pop from "./Pop";
 import { useEstado } from "./Estado";
+import { Mas } from "./Icono";
 import type { TipoAporte } from "@/lib/estado";
 
 const COPY: Record<
@@ -102,7 +103,7 @@ export default function Aportar({
   return (
     <>
       <button className="sumar" onClick={() => setAbierto(true)}>
-        <span aria-hidden>+</span> {c.boton}
+        <Mas size={14} /> {c.boton}
       </button>
 
       <Modal abierto={abierto} cerrar={cerrar} titulo={c.titulo}>

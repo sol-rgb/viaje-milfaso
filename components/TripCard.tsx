@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import Photo from "./Photo";
+import { Salida } from "./Icono";
 import { useSemana } from "./Semana";
 import { precio, plata } from "@/lib/precio";
 import type { Trip } from "@/lib/types";
@@ -17,8 +18,8 @@ export default function TripCard({ t }: { t: Trip }) {
       <span className="tarjeta-scrim" aria-hidden />
 
       <span className="tarjeta-top">
-        <span className="tarjeta-flecha" aria-hidden>
-          ↗
+        <span className="tarjeta-flecha">
+          <Salida size={16} />
         </span>
         <span className="tarjeta-precio">
           <span className="tarjeta-cur">us$</span>

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { Izquierda } from "./Icono";
 import Gate, { useQuien } from "./Gate";
 import { EstadoProvider } from "./Estado";
 import { SemanaProvider } from "./Semana";
@@ -30,8 +31,8 @@ function Barra() {
     <header className="barra wrap">
       <div className="barra-l">
         {dentro && (
-          <Link href="/" className="volver" aria-label="volver">
-            <span aria-hidden>←</span>
+          <Link href="/" className="volver" aria-label="Volver">
+            <Izquierda size={17} />
           </Link>
         )}
         <Link href="/" className="marca">

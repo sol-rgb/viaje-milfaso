@@ -392,6 +392,7 @@ img { display: block; max-width: 100%; }
   display: inline-flex;
   align-items: baseline;
   gap: 9px;
+  max-width: 100%;
   padding: 8px 13px;
   border: 1px solid var(--rule);
   background: var(--bg-lift);
@@ -402,7 +403,8 @@ img { display: block; max-width: 100%; }
     transform 300ms var(--ease);
 }
 .chip:hover { border-color: var(--ink); background: var(--bg); transform: translateY(-1px); }
-.chip-t { display: inline-flex; align-items: baseline; gap: 8px; }
+.chip-t { display: inline; }
+.chip { flex-wrap: wrap; }
 .chip-n {
   font-style: normal;
   font-family: var(--mono);
@@ -1201,4 +1203,17 @@ img { display: block; max-width: 100%; }
 
 @media (max-width: 860px) {
   .vuelos.dos { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 760px) {
+  /* todo entra a lo ancho: se lee bajando, sin mover de costado */
+  .chip { font-size: 13px; padding: 10px 12px; gap: 7px; }
+  .chip-n { font-size: 10px; }
+  .sumar, .hilo-abrir { font-size: 12.5px; padding: 10px 13px; }
+  .tarjeta-nombre { font-size: clamp(30px, 9vw, 42px); }
+  .tarjeta-precio { font-size: 19px; }
+  .dia-t { font-size: 18px; }
+  .parada-t { font-size: 19px; }
+  .bloque-t { font-size: clamp(24px, 7.5vw, 32px); }
+  .hero-h { font-size: clamp(34px, 11vw, 54px); }
 }

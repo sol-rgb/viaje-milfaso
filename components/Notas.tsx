@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useEstado } from "./Estado";
+import { Mas, Cruz } from "./Icono";
 
 /** Hilo de notas sobre cualquier cosa: un hotel, un día, una fecha. */
 export default function Hilo({
@@ -35,9 +36,9 @@ export default function Hilo({
                 <button
                   className="hilo-x"
                   onClick={() => borrar("nota", n.id)}
-                  aria-label="borrar nota"
+                  aria-label="Borrar nota"
                 >
-                  ×
+                  <Cruz size={13} />
                 </button>
               )}
             </li>
@@ -76,7 +77,7 @@ export default function Hilo({
         </form>
       ) : (
         <button className="hilo-abrir" onClick={() => setAbierto(true)}>
-          <span aria-hidden>+</span> {notas.length ? "Agregar" : etiqueta}
+          <Mas size={13} /> {notas.length ? "Agregar" : etiqueta}
         </button>
       )}
     </div>

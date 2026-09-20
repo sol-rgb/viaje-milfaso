@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Galeria from "./Galeria";
+import { Derecha, Mas, Menos } from "./Icono";
 import Pop from "./Pop";
 import Modal from "./Modal";
 import Voto from "./Voto";
@@ -65,7 +66,7 @@ function Antes({ t }: { t: Trip }) {
   return (
     <>
       <button className="antes" onClick={() => setAbierto(true)}>
-        Antes de ir <span aria-hidden>→</span>
+        Antes de ir <Derecha size={15} />
       </button>
 
       <Modal
@@ -456,7 +457,7 @@ function Fuentes({ t }: { t: Trip }) {
   return (
     <section className="fuentes">
       <button className="hilo-abrir" onClick={() => setAbierto(!abierto)}>
-        <span aria-hidden>{abierto ? "−" : "+"}</span> Fuentes
+        {abierto ? <Menos size={13} /> : <Mas size={13} />} Fuentes
       </button>
       {abierto && (
         <ul className="fuentes-l">

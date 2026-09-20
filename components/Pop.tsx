@@ -7,6 +7,7 @@ import Hilo from "./Notas";
 import { useEstado } from "./Estado";
 import { plata } from "@/lib/precio";
 import { imagenDe, esPropia } from "@/lib/fotos";
+import { Salida } from "./Icono";
 
 export type Detalle = {
   titulo: string;
@@ -95,7 +96,7 @@ export default function Pop({
         {d.url && (
           <p className="enlaces">
             <a href={d.url} target="_blank" rel="noopener noreferrer nofollow">
-              Abrir <em className="ext">↗</em>
+              Abrir <Salida size={13} className="ext" />
             </a>
           </p>
         )}

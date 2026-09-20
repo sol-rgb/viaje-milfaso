@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import { fotosDe } from "@/lib/fotos";
+import { Izquierda, Derecha, Cruz } from "./Icono";
 
 /**
  * La tira de fotos de arriba. Junta las fotos de las dos paradas,
@@ -82,21 +83,21 @@ export default function Galeria({ dirs, alt }: { dirs: string[]; alt: string }) 
         </div>
 
         {puede.izq && (
-          <button className="galeria-flecha izq" onClick={() => correr(-1)} aria-label="ver anteriores">
-            ←
+          <button className="galeria-flecha izq" onClick={() => correr(-1)} aria-label="Ver anteriores">
+            <Izquierda size={16} />
           </button>
         )}
         {puede.der && (
-          <button className="galeria-flecha der" onClick={() => correr(1)} aria-label="ver siguientes">
-            →
+          <button className="galeria-flecha der" onClick={() => correr(1)} aria-label="Ver siguientes">
+            <Derecha size={16} />
           </button>
         )}
       </div>
 
       {abierta !== null && (
         <div className="lupa" onClick={() => setAbierta(null)} role="dialog" aria-modal="true">
-          <button className="lupa-x" onClick={() => setAbierta(null)} aria-label="cerrar">
-            ×
+          <button className="lupa-x" onClick={() => setAbierta(null)} aria-label="Cerrar">
+            <Cruz size={24} />
           </button>
           <button
             className="lupa-flecha izq"
@@ -104,9 +105,9 @@ export default function Galeria({ dirs, alt }: { dirs: string[]; alt: string }) 
               e.stopPropagation();
               mover(-1);
             }}
-            aria-label="anterior"
+            aria-label="Anterior"
           >
-            ←
+            <Izquierda size={22} />
           </button>
 
           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -123,9 +124,9 @@ export default function Galeria({ dirs, alt }: { dirs: string[]; alt: string }) 
               e.stopPropagation();
               mover(1);
             }}
-            aria-label="siguiente"
+            aria-label="Siguiente"
           >
-            →
+            <Derecha size={22} />
           </button>
 
           <span className="lupa-n">

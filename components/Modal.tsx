@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import { Cruz } from "./Icono";
 
 /** Tarjeta chica en el medio de la pantalla. Se cierra con Escape o afuera. */
 export default function Modal({
@@ -54,8 +55,8 @@ export default function Modal({
       >
         <div className="modal-cab">
           <h2 className="modal-t">{titulo}</h2>
-          <button className="modal-x" onClick={cerrar} aria-label="cerrar">
-            ×
+          <button className="modal-x" onClick={cerrar} aria-label="Cerrar">
+            <Cruz size={19} />
           </button>
         </div>
         <div className="modal-cuerpo">{children}</div>

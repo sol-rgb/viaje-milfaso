@@ -4,12 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "node scripts/fotos.mjs && next build",
     "start": "next start",
     "lint": "next lint",
     "verificar": "node scripts/verificar.mjs",
     "fotos": "node scripts/fotos.mjs",
-    "prebuild": "node scripts/fotos.mjs",
     "datos": "node scripts/armar.mjs && node scripts/verificar.mjs",
     "imagenes": "node scripts/imagenes.mjs",
     "imagenes:browser": "node scripts/imagenes-browser.mjs",
