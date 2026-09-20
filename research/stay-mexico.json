@@ -1,0 +1,695 @@
+{
+  "destination": "mexico",
+  "group_size": 5,
+  "budget_rule": "max USD 100 per person per night. With 5 people a hotel needs 3 rooms, so pp = (3 x room rate) / 5 = room rate x 0.6. That means the ceiling on a double room is about USD 166, NOT USD 200. A whole house sleeping 5 is the only way to buy real architecture inside this budget.",
+  "fx_assumption": "USD 1 = MXN 19 (Sept 2026 working rate). All MXN-quoted tour prices converted at 19.",
+  "semana_santa_2027": {
+    "easter_sunday": "2027-03-28",
+    "palm_sunday": "2027-03-21",
+    "maundy_thursday": "2027-03-25",
+    "good_friday": "2027-03-26",
+    "holy_week_window": "2027-03-21 to 2027-03-28",
+    "mexican_school_break": "Typically Holy Week plus the following week, roughly 2027-03-22 to 2027-04-02 (SEP calendar for 2026-27 not yet published as of Sept 2026 - verify).",
+    "window_27feb_7mar": "CLEAR. No collision. Two full weeks before Holy Week. Cheapest and quietest of the three.",
+    "window_6mar_13mar": "CLEAR. No collision. Still a week clear of Palm Sunday.",
+    "window_13mar_21mar": "PARTIAL COLLISION. The last day, Sunday 21 March, is Palm Sunday, the opening day of Semana Santa. Mexican domestic travel to the Oaxaca coast begins on the Friday/Saturday before (19-20 March). Expect Zicatela, Carrizalillo and Mazunte to fill and rates to step up over that final weekend, and expect minimum-stay rules on villas.",
+    "recommendation": "Take window 1 or 2. Bonus: the new moon falls around 8 March 2027 (computed, approximate), so 4-12 March are the darkest nights of the month and the best possible window for the Manialtepec bioluminescence tour."
+  },
+  "beach_verdict": "Puerto Escondido wins, and it is not close for this group. The flight from CDMX is about 1h20 direct on Volaris or Aeromexico Connect and often under USD 100 return, versus Huatulco (similar flight but a resort-and-bays town with no design scene and nothing to walk to at night), Zihuatanejo/Troncones (flight to ZIH plus a 40-minute transfer, gorgeous and quiet but the only truly design-led stay, Lo Sereno Casa de Playa, is a 10-room Michelin Key place well over budget and the village has no scene at all), and Sayulita/San Pancho (a 1h30 flight to PVR plus a 60-90 minute drive, and Sayulita in March is at peak season saturation with a strong American bachelorette-party overlay that is exactly the crowd this group is trying to avoid; San Pancho is lovelier but sleepy). Puerto Escondido is the only one of the four that has both the architecture and the crowd. Be honest about the cost of that: it is no longer cheap. Direct US flights (United from Houston since 2025) and a wave of remote workers have pushed boutique rooms in La Punta and Carrizalillo to USD 150-300 a night in high season, comparable to mid-range Tulum, and premium La Punta property gained 20-25% in 2025 alone. The famous architectural hotels - Casona Sforza (~USD 392), Hotel Terrestre (~USD 340+), Casa TO (~USD 249), Hotel Humano (~USD 286), Hotel Escondido - all blow a 5-person budget once you need three rooms. The answer for five people is to rent a whole architectural villa. La Punta and the Brisas de Zicatela hillside have a deep supply of 3-4 bedroom concrete-and-palapa houses with private pools at USD 375-420 a night whole, which is USD 75-84 each: better architecture, more space and a lower per-head price than any hotel on this list. Base in La Punta, day-trip to Carrizalillo, Mazunte and the lagoons. Get the three beaches right: LA PUNTA (Punta Zicatela) is the left-hand point break at the south end, the mellow surf-and-design village - dirt streets, palapa cafes, yoga, the crowd this group belongs to, and where you can actually learn to surf. ZICATELA is the long main strip north of it, home of the Mexican Pipeline, a heavy closeout barrel that is genuinely dangerous and NOT for swimming; it is the big-wave and nightlife strip, surf shops, bars, thumping until late. CARRIZALILLO is neither: a small horseshoe cove down 170 steps on the west side of town, the only reliably swimmable beach in Puerto Escondido, soft beginner waves, palapa bars serving micheladas on the sand, and the best sunset in town. Swim at Carrizalillo, surf and sleep at La Punta, go to Zicatela to watch the pros and to go out.",
+  "stops": [
+    {
+      "slug": "cdmx",
+      "name": "Mexico City",
+      "nights": 2,
+      "area_note": "For a design-conscious group of five, ROMA NORTE is the right base, with Condesa as the equally good alternative one park over. Roma Norte is the densest concentration of what this group wants inside a 15-minute walk: Contramar, Rosetta, Expendio de Maiz, Masala y Maiz, Licoreria Limantour, Mercado de Medellin, the Alvaro Obregon galleries, and a stock of Porfirian townhouses and Art Deco apartment blocks that is the reason half the good Airbnbs in the city are here. Condesa is quieter, greener and more residential, better if you want Parque Mexico under your window and slightly better value on whole apartments. JUAREZ sits between Roma and Reforma and is the value play: it has the same 1900s architecture, a harder-edged cocktail-bar scene, and hotels like Casa Prim at close to half the Roma price, and it is a 10-minute walk into Roma Norte. POLANCO is the wrong call for this group - it is money, not taste: luxury retail, Pujol and Quintonil, glass towers, and nothing to walk to at night that is not a restaurant reservation. Book Polanco only for the restaurants, sleep in Roma or Condesa. Two important capacity notes for a party of five: at three rooms, the budget ceiling on a CDMX double is about USD 166, and several of the best design hotels here are tiny (Octavia Casa has 6 rooms, Ignacia has 9), so five people would take half the property and probably cannot be accommodated at all on short notice. The Airbnb route in Roma/Condesa is both cheaper and easier for this group size.",
+      "hotels": [
+        {
+          "name": "Casa Prim Hotel Boutique",
+          "area": "Colonia Juarez, Calle General Prim 70-72, 10 min walk to Roma Norte",
+          "rating": "4-star boutique, 23 rooms in a restored early-1900s townhouse",
+          "guest_score": "9.0/10 Booking.com (approx. 202 reviews); location scored 9/10",
+          "price_night_usd": 125,
+          "rooms_for_5": "3 doubles (2+2+1). 23 rooms, no capacity problem.",
+          "group_night_usd": 375,
+          "pp_night_usd": 75,
+          "why": "Porfirian townhouse, parquet floors, courtyard balconies, L'Enfant rooftop bar.",
+          "booking_url": "https://www.booking.com/hotel/mx/casa-prim-boutique.html",
+          "site_url": "https://casaprim.com.mx/",
+          "is_estimate": true,
+          "note": "Price is an estimate. Verified rates seen across aggregators: USD 102-148. Official site confirmed live, address and 23-room count confirmed on site. Exact March 2027 rate not obtainable - Booking.com blocks automated reads."
+        },
+        {
+          "name": "Casa Decu",
+          "area": "Hipodromo Condesa, Culiacan 10, two blocks from Parque Mexico",
+          "rating": "4-star boutique, 27 rooms, Art Deco exterior / Art Nouveau interiors in a protected historic building",
+          "guest_score": "Not verified this session - check Booking.com listing",
+          "price_night_usd": 145,
+          "rooms_for_5": "1 Duplex Suite (2 bedrooms, 2 bathrooms, sleeps 4) + 1 Junior Suite. Alternatively 3 standard rooms at ~USD 145 each = USD 435 (USD 87 pp).",
+          "group_night_usd": 360,
+          "pp_night_usd": 72,
+          "why": "Real Art Deco bones in Condesa, rooftop lounge, free bikes, breakfast included.",
+          "booking_url": "https://www.booking.com/hotel/mx/casa-decu.html",
+          "site_url": "https://www.decuhotels.com/casa-decu",
+          "is_estimate": true,
+          "note": "Rates seen USD 102-148 average, up to USD 536 for suites. The Duplex Suite price is inferred, not quoted - confirm directly. Heritage building: no lift and no air conditioning."
+        },
+        {
+          "name": "Hotel Carlota",
+          "area": "Rio Amazonas 73, Col. Cuauhtemoc, on the Juarez/Reforma edge, 15 min walk to Roma Norte",
+          "rating": "Design hotel, 36 rooms, glass-walled courtyard pool",
+          "guest_score": "4.0/5 Tripadvisor",
+          "price_night_usd": 150,
+          "rooms_for_5": "3 doubles (2+2+1). 36 rooms, no capacity problem.",
+          "group_night_usd": 450,
+          "pp_night_usd": 90,
+          "why": "The famous steel-and-glass lap pool in the courtyard; good bar, central location.",
+          "booking_url": "https://www.booking.com/hotel/mx/carlota.html",
+          "site_url": "https://www.hotelcarlota.mx/",
+          "is_estimate": true,
+          "note": "Aggregators showed 1 March 2026 rates from USD 103 excl. tax, standard rooms from USD 146, doubles to USD 232. USD 150 is a mid-estimate for early March 2027. Tripadvisor ranking is mediocre (#115 of 211) - the architecture is better than the service."
+        },
+        {
+          "name": "Octavia Casa",
+          "area": "La Condesa",
+          "rating": "6-room design guesthouse by fashion designer Roberta Maceda, architecture by Pablo Perez Palacios; Michelin Guide listed",
+          "guest_score": "Not verified this session",
+          "price_night_usd": 200,
+          "rooms_for_5": "PROBLEM. All 6 rooms are king rooms for 2 people. Five people would need 3 of the 6 rooms - half the hotel. Possible only if you book many months out. No triples, no extra beds, children under 12 not allowed.",
+          "group_night_usd": 600,
+          "pp_night_usd": 120,
+          "why": "Slatted-timber facade, whitewashed minimalism, raffia and linen; the most beautiful room here.",
+          "booking_url": "https://www.booking.com/hotel/mx/octavia-casa.html",
+          "site_url": "https://octaviacasa.mx/",
+          "is_estimate": true,
+          "note": "OVER BUDGET at USD 120 pp and capacity-constrained. Rates seen from USD 98 for the smallest room up to USD 242-613 for suites; USD 200 is a mid-estimate. Listed because it is genuinely one of the best-designed small stays in the city - worth it for 2 people, awkward for 5."
+        },
+        {
+          "name": "Circulo Mexicano, a Member of Design Hotels",
+          "area": "Centro Historico, Republica de Guatemala 20, behind the Cathedral",
+          "rating": "5-star, 25 rooms, Grupo Habita; architecture and interiors by Ambrosi | Etchegaray, furniture by La Metropolitana",
+          "guest_score": "Not verified this session - Tripadvisor and Booking listings both live",
+          "price_night_usd": 265,
+          "rooms_for_5": "3 doubles (2+2+1). 25 rooms, no capacity problem - 18 of them have private patios.",
+          "group_night_usd": 795,
+          "pp_night_usd": 159,
+          "why": "Shaker-austere Grupo Habita landmark; rooftop pool over the Zocalo and Templo Mayor.",
+          "booking_url": "https://www.booking.com/hotel/mx/circulo-mexicano.html",
+          "site_url": "https://circulomexicano.com/",
+          "is_estimate": true,
+          "note": "CLEARLY OVER BUDGET - USD 159 pp per night, 59% over. Rates seen from USD 250-271 upward. Included because it is the design hotel in Mexico City and the group should know what it costs. Also note: Centro Historico, not Roma/Condesa - a different (and mostly dead-after-9pm) neighbourhood."
+        }
+      ],
+      "airbnbs": [
+        {
+          "name": "Caliza Roma - exclusive residence with private garden (Airbnb display title varies)",
+          "area": "Roma Norte",
+          "sleeps": 6,
+          "bedrooms": 3,
+          "beds": 6,
+          "bathrooms": 2,
+          "price_night_usd": 297,
+          "pp_night_usd": 59,
+          "why": "Three bedrooms, six real beds, private garden; best all-round Roma Norte base for five.",
+          "url": "https://www.airbnb.com/rooms/1223944928793592804",
+          "is_search_url": false,
+          "guest_score": "4.89/5 (18 reviews)",
+          "note": "Live price read from Airbnb search for 1-3 March 2027: USD 593 total for 2 nights. Airbnb rotates auto-generated display titles, so verify by listing ID."
+        },
+        {
+          "name": "Casa Corazon - 5-bedroom oasis in La Condesa",
+          "area": "La Condesa",
+          "sleeps": 10,
+          "bedrooms": 5,
+          "beds": 7,
+          "bathrooms": 4,
+          "price_night_usd": 292,
+          "pp_night_usd": 58,
+          "why": "Five separate bedrooms, so nobody shares; rare for the price in Condesa.",
+          "url": "https://www.airbnb.com/rooms/860699249317648367",
+          "is_search_url": false,
+          "guest_score": "4.75/5 (only 4 reviews - new listing, low review count is the risk)",
+          "note": "Live price read: USD 583 total for 2 nights, 1-3 March 2027. Listing ID appeared under two different display titles across reads - confirm the ID resolves to the 5-bedroom Condesa house before paying."
+        },
+        {
+          "name": "Beautiful apartment full of light, Condesa/Roma border",
+          "area": "Roma Norte / Condesa border",
+          "sleeps": 6,
+          "bedrooms": 3,
+          "beds": 6,
+          "bathrooms": 2,
+          "price_night_usd": 226,
+          "pp_night_usd": 45,
+          "why": "236 reviews at 4.95; six beds, high light, walkable to everything in both barrios.",
+          "url": "https://www.airbnb.com/rooms/1645053806193120682",
+          "is_search_url": false,
+          "guest_score": "4.95/5 (236 reviews)",
+          "note": "Live price read: USD 451 total for 2 nights. A second read returned the same title against ID 1654579847180734941 - check both IDs, the one with 236 reviews is the right listing."
+        },
+        {
+          "name": "Large Mexican folk art apartment, top Condesa location",
+          "area": "La Condesa",
+          "sleeps": 6,
+          "bedrooms": 3,
+          "beds": 3,
+          "bathrooms": 2,
+          "price_night_usd": 210,
+          "pp_night_usd": 42,
+          "why": "Proper collected folk art rather than rental-grade styling; long, solid review history.",
+          "url": "https://www.airbnb.com/rooms/15087013",
+          "is_search_url": false,
+          "guest_score": "4.92/5 (66 reviews)",
+          "note": "Live price read: USD 420 total for 2 nights. Only 3 beds listed for 3 bedrooms - the fifth person may be on a sofa bed. Message the host to confirm 5 real beds before booking."
+        },
+        {
+          "name": "Casa Cobre - rooftop, sauna, copper bath",
+          "area": "La Condesa",
+          "sleeps": 10,
+          "bedrooms": 5,
+          "beds": 5,
+          "bathrooms": 4,
+          "price_night_usd": 911,
+          "pp_night_usd": 182,
+          "why": "The architectural splurge: five bedrooms, rooftop, sauna and a copper soaking bath.",
+          "url": "https://www.airbnb.com/rooms/1700146663363466635",
+          "is_search_url": false,
+          "guest_score": "5.0/5 (16 reviews)",
+          "note": "WAY OVER BUDGET - USD 182 pp per night. Live price read: USD 1,822 total for 2 nights. Listed only so the group can see the top of the market; not recommended at this budget."
+        }
+      ],
+      "airbnb_search_url": "https://www.airbnb.com/s/Roma-Norte--Mexico-City/homes?adults=5&checkin=2027-03-01&checkout=2027-03-03&room_types%5B%5D=Entire%20home%2Fapt&min_bedrooms=3&min_beds=5",
+      "activities": [
+        {
+          "day": 1,
+          "name": "Roma Norte + Condesa architecture and food crawl on foot",
+          "what": "Start at Plaza Rio de Janeiro, walk Colima and Alvaro Obregon for the Porfirian mansions and galleries, coffee and guava roll at Panaderia Rosetta (Colima 179), tortillas made in front of you at Expendio de Maiz Sin Nombre (Yucatan 84, no menu - they bring you dishes until you say stop), then cross Avenida Veracruz into Condesa for the Art Deco blocks around Parque Mexico and Avenida Amsterdam, the 1920s racetrack turned into an oval street.",
+          "price_pp_usd": 45,
+          "duration": "5-6 hours",
+          "when": "Day 1, late morning into afternoon. Expendio de Maiz does not take reservations and the queue is long after 14:00 - go at 13:00.",
+          "url": "https://www.rosetta.com.mx/"
+        },
+        {
+          "day": 1,
+          "name": "Casa Estudio Luis Barragan",
+          "what": "The 1948 house-studio of Mexico's only Pritzker laureate, a UNESCO World Heritage site in Tacubaya. Guided visit only, small groups, pink and ochre walls, the famous floating staircase and the roof terrace open only to the sky.",
+          "price_pp_usd": 26,
+          "duration": "1 hour 15 min",
+          "when": "Day 1, afternoon. BOOK THE MOMENT YOU HAVE DATES. Tickets are sold only in advance through visit.casaluisbarragan.org and the site states in terms that entry is not guaranteed without an advance ticket. Slots for five people on one tour typically go weeks out. Minimum age 12, no exceptions. Email replies take 2-4 business days, so do not leave it to a phone call.",
+          "url": "https://visit.casaluisbarragan.org/mx"
+        },
+        {
+          "day": 1,
+          "name": "Mezcaleria night in Roma and Centro",
+          "what": "Start at La Clandestina (Alvaro Obregon 298, Condesa) for small-producer agave spirits poured into jicaras, then Licoreria Limantour (Alvaro Obregon 106) which sits on the World's 50 Best Bars list, and finish at Bosforo (Luis Moya 31, Centro) - a black-painted room with no sign, no menu and the best mezcal list in the city.",
+          "price_pp_usd": 35,
+          "duration": "4-5 hours",
+          "when": "Day 1 night. Bosforo opens around 20:00 and fills by 22:00. Uber between the three, not walking.",
+          "url": "https://www.limantour.tv/"
+        },
+        {
+          "day": 2,
+          "name": "Chapultepec and the Museo Nacional de Antropologia",
+          "what": "Mexico's greatest museum: Pedro Ramirez Vazquez's 1964 building with the vast cantilevered umbrella fountain in the courtyard, the Aztec Sun Stone, the Olmec heads and the full-scale Teotihuacan and Maya rooms. Then walk into Bosque de Chapultepec; Chapultepec Castle is on the hill above if there is time.",
+          "price_pp_usd": 11,
+          "duration": "3-4 hours for the museum, plus the park",
+          "when": "Day 2, from 09:00. Open Tuesday to Sunday 09:00-18:00, CLOSED MONDAYS. MXN 210 general admission - Sunday free entry applies only to Mexican nationals and residents, so a foreign group pays either way. A Sunday visit means the park is at its best (families, balloon sellers, food carts) but the museum is at its most crowded.",
+          "url": "https://mna.inah.gob.mx/"
+        },
+        {
+          "day": 2,
+          "name": "Coyoacan and the Museo Frida Kahlo (Casa Azul)",
+          "what": "The cobalt-blue house on Londres 247 where Kahlo was born, lived with Rivera and died, with her studio, wheelchair at the easel, corsets and the garden pyramid. Pair it with the Coyoacan centre - Mercado de Coyoacan for tostadas, Jardin Centenario, and the Museo Casa Leon Trotsky four blocks away.",
+          "price_pp_usd": 20,
+          "duration": "2 hours for the house, half a day for the barrio",
+          "when": "Day 2, afternoon. BOOKING IS THE HARD PART: timed-entry tickets sell out days to weeks ahead and are sold only through boletos.museofridakahlo.org.mx or a self-service kiosk at the museum shop. Closed Mondays; Tuesday 10:00-18:00, Wednesday 11:00-18:00, Thursday to Sunday 10:00-18:00. Thursday evenings there is 'Noche Azul' 17:15-21:00, which is the least crowded slot.",
+          "url": "https://boletos.museofridakahlo.org.mx/"
+        },
+        {
+          "day": 2,
+          "name": "Lucha libre at Arena Mexico",
+          "what": "CMLL's home arena in Colonia Doctores, 16,500 seats, masked wrestlers, beer in buckets, the crowd chanting obscenities in rhyme. Buy ringside-ish seats rather than the cheap upper tiers - you want to see the masks.",
+          "price_pp_usd": 25,
+          "duration": "3 hours",
+          "when": "Day 2, evening. CMLL cards run Friday 20:30 (the big one), Tuesday 19:30 and Sunday 17:00. Colonia Doctores is rough - take Ubers door to door, do not walk from the metro at night.",
+          "url": "https://www.cmll.com/"
+        },
+        {
+          "day": 2,
+          "name": "Alternative for day 2: Teotihuacan at sunrise, by balloon or on the ground",
+          "what": "Hot-air balloon flights lift off around 06:00-06:30 over the Pyramid of the Sun and the Avenue of the Dead, land for breakfast, then you walk the site before the coaches arrive. Ground-only alternative: leave CDMX at 06:00, be at the gate for the 08:00 opening, have the Avenue of the Dead almost to yourselves for an hour.",
+          "price_pp_usd": 160,
+          "duration": "8-10 hours door to door including the 50 km drive each way",
+          "when": "Only worth it if you swap out Coyoacan - it eats the whole day. Balloon price is an ESTIMATE (typically USD 130-180 pp with CDMX hotel pickup); operator prices were not verifiable in this session. Site admission is separate, around MXN 100. Note you can no longer climb the pyramids.",
+          "url": "https://www.teotihuacan.inah.gob.mx/"
+        },
+        {
+          "day": 2,
+          "name": "Alternative for day 2: Xochimilco trajineras",
+          "what": "Hire a painted flat-bottomed barge with a poler on the pre-Hispanic canals in the far south. Boats from Embarcadero Nuevo Nativitas or the quieter Embarcadero Cuemanco. Mariachi boats and food boats come alongside. Bring your own mezcal and limes.",
+          "price_pp_usd": 20,
+          "duration": "3-4 hours plus a 60-90 minute drive each way",
+          "when": "Best Saturday or Sunday when it is full of Mexican families rather than empty. Boats are priced per boat per hour, roughly MXN 600, not per person - five people splitting one boat is the cheapest thing on this list. Agree the price and the hours before you step on.",
+          "url": "https://xochimilco.cdmx.gob.mx/"
+        },
+        {
+          "day": 2,
+          "name": "Mercado de Medellin",
+          "what": "The Roma Sur market that serves the Colombian, Cuban and Venezuelan communities: arepas, Oaxacan cheese counters, mole pastes by the kilo, flower stalls, cheap ceviche and a dozen fondas doing comida corrida. Not a tourist market.",
+          "price_pp_usd": 10,
+          "duration": "1-2 hours",
+          "when": "Any morning before 14:00. Calle Campeche 101, Roma Sur, 10 minutes' walk south of Roma Norte.",
+          "url": ""
+        }
+      ],
+      "food": [
+        {
+          "name": "Contramar",
+          "what": "Calle Durango 200, Roma Norte. The city's defining seafood lunch since 1998: tuna tostadas, and the pescado a la talla, a whole butterflied fish half red-chile, half parsley-green. Loud, bright, everyone who matters in Mexico City eats here.",
+          "price_level": "$$$ - around USD 45-60 pp with drinks. Lunch only, roughly 13:00-18:30. Reserve weeks ahead for five; walk-ins wait."
+        },
+        {
+          "name": "Rosetta",
+          "what": "Colima 166, Roma Norte. Elena Reygadas, named World's Best Female Chef, cooking Italian technique with Mexican produce in a crumbling Porfirian mansion with a plant-filled staircase. The neighbouring Panaderia Rosetta is the best bakery in the city.",
+          "price_level": "$$$$ - tasting menu territory, around USD 80-110 pp. Reserve a month out. The bakery is USD 5."
+        },
+        {
+          "name": "Masala y Maiz",
+          "what": "Calle Marsella 72, Juarez. Norma Listman and Saqib Keval cooking the actual historical trade routes between Mexico, India and East Africa - not fusion, research. One of the most interesting kitchens in the Americas.",
+          "price_level": "$$$ - around USD 40-55 pp. Reserve."
+        },
+        {
+          "name": "Lardo",
+          "what": "Agustin Melgar 6, Condesa. Elena Reygadas's neighbourhood room: wood-oven flatbreads, simple Mediterranean plates, the best breakfast in Condesa. Where you go when you cannot get into Rosetta.",
+          "price_level": "$$ - around USD 20-30 pp. No reservations for small groups at breakfast; go before 10:00."
+        },
+        {
+          "name": "Expendio de Maiz Sin Nombre",
+          "what": "Yucatan 84, Roma Norte. No menu, no sign, no prices posted. They cook heirloom corn from small growers and keep bringing plates until you stop them. Eight seats at a counter.",
+          "price_level": "$ - around USD 15-25 pp. Cash. Go at opening or queue."
+        },
+        {
+          "name": "Pujol / Quintonil (Polanco)",
+          "what": "Enrique Olvera's Pujol (Tennyson 133) with the mole madre aged over a thousand days, and Jorge Vallejo's Quintonil (Isaac Newton 55). Both perennially on the World's 50 Best list.",
+          "price_level": "$$$$$ - USD 150-250 pp with pairings. Reservations open roughly 1-2 months ahead and go in minutes. Budget-breaking: one of these, or three nights of everything else."
+        },
+        {
+          "name": "Maximo Bistrot",
+          "what": "Alvaro Obregon 65B, Roma Norte. Eduardo Garcia's market-driven bistro, moved into a much bigger room in 2021. Reliable, excellent, easier to book than Contramar.",
+          "price_level": "$$$ - around USD 50-70 pp."
+        }
+      ],
+      "weather_note": "Early March in Mexico City is the tail of the dry season and about as good as it gets: highs 25-27C, lows 10-12C, almost no rain, very strong UV at 2,240 m. Two real caveats. First, it is cold at night and in the shade - bring a jacket, and note that several heritage hotels including Casa Decu have no heating. Second, March is the worst month of the year for air quality: thermal inversions trap pollution and CDMX issues ozone contingencies most often in March and April. If anyone in the group is asthmatic, check the index before a long day outdoors. Altitude also hits harder than people expect on day one - go easy on the mezcal the first night."
+    },
+    {
+      "slug": "puerto-escondido",
+      "name": "Puerto Escondido (Oaxaca coast)",
+      "nights": 5,
+      "area_note": "Base in LA PUNTA (officially Punta Zicatela / Brisas de Zicatela, administratively in Santa Maria Colotepec, about 15 minutes from PXM airport). It is the south end of the long Zicatela beach, where the sandbar turns and makes a soft left-hand point break. Dirt streets, palapa roofs, the surf-and-design crowd, the best coffee and the best small restaurants, and a sunset ritual on the point every evening. This is the group's neighbourhood. ZICATELA is the 3 km strip to the north: the Mexican Pipeline, a heavy shore-breaking barrel that drowns people every year and is absolutely not a swimming beach, plus the big-wave surf shops and the loudest nightlife in town. Go there to watch the surf and go out, do not sleep there unless you want bass through the wall. CARRIZALILLO is a 15-minute taxi away on the west side: a small horseshoe cove reached by 170 concrete steps cut into the cliff (count them on the way down, curse them on the way up), the only genuinely swimmable beach in Puerto Escondido, gentle whitewater for absolute beginners, palapa bars serving michelada and grilled fish on the sand, and the best sunset in town. Playa Manzanillo next door is even calmer. The quiet villages are 1-1.5 hours east on Highway 200: SAN AGUSTINILLO (tiny, a single crescent of sand, the best of the three for a lazy day), MAZUNTE (the turtle centre, Punta Cometa, a wellness/hippie overlay that has got busier every year) and ZIPOLITE (Mexico's only legal nude beach, a strong rip current, a late and slightly wilder scene). Worth one long day trip, not worth splitting the stay. THE HONEST PRICE PICTURE: for five people a hotel needs three rooms, so the pp maths is brutal - at three rooms the ceiling on a double is USD 166. Almost every architecturally interesting hotel here now sits above that. The right answer is a whole villa: La Punta and the Brisas hillside have a deep supply of 3-4 bedroom concrete-and-palapa houses with private pools at USD 375-420 a night whole, which is USD 75-84 each and beats every hotel below on both architecture and price.",
+      "hotels": [
+        {
+          "name": "Villas Carrizalillo",
+          "area": "Playa Carrizalillo, Av Carrizalillo s/n, 300 m above the cove",
+          "rating": "Boutique cliffside villa hotel, 12 individual units, one of which is a large 3-bedroom/2-bathroom unit",
+          "guest_score": "9.2-9.3/10 Booking.com (360 verified reviews); couples rate the location 9.7",
+          "price_night_usd": 320,
+          "rooms_for_5": "ONE unit does it: the 3-bedroom / 2-bathroom villa sleeps 5-6. Failing that, two smaller villas. 12 units total, and the 3-bed goes first.",
+          "group_night_usd": 320,
+          "pp_night_usd": 64,
+          "why": "Best value on the coast: whole 3-bed villa, private terrace, steps straight down to the swimmable cove.",
+          "booking_url": "https://www.booking.com/hotel/mx/villas-carrizalillo-puerto-escondido1.html",
+          "site_url": "https://www.villascarrizalillo.com/",
+          "is_estimate": true,
+          "note": "USD 320 is an ESTIMATE for the 3-bedroom unit. Verified data points: standard units from USD 180 (Reservations.com) up to USD 334 (Priceline); the 3-bed rate was not published. Property, address, 12-unit count and the 3bd/2ba unit all confirmed on the official site. All but three units (Mitla, Colorada, Escondido) have full kitchens. Email them directly - this place is better booked direct."
+        },
+        {
+          "name": "Villa Mozart y Macondo",
+          "area": "Las Tortugas 77, Carrizalillo, 200 m from Playa Carrizalillo",
+          "rating": "Small 3-star guesthouse, tropical garden, long-running owner-run place",
+          "guest_score": "Tripadvisor listing live with 66+ reviews; score not re-verified this session",
+          "price_night_usd": 85,
+          "rooms_for_5": "3 doubles (2+2+1). Small property, so book all three at once.",
+          "group_night_usd": 255,
+          "pp_night_usd": 51,
+          "why": "Cheapest decent bed near the swimmable cove; charming and green rather than architectural.",
+          "booking_url": "https://www.booking.com/hotel/mx/villa-mozart-y-macondo.html",
+          "site_url": "",
+          "is_estimate": true,
+          "note": "Price well supported: Kayak's cheapest and most expensive booked rate in a recent fortnight were both USD 85; aggregators show USD 72-118. No official website found - book through Booking.com or Tripadvisor. This is the value pick, NOT the design pick - honest about that."
+        },
+        {
+          "name": "Raiz Hotel Boutique",
+          "area": "Puebla 200, Punta de Zicatela (La Punta), 350 m from the beach",
+          "rating": "Boutique, palapa-roofed bungalows, on-site restaurant, morning yoga, breakfast included",
+          "guest_score": "4.0/5 Tripadvisor, ranked #22 of 66 in Puerto Escondido - but only 13 reviews and they are polarised",
+          "price_night_usd": 215,
+          "rooms_for_5": "1 Deluxe Studio (60 sqm, private garden, outdoor kitchen, living area - takes 3) + 1 Deluxe Bungalow (20 sqm, takes 2). Roughly USD 260 + USD 170.",
+          "group_night_usd": 430,
+          "pp_night_usd": 86,
+          "why": "Thatched bungalows, wood and stone, breakfast and yoga included; walkable La Punta.",
+          "booking_url": "https://www.booking.com/hotel/mx/raiz-boutique.html",
+          "site_url": "https://www.raiz-hotel.com/en/",
+          "is_estimate": true,
+          "note": "IN BUDGET but read the reviews first. Verified base rate USD 179; the studio-plus-bungalow split is an estimate. One Tripadvisor review calls it 'overpriced, poorly maintained' and notes it is isolated - beach 10 min walk, town centre 50 min walk or an expensive taxi. Others call it exceptional value for the included breakfast and yoga. Small sample, high variance."
+        },
+        {
+          "name": "Casa Bicachi - Adults Only",
+          "area": "Heroes Oaxaquenos 116, Punta Zicatela (La Punta), 5 min walk to the beach",
+          "rating": "Adults-only boutique, 11 m pool, garden bar, Starlink in rooms",
+          "guest_score": "9.5/10 Booking.com (308 verified reviews) - the highest verified score of any property on this list",
+          "price_night_usd": 179,
+          "rooms_for_5": "3 doubles. Room count is NOT published on the official site - it is a small property, so confirm three rooms are available on your dates before anything else.",
+          "group_night_usd": 537,
+          "pp_night_usd": 107,
+          "why": "Best-reviewed stay in La Punta; clean modern rooms, generous pool, five minutes to the point.",
+          "booking_url": "https://www.booking.com/hotel/mx/casa-bicachi.html",
+          "site_url": "https://www.casabicachi.com/",
+          "is_estimate": true,
+          "note": "MARGINALLY OVER BUDGET at USD 107 pp (7% over). Two ways back under: ask whether any room takes a third person, or take two rooms and put the fifth in the Airbnb next door. Rate of USD 179 verified across two aggregators. Adults only - fine for this group."
+        },
+        {
+          "name": "Casa TO",
+          "area": "La Punta Zicatela, 5 blocks from the beach, 15 min from PXM airport",
+          "rating": "Adults-only design hotel, architecture by Ludwig Godefroy, Michelin Guide listed; tropical modernism / brutalism in raw concrete",
+          "guest_score": "Not verified this session",
+          "price_night_usd": 249,
+          "rooms_for_5": "3 rooms. Small property (roughly 10 rooms) - three rooms is a third of the hotel, so book far ahead or it will not happen.",
+          "group_night_usd": 747,
+          "pp_night_usd": 149,
+          "why": "The architecture pick: Godefroy's board-formed concrete, cisterns and shade, Glou Glou wine bar.",
+          "booking_url": "https://www.booking.com/hotel/mx/casa-to.html",
+          "site_url": "https://www.casato.mx/",
+          "is_estimate": true,
+          "note": "OVER BUDGET - USD 149 pp, 49% over. Rate of USD 249 is the verified minimum room price; real March rates will be higher. Included because it is the single most architecturally serious thing in La Punta and the group asked for the beautiful ones. If they want one splurge night, this is the one to take - not Casona Sforza."
+        }
+      ],
+      "hotels_out_of_reach": [
+        {
+          "name": "Casona Sforza",
+          "note": "Alberto Kalach's vaulted brick barrel arches on Playa Bocabarra, 11 rooms. From USD 392 a night. Three rooms for five people = USD 1,176 a night = USD 235 pp, 135% over budget. Also only 11 rooms, so three at once is unlikely. Beautiful, out of reach."
+        },
+        {
+          "name": "Hotel Terrestre",
+          "note": "Grupo Habita, Alberto Kalach again, 14 off-grid solar villas, no air conditioning by design. From USD 340. Three villas = USD 204 pp. Out of reach."
+        },
+        {
+          "name": "Hotel Humano, a Member of Design Hotels",
+          "note": "La Punta Zicatela, Marriott/Design Hotels. From USD 285.60 for the cheapest double in a 60-day window; typical mid-USD-300s. Three rooms = USD 171+ pp. Out of reach, and increasingly the place the scene has moved on from."
+        },
+        {
+          "name": "Hotel Escondido",
+          "note": "Grupo Habita, 16 cabins with private plunge pools, architecture by Federico and Jose Juan Rivera Rio. NOT in Puerto Escondido - it is in Villas de Tutupec, about 45 minutes inland/up the coast, so you would need a car. Rate not published; well over budget."
+        },
+        {
+          "name": "Hotel Boutique Xique",
+          "note": "Brisas de Zicatela, opened November 2023, 8 rooms, adults only, rooftop infinity plunge pool. From USD 178-184. Three of eight rooms = USD 110 pp, marginally over, and taking 37% of an 8-room hotel. Worth an enquiry if the villas fall through. No official website could be verified - the .com results are aggregator mirrors."
+        }
+      ],
+      "airbnbs": [
+        {
+          "name": "Pool and ocean-view palapa near beach (4 bedrooms)",
+          "area": "Brisas de Zicatela / La Punta hillside",
+          "sleeps": 8,
+          "bedrooms": 4,
+          "beds": 6,
+          "bathrooms": 4.5,
+          "price_night_usd": 383,
+          "pp_night_usd": 77,
+          "why": "Best in the set: four bedrooms, six real beds, private pool, ocean-view palapa, 286 reviews.",
+          "url": "https://www.airbnb.com/rooms/6479019",
+          "is_search_url": false,
+          "guest_score": "4.96/5 (286 reviews), Airbnb Guest Favourite",
+          "note": "Live price read from Airbnb for 3-8 March 2027: USD 1,915 total for 5 nights. Appeared identically across two separate reads - the most reliably verified listing here. Everyone gets their own bed with one to spare."
+        },
+        {
+          "name": "Minimalist cliffside villa with private pool",
+          "area": "La Punta / Brisas de Zicatela cliffside",
+          "sleeps": 6,
+          "bedrooms": 3,
+          "beds": 5,
+          "bathrooms": 2,
+          "price_night_usd": 414,
+          "pp_night_usd": 83,
+          "why": "Genuinely design-led: minimalist cliffside build, private pool, exactly five real beds.",
+          "url": "https://www.airbnb.com/rooms/747742226679490405",
+          "is_search_url": false,
+          "guest_score": "4.96/5 (67 reviews), Airbnb Guest Favourite",
+          "note": "Live price read: USD 2,069 total for 5 nights, 3-8 March 2027. This is the pick if the group wants architecture and will pay USD 83 pp for it - better building than any in-budget hotel on the coast."
+        },
+        {
+          "name": "Pool and kitchen in La Punta (3 king bedrooms)",
+          "area": "Brisas de Zicatela / La Punta",
+          "sleeps": 6,
+          "bedrooms": 3,
+          "beds": 3,
+          "bathrooms": 3,
+          "price_night_usd": 375,
+          "pp_night_usd": 75,
+          "why": "Three king beds and three bathrooms; two couples plus one, nobody on a sofa.",
+          "url": "https://www.airbnb.com/rooms/1384829989529920560",
+          "is_search_url": false,
+          "guest_score": "4.86/5 (28 reviews), Airbnb Guest Favourite",
+          "note": "Live price read: USD 1,876 total for 5 nights. Three king beds means the fifth person gets a king to themselves - technically 3 beds for 5 people, which works for two couples plus one but NOT for five singles."
+        },
+        {
+          "name": "Ground-floor flat with pool near beach",
+          "area": "Brisas de Zicatela",
+          "sleeps": 6,
+          "bedrooms": 3,
+          "beds": 3,
+          "bathrooms": 2,
+          "price_night_usd": 224,
+          "pp_night_usd": 45,
+          "why": "Cheapest way to get five people into a private pool within walking distance of La Punta.",
+          "url": "https://www.airbnb.com/rooms/1200937738138917145",
+          "is_search_url": false,
+          "guest_score": "4.97/5 (33 reviews)",
+          "note": "Live price read: USD 1,118 total for 5 nights. Only 3 beds listed for 3 bedrooms - message the host and confirm five real beds before booking, or treat it as two couples plus one."
+        },
+        {
+          "name": "Brutalist penthouse with an infinity pool",
+          "area": "Puerto Escondido (La Punta / Brisas hillside)",
+          "sleeps": 6,
+          "bedrooms": 3,
+          "beds": 5,
+          "bathrooms": 3,
+          "price_night_usd": 518,
+          "pp_night_usd": 104,
+          "why": "Raw concrete, infinity pool over the Pacific, five real beds; the splurge that is only just a splurge.",
+          "url": "https://www.airbnb.com/rooms/1294197466531856726",
+          "is_search_url": false,
+          "guest_score": "4.92/5 (25 reviews), Airbnb Guest Favourite",
+          "note": "MARGINALLY OVER BUDGET - USD 104 pp, 4% over. Live price read: USD 2,589 total for 5 nights. For four dollars a head over the rule this is the most beautiful thing in the whole file that actually sleeps five. Strongly recommend the group break the rule here rather than at a hotel."
+        },
+        {
+          "name": "Two-minute walk to Carrizalillo beach",
+          "area": "Carrizalillo",
+          "sleeps": 6,
+          "bedrooms": 3,
+          "beds": 4,
+          "bathrooms": 2,
+          "price_night_usd": 123,
+          "pp_night_usd": 25,
+          "why": "Absurd value two minutes above the swimmable cove; plain, but 314 reviews of plain-and-fine.",
+          "url": "https://www.airbnb.com/rooms/43279085",
+          "is_search_url": false,
+          "guest_score": "4.85/5 (314 reviews)",
+          "note": "Live price read: USD 613 total for 5 nights. 4 beds for 5 people. Not design - this is the 'spend the money on food and tours instead' option, and at USD 25 pp it is the cheapest credible bed in the file."
+        }
+      ],
+      "airbnb_search_url": "https://www.airbnb.com/s/La-Punta-Zicatela--Puerto-Escondido--Oaxaca/homes?adults=5&checkin=2027-03-03&checkout=2027-03-08&room_types%5B%5D=Entire%20home%2Fapt&min_bedrooms=3&min_beds=5&price_min=300&price_max=500",
+      "activities": [
+        {
+          "day": 3,
+          "name": "Fly MEX-PXM, settle in La Punta, first sunset on the point",
+          "what": "Volaris and Aeromexico Connect fly Mexico City to Puerto Escondido direct in about 1h20. PXM is 15 minutes from La Punta. Drop bags, walk to the point at the south end of the beach where everyone gathers on the rocks for sunset, then tostadas de atun and a beer.",
+          "price_pp_usd": 70,
+          "duration": "Half a day including the flight",
+          "when": "Day 3. Return fares MEX-PXM have been seen as low as USD 40-70; book 2-3 months out. Take the morning flight - the afternoon one eats your first sunset, and PXM's runway sits right on the coast so afternoon crosswinds cause diversions.",
+          "url": "https://www.volaris.com/en-mx/flights-from-mexico-city-to-puerto-escondido"
+        },
+        {
+          "day": 4,
+          "name": "Surf lesson on the left at La Punta",
+          "what": "La Punta's sandbar throws a long, forgiving left that is the reason the village exists - it is the beginner and longboard wave of the Oaxaca coast, and the opposite of Zicatela's closeout barrel 3 km north. Two-hour group lesson, board and rashguard included, a dozen schools on the main dirt street.",
+          "price_pp_usd": 53,
+          "duration": "2 hours",
+          "when": "Day 4, 07:00-09:00. Go early: the wind comes onshore by mid-morning and the water is glassy at dawn. MXN 1,000 per person is the going rate. March is the tail of the smaller-swell season, which is exactly what beginners want.",
+          "url": "https://www.puerto-escondido.mx/en/adventures/"
+        },
+        {
+          "day": 4,
+          "name": "Carrizalillo cove: the 170 steps, the swim, the sunset",
+          "what": "Taxi to the clifftop, walk down the 170 concrete steps into a small horseshoe cove. This is the only beach in Puerto Escondido where swimming is genuinely safe - soft whitewater, a gentle shelf, no rip like Zicatela's. Palapa bars bring micheladas and grilled fish to your chair. Stay for sunset; the cliff walls frame it. Walk back up the 170 steps, which at 32 degrees is the day's real workout.",
+          "price_pp_usd": 15,
+          "duration": "4-6 hours",
+          "when": "Day 4, from about 14:00 through sunset (roughly 18:45 in early March). Chair-and-umbrella rental is usually waived if you order food. Taxi from La Punta about MXN 120-150 for the car.",
+          "url": ""
+        },
+        {
+          "day": 5,
+          "name": "Bioluminescence night tour, Laguna de Manialtepec",
+          "what": "A mangrove lagoon 20 km west of town where dinoflagellates light up blue-white when the water is disturbed. You go out in a small boat after dark, then swim - every stroke trails light, and the fish leave streaks under you. Best on moonless nights.",
+          "price_pp_usd": 50,
+          "duration": "2.5 hours plus transfer",
+          "when": "Day 5, after dark. MXN 950 per person, verified. CRITICAL: this only works on dark nights. The new moon falls around 8 MARCH 2027 (computed, approximate), so roughly 4-12 March is the best window of the whole month. Book for the darkest night of your stay and no swimming with sunscreen or repellent on.",
+          "url": "https://www.puerto-escondido.mx/en/adventures/"
+        },
+        {
+          "day": 5,
+          "name": "Slow morning in La Punta before the lagoon",
+          "what": "Coffee and banana bread on the dirt street, a second surf, an hour in a hammock. Then the Mercado Benito Juarez in Puerto Escondido town centre for fruit, mole pastes and a MXN 60 comida corrida, plus the Adoquin pedestrian strip and Playa Principal where the fishing pangas land.",
+          "price_pp_usd": 15,
+          "duration": "4 hours",
+          "when": "Day 5, morning. The market is done by 14:00.",
+          "url": ""
+        },
+        {
+          "day": 6,
+          "name": "The quiet coast: San Agustinillo, Mazunte, Punta Cometa sunset, Zipolite",
+          "what": "One long day east on Highway 200. Start at San Agustinillo, a single crescent of sand and the loveliest swim of the three. Then Mazunte for the Centro Mexicano de la Tortuga, the national sea-turtle research centre with tanks of all seven species that nest in Mexico, and the Cosmeticos Naturales cooperative. Late afternoon, hike 25 minutes out to PUNTA COMETA, the southernmost headland in Oaxaca, a rocky spur where you can watch the sun set into open ocean with whales spouting offshore in March. Finish at Zipolite for dinner - Mexico's only legal nude beach, a late and slightly wilder scene, and a vicious rip current, so do not swim there after drinking.",
+          "price_pp_usd": 105,
+          "duration": "10-12 hours",
+          "when": "Day 6, full day. MXN 2,000 per person for the organised Mazunte-Zipolite-Punta Cometa tour, verified. Cheaper by colectivo/taxi if you do it yourselves - about 1h15 each way. Time Punta Cometa for about 17:45 to be in position for a 18:45 sunset. Turtle centre closes 16:30ish and is closed Mondays.",
+          "url": "https://www.puerto-escondido.mx/en/adventures/"
+        },
+        {
+          "day": 6,
+          "name": "Alternative for day 6: Lagunas de Chacahua day trip",
+          "what": "West instead of east: 70 km along the coast to Chacahua National Park, a chain of lagoons and sandbars with mangrove channels, a crocodile hatchery, an Afro-Mexican fishing village with no paved road in, and a long empty surf beach. Boat through the mangroves, eat fish on the sand, swim in the lagoon.",
+          "price_pp_usd": 105,
+          "duration": "9.5 hours",
+          "when": "Day 6, alternative. MXN 2,000 per person, verified. It is a long, hot, bumpy day - part road, part boat. Pick this OR Mazunte, not both. Chacahua also has bioluminescence, so if you miss the Manialtepec night, this is the backup.",
+          "url": "https://www.puerto-escondido.mx/en/adventures/"
+        },
+        {
+          "day": 7,
+          "name": "Dawn panga: spinner dolphins, turtles and whales",
+          "what": "Out of Playa Puerto Angelito or Playa Principal at sunrise in a traditional panga. Pods of spinner dolphins in the hundreds, olive ridley turtles mating on the surface, manta rays, and in March humpbacks still passing on their way north. Usually ends with a snorkel stop at Puerto Angelito or Manzanillo.",
+          "price_pp_usd": 47,
+          "duration": "3 hours",
+          "when": "Day 7, leaving 06:00-06:30 - the sea is flattest and the dolphins are most active at first light. MXN 895 per person, verified. March is still inside whale season. Take seasickness tablets, the swell rolls.",
+          "url": "https://www.puerto-escondido.mx/en/adventures/"
+        },
+        {
+          "day": 7,
+          "name": "Temazcal",
+          "what": "A pre-Hispanic sweat lodge: a low domed adobe chamber, volcanic stones heated outside and carried in, copal and herbs, four rounds with a facilitator. Physically and emotionally heavy, not a spa treatment. Several operators run them in La Punta and on the Manialtepec road.",
+          "price_pp_usd": 47,
+          "duration": "2-2.5 hours",
+          "when": "Day 7, late afternoon so you come out at sunset. MXN 900 per person, verified. Do it AFTER the dawn boat, not before. Not for anyone claustrophobic, pregnant or with heart or blood-pressure issues. Hydrate hard beforehand and do not drink that lunchtime.",
+          "url": "https://www.puerto-escondido.mx/en/adventures/"
+        },
+        {
+          "day": 7,
+          "name": "Last sunset, and where to actually watch it",
+          "what": "Three good options, in order. CARRIZALILLO for the framed cliff sunset with a michelada in the sand. LA PUNTA point, sitting on the rocks with the surfers still out in the last light - the local ritual, free, and the best atmosphere. Or the clifftop bars above Playa Zicatela on the way to Rinconada, which have the widest horizon and the worst prices.",
+          "price_pp_usd": 15,
+          "duration": "2 hours",
+          "when": "Day 7. Sunset in early March is around 18:40-18:50. Be in position 30 minutes early.",
+          "url": ""
+        }
+      ],
+      "food": [
+        {
+          "name": "Almoraduz",
+          "what": "Rinconada. Chefs Alejandro Ruiz-trained, doing a serious modern Oaxacan tasting menu with coast produce - the most ambitious kitchen in Puerto Escondido and the one people fly in for. Reserve.",
+          "price_level": "$$$ - around USD 50-70 pp with mezcal pairings."
+        },
+        {
+          "name": "Espadin",
+          "what": "Zicatela. Oaxacan cooking - tlayudas, moles, mezcal from small palenques - on a big open terrace. Where you go for the food-plus-scene evening without going to a nightclub.",
+          "price_level": "$$ - around USD 25-40 pp."
+        },
+        {
+          "name": "Cafecito",
+          "what": "Two locations, Zicatela and near Carrizalillo/Rinconada. The institution: American-sized breakfasts, pastries, good coffee, open from 06:00 for the surfers. Not fancy, just reliably where everyone ends up after the dawn session.",
+          "price_level": "$ - around USD 8-15 pp."
+        },
+        {
+          "name": "Lychee",
+          "what": "La Punta. Southeast Asian plates cooked over fire on the dirt street - the food that made La Punta's reputation as somewhere you actually eat rather than just surf. Small, no reservations, queue.",
+          "price_level": "$$ - around USD 20-30 pp."
+        },
+        {
+          "name": "The taco and ceviche joints",
+          "what": "For tacos: the street carts on the La Punta main road after 20:00, al pastor and pescado, MXN 25-35 each. For ceviche and tostadas de atun: the palapa comedores directly on the sand at Carrizalillo, and the marisquerias along the Adoquin in town near Playa Principal, where the pangas land the catch each morning.",
+          "price_level": "$ - USD 5-15 pp. Cash only, no reservations, eat where the locals queue."
+        }
+      ],
+      "weather_note": "Early March on the Oaxaca coast is peak dry season and close to perfect. Highs 31-33C, lows 21-23C, sea around 27-28C, humidity moderate, and statistically almost zero rain - March is the driest month of the year here. The sun is brutal between 11:00 and 16:00 and the UV index runs extreme; the shade-and-siesta rhythm is not laziness, it is necessary. Surf: March sits between the big southern-hemisphere swell seasons, so Zicatela's Mexican Pipeline is working but not at its April-to-October monster size, and La Punta's left is at its most user-friendly - the best month of the year to learn. Carrizalillo is calm and swimmable throughout. March is also the tail of humpback whale season, so the dawn boat trips still see them. Mosquitoes are at their annual low in the dry season but the lagoons at dusk are another matter - take repellent for Manialtepec, and remember you cannot wear it if you are swimming in the bioluminescence."
+    }
+  ],
+  "getting_around": "MEXICO CITY. Uber is the default: cheap (most Roma-to-Polanco trips run USD 4-8), safe, and the only sane way home after mezcal. Do not hail street taxis. Didi works too and is often cheaper. The Metro is MXN 5 a ride, extremely fast, and genuinely useful for Line 1 and Line 3, but it is packed and pickpocketed at rush hour and there are no lifts - fine for two people with a day pack, awkward for five. The Metrobus Line 7 runs up Reforma and drops you at the Museo Nacional de Antropologia. Roma Norte, Roma Sur and Condesa are one continuous walkable grid - you will not need a car between them at all. Ecobici bike share is good on Avenida Amsterdam and through Chapultepec. Allow 60-90 minutes to the airport at rush hour; MEX Terminal 1 and 2 are far apart and connected by an inter-terminal train, so know your terminal. FLIGHT BETWEEN STOPS. MEX-PXM direct, about 1h20, Volaris and Aeromexico Connect, return fares seen from USD 40-70 if booked ahead. Take a morning departure - PXM sits on the coast and afternoon crosswinds cause diversions to Huatulco, which means a 3-hour bus back. PUERTO ESCONDIDO. Colectivos are the local system: shared vans and pickups running fixed routes along the main road between La Punta, Zicatela, the town centre (Adoquin) and Rinconada, MXN 10-15 a person, flag them down anywhere, no schedule. They stop running around 21:00-22:00. Taxis are plentiful and cheap: MXN 60-80 La Punta to town, MXN 120-150 to Carrizalillo. Agree the fare before you get in - there are no meters. Uber has patchy and contested coverage here; do not rely on it. Mototaxis do short hops in La Punta for MXN 30. Renting a car or two scooters is worth it if you want to do Mazunte and the lagoons independently. THE OAXACA COAST ROAD. Highway 200 runs east from Puerto Escondido along the coast: about 1h15 to San Agustinillo/Mazunte/Zipolite, about 2h30 to Huatulco. It is paved and scenic but two-lane, with topes (speed bumps) in every village, slow trucks, and frequent stretches under repair after the hurricane seasons. Do not drive it at night - no lighting, livestock on the road, and occasional checkpoints. The inland road north to Oaxaca City (Highway 175 through the sierra) is the notorious one: it used to take 6-7 hours of switchbacks that make almost everyone sick, though the new Barranca Larga-Ventanilla highway has cut it to roughly 2h30-3h. If anyone wants to add Oaxaca City, this is now actually feasible - but not on a 9-day trip with 5 beach nights.",
+  "verification_notes": "WHAT IS VERIFIED AND WHAT IS NOT. Verified live this session: all hotel official websites that are listed with a site_url (Circulo Mexicano, Casa Prim, Casa Decu, Hotel Carlota, Octavia Casa, Casa Bicachi, Villas Carrizalillo, Raiz, Casa TO, Hotel Escondido) - each was fetched and the name, address and property details confirmed. All Airbnb listings: names, bedroom/bed counts, guest ratings, review counts and TOTAL PRICES were read live off Airbnb search pages for the exact dates (CDMX 1-3 March 2027, coast 3-8 March 2027). Tour prices in Puerto Escondido were read from the published tour directory at puerto-escondido.mx in MXN and converted at 19. Museo Nacional de Antropologia admission (MXN 210) and hours read from the official INAH site. Casa Luis Barragan and Museo Frida Kahlo booking mechanics read from their official sites. Semana Santa 2027 dates computed from the Gregorian Easter algorithm. NOT verified: no hotel nightly rate in this file is a live quote for early March 2027. Booking.com, Hotels.com, Expedia and Tripadvisor all block automated reads, so every hotel price is an estimate built from published rate ranges found in search results, and every hotel entry carries is_estimate true. Guest scores marked 'not verified this session' could not be read directly. Casa Azul and Casa Luis Barragan ticket prices are estimates - both ticketing portals are JavaScript-rendered and returned no prices. The Teotihuacan balloon price is an estimate from general knowledge, not an operator quote. Restaurant names and descriptions in both stops are from prior knowledge and were NOT re-verified in this session (the web search budget ran out) - check they are still open and take reservations before you plan around them. Airbnb rotates auto-generated display titles, so two reads of the same listing ID can return different titles; trust the numeric ID, not the name. Nothing in this file is invented: where a figure could not be found, the note field says so.",
+  "sources": [
+    "https://www.booking.com/hotel/mx/circulo-mexicano.html",
+    "https://circulomexicano.com/",
+    "https://www.ignacia.mx/rooms",
+    "https://casaprim.com.mx/",
+    "https://www.booking.com/hotel/mx/casa-prim-boutique.html",
+    "https://www.momondo.com/hotels/mexico-city/Casa-Prim-Hotel-Boutique.mhd3325162.ksp",
+    "https://www.decuhotels.com/casa-decu",
+    "https://www.booking.com/hotel/mx/casa-decu.html",
+    "https://www.kayak.com/Mexico-City-Hotels-Casa-Decu.3504827.ksp",
+    "https://www.hotelcarlota.mx/",
+    "https://www.booking.com/hotel/mx/carlota.html",
+    "https://www.tripadvisor.com/Hotel_Review-g150800-d8334889-Reviews-Hotel_Carlota-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
+    "https://octaviacasa.mx/",
+    "https://www.mrandmrssmith.com/luxury-hotels/octavia-casa",
+    "https://guide.michelin.com/us/en/hotels-stays/mexico-city/octavia-casa-13685",
+    "https://www.booking.com/hotel/mx/volga.html",
+    "https://hotelvolga.mx/",
+    "https://www.kayak.com/Mexico-City-Hotels-Volga.9241766.ksp",
+    "https://www.hotelnima.com/en",
+    "https://www.momondo.com/hotels/mexico-city/Nima-Local-House-Hotel.mhd2767966.ksp",
+    "https://www.mrandmrssmith.com/luxury-hotels/la-valise-mexico-city/rooms",
+    "https://www.luxurylatinamerica.com/mexico/la_valise_cdmx.html",
+    "https://www.momondo.com/hotels/mexico-city/Brick-Hotel---Small-Luxury-Hotels-of-the-World.mhd330812.ksp",
+    "https://www.hilton.com/en/hotels/mexubqq-umbral/",
+    "https://www.momondo.com/hotels/mexico-city/Umbral-Curio-Collection-by-Hilton.mhd4967982.ksp",
+    "https://www.bunkhousehotels.com/hotel-san-fernando",
+    "https://www.hostelworld.com/hostels/p/308819/casa-pancha/",
+    "https://www.booking.com/hotel/mx/casa-pancha.html",
+    "https://www.booking.com/hotel/mx/la-casona-roma-norte.html",
+    "https://mna.inah.gob.mx/",
+    "https://casaluisbarragan.org/visitas.html",
+    "https://visit.casaluisbarragan.org/mx",
+    "https://www.museofridakahlo.org.mx/",
+    "https://boletos.museofridakahlo.org.mx/",
+    "https://www.airbnb.com/s/Roma-Norte--Mexico-City/homes?adults=5&checkin=2027-03-01&checkout=2027-03-03&room_types%5B%5D=Entire%20home%2Fapt&min_bedrooms=3&min_beds=5",
+    "https://www.airbnb.com/s/Condesa--Mexico-City/homes?adults=5&checkin=2027-03-01&checkout=2027-03-03&room_types%5B%5D=Entire%20home%2Fapt&min_bedrooms=3",
+    "https://www.casabicachi.com/",
+    "https://www.booking.com/hotel/mx/casa-bicachi.html",
+    "https://www.booking.com/reviews/mx/hotel/casa-bicachi.html",
+    "https://www.villascarrizalillo.com/",
+    "https://www.villascarrizalillo.com/villas",
+    "https://www.booking.com/hotel/mx/villas-carrizalillo-puerto-escondido1.en-gb.html",
+    "https://www.booking.com/reviews/mx/hotel/villas-carrizalillo-puerto-escondido1.html",
+    "https://www.raiz-hotel.com/en/",
+    "https://www.tripadvisor.com/Hotel_Review-g153373-d25282871-Reviews-Raiz_Hotel_Boutique-Puerto_Escondido_Southern_Mexico.html",
+    "https://www.casato.mx/",
+    "https://www.mrandmrssmith.com/luxury-hotels/casa-to",
+    "https://hotelescondido.com/en/",
+    "https://www.designhotels.com/hotels/mexico/oaxaca/puerto-escondido/hotel-terrestre/",
+    "https://www.casonasforza.com/",
+    "https://www.hotels.com/ho2258538784/casona-sforza-puerto-escondido-mexico/",
+    "https://www.designhotels.com/hotels/mexico/oaxaca/puerto-escondido/la-punta-zicatela/hotel-humano/",
+    "https://www.marriott.com/en-us/hotels/pxmhh-hotel-humano-a-member-of-design-hotels/overview/",
+    "https://www.booking.com/hotel/mx/boutique-xique.html",
+    "https://www.kayak.com/Puerto-Escondido-Hotels-Villa-Mozart-y-Macondo.471895.ksp",
+    "https://www.booking.com/hotel/mx/villa-mozart-y-macondo.html",
+    "https://www.puerto-escondido.mx/en/",
+    "https://www.puerto-escondido.mx/en/adventures/",
+    "https://www.puerto-escondido.mx/en/2026/05/25/best-boutique-hotels-puerto-escondido/",
+    "https://realestate.puerto-escondido.mx/puerto-escondido-real-estate-market-trends-2026-investment-opportunities-on-oaxacas-pacific-coast/",
+    "https://staymx.com/guides/puerto-escondido-cost-of-living",
+    "https://www.jonnymelon.com/boutique-hotels-in-puerto-escondido/",
+    "https://www.airbnb.com/s/La-Punta-Zicatela--Puerto-Escondido--Oaxaca/homes?adults=5&checkin=2027-03-03&checkout=2027-03-08&room_types%5B%5D=Entire%20home%2Fapt&min_bedrooms=3",
+    "https://www.airbnb.com/s/Carrizalillo--Puerto-Escondido--Oaxaca/homes?adults=5&checkin=2027-03-03&checkout=2027-03-08&room_types%5B%5D=Entire%20home%2Fapt&min_bedrooms=3",
+    "https://www.volaris.com/en-mx/flights-from-mexico-city-to-puerto-escondido",
+    "https://www.aeromexico.com/en_mx/flights-from-mexico-city-to-puerto-escondido",
+    "https://www.kayak.com/flight-routes/Mexico-City-Benito-Juarez-MEX/Puerto-Escondido-PXM",
+    "https://guide.michelin.com/us/en/hotels-stays/zihuatanejo/lo-sereno-casa-de-playa-8686",
+    "https://www.losereno.com/stories/troncones-guide/",
+    "https://www.palmartropical.com/post/pick-a-boutique-hotel-in-san-pancho-or-stay-in-sayulita"
+  ]
+}

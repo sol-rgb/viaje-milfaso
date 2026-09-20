@@ -1,142 +1,181 @@
 {
   "destination": "colombia",
-  "beach_verdict": "Pick ISLA BARU, and stay on the quiet south/southwest side rather than on the Playa Blanca day-tripper strip. BarU is the only one of the five options that gives a group of five a real four-night base instead of a logistics exercise. It is joined to the mainland by the Barbacoas bridge, so you reach it in about an hour by road and you can leave whenever you like; every other candidate locks you into fixed boat windows. That matters specifically in early March: the December-to-May trade winds blow hard over this coast, mornings are calm and afternoons get choppy, so the Rosario and San Bernardo crossings (45-60 min and 2h+ of open water respectively, with a mandatory 3-4pm return) are the ones you least want to be committed to four days running. From Baru you still get the good water, because the Rosario reefs are a 20-40 minute private-boat hop and you go in the morning when the sea is flat. Playa Blanca itself is genuinely overrun between roughly 11am and 4pm by day boats and vendors, but if you sleep on the island it empties at dusk and dawn and is yours. Barú also owns the four best non-beach things to do down there: the bioluminescent plankton lagoon at Manzanillo (a night activity, so only stayers get it), the Aviario Nacional, the mangrove channels for kayaking, and Cholón. Runner-up, and the honest alternative if water clarity is the single thing you care about: ISLA GRANDE in the Rosarios, but take two nights there, not four, and expect rustic-not-designed hotels, rocky entries and one boat a day. Rejected: Tierra Bomba (15 min away and great for a day, but the water is brackish and mediocre and it is not a four-night place), Santa Marta/Tayrona/Palomino (a flight or a 4-5h drive, and most Tayrona beaches are closed to swimming for current - it breaks the no-moving rule), Isla Mucura/San Bernardo (beautiful, arguably the best water of all, but 2h+ of open sea each way in the windiest month with almost no exit options). BUDGET REALITY: the genuinely beautiful design hotels on Barú (Las Islas, Sofitel Barú Calablanca) sit at USD 430-460 a night, more than double the cap. Inside USD 200 you get pleasant, low-key, eco-ish places, not Mr & Mrs Smith material. The strongest move for five people is an Airbnb villa with a private pool split five ways - on Barú that is where the design and the value both are.",
+  "group_size": 5,
+  "budget_rule": "Max USD 100 per person per night. With five people that means a group total of about USD 500 per night, however it is split. In a hotel five people need 2-3 rooms, which quietly breaks the 'two sharing a double' maths: the fifth person is the expensive one. Every hotel below therefore carries rooms_for_5 (how the five actually fit) and group_night_usd (the real nightly total for all five), and pp_night_usd = group_night_usd / 5.",
+  "selection_priority": "Design and architecture first, then value, then price. Where a generic-but-cheap option and a beautiful-but-dearer one both fit, the beautiful one is listed. This is also why the walled-city colonial houses with plunge pools are weighted heavily: split five ways they are the only way to get genuinely beautiful architecture in Cartagena in March under USD 100 per person.",
+  "beach_verdict": "Pick ISLA BARU, and stay on the quiet south/southwest side rather than on the Playa Blanca day-tripper strip. BarU is the only one of the five options that gives a group of five a real four-night base instead of a logistics exercise. It is joined to the mainland by the Barbacoas bridge, so you reach it in about an hour by road and you can leave whenever you like; every other candidate locks you into fixed boat windows. That matters specifically in early March: the December-to-May trade winds blow hard over this coast, mornings are calm and afternoons get choppy, so the Rosario and San Bernardo crossings (45-60 min and 2h+ of open water respectively, with a mandatory 3-4pm return) are the ones you least want to be committed to four days running. From Baru you still get the good water, because the Rosario reefs are a 20-40 minute private-boat hop and you go in the morning when the sea is flat. Playa Blanca itself is genuinely overrun between roughly 11am and 4pm by day boats and vendors, but if you sleep on the island it empties at dusk and dawn and is yours. Barú also owns the four best non-beach things to do down there: the bioluminescent plankton lagoon at Manzanillo (a night activity, so only stayers get it), the Aviario Nacional, the mangrove channels for kayaking, and Cholón. Runner-up, and the honest alternative if water clarity is the single thing you care about: ISLA GRANDE in the Rosarios, but take two nights there, not four, and expect rustic-not-designed hotels, rocky entries and one boat a day. Rejected: Tierra Bomba (15 min away and great for a day, but the water is brackish and mediocre and it is not a four-night place), Santa Marta/Tayrona/Palomino (a flight or a 4-5h drive, and most Tayrona beaches are closed to swimming for current - it breaks the no-moving rule), Isla Mucura/San Bernardo (beautiful, arguably the best water of all, but 2h+ of open sea each way in the windiest month with almost no exit options). BUDGET REALITY FOR FIVE: this is where Barú gets uncomfortable. The genuinely beautiful design hotels (Las Islas, Sofitel Barú Calablanca) are USD 430-460 for one double, so roughly USD 215-230 per person before you have housed the fifth. Of the five hotels listed below only two come in under USD 100 per person once you pay for three rooms. On this island the villa is not the budget compromise, it is the right answer: a private-pool beach house split five ways beats every in-budget hotel on architecture AND on price, and it solves the fifth-person problem outright.",
   "stops": [
     {
       "slug": "cartagena",
       "name": "Cartagena de Indias",
       "nights": 3,
-      "area_note": "Stay inside the walls. El Centro is the postcard half (cathedral, Plaza Santo Domingo, the best restaurants) and is the most expensive; San Diego is the same walled city but quieter, more residential and slightly cheaper - for a group of five with taste, San Diego is the sweet spot. Getsemaní is 10 minutes' walk outside the Clock Tower gate, scruffier, covered in murals, and where the bars, Celele, Alquímico and Café Havana are; rooms there run roughly 20-30 percent under Centro for the same quality. HONEST WARNING ON BUDGET: early March is peak high season in Cartagena (the high-season block runs mid-January through March and prices run roughly 1.5-2x low season). USD 200 a double is workable but it is not generous - it buys you the good second tier (Kartaxa, Casa del Coliseo, Casa Pizarro, Townhouse), not the famous ones. The trophy hotels are far out of reach: Casa San Agustín is around USD 673 a night, Casa Pestagua around USD 709, Sofitel Legend Santa Clara around USD 593, the new Four Seasons around USD 690. Book 2-3 months out; the small boutiques inside the walls sell out for March.",
+      "area_note": "Stay inside the walls. El Centro is the postcard half (cathedral, Plaza Santo Domingo, the best restaurants) and the most expensive; San Diego is the same walled city but quieter, more residential and slightly cheaper - for five people with taste, San Diego is the sweet spot. Getsemaní is 10 minutes' walk outside the Clock Tower gate, scruffier, covered in murals, and where Celele, Alquímico, Bazurto Social Club and Café Havana are; rooms run roughly 20-30 percent under Centro for the same quality. THE FIVE-PERSON PROBLEM: Cartagena's walled-city boutiques are tiny - Casa del Coliseo has 12 rooms, Amarla has 8 - so five people needing three rooms is a real constraint, not a formality. Three rooms in these hotels also pushes you to about USD 90-110 per person, right at the ceiling. The colonial houses are the genuinely better answer for a group this size: a 3-5 bedroom casona with a plunge pool, a courtyard, 18-foot ceilings and daily housekeeping runs USD 450-600 for the whole house, which is USD 90-120 each for architecture no hotel in this price band can touch, plus you get a kitchen and somewhere to drink before dinner. If the group is deciding between a good-but-ordinary hotel room at USD 84pp and a colonial house at USD 100pp, take the house. HONEST WARNING ON PRICING: early March is peak high season (the block runs mid-January through March at roughly 1.5-2x low-season rates). USD 100pp is workable but not generous - it buys the strong second tier, not the famous ones. Out of reach entirely: Casa San Agustín around USD 673 a night, Casa Pestagua around USD 709, Sofitel Legend Santa Clara around USD 593, the new Four Seasons around USD 690 - all for ONE double. GOOD NEWS ON DATES: Semana Santa 2027 starts on Palm Sunday, 21 March, so an early-March trip sits clear of the Easter spike, which is the single most expensive week of the Colombian year on this coast. If the dates ever slip into the third week of March you are brushing it and prices jump again - hold the early-March window. Book 2-3 months out regardless; the small boutiques sell out for March.",
       "hotels": [
+        {
+          "name": "Townhouse Boutique Hotel",
+          "area": "San Diego, Calle Segunda de Badillo 36-88, inside the walls",
+          "rating": "4-star boutique art hotel",
+          "guest_score": "8.9/10 Very good (169 reviews, Kayak)",
+          "rooms_for_5": "1 Junior Suite (sleeps 3) + 1 Deluxe Double (sleeps 2) = 2 rooms",
+          "group_night_usd": 447,
+          "price_night_usd": 187,
+          "pp_night_usd": 89,
+          "why": "The design pick: art-hotel interiors, best rooftop in the walled city, only two rooms needed.",
+          "booking_url": "https://www.booking.com/hotel/co/townhouse-boutique.en.html",
+          "site_url": "https://www.townhousecartagena.com/",
+          "is_estimate": true,
+          "fits_5": true,
+          "note": "Room types verified on Kayak: Classic Double, Deluxe Double and Junior Suite all exist. The $187 double is a March-SPECIFIC average from Kayak (annual range $98-262), which makes it the most reliable March figure in this list. The $260 Junior Suite price and its sleeps-3 capacity are ESTIMATES - confirm with the hotel. Fallback config if the suite only sleeps 2: three rooms at roughly $187+$187+$150 = $524, i.e. $105pp, marginally over. Trade-off: the rooftop bar is public until midnight and upper-floor rooms hear it."
+        },
         {
           "name": "Hotel Kartaxa",
           "area": "San Diego, inside the walled city",
           "rating": "4-star boutique, 25 rooms",
           "guest_score": "9.4/10 Wonderful (913 reviews, Kayak)",
+          "rooms_for_5": "2 doubles + 1 single = 3 rooms (25-room hotel, so capacity is not a problem)",
+          "group_night_usd": 487,
           "price_night_usd": 174,
-          "pp_night_usd": 87,
-          "why": "Highest-rated in-budget hotel inside the walls; pool, free breakfast, San Diego calm.",
+          "pp_night_usd": 97,
+          "why": "Highest-rated in-budget hotel inside the walls; pool, breakfast, San Diego calm, 25 rooms.",
           "booking_url": "https://www.booking.com/hotel/co/hotel-kartaxa.en.html",
           "site_url": "",
           "is_estimate": true,
-          "note": "Price is the Kayak 'from' rate ($174+) and the hotel is verified operating (Kayak, Hotels.com ho389905, cartagenacolumbiahotels listing). Could not load live early-March-2027 rates - Booking.com blocks automated access - so treat $174 as a floor and budget $190-220 for a March double. Official website not verified; use the Booking link."
+          "fits_5": true,
+          "note": "25 rooms verified (cartagenacolumbiahotels listing), so three rooms is comfortably available - the safest bet in this list for a group. $174 is the Kayak 'from' rate and the single is ESTIMATED at 80 percent of it ($139); both need confirming for March, when the double will likely sit at $190-220 and push the group to about $105-110pp. Could not load live early-March-2027 rates because Booking.com blocks automated access. Official website not verified."
         },
         {
           "name": "Hotel Boutique Casa del Coliseo",
           "area": "El Centro, Calle del Coliseo 35-23, steps from the Cathedral",
           "rating": "4-star boutique, 12 rooms",
           "guest_score": "9.2/10 Wonderful (936 reviews, Kayak)",
+          "rooms_for_5": "2 doubles + 1 single = 3 rooms  [CAPACITY RISK: only 12 rooms total]",
+          "group_night_usd": 448,
           "price_night_usd": 160,
-          "pp_night_usd": 80,
-          "why": "Twelve rooms, murals, rooftop pool, prime Centro address at a mid-range price.",
+          "pp_night_usd": 90,
+          "why": "Twelve rooms, murals, rooftop pool, prime Centro address for ninety a head.",
           "booking_url": "https://www.booking.com/hotel/co/casa-del-coliseo.en.html",
           "site_url": "",
           "is_estimate": true,
-          "note": "Kayak shows $148-175 'from' with a $153-488 spread by room type; $160 is my mid estimate and March will sit at the top of that. Verified operating on Kayak, Expedia (h7229274) and Tripadvisor (d5888752). One guide files it under Getsemaní but the Calle del Coliseo address is firmly El Centro. No elevator; some rooms get bar noise - ask for a courtyard-facing room."
-        },
-        {
-          "name": "Townhouse Boutique Hotel",
-          "area": "San Diego, Calle Segunda de Badillo 36-88, inside the walls",
-          "rating": "4-star boutique art hotel",
-          "guest_score": "8.9/10 Very good (169 reviews, Kayak)",
-          "price_night_usd": 187,
-          "pp_night_usd": 94,
-          "why": "The design pick: art-hotel interiors and the best rooftop in the walled city.",
-          "booking_url": "https://www.booking.com/hotel/co/townhouse-boutique.en.html",
-          "site_url": "https://www.townhousecartagena.com/",
-          "is_estimate": true,
-          "is_estimate_basis": "Kayak states March is the high-season peak at roughly $187/night average for this property; the annual range is $98-262.",
-          "note": "Price verified as a March-specific average from Kayak, so this is the most reliable March figure in this list. The trade-off is the rooftop bar is public and runs to midnight - rooms on the upper floors hear it. Official site verified."
+          "fits_5": true,
+          "fits_5_caveat": "Only 12 rooms in the whole hotel. Taking a quarter of it in peak March means booking very early or being told no.",
+          "note": "Kayak shows $148-175 'from' with a $153-488 spread by room type; $160 is a mid estimate, the single ESTIMATED at $128. March will sit at the top of the band. Verified operating (Kayak 2047975, Expedia h7229274, Tripadvisor d5888752). One guide files it under Getsemaní but the Calle del Coliseo address is firmly El Centro. No elevator; some rooms get bar noise - ask for courtyard-facing."
         },
         {
           "name": "Hotel Casa Pizarro",
           "area": "Getsemaní, Calle del Pozo 25-56",
           "rating": "3-star boutique",
           "guest_score": "8.9/10 Very good (1,933 reviews, Kayak)",
+          "rooms_for_5": "2 doubles + 1 single = 3 rooms",
+          "group_night_usd": 420,
           "price_night_usd": 150,
-          "pp_night_usd": 75,
-          "why": "Best value per design in Getsemaní; courtyard pool, spa, rooftop, huge review base.",
+          "pp_night_usd": 84,
+          "why": "Cheapest per head of the good ones; courtyard pool, spa, rooftop, 1,900 reviews.",
           "booking_url": "https://www.booking.com/hotel/co/casa-pizarro-boutique.en.html",
           "site_url": "",
           "is_estimate": true,
-          "note": "Kayak range $106-231, 'from $86' elsewhere; $150 is my March estimate inside that band. Verified operating (Kayak 2453116, Tripadvisor d8873914, Hotels.com ho556288). Street-facing rooms are noisy - request an interior room. Official site not verified."
+          "fits_5": true,
+          "fits_5_caveat": "Exact room count not verified. Described as a small boutique - confirm three rooms are available before counting on it.",
+          "note": "Kayak range $106-231, 'from $86' elsewhere; $150 is my March estimate inside that band, single ESTIMATED at $120. Verified operating (Kayak 2453116, Tripadvisor d8873914, Hotels.com ho556288). Street-facing rooms are noisy - request an interior room. Honest read: this is the value pick, not the beauty pick - good but a notch below Townhouse on design."
         },
         {
-          "name": "Sophia Hotel by OxoHotel",
-          "area": "El Centro, Plaza de la Aduana, inside the walls",
-          "rating": "4-star boutique",
-          "guest_score": "8.6/10 Very good (74 reviews Priceline; 316 reviews elsewhere)",
-          "price_night_usd": 185,
-          "pp_night_usd": 93,
-          "why": "Colonial rooms on the main plaza, outdoor pool, location score 9.6.",
-          "booking_url": "https://www.booking.com/hotel/co/sophia.en.html",
-          "site_url": "https://www.sophiahotel.com.co/en/",
+          "name": "Hotel Capellán de Getsemaní  [SPLURGE - OVER BUDGET]",
+          "area": "Getsemaní, Carrera 9 No. 29-52, by Parque Centenario",
+          "rating": "4-5 star luxury boutique",
+          "guest_score": "9.3/10 Wonderful (836 reviews, Kayak)",
+          "rooms_for_5": "1 two-bedroom suite (sleeps 4) + 1 double = 2 rooms; or 2 doubles + 1 single = 3 rooms",
+          "group_night_usd": 540,
+          "price_night_usd": 190,
+          "pp_night_usd": 108,
+          "why": "Best-looking hotel in reach: rooftop pool with hot tub, spa, two-bedroom suites.",
+          "booking_url": "https://www.booking.com/hotel/co/capellan-de-getsemani.en.html",
+          "site_url": "https://hotelcapellandegetsemani.com/en/",
           "is_estimate": true,
-          "note": "Rates quoted across sites as $141 (own site 'from'), $115-200 (HotelsCombined 'good deal' band) and $342 (Priceline peak). $185 is my March estimate; it could blow past $200 on a weekend. Official site verified."
+          "fits_5": true,
+          "note": "OVER BUDGET: $108pp against the $100 cap, about 8 percent over - the smallest stretch of any splurge here and arguably the one worth making on the design-first rule. Two-bedroom suites confirmed to exist (Cartagena Explorer); the sleeps-4 capacity and the $350 suite price are ESTIMATES. Verified range $173-383 (Kayak). Guest reviews flag street and internal noise, and pricey food with unexpected charges - eat elsewhere."
         }
       ],
       "airbnbs": [
         {
+          "name": "Old City Sanctuary - luxury colonial villa with private pool",
+          "area": "Walled City, El Centro",
+          "sleeps": 10,
+          "bedrooms": 5,
+          "beds": 6,
+          "bathrooms": 6,
+          "sleeps_5_in_real_beds": true,
+          "price_night_usd": 600,
+          "pp_night_usd": 120,
+          "why": "The most beautiful option in this file: original colonial arches, high ceilings, private pool.",
+          "url": "https://www.airbnb.com/rooms/713364",
+          "is_search_url": false,
+          "note": "Listing verified live: 4.91 stars, 91 reviews, top 10 percent of homes, 5 bedrooms / 6 beds / 6 baths - five people get five separate bedrooms, no sofa beds involved. Private pool, daily cleaning, concierge, dedicated staff; host Carmenza, 14 years hosting, 100 percent response rate. OVER BUDGET at my estimate ($120pp). PRICE IS AN ESTIMATE - Airbnb shows no rate without dates. Listed first anyway on the design-first rule: nothing else in this document looks like this. Note a non-refundable $50 admin fee on approved refunds and no refunds for early checkout."
+        },
+        {
           "name": "Casa Salvatore - 4BR colonial house with private pool",
           "area": "Getsemaní, short walk to the Clock Tower gate",
           "sleeps": 9,
+          "bedrooms": 4,
+          "beds": 5,
+          "bathrooms": 4,
+          "sleeps_5_in_real_beds": true,
           "price_night_usd": 500,
           "pp_night_usd": 100,
-          "why": "Real colonial house, private pool, daily housekeeping; five bedrooms' worth of space for five.",
+          "why": "Exactly five real beds for five people; colonial house, private pool, daily housekeeping.",
           "url": "https://www.airbnb.com/rooms/1111144595599803777",
           "is_search_url": false,
-          "note": "Listing verified live: 4.98 stars, 148 reviews, Guest Favourite, Superhost of 6 years, 4 bed / 4 bath, daily housekeeping, laundry and pool service included. PRICE IS AN ESTIMATE - Airbnb does not show a nightly rate without dates. $500 is my read for a 4BR-with-pool in Getsemaní in peak March; it could be $400 or $650. Verify before committing."
+          "note": "Listing verified live: 4.98 stars, 148 reviews, Guest Favourite, Superhost of 6 years, 4 bedrooms / 5 beds / 4 baths, hot water throughout, daily housekeeping, laundry and pool maintenance included. Five beds for five people is an exact fit - no one is on a sofa. Described as one of very few properties in Getsemaní with a pool. PRICE IS AN ESTIMATE ($500 is my read for a 4BR-with-pool in peak March; could be $400 or $650). This is the best-balanced option in the whole Cartagena list: real architecture, right size, lands on the budget line."
         },
         {
-          "name": "3-bedroom colonial house in the Walled City with pool + rooftop jacuzzi",
-          "area": "El Centro, Historic Centre (exact address after booking)",
+          "name": "3-bedroom colonial house in the Walled City, pool + rooftop jacuzzi",
+          "area": "El Centro, Historic Centre (exact address released after booking)",
           "sleeps": 12,
+          "bedrooms": 3,
+          "beds": 6,
+          "bathrooms": 4,
+          "sleeps_5_in_real_beds": true,
           "price_night_usd": 450,
           "pp_night_usd": 90,
-          "why": "Ground-floor pool, rooftop jacuzzi, ensuite bedrooms, night security and butler.",
+          "why": "Ground-floor pool plus rooftop jacuzzi, ensuite bedrooms, butler; cheapest good house.",
           "url": "https://www.airbnb.com/rooms/856462808151932857",
           "is_search_url": false,
-          "note": "Listing verified live: 4.77 stars, 146 reviews, Superhost, 3 bed / 6 beds / 4 bath, daily housekeeping with breakfast prepared, concierge. Location scores a flat 5.0. PRICE IS AN ESTIMATE - no rate shown without dates."
+          "note": "Listing verified live: 4.77 stars, 146 reviews, Superhost, 3 bedrooms / 6 beds / 4 baths - each bedroom has a queen and a double, so five people sleep in real beds across three rooms with ensuites. Daily housekeeping with breakfast prepared, night security, butler, concierge for tours and transport. Location scores a flat 5.0. Lowest rating of the four houses (4.77) - read recent reviews. PRICE IS AN ESTIMATE."
         },
         {
           "name": "5-bedroom colonial villa with rooftop pool, San Diego",
           "area": "San Diego, steps from Plaza de San Diego, inside the walls",
           "sleeps": 16,
+          "bedrooms": 5,
+          "beds": 11,
+          "bathrooms": 6,
+          "sleeps_5_in_real_beds": true,
           "price_night_usd": 525,
           "pp_night_usd": 105,
-          "why": "Restored colonial villa, private rooftop pool, breakfast and evening butler included.",
+          "why": "Restored colonial villa, private rooftop pool, king bed in every room, breakfast included.",
           "url": "https://www.airbnb.com/rooms/51493412",
           "is_search_url": false,
-          "note": "Listing verified live: 4.89 stars, 201 reviews, Guest Favourite, 5 bed / 11 beds / 5.5 bath, king beds throughout, host Cartagena Rentals Co. with 11 years' hosting. The $525 figure came from a search snippet describing the entire villa at that price, not from a dated quote - treat as indicative, and note it is oversized for five (you pay for 16 beds)."
+          "note": "Listing verified live: 4.89 stars, 201 reviews, Guest Favourite, 5 bedrooms / 11 beds / 5.5 baths, king beds and Smart TVs throughout, private third-floor rooftop pool, daily housekeeping, breakfast and evening butler. Host Cartagena Rentals Co., 11 years hosting. Honest caveat: it is built for 16 and you are 5, so you are paying for space you will not use - worth it only if the $525 figure holds. The $525 came from a search snippet describing the whole villa, not a dated quote."
         },
         {
-          "name": "Old City Sanctuary - luxury colonial villa with private pool",
-          "area": "Walled City, El Centro",
-          "sleeps": 10,
-          "price_night_usd": 600,
-          "pp_night_usd": 120,
-          "why": "The prettiest of the four: high ceilings, colonial arches, private pool, dedicated staff.",
-          "url": "https://www.airbnb.com/rooms/713364",
-          "is_search_url": false,
-          "note": "Listing verified live: 4.91 stars, 91 reviews, top 10 percent of homes, 5 bed / 6 bath, private pool, daily cleaning, concierge, host Carmenza with 14 years' hosting. OVER BUDGET at my estimate ($120pp vs $100 cap). PRICE IS AN ESTIMATE. Also note a non-refundable $50 admin fee on approved refunds and no refunds for early checkout."
-        },
-        {
-          "name": "FILTERED SEARCH - whole homes with pools, Getsemaní",
-          "area": "Getsemaní",
+          "name": "FILTERED SEARCH - whole homes with pools, Getsemaní and the walled city",
+          "area": "Getsemaní / El Centro / San Diego",
           "sleeps": 6,
+          "bedrooms": 3,
+          "beds": 5,
+          "bathrooms": 3,
+          "sleeps_5_in_real_beds": true,
           "price_night_usd": 400,
           "pp_night_usd": 80,
-          "why": "Where to hunt for the right-sized 3BR-with-plunge-pool rather than a 16-bed mansion.",
+          "why": "Where to hunt a right-sized 3BR casona rather than paying for a sixteen-bed mansion.",
           "url": "https://www.airbnb.com/getsemani-cartagena-colombia/stays/pools",
           "is_search_url": true,
-          "note": "FLAGGED HONESTLY: this is Airbnb's Getsemaní-stays-with-pools landing page, not an individual listing. Two named properties I saw but could not capture direct URLs for: 'NOK Iconic 6BR Luxury Villa with Pool at Getsemani' (colonial villa, private pool, rooftop terrace, daily breakfast, steps from Café Havana) and 'Casa Menorca' (6-bedroom villa, 4.97 stars, 31 reviews). Search them by name on that page. Price shown is a placeholder estimate for the category."
+          "note": "FLAGGED HONESTLY: this is Airbnb's Getsemaní-stays-with-pools landing page, not an individual listing, and the bed counts above are the target spec, not a verified property. Two named properties I saw but could not capture direct URLs for: 'NOK Iconic 6BR Luxury Villa with Pool at Getsemani' (colonial villa, private pool, rooftop terrace, daily breakfast, steps from Café Havana) and 'Casa Menorca' (6-bedroom villa, 4.97 stars, 31 reviews). DELIBERATELY EXCLUDED: 'Charming Getsemaní house with rooftop plunge pool' (airbnb.com/rooms/972586018720097604) - gorgeous, 4.97 stars over 104 reviews, private rooftop plunge pool, but it sleeps 3 maximum and the third bed is a sofa bed. It does not work for this group."
         }
       ],
       "activities": [
         {
           "day": 1,
           "name": "Walled-city orientation walk and sunset on the muralla",
-          "what": "Land, drop bags, then walk Centro to San Diego to Las Bóvedas and up onto the sea wall for sunset. Three ways to do the sunset drink: Café del Mar, literally built on top of the ramparts, iconic and packed - reserve or arrive by 4:30pm, premium prices; Baluarte de Santo Domingo next door, much less crowded and noticeably cheaper; or Townhouse rooftop in San Diego, two wading pools and a sunset DJ, pool access around 50,000 COP. If you want the 360-degree view over old city, bay and skyline rather than just the sea, the Movich rooftop one block off Plaza Bolívar beats all of them - it is open to the public but closes for private events, so call ahead.",
+          "what": "Land, drop bags, then walk Centro to San Diego to Las Bóvedas and up onto the sea wall for sunset. Three ways to do the sunset drink: Café del Mar, literally built on top of the ramparts, iconic and packed - reserve or arrive by 16:30, premium prices; Baluarte de Santo Domingo next door, much less crowded and noticeably cheaper; or Townhouse rooftop in San Diego, two wading pools and a sunset DJ, pool access around 50,000 COP. If you want the 360-degree view over old city, bay and skyline rather than just the sea, the Movich rooftop one block off Plaza Bolívar beats all of them - open to the public but it closes for private events, so call ahead.",
           "price_pp_usd": 30,
           "duration": "3-4 hours",
           "when": "Day 1, 16:00 onwards (sunset roughly 18:10 in early March)",
@@ -145,7 +184,7 @@
         {
           "day": 1,
           "name": "First dinner: La Cevichería",
-          "what": "The Bourdain ceviche place on Calle Stuart by Plaza San Diego. Small, courtyard-ish, no reservations historically so go at 6:30pm or expect to queue. Mains $13-23. If the queue is brutal, El Boliche Cebichería a few streets away is the locals' better-value answer at $12-21.",
+          "what": "The Bourdain ceviche place on Calle Stuart by Plaza San Diego. Small and courtyard-ish, historically no reservations, so go at 18:30 or expect to queue - and a queue of five is worse than a queue of two. If it is brutal, El Boliche Cebichería a few streets away is the locals' better-value answer at $12-21.",
           "price_pp_usd": 30,
           "duration": "2 hours",
           "when": "Day 1, 19:30",
@@ -154,7 +193,7 @@
         {
           "day": 2,
           "name": "Bazurto market food tour",
-          "what": "Not the tourist version of Cartagena: the real wholesale market east of the centre, with a guide, eating your way through fruit stalls, fried-food stands, butchers and a sit-down lunch. Cartagena Connections and Juan Ballena both run it, typically a 10:30am start with local bus transport, fruit tasting and lunch included. Go with an operator, not alone.",
+          "what": "Not the tourist version of Cartagena: the real wholesale market east of the centre, with a guide, eating through fruit stalls, fried-food stands, butchers and a sit-down lunch. Cartagena Connections and Juan Ballena both run it, typically a 10:30 start with local bus transport, fruit tasting and lunch included. Five is a good size - most operators cap small-group at six. Go with an operator, not alone.",
           "price_pp_usd": 50,
           "duration": "4 hours",
           "when": "Day 2, 10:30",
@@ -163,7 +202,7 @@
         {
           "day": 2,
           "name": "Castillo San Felipe de Barajas, late afternoon",
-          "what": "The big hilltop fortress with the tunnel network. Go at 16:00-17:30, not midday - there is no shade and March sun is punishing. Roughly an hour and a half including the tunnels and the view back over the old city.",
+          "what": "The big hilltop fortress with the tunnel network. Go at 16:00-17:30, not midday - there is no shade and March sun is punishing. About an hour and a half including the tunnels and the view back over the old city.",
           "price_pp_usd": 9,
           "duration": "1.5 hours",
           "when": "Day 2, 16:30",
@@ -172,7 +211,7 @@
         {
           "day": 2,
           "name": "Celele, then champeta at Bazurto Social Club",
-          "what": "Celele in Getsemaní is the reason food people fly here - No.5 in Latin America's 50 Best 2025, No.48 in the World's 50 Best, Caribbean-Colombian cooking from the Caribe Project research. Mains $16-23, tasting menu around $78. Reservations are effectively mandatory: they lock the door after check-in, require a card and a minimum spend, and you need a week ahead on weekdays and a couple of weeks for a weekend. Afterwards walk five minutes to Bazurto Social Club on Avenida del Centenario for live champeta and picó sound-system culture - the Palenque/Afro-Caribbean side of this city that the walled city hides.",
+          "what": "Celele in Getsemaní is the reason food people fly here - No.5 in Latin America's 50 Best 2025, No.48 in the World's 50 Best, Caribbean-Colombian cooking out of the Caribe Project research. Mains $16-23, tasting around $78. Reservations are effectively mandatory: they lock the door after check-in, require a card and a minimum spend, and you need a week ahead on weekdays, two weeks for a weekend - and a table for five is harder than a table for two, so book the moment dates are fixed. Afterwards walk five minutes to Bazurto Social Club on Avenida del Centenario for live champeta and picó sound-system culture: the Palenque/Afro-Caribbean side of this city that the walled city hides.",
           "price_pp_usd": 85,
           "duration": "5 hours",
           "when": "Day 2, 19:30 dinner, 22:30 champeta",
@@ -181,7 +220,7 @@
         {
           "day": 3,
           "name": "Getsemaní street-art and culture walk",
-          "what": "Two to three hours through the murals, Calle de la Sierpe, Plaza de la Trinidad and the Callejón Angosto umbrellas, with the gentrification and Afro-Caribbean history that goes with them. The shared graffiti walk is about $15-40; the private version with a snack runs nearer $40-60. Do it in the morning before the heat.",
+          "what": "Two to three hours through the murals, Calle de la Sierpe, Plaza de la Trinidad and the Callejón Angosto umbrellas, with the gentrification and Afro-Caribbean history that goes with them. The shared graffiti walk is about $15-40; a private guide for the five of you with a snack runs nearer $40-60pp and is worth it. Morning, before the heat.",
           "price_pp_usd": 25,
           "duration": "2-3 hours",
           "when": "Day 3, 09:00",
@@ -189,8 +228,8 @@
         },
         {
           "day": 3,
-          "name": "Volcán del Totumo mud volcano (optional, judge it honestly)",
-          "what": "A 15-metre mud cone about an hour north where you climb in and float in warm grey clay, then rinse in the lagoon. Group half-day tours $35-45pp, small-group or private $50-65, or $5-6 at the gate if you drive yourself. Worth knowing: it is kitschy, crowded, and the 'massage' and 'photo help' and 'wash' each come with a $2 tip expectation that stacks up. Skip it if your group would rather have a proper Caribbean cooking class instead (roughly $70-90pp) - both fill the same morning slot.",
+          "name": "Volcán del Totumo mud volcano (optional - judge it honestly)",
+          "what": "A 15-metre mud cone about an hour north where you climb in and float in warm grey clay, then rinse in the lagoon. Group half-day tours $35-45pp, small-group or private $50-65, or $5-6 at the gate if you drive yourselves. Worth knowing before you commit: it is kitschy and crowded, and the 'massage', 'photo help' and 'wash' each carry a $2 tip expectation that stacks up. Skip it if the group would rather do a proper Caribbean cooking class ($70-90pp) - same morning slot, better memory.",
           "price_pp_usd": 45,
           "duration": "4-5 hours",
           "when": "Day 3, 08:00",
@@ -199,7 +238,7 @@
         {
           "day": 3,
           "name": "Sunset sail on the bay, then chiva or Alquímico",
-          "what": "A shared sunset catamaran across Cartagena bay, roughly 90 minutes to two hours, $25-50pp, usually with an open bar of rum drinks; Sibarita Express is the commonly recommended one. Private charters for the whole group run $500-750 for the evening. Then choose your night: the chiva rumbera painted party bus with a brass band and an aguardiente open bar (about $25-40pp, 3 hours, deliberately ridiculous), or the grown-up version - Alquímico on Calle del Colegio, three floors, herb-infused bottles glowing on two-storey shelves, a World's 50 Best Bars regular - followed by salsa at Café Havana in Getsemaní.",
+          "what": "A shared sunset catamaran across Cartagena bay, 90 minutes to two hours, $25-50pp, usually with an open bar of rum drinks; Sibarita Express is the commonly recommended one. A private evening charter for just the five of you runs $500-750, i.e. $100-150pp - only worth it if you want the boat to yourselves. Then choose your night: the chiva rumbera painted party bus with a brass band and an aguardiente open bar (about $25-40pp, 3 hours, deliberately ridiculous), or the grown-up version - Alquímico on Calle del Colegio, three floors, herb-infused bottles glowing on two-storey shelves, a World's 50 Best Bars regular - then salsa at Café Havana in Getsemaní.",
           "price_pp_usd": 45,
           "duration": "6 hours",
           "when": "Day 3, 17:00 sail, 21:00 onwards",
@@ -209,7 +248,7 @@
       "food": [
         {
           "name": "Celele",
-          "what": "Colombian Caribbean, Latin America's 50 Best No.5, Getsemaní. Mains $16-23, tasting around $78. Book 1-2 weeks ahead, card required.",
+          "what": "Colombian Caribbean, Latin America's 50 Best No.5, Getsemaní. Mains $16-23, tasting around $78. Book 1-2 weeks ahead; a card and a minimum spend are required, and a five-top needs more notice.",
           "price_level": "$$$$"
         },
         {
@@ -219,7 +258,7 @@
         },
         {
           "name": "Marea by Rausch",
-          "what": "Seafood and risotto on the Getsemaní waterfront by the Rausch brothers. $22-34 per person. The best of the smart-but-not-tasting-menu tier.",
+          "what": "Seafood and risotto on the Getsemaní waterfront by the Rausch brothers. $22-34 per person. The best of the smart-but-not-tasting-menu tier, and easier to seat five than Celele.",
           "price_level": "$$$"
         },
         {
@@ -229,82 +268,100 @@
         },
         {
           "name": "La Cocina de Pepina",
-          "what": "Proper costeño home cooking in Getsemaní - arroz de lisa, posta cartagenera. $9-15. The cheap meal you will actually talk about.",
+          "what": "Proper costeño home cooking in Getsemaní - arroz de lisa, posta cartagenera. $9-15. The cheap meal you will actually talk about afterwards.",
           "price_level": "$$"
         }
       ],
-      "weather_note": "Early March is the dry season and about as good as this coast gets: lows around 24-25C, highs 30-32C, sea temperature 28-29C, roughly 11.6 hours of sun and very little rain. The catch is wind. December through May the trade winds blow steadily over the Caribbean coast and March sits inside that window - it keeps the city bearable and it keeps the mosquitoes down, but it also churns the sea. Mornings are calm; the water builds through the afternoon. That is why every boat thing in this plan is scheduled before noon. March is also firmly high season (the block runs mid-January to March, at roughly 1.5-2x low-season rates), so prices are at their annual peak and the good restaurants and small hotels need booking weeks out."
+      "weather_note": "Early March is the dry season and about as good as this coast gets: lows around 24-25C, highs 30-32C, sea at 28-29C, roughly 11.6 hours of sun and very little rain. The catch is wind. December through May the trade winds blow steadily over the Caribbean coast and March sits inside that window - it keeps the city bearable and the mosquitoes down, but it also churns the sea. Mornings are calm; the water builds through the afternoon. That is why every boat activity in this plan is scheduled before noon. March is also firmly high season (mid-January to March, at roughly 1.5-2x low-season rates), so prices are at their annual peak. One piece of timing luck: Semana Santa 2027 opens on Palm Sunday, 21 March, so an early-March trip sits clear of the single most expensive week on this coast. Do not let the dates drift past mid-March."
     },
     {
       "slug": "baru",
-      "name": "Isla Barú (Playa Blanca / south Barú)",
+      "name": "Isla Barú (south Barú / Playa Blanca)",
       "nights": 4,
-      "area_note": "Barú is technically a peninsula, cut off by the Canal del Dique and reconnected by road in 2014, which is the whole point: you drive there in about an hour and you are not hostage to a boat schedule. Three distinct zones. (1) The Playa Blanca strip in the north - the famous white sand, and also the problem: day boats and vans dump crowds and vendors on it from roughly 11am to 4pm. Stay at the quiet end of it (Thani Ecobeach) and it empties completely at dusk. (2) The Cholón-facing west side - calmer water, the party-boat lagoon a short hop away, where Aura sits. (3) The south and southwest end past the Aviario - the best beaches, the fewest people, and where Sabai, Casa Córdoba, Las Islas and Isla del Encanto are. For a design-conscious group that wants a scene without a party hostel, the south end is right, with one big private-boat day out to the Rosarios and Cholón from there. BUDGET REALITY: the postcard hotels here are out of range - Las Islas is $460+ a night ($230pp) and Sofitel Barú Calablanca $430+ ($215pp). Inside $200 you get good, low-key, eco-leaning places. An Airbnb villa with a private pool split five ways is the better-looking and better-value play on this island.",
+      "area_note": "Barú is technically a peninsula, cut off by the Canal del Dique and reconnected by road in 2014, which is the whole point: you drive there in about an hour and you are not hostage to a boat schedule. Three distinct zones. (1) The Playa Blanca strip in the north - the famous white sand, and also the problem: day boats and vans dump crowds and vendors on it from roughly 11:00 to 16:00. Stay at the quiet end (Thani Ecobeach) and it empties completely at dusk. (2) The Cholón-facing west side - calmer water, the party-boat lagoon a short hop away, where Aura sits. (3) The south and southwest end past the Aviario - the best beaches, the fewest people, where Sabai, Casa Córdoba, Las Islas and Isla del Encanto are. For a design-conscious group wanting a scene without a party hostel, the south end is right, with one big private-boat day out to the Rosarios and Cholón. THE FIVE-PERSON PROBLEM IS WORSE HERE THAN IN CARTAGENA. Beach hotels charge per room and the rooms are expensive, so three rooms wrecks the maths: of the five hotels below only Thani and Aura come in under USD 100 per person. The postcard properties are hopeless for this budget - Las Islas is USD 460+ per double (USD 230pp for two, before the fifth person), Sofitel Barú Calablanca USD 430+, Isla del Encanto USD 338+. On the design-first rule the honest recommendation for Barú is therefore NOT a hotel: take a private-pool beach villa and split it five ways. A 4-bedroom beachfront house with its own pool comes out near USD 100pp, beats every in-budget hotel here on architecture, gives you a kitchen and a terrace, and removes the third-room penalty entirely. Also worth knowing: an oceanfront villa with its own dock means your charter boat collects you from the house rather than a public pier. Budget option if the group would rather spend on boats than beds: Soy Local Barú at around USD 108 a double on Playa Blanca (roughly USD 65pp across three rooms) - basic, not beautiful, but it frees up a lot of money.",
       "hotels": [
         {
           "name": "Thani Ecobeach Barú",
           "area": "Quiet end of the Playa Blanca strip, north Barú (Pendales)",
           "rating": "Boutique eco-beach hotel",
           "guest_score": "Strong; 234 verified Booking.com reviews",
+          "rooms_for_5": "1 family room (sleeps 3) + 1 double = 2 rooms; or 2 doubles + 1 single = 3 rooms",
+          "group_night_usd": 420,
           "price_night_usd": 150,
-          "pp_night_usd": 75,
-          "why": "Best in-budget beach hotel on Barú; free kayak and paddleboard, sea-view rooms.",
+          "pp_night_usd": 84,
+          "why": "Best in-budget beach hotel on Barú; free kayak and paddleboard, sea-view family rooms.",
           "booking_url": "https://www.booking.com/hotel/co/thani-ecobeach-baru.html",
           "site_url": "",
           "is_estimate": true,
-          "note": "Quoted 'from' rates range $130 (Booking) to $142 (BeachResort.net) to $170 (Kayak); $150 is my March estimate. Verified operating with 234 Booking reviews and multiple 2025-26 Tripadvisor reviews calling it 'by far the best place to stay on this side of Barú'. Honest caveat from reviews: music carries from neighbouring bars, and the restaurant is pricey for the portion. Official site not verified."
+          "fits_5": true,
+          "note": "Family rooms with sea or garden view and balconies are confirmed to exist (Booking listing text), which is what makes five people cheap here - the sleeps-3 capacity is an ESTIMATE, confirm it. Quoted 'from' rates range $130 (Booking) to $142 (BeachResort.net) to $170 (Kayak); $150 is my March estimate and the group figure assumes 2 doubles + 1 single at $120. Verified operating with 234 Booking reviews and 2025-26 Tripadvisor reviews calling it 'by far the best place to stay on this side of Barú'. Honest caveats from reviews: music carries from neighbouring bars, restaurant is pricey for the portion size. Official site not verified."
         },
         {
           "name": "Aura Hotel Barú",
           "area": "West Barú, facing Isla Cholón",
           "rating": "Boutique beach hotel",
           "guest_score": "Mixed-positive on Tripadvisor; praised for beach and service",
+          "rooms_for_5": "2 doubles + 1 single = 3 rooms",
+          "group_night_usd": 437,
           "price_night_usd": 156,
-          "pp_night_usd": 78,
-          "why": "Comfortably in budget, calm private beach, fifteen minutes by boat from the Rosarios.",
+          "pp_night_usd": 87,
+          "why": "In budget for five, calm private beach, fifteen minutes by boat from the Rosarios.",
           "booking_url": "https://www.booking.com/region/co/baru.html",
           "site_url": "",
           "is_estimate": true,
-          "note": "Price $156+ per tomplanmytrip's 2026 Barú hotel guide; a Tripadvisor reviewer reports paying $250/night and calling it overpriced at that level, so the value depends entirely on the rate you get - if it is near $156 take it, near $250 do not. Verified operating (Tripadvisor d1867805). I could NOT verify a direct Booking.com property URL, so the link above is Booking's Barú region page - search the name there."
+          "fits_5": true,
+          "fits_5_caveat": "Room count not verified. Confirm three rooms are available for your dates before relying on it.",
+          "note": "Price $156+ per tomplanmytrip's 2026 Barú guide; single ESTIMATED at $125. A Tripadvisor reviewer reports paying $250 a night and calling it overpriced at that level, so the value depends entirely on the rate you get - at $156 take it, at $250 walk away (that would be $140pp). Verified operating (Tripadvisor d1867805). I could NOT verify a direct Booking.com property URL, so the link is Booking's Barú region page - search the name there."
         },
         {
-          "name": "Playa Manglares Isla Barú",
+          "name": "Playa Manglares Isla Barú  [OVER BUDGET]",
           "area": "North Barú, mangrove-and-beach side",
           "rating": "Boutique beach hotel",
-          "guest_score": "Not verified - listed as a recommended property, score not captured",
+          "guest_score": "NOT VERIFIED - listed as a recommended property, score not captured",
+          "rooms_for_5": "2 doubles + 1 single = 3 rooms",
+          "group_night_usd": 571,
           "price_night_usd": 204,
-          "pp_night_usd": 102,
-          "why": "The one people go to for the food; mangrove setting, quieter than Playa Blanca.",
+          "pp_night_usd": 114,
+          "why": "The one people go to for the food; mangrove setting, far quieter than Playa Blanca.",
           "booking_url": "https://www.booking.com/region/co/baru.html",
           "site_url": "",
           "is_estimate": true,
-          "note": "MARGINALLY OVER BUDGET ($102pp vs $100 cap). Price $204+ per tomplanmytrip's 2026 Barú guide, which singles it out as the best-for-food option. I could NOT independently verify a guest score or a direct Booking.com property URL - link above is the Barú region page. Verify before booking."
+          "fits_5": true,
+          "fits_5_caveat": "Room count not verified - confirm three rooms before booking.",
+          "note": "OVER BUDGET: $114pp against the $100 cap, about 14 percent over. Price $204+ per tomplanmytrip's 2026 Barú guide, which singles it out as the best-for-food property on the island; single ESTIMATED at $163. I could NOT independently verify a guest score or a direct Booking.com property URL - the link is Booking's Barú region page. Verify everything before committing."
         },
         {
-          "name": "Casa Córdoba Barú",
+          "name": "Casa Córdoba Barú  [OVER BUDGET]",
           "area": "South Barú",
           "rating": "Small boutique hotel",
-          "guest_score": "Not verified - property confirmed to exist, score not captured",
+          "guest_score": "NOT VERIFIED - property confirmed to exist, score not captured",
+          "rooms_for_5": "2 doubles + 1 single = 3 rooms  [CAPACITY RISK: described as small and intimate]",
+          "group_night_usd": 608,
           "price_night_usd": 217,
-          "pp_night_usd": 109,
-          "why": "Small, tranquil, on the good southern beaches away from the day-trip crowds.",
+          "pp_night_usd": 122,
+          "why": "Small, tranquil, on the good southern beaches well away from the day-trip crowds.",
           "booking_url": "https://www.booking.com/region/co/baru.html",
           "site_url": "",
           "is_estimate": true,
-          "note": "OVER BUDGET ($109pp vs $100 cap) - a modest stretch. Price $217+ per tomplanmytrip 2026. Existence verified via Tripadvisor's 'hotels near Casa Cordoba Baru' page (d10838398) and the Cartagena Explorer island guide. Direct Booking.com property URL and guest score NOT verified."
+          "fits_5": false,
+          "fits_5_caveat": "FLAGGED: consistently described as small and intimate and its room count is not verified anywhere I could check. Three rooms in peak March may simply not exist. Treat as unconfirmed for a group of five - phone before planning around it.",
+          "note": "OVER BUDGET: $122pp against the $100 cap, about 22 percent over. Price $217+ per tomplanmytrip 2026; single ESTIMATED at $174. Existence verified via Tripadvisor (d10838398 'hotels near Casa Cordoba Baru') and the Cartagena Explorer island guide. Direct Booking.com property URL and guest score NOT verified."
         },
         {
-          "name": "Sabai Beach Hotel  [SPLURGE - OVER BUDGET]",
+          "name": "Sabai Beach Hotel  [SPLURGE - WELL OVER BUDGET]",
           "area": "Southwest tip of Barú, inside Parque Natural Corales del Rosario",
           "rating": "3-star by classification, boutique in feel",
           "guest_score": "9.0/10 Wonderful (582 reviews, Kayak)",
+          "rooms_for_5": "2 doubles + 1 single = 3 rooms",
+          "group_night_usd": 784,
           "price_night_usd": 280,
-          "pp_night_usd": 140,
+          "pp_night_usd": 157,
           "why": "200 metres of private white sand, genuinely secluded; the best beach in this list.",
           "booking_url": "https://www.booking.com/region/co/baru.html",
           "site_url": "",
           "is_estimate": true,
-          "note": "CLEARLY OVER BUDGET: $140pp vs the $100 cap, i.e. about 40 percent over. Verified range $230-375 (Kayak), $272-350 (Tripadvisor), $309+ (tomplanmytrip); $280 is a mid estimate for March. Verified operating with 582 reviews at 9.0. Reachable about 60 min by boat or 90 min by car. Direct Booking.com property URL not verified - see Kayak page https://www.kayak.com/Baru-Hotels-Baru-Playa-Eco-Beach-Resort.2276320.ksp"
+          "fits_5": true,
+          "note": "WELL OVER BUDGET: $157pp against the $100 cap, about 57 percent over. Listed because it is the best-reviewed and best-sited hotel on the island and the group may decide the beach is worth it - but at this price a private-pool villa is plainly better value. Verified range $230-375 (Kayak), $272-350 (Tripadvisor), $309+ (tomplanmytrip); $280 is a mid March estimate, single ESTIMATED at $224. Verified operating, 582 reviews at 9.0. About 60 min by boat or 90 min by car from Cartagena. Direct Booking.com property URL not verified - see https://www.kayak.com/Baru-Hotels-Baru-Playa-Eco-Beach-Resort.2276320.ksp"
         }
       ],
       "airbnbs": [
@@ -312,63 +369,83 @@
           "name": "Private house facing the Caribbean, Barú Island (4BR, private beach + pool)",
           "area": "Barú Island, beachfront",
           "sleeps": 12,
+          "bedrooms": 4,
+          "beds": 0,
+          "bathrooms": 0,
+          "sleeps_5_in_real_beds": true,
           "price_night_usd": 500,
           "pp_night_usd": 100,
-          "why": "Private beach and pool with a full kitchen; at $100pp the best like-for-like against hotels.",
+          "why": "Private beach and private pool at a hundred a head; the right answer for Barú.",
           "url": "https://www.airbnb.com/baru-colombia/stays",
           "is_search_url": true,
-          "note": "FLAGGED HONESTLY: the listing is real and verified on Airbnb's Barú page (4.97 stars, 58 reviews, 4 bedrooms, up to 12 guests, private beach, swimming pool, fully equipped kitchen) but I could not capture its individual /rooms/ URL, so the link is the Barú stays page - find it by that description. PRICE IS AN ESTIMATE; Airbnb shows no rate without dates."
+          "note": "THE PICK FOR THE BEACH STOP. Listing is real and verified on Airbnb's Barú page: 4.97 stars, 58 reviews, 4 bedrooms, up to 12 guests, private beach, swimming pool, fully equipped kitchen. Four bedrooms for five people means at most one shared room and nobody on a sofa. Exact bed and bathroom counts NOT captured - confirm on the listing. I could not capture its individual /rooms/ URL, so the link is Airbnb's Barú stays page; find it by that description. PRICE IS AN ESTIMATE - Airbnb shows no rate without dates."
         },
         {
           "name": "Spectacular home in Barú with private beach, marina and pool",
           "area": "Barú, private beachfront with its own marina",
           "sleeps": 8,
+          "bedrooms": 0,
+          "beds": 0,
+          "bathrooms": 0,
+          "sleeps_5_in_real_beds": false,
           "price_night_usd": 600,
           "pp_night_usd": 120,
-          "why": "Own marina means your charter boat picks you up from the house, not a public pier.",
+          "why": "Own marina: your charter boat collects you from the house, not a public pier.",
           "url": "https://www.airbnb.com/baru-colombia/stays",
           "is_search_url": true,
-          "note": "FLAGGED HONESTLY: verified on Airbnb's Barú page at 4.82 stars, 44 reviews, private beach with marina and restaurant plus pool; individual URL not captured. OVER BUDGET at my estimate. PRICE IS AN ESTIMATE."
+          "note": "OVER BUDGET at my estimate ($120pp). Verified on Airbnb's Barú page: 4.82 stars, 44 reviews, private beach with marina and restaurant plus pool, sleeps 8. BEDROOM AND BED COUNT NOT VERIFIED - sleeps_5_in_real_beds is marked false only because I could not confirm it, not because it fails; an 8-guest house almost certainly has 3-4 bedrooms. Check the listing. Individual URL not captured. PRICE IS AN ESTIMATE."
         },
         {
           "name": "Ojalá - private villa with its own dock, Cholón",
           "area": "Cholón, west Barú",
           "sleeps": 12,
+          "bedrooms": 4,
+          "beds": 0,
+          "bathrooms": 0,
+          "sleeps_5_in_real_beds": true,
           "price_night_usd": 900,
           "pp_night_usd": 180,
-          "why": "Butler and cook included, private pier onto Cholón; the group-splurge option.",
+          "why": "Butler and cook included, private pier straight onto Cholón; the group splurge.",
           "url": "https://www.airbnb.com/baru-colombia/stays",
           "is_search_url": true,
-          "note": "FLAGGED HONESTLY: verified on Airbnb's Barú page at 5.0 stars, 19 reviews, 4 rooms, 12 guests, own pier with direct ocean access, butler and cook. Individual URL not captured. WELL OVER BUDGET ($180pp est.). PRICE IS AN ESTIMATE."
+          "note": "WELL OVER BUDGET ($180pp estimated). Verified on Airbnb's Barú page: 5.0 stars, 19 reviews, 4 rooms, 12 guests, own pier with direct ocean access, butler and cook included. Four rooms covers five people properly. Individual URL not captured. PRICE IS AN ESTIMATE and the butler-and-cook staffing suggests it sits high - confirm before getting attached to it."
         },
         {
           "name": "Waterfront apartment, Calablanca Residences",
-          "area": "North Barú, Calablanca (next to the Sofitel)",
+          "area": "North Barú, Calablanca (beside the Sofitel)",
           "sleeps": 8,
+          "bedrooms": 2,
+          "beds": 0,
+          "bathrooms": 0,
+          "sleeps_5_in_real_beds": false,
           "price_night_usd": 350,
           "pp_night_usd": 70,
-          "why": "Cheapest credible whole-place on the island and the only one clearly under budget.",
+          "why": "Cheapest credible whole-place on the island, on the good north-end water.",
           "url": "https://www.airbnb.com/baru-colombia/stays",
           "is_search_url": true,
-          "note": "FLAGGED HONESTLY: verified on Airbnb's Barú page at 5.0 stars but only 6 reviews, 2 bedrooms, 8 guests. Small review count - vet it carefully. Individual URL not captured. PRICE IS AN ESTIMATE."
+          "note": "FLAGGED: only 2 bedrooms for a stated 8 guests, which almost certainly means sofa beds for the fifth person - it probably does NOT sleep five in real beds, and the brief says that matters. Also only 6 reviews (5.0 stars), so the track record is thin. Listed purely as the cheap option at $70pp. Verified on Airbnb's Barú page; individual URL not captured. PRICE IS AN ESTIMATE."
         },
         {
-          "name": "FILTERED SEARCH - Barú whole homes with pools",
+          "name": "FILTERED SEARCH - Barú whole homes with private pools",
           "area": "All of Barú and Cholón",
           "sleeps": 6,
+          "bedrooms": 3,
+          "beds": 5,
+          "bathrooms": 3,
+          "sleeps_5_in_real_beds": true,
           "price_night_usd": 450,
           "pp_night_usd": 90,
-          "why": "The right way to shop this island: villas beat hotels on both design and price here.",
+          "why": "Villas beat hotels on Barú on both design and price; this is where to shop.",
           "url": "https://www.airbnb.com/baru-colombia/stays",
           "is_search_url": true,
-          "note": "FLAGGED HONESTLY: search/landing page, not a listing. Also worth checking outside Airbnb: Vrbo listing 3681844, 'Villa en Barú con playa privada 6BR' (https://www.vrbo.com/3681844), verified to exist. One Barú Airbnb I found earlier (rooms/1571267223098215089, a 5BR villa in the Barugrande condominium) returned HTTP 410 Gone when I checked it, i.e. it has been delisted - do not use it. Price shown is a category placeholder."
+          "note": "FLAGGED HONESTLY: a search/landing page, not a listing; the bed counts above are the target spec to filter for (3 bedrooms, 5 real beds), not a verified property. Also worth checking outside Airbnb: Vrbo listing 3681844, 'Villa en Barú con playa privada 6BR' (https://www.vrbo.com/3681844), verified to exist, 6 bedrooms, private beach, reachable by land and sea. One Barú Airbnb I found earlier (rooms/1571267223098215089, a 5BR villa in the Barugrande condominium) returned HTTP 410 Gone when I checked it - it has been delisted, do not use it. Price shown is a category placeholder."
         }
       ],
       "activities": [
         {
           "day": 4,
           "name": "Transfer to Barú, then Playa Blanca after the day boats leave",
-          "what": "Private van from the walled city over the Barbacoas bridge, about 1h-1h15 door to door, roughly 350,000-450,000 COP (USD 85-110) for a van of five - have the hotel arrange it. Check in, then walk out onto Playa Blanca at about 16:30 once the day boats and vans have gone. This is the version of that beach worth seeing: same white sand, no vendors, no crowd, low light.",
+          "what": "Private van from the walled city over the Barbacoas bridge, about 1h-1h15 door to door, roughly 350,000-450,000 COP (USD 85-110) for a van of five, so USD 17-22 each - have the hotel arrange it. Check in, then walk onto Playa Blanca around 16:30 once the day boats and vans have gone. This is the version of that beach worth seeing: same white sand, no vendors, no crowd, low light.",
           "price_pp_usd": 20,
           "duration": "Half day",
           "when": "Day 4, leave Cartagena 11:00",
@@ -377,7 +454,7 @@
         {
           "day": 4,
           "name": "Bioluminescent plankton night swim",
-          "what": "Small boat out into the dark mangrove lagoon near Manzanillo del Mar / Portonaito, where the dinoflagellates light up blue when you move the water. This is the single best argument for sleeping on Barú rather than day-tripping it, because it only runs at night. Standalone from a Barú hotel, roughly $25-35pp; as a packaged evening excursion from Cartagena, $50-70pp. Go on the darkest night you can - it is washed out by a bright moon, so check the moon phase for your dates before you book.",
+          "what": "Small boat into the dark mangrove lagoon near Manzanillo del Mar / Portonaito, where the dinoflagellates flash blue when you move the water. This is the single best argument for sleeping on Barú rather than day-tripping it, because it only runs at night. Standalone from a Barú hotel, roughly $25-35pp; packaged as an evening excursion from Cartagena, $50-70pp. Go on the darkest night available - a bright moon washes it out completely, so check the moon phase against your dates before booking.",
           "price_pp_usd": 30,
           "duration": "2-3 hours",
           "when": "Day 4, after dark (roughly 19:30-21:30)",
@@ -386,16 +463,16 @@
         {
           "day": 5,
           "name": "Private boat charter: Rosario Islands, snorkelling and Cholón",
-          "what": "The big day, and the reason Barú works. Charter your own speedboat rather than joining a day tour: a 28ft (10-12 pax) runs from 1,800,000 COP, about USD 450, and a 29ft from about USD 475, captain and fuel included, cooler and sound system on board. Split five ways that is USD 90-95 each - far better than the $93-125pp beach-club day passes and you control the route. Standard run: leave around 08:30 while the sea is flat, snorkel the Rosario reefs (10-15m visibility, protected marine park), lunch at one of the island clubs, then Cholón in the afternoon - the anchored-boat lagoon where everyone rafts up, sound systems competing, floating bars selling ceviche and mojitos. Loud, messy, very Colombian, and much better on a boat you control. Budget an extra USD 7.50pp national park fee and USD 2pp maritime insurance, cash only.",
+          "what": "The big day, and the reason Barú works. Charter your own speedboat rather than joining a day tour: a 28ft (10-12 pax) runs from 1,800,000 COP, about USD 450, and a 29ft from about USD 475, captain and fuel included, cooler and sound system on board. Split five ways that is USD 90-95 each - better than the $93-125pp beach-club day passes and you control the route and the clock. Standard run: leave around 08:30 while the sea is still flat, snorkel the Rosario reefs (10-15m visibility, protected marine park), lunch at an island club, then Cholón in the afternoon - the anchored-boat lagoon where everyone rafts up, sound systems competing, floating bars selling ceviche and mojitos. Loud, messy, very Colombian, and far better on a boat you control. Add USD 7.50pp national park fee and USD 2pp maritime insurance, cash only.",
           "price_pp_usd": 100,
           "duration": "8 hours, 08:30-17:00",
-          "when": "Day 5 - and do it on your first clear morning, not the afternoon",
+          "when": "Day 5 - and take the first clear morning, never the afternoon",
           "url": "https://www.cartagenaconnections.com/private-boats.html"
         },
         {
           "day": 6,
           "name": "Aviario Nacional de Colombia",
-          "what": "On Barú itself, so no boat: 21 exhibits across three reconstructed ecosystems, 170-odd species, two daily flight demonstrations with a handler. Genuinely well done and the best rainy-hour or windy-morning fallback on the island. Foreign adult admission is 90,000 COP (about USD 22) as of September 2026, students 65,000 COP.",
+          "what": "On Barú itself, so no boat: 21 exhibits across three reconstructed ecosystems, around 170 species, two daily flight demonstrations with a handler. Genuinely well done, and the best fallback for a blown-out windy morning. Foreign adult admission 90,000 COP (about USD 22) as of September 2026, students 65,000 COP.",
           "price_pp_usd": 22,
           "duration": "3 hours",
           "when": "Day 6, from 09:00 when it opens",
@@ -404,7 +481,7 @@
         {
           "day": 6,
           "name": "Kayak the mangrove channels, then nothing",
-          "what": "The lagoon side of Barú is threaded with mangrove channels you can paddle through in flat water even when the sea outside is blown out - which in March it often is by mid-afternoon. Several hotels lend the kit free: Thani Ecobeach includes a double kayak and a paddleboard at no charge. Then deliberately do nothing for the rest of the day. On a four-night beach stop, one empty day is the point.",
+          "what": "The lagoon side of Barú is threaded with mangrove channels you can paddle in flat water even when the open sea is blown out - which by mid-afternoon in March it often is. Several hotels lend the kit free: Thani Ecobeach includes a double kayak and a paddleboard at no charge. Then deliberately do nothing with the rest of the day. On a four-night beach stop, one empty day is the whole point.",
           "price_pp_usd": 0,
           "duration": "2 hours plus the rest of the day",
           "when": "Day 6, 15:30",
@@ -412,8 +489,8 @@
         },
         {
           "day": 7,
-          "name": "Morning snorkel or a beach-club day pass",
-          "what": "Two ways to close it out. Either a half-day snorkel run to the Rosario coral gardens, roughly $40-70pp through your hotel - again, morning, when the water is clearest and calmest. Or take a day pass at one of the designed beach clubs and spend the day horizontal: on Barú, Nena Beach Club, Sabai Beach Club, Mambo or Sunset Beach Club; none charge a dock fee if you arrive by land. In the Rosarios, mid-range passes run $93-125pp including boat and lunch (Capri, Pa'ue, Mangata), which is why the private charter on day 5 is the better spend.",
+          "name": "Morning snorkel, or a beach-club day pass",
+          "what": "Two ways to close it out. Either a half-day snorkel run to the Rosario coral gardens, roughly $40-70pp through your hotel - again, morning, when the water is clearest and calmest. Or take a day pass at one of the designed beach clubs and go horizontal: on Barú, Nena Beach Club, Sabai Beach Club, Mambo or Sunset Beach Club, and none charge a dock fee if you arrive by land. In the Rosarios, mid-range passes are $93-125pp including boat and lunch (Capri, Pa'ue, Mangata) - which is exactly why the private charter on day 5 is the better spend for five people.",
           "price_pp_usd": 55,
           "duration": "Half to full day",
           "when": "Day 7, 09:00",
@@ -422,7 +499,7 @@
         {
           "day": 7,
           "name": "Last sunset, west-facing",
-          "what": "Barú faces west, so unlike Cartagena you get the sun dropping into open water straight off your own beach. No booking, no boat, no price. Then back to Cartagena on day 8 by road, roughly an hour, and out.",
+          "what": "Barú faces west, so unlike Cartagena you get the sun dropping into open water straight off your own beach. No booking, no boat, no price. Back to Cartagena on day 8 by road, about an hour, and out.",
           "price_pp_usd": 0,
           "duration": "1 hour",
           "when": "Day 7, 17:45",
@@ -431,13 +508,13 @@
       ],
       "food": [
         {
-          "name": "Your hotel restaurant",
-          "what": "Be realistic: Barú is not a restaurant destination. Most nights you eat where you sleep. Budget $15-30pp at Thani or Aura, more at Sabai. Thani's food is good but reviewers flag small portions for the price.",
+          "name": "Your hotel or villa",
+          "what": "Be realistic: Barú is not a restaurant destination and most nights you eat where you sleep. Budget $15-30pp at Thani or Aura, more at Sabai. Thani's food is good but reviewers flag small portions for the price. A villa with a kitchen (and in some cases a cook) changes this equation considerably for five people.",
           "price_level": "$$-$$$"
         },
         {
           "name": "Playa Manglares Isla Barú",
-          "what": "The property on the island with an actual food reputation - worth booking a table even if you are staying elsewhere. Roughly $25-40 per person.",
+          "what": "The one property on the island with an actual food reputation - worth booking a table even if you sleep elsewhere. Roughly $25-40 per person.",
           "price_level": "$$$"
         },
         {
@@ -447,20 +524,20 @@
         },
         {
           "name": "Nena Beach Club, Playa Blanca",
-          "what": "Beach-club lunch on the famous sand - loungers, fried fish and coconut rice, cocktails. Usually structured as a day pass or a minimum spend, roughly $30-50 per person.",
+          "what": "Beach-club lunch on the famous sand: loungers, fried fish, coconut rice, cocktails. Usually a day pass or a minimum spend, roughly $30-50 per person.",
           "price_level": "$$$"
         },
         {
           "name": "Cholón floating vendors",
-          "what": "Not a restaurant: boats that pull alongside yours in the lagoon selling ceviche, oysters and cocktails. Cash, and agree the price before anything is handed over. $10-20 per person.",
+          "what": "Not a restaurant: boats that pull alongside yours in the lagoon selling ceviche, oysters and cocktails. Cash only, and agree the price out loud before anything is handed across. $10-20 per person.",
           "price_level": "$"
         }
       ],
-      "weather_note": "Same dry-season numbers as Cartagena - 30-32C, sea at 28-29C, almost no rain - but on Barú the wind is not a footnote, it is the thing that shapes your days. December to May the trade winds blow hard over this stretch, and the practical effect is that mornings are glassy and afternoons get choppy, with afternoon boat crossings described by local guides as genuinely challenging. Three consequences: book every boat activity for the morning; expect Playa Blanca's water to go from turquoise to stirred-up and greenish on the windiest afternoons, sometimes with seaweed; and be aware the wind masks the sun, so people burn badly here without noticing. The upside is real too - it is the driest, clearest, least-mosquito time of year, and 11-plus hours of sun a day."
+      "weather_note": "Same dry-season numbers as Cartagena - 30-32C, sea at 28-29C, almost no rain - but on Barú the wind is not a footnote, it shapes the days. December to May the trade winds blow hard over this stretch and the practical effect is that mornings are glassy while afternoons get choppy, with local guides describing afternoon boat crossings in this season as genuinely challenging. Three consequences: book every boat activity for the morning; expect Playa Blanca's water to turn from turquoise to stirred-up and greenish on the windiest afternoons, sometimes with seaweed; and know that the wind masks the sun, so people burn badly here without noticing. The upside is real - it is the driest, clearest, least-mosquito time of year, with 11-plus hours of sun a day. Early March also sits clear of Semana Santa (Palm Sunday 21 March 2027), which on Barú means the difference between a quiet island and a Colombian domestic-holiday crush."
     }
   ],
-  "getting_around": "IN CARTAGENA: the walled city and Getsemaní are small and walkable - ten to fifteen minutes end to end, and about ten minutes between the two through the Clock Tower gate. Taxis have no meters and no official tariff, so agree the fare out loud before you get in; short hops inside the centre run roughly 10,000-15,000 COP and the airport to the walled city is 15-20 minutes for about 25,000-35,000 COP. Uber, DiDi and InDriver all technically operate but driver coverage is thin and waits can be long; the simplest default at night is to have the hotel or restaurant call a taxi. For five people, a pre-booked private transfer from the airport is worth it on arrival day. CARTAGENA TO BARU: by road over the Barbacoas bridge, about an hour to an hour and fifteen minutes; a private van for five costs roughly 350,000-450,000 COP (USD 85-110) each way - have your Barú hotel arrange it, this is the standard way. By sea it is 45-60 minutes by speedboat and hotel transfers run about USD 35 per person each way. Take the road: it is cheaper for a group, it runs on your schedule, and it is immune to the March wind. BOAT TRANSFERS GENERALLY: the Rosario Islands day-boat system from Muelle La Bodeguita near the Clock Tower is rigid - departures 07:50-08:30, mandatory return 15:00-16:00, and a 45-50 minute open-water crossing each way. Two government fees are collected in cash at the pier and cannot be paid by card: national park entrance 31,500 COP (about USD 7.50) and maritime insurance 8,800 COP (about USD 2). Some beach clubs instead leave from Marina Todomar in Bocagrande, so check your confirmation for which pier. Tierra Bomba water taxis are separate and cheap: 8,000 COP per person to Punta Arena from behind the hospital in Bocagrande, 10,000 COP to Bocachica from La Bodeguita, leaving when full rather than on a timetable. A private charter (USD 450-475 for a 28-29ft boat holding 10-12) removes all of this and is the right call for a group of five doing one big island day.",
-  "safety_note": "Practical, not alarmist. The walled city, San Diego and Getsemaní are fine to walk day and evening and are visibly policed; violent crime against tourists is uncommon. After about midnight stick to the lit main streets in Getsemaní - the quiet side alleys empty out and that is where the opportunistic stuff happens. Normal city habits cover most of it: phone in your pocket not your hand, bag zipped and worn across the body in crowds, limited cash. The real everyday risk here is not danger, it is the transactional street hustle. Agree the price out loud in pesos before accepting anything at all - a woven bracelet slipped onto your wrist, a flower pressed into your hand, oysters, a shoulder massage on the beach, a chair, or a photo with a palenquera (that is a paid transaction, roughly 10,000-20,000 COP, settle it before you raise the camera). Never accept a free sample; payment will be expected. Do not buy island tours from people selling them on the muralla or the beach - inflated prices, overcrowded boats, and the classic ruined day at Playa Blanca; book through your hotel or a known operator. In restaurants choose places with displayed prices and check the bill, noting that 'propina voluntaria' is genuinely voluntary. Agree taxi fares before getting in. Scopolamine drugging is rare but real, so watch your drink, and take a taxi or Uber back rather than walking long distances very late. On Barú: the public Playa Blanca strip has persistent vendors and the boat channel has current, so swim in front of your hotel, and respect the March sun - the constant wind hides how badly you are burning.",
+  "getting_around": "GETTING THERE: as of 1 January 2027 Aerolíneas Argentinas flies Buenos Aires Aeroparque (AEP) to Cartagena nonstop, five times a week, so the trip opens and closes in Cartagena with no Bogotá connection and no domestic hop - which is precisely why a single beach base reachable by road is the right structure. Five times weekly means the return legs are fixed to specific days, so build the 3+4 nights around the flight days rather than the other way round. IN CARTAGENA: the walled city and Getsemaní are small and walkable - ten to fifteen minutes end to end, about ten minutes between the two through the Clock Tower gate. Taxis have no meters and no official tariff, so agree the fare out loud before getting in; short hops inside the centre run roughly 10,000-15,000 COP and the airport to the walled city is 15-20 minutes for about 25,000-35,000 COP. Uber, DiDi and InDriver all technically operate but driver coverage is thin and waits can be long; the simplest default at night is to have the hotel or restaurant call a taxi. Five people do not fit in one taxi - budget two cars for every trip, or book a van. A pre-booked private van transfer from the airport is worth it on arrival day. CARTAGENA TO BARU: by road over the Barbacoas bridge, an hour to an hour and fifteen; a private van for five costs roughly 350,000-450,000 COP (USD 85-110) each way, about USD 17-22 a head - have the Barú hotel or villa host arrange it, this is the standard way. By sea it is 45-60 minutes by speedboat and hotel transfers run about USD 35 per person each way, i.e. USD 175 for five, which is more than the van. Take the road: cheaper for a group, runs on your schedule, immune to the March wind. BOAT TRANSFERS GENERALLY: the Rosario Islands day-boat system from Muelle La Bodeguita near the Clock Tower is rigid - departures 07:50-08:30, mandatory return 15:00-16:00, 45-50 minutes of open water each way. Two government fees are collected in cash at the pier and cannot be paid by card: national park entrance 31,500 COP (about USD 7.50) and maritime insurance 8,800 COP (about USD 2). Some beach clubs instead leave from Marina Todomar in Bocagrande, so check the confirmation for which pier. Tierra Bomba water taxis are separate and cheap: 8,000 COP per person to Punta Arena from behind the hospital in Bocagrande, 10,000 COP to Bocachica from La Bodeguita, leaving when full rather than on a timetable. A private charter (USD 450-475 for a 28-29ft boat holding 10-12) removes all of this and, at USD 90-95 each for five, is the right call for the one big island day.",
+  "safety_note": "Practical, not alarmist. The walled city, San Diego and Getsemaní are fine to walk day and evening and are visibly policed; violent crime against tourists is uncommon. After about midnight stick to the lit main streets in Getsemaní - the quiet side alleys empty out and that is where the opportunistic stuff happens. Normal city habits cover most of it: phone in your pocket not your hand, bag zipped and worn across the body in crowds, limited cash. Moving as a group of five is itself decent protection; splitting up at 2am is the thing that goes wrong. The real everyday risk here is not danger, it is the transactional street hustle. Agree the price out loud in pesos before accepting anything at all - a woven bracelet slipped onto your wrist, a flower pressed into your hand, oysters, a shoulder massage on the beach, a chair, or a photo with a palenquera (that is a paid transaction, roughly 10,000-20,000 COP, settle it before the camera comes up). Never accept a free sample; payment will be expected. Do not buy island tours from people selling them on the muralla or the beach - inflated prices, overcrowded boats, and the classic ruined day at Playa Blanca; book through your hotel or a known operator. In restaurants pick places with displayed prices and check the bill, noting that 'propina voluntaria' is genuinely voluntary. Agree taxi fares before getting in. Scopolamine drugging is rare but real, so watch your drink and take a taxi rather than walking long distances very late. On Barú: the public Playa Blanca strip has persistent vendors, and the boat channel has current, so swim in front of your hotel. And respect the March sun - the constant wind hides how badly you are burning.",
   "sources": [
     "https://www.cartagenaexplorer.com/best-boutique-hotels-cartagena-colombia/",
     "https://www.cartagenaexplorer.com/best-hotels-getsemani/",
