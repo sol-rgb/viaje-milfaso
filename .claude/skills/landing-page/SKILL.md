@@ -1,6 +1,6 @@
 ---
 name: landing-page
-description: Sol's house style and workflow for building landing pages, microsites, marketing pages, internal hubs, dashboards and any small web app that ships to a GitHub repo and deploys on Vercel. Use this skill whenever Sol asks to build, design, redesign, restyle or fix a site, page, hub, microsite, portfolio, app UI or visual HTML artifact, even when the request sounds small ("just make a page for X", "can you build a quick site", "fix the layout") and even when they never say the words landing page, design or brand. Also use it when auditing an existing page they says looks generic, cluttered, scrambled, too texty or AI-generated. Not for backend-only work, scripts, spreadsheets, documents or decks.
+description: Sol's house style and workflow for building landing pages, microsites, marketing pages, internal hubs, dashboards and any small web app that ships to a GitHub repo and deploys on Vercel. Use this skill whenever Sol asks to build, design, redesign, restyle or fix a site, page, hub, microsite, portfolio, app UI or visual HTML artifact, even when the request sounds small ("just make a page for X", "can you build a quick site", "fix the layout") and even when they never say the words landing page, design or brand. Also use it when auditing an existing page they say looks generic, cluttered, scrambled, too texty or AI-generated. Not for backend-only work, scripts, spreadsheets, documents or decks.
 ---
 
 # Landing pages, the house style
