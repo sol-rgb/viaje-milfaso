@@ -31,8 +31,9 @@ const t = (s) => sinRaya(typeof s === "string" && ES[s] ? ES[s] : s ?? "");
 
 const PROSA = {
   peru: {
-    slug: "peru", n: "01", name: "Máncora", place: "Lima y la costa norte, Perú",
+    slug: "peru", n: "01", name: "Lima & Máncora", place: "Perú",
     heroDir: "mancora",
+    photoDirs: ["mancora", "lima"],
     summary: "Dos días en Lima y cinco en la playa del norte.",
     verdict:
       "Máncora es la única playa peruana con cinco días de sol seguro en marzo. Las Pocitas y Vichayito, al lado del pueblo, tienen los hoteles lindos y las casas enteras.",
@@ -57,8 +58,9 @@ const PROSA = {
     },
   },
   colombia: {
-    slug: "colombia", n: "02", name: "Cartagena", place: "Cartagena y el Caribe, Colombia",
+    slug: "colombia", n: "02", name: "Cartagena & Barú", place: "Colombia",
     heroDir: "cartagena",
+    photoDirs: ["cartagena", "baru"],
     summary: "Tres días en la ciudad amurallada y cuatro en Barú.",
     verdict:
       "Barú es la única playa a la que se llega por tierra, así que nadie depende de la lancha de las nueve. Durmiendo ahí, Playa Blanca queda vacía al amanecer y al atardecer.",
@@ -83,8 +85,9 @@ const PROSA = {
     },
   },
   usa: {
-    slug: "usa", n: "03", name: "Miami", place: "Miami y los Cayos, Estados Unidos",
+    slug: "usa", n: "03", name: "Miami & los Cayos", place: "Estados Unidos",
     heroDir: "miami",
+    photoDirs: ["miami", "keys"],
     summary: "Tres días en Miami y cuatro en los Cayos.",
     verdict:
       "Bahamas y Aruba se van a tres o cuatro veces el presupuesto en marzo. Los Cayos se manejan desde Miami, sin vuelo extra, y una casa con muelle sale menos que dos habitaciones de hotel.",
@@ -109,8 +112,9 @@ const PROSA = {
     },
   },
   mexico: {
-    slug: "mexico", n: "04", name: "Puerto Escondido", place: "Ciudad de México y Oaxaca, México",
+    slug: "mexico", n: "04", name: "Ciudad de México & Puerto Escondido", place: "México",
     heroDir: "puerto-escondido",
+    photoDirs: ["puerto-escondido", "cdmx"],
     summary: "Dos días en el DF y cinco en la costa de Oaxaca.",
     verdict:
       "Puerto Escondido es la única del Pacífico con la arquitectura y la gente que buscamos. Se duerme en La Punta, se nada en Carrizalillo y Zicatela queda para la noche.",
@@ -317,6 +321,7 @@ const VIAJES = Object.entries(PROSA).map(([id, p]) => {
     tint: "#e9e7e0",
     summary: p.summary,
     heroDir: p.heroDir,
+    photoDirs: p.photoDirs,
     stops,
     days,
     flights,

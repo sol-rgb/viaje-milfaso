@@ -6,7 +6,7 @@ import { useEstado } from "./Estado";
 /** Hilo de notas sobre cualquier cosa: un hotel, un día, una fecha. */
 export default function Hilo({
   target,
-  etiqueta = "dejar una nota",
+  etiqueta = "Nota",
 }: {
   target: string;
   etiqueta?: string;
@@ -60,7 +60,7 @@ export default function Hilo({
           />
           <div className="hilo-acciones">
             <button type="submit" className="hilo-ok" disabled={!texto.trim()}>
-              guardar
+              Guardar
             </button>
             <button
               type="button"
@@ -70,13 +70,13 @@ export default function Hilo({
                 setTexto("");
               }}
             >
-              cerrar
+              Cerrar
             </button>
           </div>
         </form>
       ) : (
         <button className="hilo-abrir" onClick={() => setAbierto(true)}>
-          <span aria-hidden>+</span> {notas.length ? "agregar" : etiqueta}
+          <span aria-hidden>+</span> {notas.length ? "Agregar" : etiqueta}
         </button>
       )}
     </div>

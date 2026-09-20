@@ -1,43 +1,53 @@
 "use client";
 
 import { useState } from "react";
+import Modal from "./Modal";
+import Pop from "./Pop";
 import { useEstado } from "./Estado";
-import Voto from "./Voto";
-import Hilo from "./Notas";
-import { plata } from "@/lib/precio";
 import type { TipoAporte } from "@/lib/estado";
 
 const COPY: Record<
   TipoAporte,
-  { abrir: string; nombre: string; zona: string; precio: string; url: string }
+  {
+    boton: string;
+    titulo: string;
+    nombre: string;
+    zona: string;
+    precio: string;
+    url: string;
+  }
 > = {
   hotel: {
-    abrir: "sumar un hotel",
-    nombre: "nombre del hotel",
-    zona: "barrio o playa",
-    precio: "us$ la noche, las habitaciones para los 5",
-    url: "link para reservar",
+    boton: "Sumar un hotel",
+    titulo: "Proponer un hotel",
+    nombre: "Cómo se llama",
+    zona: "Barrio o playa",
+    precio: "Precio de la noche para los cinco, en dólares",
+    url: "Link para reservar",
   },
   airbnb: {
-    abrir: "sumar un airbnb",
-    nombre: "cómo se llama",
-    zona: "barrio o playa",
-    precio: "us$ la noche, la casa entera",
-    url: "link del aviso",
+    boton: "Sumar un airbnb",
+    titulo: "Proponer un airbnb",
+    nombre: "Cómo se llama",
+    zona: "Barrio o playa",
+    precio: "Precio de la casa entera por noche, en dólares",
+    url: "Link del aviso",
   },
   actividad: {
-    abrir: "sumar algo para hacer",
-    nombre: "qué es",
-    zona: "dónde",
-    precio: "us$ por persona",
-    url: "link",
+    boton: "Sumar algo para hacer",
+    titulo: "Proponer algo para hacer",
+    nombre: "Qué es",
+    zona: "Dónde",
+    precio: "Precio por persona, en dólares",
+    url: "Link",
   },
   viaje: {
-    abrir: "sumar otro viaje",
-    nombre: "a dónde",
-    zona: "las paradas",
-    precio: "us$ por persona, si tenés idea",
-    url: "link, si tenés",
+    boton: "Sumar otro viaje",
+    titulo: "Proponer otro viaje",
+    nombre: "A dónde",
+    zona: "Las paradas",
+    precio: "Precio por persona, si tenés una idea",
+    url: "Link, si tenés",
   },
 };
 
@@ -68,6 +78,11 @@ export default function Aportar({
     setDetalle("");
   }
 
+  function cerrar() {
+    limpiar();
+    setAbierto(false);
+  }
+
   async function mandar(e: React.FormEvent) {
     e.preventDefault();
     if (!nombre.trim()) return;
@@ -81,53 +96,43 @@ export default function Aportar({
       url: url.trim(),
       precio: Number(precio) || 0,
     });
-    limpiar();
-    setAbierto(false);
-  }
-
-  if (!abierto) {
-    return (
-      <button className="hilo-abrir aportar-abrir" onClick={() => setAbierto(true)}>
-        <span aria-hidden>+</span> {c.abrir}
-      </button>
-    );
+    cerrar();
   }
 
   return (
-    <form className="aportar" onSubmit={mandar}>
-      <div className="aportar-campos">
-        <Campo label={c.nombre} v={nombre} set={setNombre} ancho autoFocus />
-        <Campo label={c.zona} v={zona} set={setZona} />
-        <Campo label={c.precio} v={precio} set={setPrecio} numero />
-        <Campo label={c.url} v={url} set={setUrl} ancho tipo="url" />
-      </div>
+    <>
+      <button className="sumar" onClick={() => setAbierto(true)}>
+        <span aria-hidden>+</span> {c.boton}
+      </button>
 
-      <label className="aportar-campo ancho">
-        <span className="label">por qué</span>
-        <textarea
-          value={detalle}
-          onChange={(e) => setDetalle(e.target.value)}
-          rows={2}
-          maxLength={600}
-        />
-      </label>
+      <Modal abierto={abierto} cerrar={cerrar} titulo={c.titulo}>
+        <form className="forma" onSubmit={mandar}>
+          <Campo label={c.nombre} v={nombre} set={setNombre} autoFocus />
+          <Campo label={c.zona} v={zona} set={setZona} />
+          <Campo label={c.precio} v={precio} set={setPrecio} numero />
+          <Campo label={c.url} v={url} set={setUrl} tipo="url" />
 
-      <div className="hilo-acciones">
-        <button type="submit" className="hilo-ok" disabled={!nombre.trim()}>
-          proponer
-        </button>
-        <button
-          type="button"
-          className="hilo-cancel"
-          onClick={() => {
-            limpiar();
-            setAbierto(false);
-          }}
-        >
-          cerrar
-        </button>
-      </div>
-    </form>
+          <label className="campo">
+            <span className="campo-l">Por qué</span>
+            <textarea
+              value={detalle}
+              onChange={(e) => setDetalle(e.target.value)}
+              rows={3}
+              maxLength={600}
+            />
+          </label>
+
+          <div className="forma-pie">
+            <button type="submit" className="boton lleno" disabled={!nombre.trim()}>
+              Proponer
+            </button>
+            <button type="button" className="boton" onClick={cerrar}>
+              Cerrar
+            </button>
+          </div>
+        </form>
+      </Modal>
+    </>
   );
 }
 
@@ -135,7 +140,6 @@ function Campo({
   label,
   v,
   set,
-  ancho,
   numero,
   tipo,
   autoFocus,
@@ -143,14 +147,13 @@ function Campo({
   label: string;
   v: string;
   set: (s: string) => void;
-  ancho?: boolean;
   numero?: boolean;
   tipo?: string;
   autoFocus?: boolean;
 }) {
   return (
-    <label className={ancho ? "aportar-campo ancho" : "aportar-campo"}>
-      <span className="label">{label}</span>
+    <label className="campo">
+      <span className="campo-l">{label}</span>
       <input
         value={v}
         onChange={(e) => set(e.target.value)}
@@ -164,105 +167,41 @@ function Campo({
   );
 }
 
-/** Lo que fue proponiendo el grupo, en la misma lista que lo curado. */
+/** Lo que fue proponiendo el grupo, con el mismo botón que lo curado. */
 export function ListaAportes({
   tipo,
   viaje = "",
   parada = "",
-  unidad = "/ p / noche",
+  unidad = "por persona por noche",
 }: {
   tipo: TipoAporte;
   viaje?: string;
   parada?: string;
   unidad?: string;
 }) {
-  const { aportesDe, borrar, quien } = useEstado();
+  const { aportesDe } = useEstado();
   const lista = aportesDe({ tipo, viaje, parada });
   if (!lista.length) return null;
 
   return (
-    <ul className="filas aportes">
-      {lista.map((a, i) => (
-        <Item
+    <>
+      {lista.map((a) => (
+        <Pop
           key={a.id}
-          i={i}
-          a={a}
-          unidad={unidad}
-          mio={a.quien === quien}
-          borrar={() => borrar("aporte", a.id)}
-        />
+          clase="chip chip-propuesto"
+          d={{
+            titulo: a.nombre,
+            target: `aporte:${a.id}`,
+            linea: a.detalle,
+            precio: a.precio,
+            unidad,
+            url: a.url,
+            extra: [a.zona, `Lo propuso ${a.quien}`].filter(Boolean) as string[],
+          }}
+        >
+          {a.nombre}
+        </Pop>
       ))}
-    </ul>
-  );
-}
-
-function Item({
-  a,
-  i,
-  unidad,
-  mio,
-  borrar,
-}: {
-  a: ReturnType<typeof useEstado>["estado"]["aportes"][number];
-  i: number;
-  unidad: string;
-  mio: boolean;
-  borrar: () => void;
-}) {
-  const [abierto, setAbierto] = useState(false);
-  const target = `aporte:${a.id}`;
-
-  return (
-    <li className={abierto ? "fila cama aporte on" : "fila cama aporte"}>
-      <div className="cama-cab">
-        <button
-          className="cama-toggle"
-          onClick={() => setAbierto(!abierto)}
-          aria-expanded={abierto}
-        >
-          <span className="idx fila-i">+{String(i + 1).padStart(2, "0")}</span>
-          <span className="fila-n">{a.nombre}</span>
-          <span className="fila-d label">
-            {[a.zona, `${a.quien}`].filter(Boolean).join(" · ")}
-          </span>
-          <span className="fila-p">
-            {a.precio ? (
-              <>
-                {plata(a.precio)}
-                <em className="por">{unidad}</em>
-              </>
-            ) : (
-              <em className="por">sin precio</em>
-            )}
-          </span>
-        </button>
-        <Voto target={target} chico />
-        <button
-          className="fila-mas"
-          onClick={() => setAbierto(!abierto)}
-          aria-label={abierto ? "cerrar" : "abrir"}
-        >
-          {abierto ? "−" : "+"}
-        </button>
-      </div>
-      {abierto && (
-        <div className="cama-cuerpo">
-          {a.detalle && <p className="body-s">{a.detalle}</p>}
-          {a.url && (
-            <p className="enlaces">
-              <a href={a.url} target="_blank" rel="noopener noreferrer nofollow">
-                abrir <em className="ext">↗</em>
-              </a>
-            </p>
-          )}
-          <Hilo target={target} etiqueta="anotar algo" />
-          {mio && (
-            <button className="hilo-cancel borrar-aporte" onClick={borrar}>
-              borrar
-            </button>
-          )}
-        </div>
-      )}
-    </li>
+    </>
   );
 }

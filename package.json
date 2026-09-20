@@ -10,7 +10,8 @@
     "verificar": "node scripts/verificar.mjs",
     "fotos": "node scripts/fotos.mjs",
     "prebuild": "node scripts/fotos.mjs",
-    "datos": "node scripts/armar.mjs && node scripts/verificar.mjs"
+    "datos": "node scripts/armar.mjs && node scripts/verificar.mjs",
+    "imagenes": "node scripts/imagenes.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.45.4",

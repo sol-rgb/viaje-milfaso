@@ -9,12 +9,16 @@ export const VIAJES: Trip[] = [
   {
     "slug": "peru",
     "n": "01",
-    "name": "Máncora",
-    "place": "Lima y la costa norte, Perú",
+    "name": "Lima & Máncora",
+    "place": "Perú",
     "accent": "#0f0f0e",
     "tint": "#e9e7e0",
     "summary": "Dos días en Lima y cinco en la playa del norte.",
     "heroDir": "mancora",
+    "photoDirs": [
+      "mancora",
+      "lima"
+    ],
     "stops": [
       {
         "slug": "lima",
@@ -715,12 +719,16 @@ export const VIAJES: Trip[] = [
   {
     "slug": "colombia",
     "n": "02",
-    "name": "Cartagena",
-    "place": "Cartagena y el Caribe, Colombia",
+    "name": "Cartagena & Barú",
+    "place": "Colombia",
     "accent": "#0f0f0e",
     "tint": "#e9e7e0",
     "summary": "Tres días en la ciudad amurallada y cuatro en Barú.",
     "heroDir": "cartagena",
+    "photoDirs": [
+      "cartagena",
+      "baru"
+    ],
     "stops": [
       {
         "slug": "cartagena",
@@ -1384,12 +1392,16 @@ export const VIAJES: Trip[] = [
   {
     "slug": "usa",
     "n": "03",
-    "name": "Miami",
-    "place": "Miami y los Cayos, Estados Unidos",
+    "name": "Miami & los Cayos",
+    "place": "Estados Unidos",
     "accent": "#0f0f0e",
     "tint": "#e9e7e0",
     "summary": "Tres días en Miami y cuatro en los Cayos.",
     "heroDir": "miami",
+    "photoDirs": [
+      "miami",
+      "keys"
+    ],
     "stops": [
       {
         "slug": "miami",
@@ -2050,12 +2062,16 @@ export const VIAJES: Trip[] = [
   {
     "slug": "mexico",
     "n": "04",
-    "name": "Puerto Escondido",
-    "place": "Ciudad de México y Oaxaca, México",
+    "name": "Ciudad de México & Puerto Escondido",
+    "place": "México",
     "accent": "#0f0f0e",
     "tint": "#e9e7e0",
     "summary": "Dos días en el DF y cinco en la costa de Oaxaca.",
     "heroDir": "puerto-escondido",
+    "photoDirs": [
+      "puerto-escondido",
+      "cdmx"
+    ],
     "stops": [
       {
         "slug": "cdmx",

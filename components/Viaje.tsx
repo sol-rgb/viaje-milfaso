@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Photo from "./Photo";
+import Galeria from "./Galeria";
 import Pop from "./Pop";
 import Modal from "./Modal";
 import Voto from "./Voto";
@@ -17,12 +17,8 @@ export default function Viaje({ t }: { t: Trip }) {
     <main className="viaje wrap max">
       <Hero t={t} />
       <Vuelos t={t} />
-
-      <div className="plano">
-        <Ruta t={t} />
-        <Camas t={t} />
-      </div>
-
+      <Camas t={t} />
+      <Ruta t={t} />
       <Plata t={t} />
       <Fuentes t={t} />
     </main>
@@ -39,17 +35,13 @@ function Hero({ t }: { t: Trip }) {
         <Antes t={t} />
       </div>
 
-      <div className="hero-fotos" aria-hidden>
-        {[1, 2, 3, 4, 5].map((n) => (
-          <Photo key={n} dir={t.heroDir} n={n} className="hero-foto" />
-        ))}
-      </div>
+      <Galeria dirs={t.photoDirs} alt={t.name} />
 
       <div className="hero-pie">
         <p className="hero-lede">{t.summary}</p>
         <div className="hero-acc">
           <Voto target={`viaje:${t.slug}`} />
-          <Hilo target={`viaje:${t.slug}`} etiqueta="nota" />
+          <Hilo target={`viaje:${t.slug}`} etiqueta="Nota" />
         </div>
       </div>
     </header>
@@ -61,19 +53,19 @@ function Antes({ t }: { t: Trip }) {
   const [abierto, setAbierto] = useState(false);
 
   const items = [
-    t.warning && { k: "ojo con esto", v: t.warning, alerta: true },
-    t.verdict && { k: "por qué esta playa", v: t.verdict },
-    t.seasonality && { k: "qué semana conviene", v: t.seasonality },
-    t.gettingAround && { k: "cómo moverse", v: t.gettingAround },
+    t.warning && { k: "Ojo con esto", v: t.warning, alerta: true },
+    t.verdict && { k: "Por qué acá", v: t.verdict },
+    t.seasonality && { k: "Qué semana", v: t.seasonality },
+    t.gettingAround && { k: "Cómo moverse", v: t.gettingAround },
     ...t.stops
       .filter((s) => s.weather)
-      .map((s) => ({ k: `clima en ${s.name}`, v: s.weather as string })),
+      .map((s) => ({ k: `Clima en ${s.name}`, v: s.weather as string })),
   ].filter(Boolean) as { k: string; v: string; alerta?: boolean }[];
 
   return (
     <>
       <button className="antes" onClick={() => setAbierto(true)}>
-        antes de ir <span aria-hidden>→</span>
+        Antes de ir <span aria-hidden>→</span>
       </button>
 
       <Modal
@@ -82,14 +74,14 @@ function Antes({ t }: { t: Trip }) {
         titulo="Antes de ir"
         ancho="ancho"
       >
-        <div className="chica">
+        <dl className="chica">
           {items.map((it, i) => (
             <div key={i} className={it.alerta ? "chica-i alerta" : "chica-i"}>
-              <span className="label">{it.k}</span>
-              <p className="body-s">{it.v}</p>
+              <dt className="chica-k">{it.k}</dt>
+              <dd className="chica-v">{it.v}</dd>
             </div>
           ))}
-        </div>
+        </dl>
       </Modal>
     </>
   );
@@ -113,7 +105,7 @@ function Vuelos({ t }: { t: Trip }) {
               className={modo === m ? "tab on" : "tab"}
               onClick={() => setModo(m)}
             >
-              {m === "directo" ? "directo" : "con escala"}
+              {m === "directo" ? "Directo" : "Con escala"}
             </button>
           ))}
         </div>
@@ -132,9 +124,9 @@ function Vuelos({ t }: { t: Trip }) {
               linea: `${f.route}${f.via ? `, vía ${f.via}` : ""}. ${f.duration}.`,
               precio: f.priceUsd,
               unidad: "ida y vuelta",
-              extra: [f.note, f.estimate ? "precio estimado" : ""]
-                .filter(Boolean)
-                .join(" · "),
+              extra: [f.note, f.estimate ? "precio estimado" : ""].filter(
+                Boolean
+              ) as string[],
             }}
           >
             {f.airline}
@@ -155,7 +147,7 @@ function Vuelos({ t }: { t: Trip }) {
               linea: `${h.airline}. ${h.duration}.${h.frequency ? ` ${h.frequency}.` : ""}`,
               precio: h.priceUsd,
               unidad: "ida y vuelta",
-              extra: h.estimate ? "precio estimado" : "",
+              extra: h.estimate ? ["precio estimado"] : [],
             }}
           >
             {h.route}
@@ -191,7 +183,7 @@ function Ruta({ t }: { t: Trip }) {
   const { semana } = useSemana();
 
   return (
-    <section className="ruta">
+    <section className="bloque ruta">
       <div className="bloque-cab">
         <h2 className="bloque-t">Ruta</h2>
         <Picker />
@@ -199,44 +191,66 @@ function Ruta({ t }: { t: Trip }) {
 
       <ol className="linea">
         {t.days.map((d) => (
-          <DiaFila key={d.n} d={d} slug={t.slug} fecha={fechaDia(semana, d.n)} />
+          <DiaFila
+            key={d.n}
+            d={d}
+            slug={t.slug}
+            fecha={fechaDia(semana, d.n)}
+            dirs={t.photoDirs}
+          />
         ))}
       </ol>
     </section>
   );
 }
 
-function DiaFila({ d, slug, fecha }: { d: Day; slug: string; fecha: string }) {
+function DiaFila({
+  d,
+  slug,
+  fecha,
+  dirs,
+}: {
+  d: Day;
+  slug: string;
+  fecha: string;
+  dirs: string[];
+}) {
   return (
     <li className="dia">
       <span className="dia-punto" aria-hidden />
-      <div className="dia-cab">
-        <span className="dia-fecha">{fecha}</span>
-        <span className="dia-lugar">{d.place}</span>
-      </div>
-      <p className="dia-t">{d.title}</p>
+      <span className="dia-fecha">{fecha}</span>
 
-      <div className="chips">
+      <div className="dia-cuerpo">
+        <span className="dia-lugar">{d.place}</span>
+        <h3 className="dia-t">{d.title}</h3>
+
+        <div className="chips">
         {d.acts.map((a, i) => (
           <Pop
             key={i}
             d={{
               titulo: a.name,
               target: `acto:${slug}:${d.n}:${i}`,
+              dirs,
               linea: a.what,
               precio: a.ppUsd,
               unidad: "por persona",
               url: a.url,
-              extra: [a.duration, a.when].filter(Boolean).join(" · "),
+              extra: [a.duration, a.when].filter(Boolean) as string[],
             }}
           >
             {a.name}
           </Pop>
         ))}
-        <Aportar tipo="actividad" viaje={slug} parada={`dia${d.n}`} />
+          <ListaAportes
+            tipo="actividad"
+            viaje={slug}
+            parada={`dia${d.n}`}
+            unidad="por persona"
+          />
+          <Aportar tipo="actividad" viaje={slug} parada={`dia${d.n}`} />
+        </div>
       </div>
-
-      <ListaAportes tipo="actividad" viaje={slug} parada={`dia${d.n}`} unidad="/ p" />
     </li>
   );
 }
@@ -245,18 +259,20 @@ function DiaFila({ d, slug, fecha }: { d: Day; slug: string; fecha: string }) {
 
 function Camas({ t }: { t: Trip }) {
   return (
-    <section className="camas">
+    <section className="bloque camas">
       <div className="bloque-cab">
         <h2 className="bloque-t">Dónde dormir</h2>
       </div>
-      {t.stops.map((st) => (
-        <Parada key={st.slug} st={st} slug={t.slug} />
-      ))}
+      <div className="paradas">
+        {t.stops.map((st) => (
+          <Parada key={st.slug} st={st} slug={t.slug} dirs={t.photoDirs} />
+        ))}
+      </div>
     </section>
   );
 }
 
-function Parada({ st, slug }: { st: Stop; slug: string }) {
+function Parada({ st, slug, dirs }: { st: Stop; slug: string; dirs: string[] }) {
   const [modo, setModo] = useState<"hotel" | "airbnb">("hotel");
 
   return (
@@ -274,7 +290,7 @@ function Parada({ st, slug }: { st: Stop; slug: string }) {
               className={modo === m ? "tab on" : "tab"}
               onClick={() => setModo(m)}
             >
-              {m === "hotel" ? "hoteles" : "airbnb"}
+              {m === "hotel" ? "Hoteles" : "Airbnb"}
             </button>
           ))}
         </div>
@@ -289,6 +305,7 @@ function Parada({ st, slug }: { st: Stop; slug: string }) {
                 d={{
                   titulo: h.name,
                   target: `hotel:${slug}:${st.slug}:${i}`,
+                  dirs,
                   linea: h.why,
                   precio: h.ppUsd,
                   unidad: "por persona por noche",
@@ -298,9 +315,7 @@ function Parada({ st, slug }: { st: Stop; slug: string }) {
                     h.area,
                     h.score,
                     h.over ? "se pasa del presupuesto" : "",
-                  ]
-                    .filter(Boolean)
-                    .join(" · "),
+                  ].filter(Boolean) as string[],
                 }}
               >
                 {h.name}
@@ -317,6 +332,7 @@ function Parada({ st, slug }: { st: Stop; slug: string }) {
                 d={{
                   titulo: r.name,
                   target: `airbnb:${slug}:${st.slug}:${i}`,
+                  dirs,
                   linea: r.why,
                   precio: r.ppUsd,
                   unidad: "por persona por noche",
@@ -326,9 +342,7 @@ function Parada({ st, slug }: { st: Stop; slug: string }) {
                     `duerme ${r.sleeps}`,
                     r.area,
                     r.isSearch ? "es una búsqueda, no un aviso" : "",
-                  ]
-                    .filter(Boolean)
-                    .join(" · "),
+                  ].filter(Boolean) as string[],
                 }}
               >
                 {r.name}
@@ -336,14 +350,13 @@ function Parada({ st, slug }: { st: Stop; slug: string }) {
               </Pop>
             ))}
 
+        <ListaAportes tipo={modo} viaje={slug} parada={st.slug} />
         <Aportar tipo={modo} viaje={slug} parada={st.slug} />
       </div>
 
-      <ListaAportes tipo={modo} viaje={slug} parada={st.slug} />
-
       {st.food.length > 0 && (
         <>
-          <p className="sub-label label">dónde comer</p>
+          <p className="sub-label">Dónde comer</p>
           <div className="chips">
             {st.food.map((f, i) => (
               <Pop
@@ -352,8 +365,9 @@ function Parada({ st, slug }: { st: Stop; slug: string }) {
                 d={{
                   titulo: f.name,
                   target: `comer:${slug}:${st.slug}:${i}`,
+                  dirs,
                   linea: f.what,
-                  extra: f.level,
+                  extra: f.level ? [f.level] : [],
                 }}
               >
                 {f.name}
@@ -383,7 +397,7 @@ function Plata({ t }: { t: Trip }) {
     <section className="bloque plata-b">
       <div className="bloque-cab">
         <h2 className="bloque-t">Cuánto sale</h2>
-        <Hilo target={`plata:${t.slug}`} etiqueta="nota" />
+        <Hilo target={`plata:${t.slug}`} etiqueta="Nota" />
       </div>
 
       <ul className="plata-lista">
@@ -417,7 +431,7 @@ function Fuentes({ t }: { t: Trip }) {
   return (
     <section className="fuentes">
       <button className="hilo-abrir" onClick={() => setAbierto(!abierto)}>
-        <span aria-hidden>{abierto ? "−" : "+"}</span> fuentes
+        <span aria-hidden>{abierto ? "−" : "+"}</span> Fuentes
       </button>
       {abierto && (
         <ul className="fuentes-l">

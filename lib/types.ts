@@ -98,6 +98,8 @@ export type Trip = {
   tint: string;
   summary: string;
   heroDir: string;
+  /** todas las carpetas de fotos del viaje, la principal primero */
+  photoDirs: string[];
   stops: Stop[];
   days: Day[];
   flights: Record<WeekId, Flight[]>;

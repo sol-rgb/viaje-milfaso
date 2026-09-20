@@ -15,14 +15,14 @@ export default function Shell({ children }: { children: React.ReactNode }) {
   return (
     <EstadoProvider quien={quien}>
       <SemanaProvider>
-        <Barra quien={quien} salir={() => setQuien(null)} />
+        <Barra />
         {children}
       </SemanaProvider>
     </EstadoProvider>
   );
 }
 
-function Barra({ quien, salir }: { quien: string; salir: () => void }) {
+function Barra() {
   const ruta = usePathname();
   const dentro = ruta !== "/";
 
@@ -37,22 +37,6 @@ function Barra({ quien, salir }: { quien: string; salir: () => void }) {
         <Link href="/" className="marca">
           Viaje Milfaso
         </Link>
-      </div>
-      <div className="barra-r">
-        <span className="label">{quien}</span>
-        <button
-          className="label salir"
-          onClick={() => {
-            try {
-              localStorage.removeItem("milfaso.quien");
-            } catch {
-              /* modo privado */
-            }
-            salir();
-          }}
-        >
-          salir
-        </button>
       </div>
     </header>
   );

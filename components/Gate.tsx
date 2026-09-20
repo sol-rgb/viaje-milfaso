@@ -45,12 +45,12 @@ export default function Gate({ onEntrar }: { onEntrar: (n: string) => void }) {
   return (
     <main className="gate">
       <div className="gate-in rise">
-        <p className="label" style={{ marginBottom: 28 }}>n00. &nbsp;acceso</p>
+        <p className="label" style={{ marginBottom: 28 }}>Acceso</p>
         <h1 className="display gate-h">Viaje<br />Milfaso</h1>
 
         <form onSubmit={entrar} className="gate-form">
           <label className="gate-field">
-            <span className="label">tu nombre</span>
+            <span className="campo-l">Tu nombre</span>
             <input
               value={nombre}
               onChange={(e) => setNombre(e.target.value)}
@@ -61,7 +61,7 @@ export default function Gate({ onEntrar }: { onEntrar: (n: string) => void }) {
           </label>
 
           <label className="gate-field">
-            <span className="label">clave</span>
+            <span className="campo-l">Clave</span>
             <input
               value={clave}
               onChange={(e) => {
@@ -74,12 +74,12 @@ export default function Gate({ onEntrar }: { onEntrar: (n: string) => void }) {
           </label>
 
           <button type="submit" className="gate-go" disabled={!nombre.trim()}>
-            entrar <span aria-hidden>→</span>
+            Entrar <span aria-hidden>→</span>
           </button>
         </form>
 
         <p className="gate-hint label">
-          {mal ? "esa no es." : "la clave es el nombre del grupo, en minúscula."}
+          {mal ? "Esa no es." : "La clave es el nombre del grupo, en minúscula."}
         </p>
       </div>
     </main>
