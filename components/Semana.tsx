@@ -40,25 +40,28 @@ export function useSemana() {
   return c;
 }
 
-export default function Picker({ compacto = false }: { compacto?: boolean }) {
+export default function Picker() {
   const { semana, setSemana } = useSemana();
+  const elegida = SEMANAS.find((s) => s.id === semana);
 
   return (
-    <div className={compacto ? "picker picker-c" : "picker"} role="group">
-      {SEMANAS.map((s, i) => {
-        const on = s.id === semana;
-        return (
-          <button
-            key={s.id}
-            className={on ? "picker-b on" : "picker-b"}
-            onClick={() => setSemana(s.id)}
-            aria-pressed={on}
-          >
-            <span className="idx">{String(i + 1).padStart(2, "0")}</span>
-            <span className="picker-l">{s.label}</span>
-          </button>
-        );
-      })}
+    <div className="fechas">
+      <div className="fechas-b" role="group" aria-label="semana">
+        {SEMANAS.map((s) => {
+          const on = s.id === semana;
+          return (
+            <button
+              key={s.id}
+              className={on ? "fecha on" : "fecha"}
+              onClick={() => setSemana(s.id)}
+              aria-pressed={on}
+            >
+              {s.label}
+            </button>
+          );
+        })}
+      </div>
+      {elegida?.note && <p className="fechas-nota">{elegida.note}</p>}
     </div>
   );
 }

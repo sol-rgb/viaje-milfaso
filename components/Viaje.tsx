@@ -7,12 +7,10 @@ import Voto from "./Voto";
 import Aportar, { ListaAportes } from "./Aportar";
 import Picker, { useSemana } from "./Semana";
 import { precio, plata } from "@/lib/precio";
-import { SEMANA_POR_ID } from "@/data/semanas";
 import type { Trip, Hotel, Rental, Day, Stop } from "@/lib/types";
 
 export default function Viaje({ t }: { t: Trip }) {
   const { semana } = useSemana();
-  const s = SEMANA_POR_ID[semana];
   const p = precio(t, semana);
 
   return (
@@ -22,8 +20,7 @@ export default function Viaje({ t }: { t: Trip }) {
       <Seccion n={1} titulo="cuándo">
         <div className="cuando">
           <div className="cuando-l">
-            <Picker compacto />
-            <p className="body-s cuando-nota">{s.note}</p>
+            <Picker />
             <Hilo target={`semana:${semana}`} etiqueta="nota" />
           </div>
           <Plata t={t} p={p} />
