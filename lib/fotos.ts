@@ -1,6 +1,8 @@
 import FOTOS from "@/data/fotos.json";
 
-const MAPA = FOTOS as Record<string, string[]>;
+type Mapa = Record<string, string[]>;
+const PROPIAS = (FOTOS as { propias?: Mapa }).propias ?? {};
+const EXTRA = (FOTOS as { extra?: Mapa }).extra ?? {};
 
 export type Foto = { dir: string; n: number; src: string };
 
@@ -8,12 +10,12 @@ export type Foto = { dir: string; n: number; src: string };
  * Todas las fotos del viaje, intercaladas entre las paradas, así los dos
  * destinos aparecen desde el principio y no primero uno y después el otro.
  */
-export function fotosDe(dirs: string[]): Foto[] {
+function intercalar(dirs: string[], mapa: Mapa, base: string): Foto[] {
   const pilas = dirs.map((dir) =>
-    (MAPA[dir] ?? []).map((archivo, i) => ({
+    (mapa[dir] ?? []).map((archivo, i) => ({
       dir,
       n: i + 1,
-      src: `/photos/${dir}/${encodeURIComponent(archivo)}`,
+      src: `${base}/${dir}/${encodeURIComponent(archivo)}`,
     }))
   );
 
@@ -27,8 +29,16 @@ export function fotosDe(dirs: string[]): Foto[] {
   return out;
 }
 
+export function fotosDe(dirs: string[]): Foto[] {
+  // primero las nuestras, después las de archivo
+  return [
+    ...intercalar(dirs, PROPIAS, "/photos"),
+    ...intercalar(dirs, EXTRA, "/photos-extra"),
+  ];
+}
+
 export function cuantas(dir: string): number {
-  return (MAPA[dir] ?? []).length;
+  return (PROPIAS[dir] ?? []).length;
 }
 
 import IMGS from "@/data/imagenes.json";

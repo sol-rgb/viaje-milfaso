@@ -148,6 +148,11 @@ const TRAMOS = {
   mexico: ["MEX-PXM"],
 };
 
+/** Paradas donde ya tenemos dónde dormir, así que no buscamos nada. */
+const YA_TENEMOS = {
+  usa: ["miami"],
+};
+
 const ARCHIVOS = {
   peru: ["flights-peru.json", "stay-peru.json"],
   colombia: ["flights-colombia.json", "stay-colombia.json"],
@@ -230,16 +235,22 @@ const VIAJES = Object.entries(PROSA).map(([id, p]) => {
     ];
   }
 
+  const propias = YA_TENEMOS[id] ?? [];
   const stops = S.stops.map((st) => ({
     slug: st.slug,
     name: st.name.replace(/\s*\(.*\)\s*$/, ""),
     nights: num(st.nights),
     note: p.notas[st.slug] ?? "",
-    hotels: (st.hotels ?? []).filter((h) => h.fits_5 !== false).slice(0, 5).map(hotel),
-    rentals: (st.airbnbs ?? [])
-      .filter((b) => (num(b.sleeps) || 0) >= 5)
-      .slice(0, 5)
-      .map(casa),
+    ...(propias.includes(st.slug) ? { propio: true } : {}),
+    hotels: propias.includes(st.slug)
+      ? []
+      : (st.hotels ?? []).filter((h) => h.fits_5 !== false).slice(0, 5).map(hotel),
+    rentals: propias.includes(st.slug)
+      ? []
+      : (st.airbnbs ?? [])
+          .filter((b) => (num(b.sleeps) || 0) >= 5)
+          .slice(0, 5)
+          .map(casa),
     food: (st.food ?? []).slice(0, 4).map((f) => ({
       name: limpioNombre(f.name),
       what: t(f.what),

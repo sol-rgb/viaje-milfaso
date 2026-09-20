@@ -5,9 +5,8 @@ grupo mire, vote y comente.
 
 ## Cómo entrar
 
-Nombre + clave. La clave está en `components/Gate.tsx` (`PASS`). Es una puerta
-simbólica, no seguridad real: sirve para que cada comentario tenga un nombre al
-lado, no para proteger secretos.
+No hay clave, el sitio es abierto. Solo pide un nombre, y es para firmar lo
+que cada uno vota y comenta.
 
 ## Las fotos
 

@@ -218,10 +218,13 @@ function DiaFila({
   return (
     <li className="dia">
       <span className="dia-punto" aria-hidden />
-      <span className="dia-fecha">{fecha}</span>
+
+      <div className="dia-marca">
+        <span className="dia-fecha">{fecha}</span>
+        <span className="dia-lugar">{d.place}</span>
+      </div>
 
       <div className="dia-cuerpo">
-        <span className="dia-lugar">{d.place}</span>
         <h3 className="dia-t">{d.title}</h3>
 
         <div className="chips">
@@ -283,21 +286,25 @@ function Parada({ st, slug, dirs }: { st: Stop; slug: string; dirs: string[] }) 
           {st.name}
           <span className="label parada-n">{st.nights} noches</span>
         </h3>
-        <div className="tabs">
-          {(["hotel", "airbnb"] as const).map((m) => (
-            <button
-              key={m}
-              className={modo === m ? "tab on" : "tab"}
-              onClick={() => setModo(m)}
-            >
-              {m === "hotel" ? "Hoteles" : "Airbnb"}
-            </button>
-          ))}
-        </div>
+        {!st.propio && (
+          <div className="tabs">
+            {(["hotel", "airbnb"] as const).map((m) => (
+              <button
+                key={m}
+                className={modo === m ? "tab on" : "tab"}
+                onClick={() => setModo(m)}
+              >
+                {m === "hotel" ? "Hoteles" : "Airbnb"}
+              </button>
+            ))}
+          </div>
+        )}
       </div>
 
+      {st.propio && <p className="propio">Ya tenemos dónde parar.</p>}
+
       <div className="chips">
-        {modo === "hotel"
+        {st.propio ? null : modo === "hotel"
           ? st.hotels.map((h, i) => (
               <Pop
                 key={h.name}
@@ -350,8 +357,12 @@ function Parada({ st, slug, dirs }: { st: Stop; slug: string; dirs: string[] }) 
               </Pop>
             ))}
 
-        <ListaAportes tipo={modo} viaje={slug} parada={st.slug} />
-        <Aportar tipo={modo} viaje={slug} parada={st.slug} />
+        {!st.propio && (
+          <>
+            <ListaAportes tipo={modo} viaje={slug} parada={st.slug} />
+            <Aportar tipo={modo} viaje={slug} parada={st.slug} />
+          </>
+        )}
       </div>
 
       {st.food.length > 0 && (

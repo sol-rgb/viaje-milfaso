@@ -83,6 +83,8 @@ export type Stop = {
   name: string;
   nights: number;
   note?: string;
+  /** ya tenemos dónde parar: no van hoteles ni airbnb */
+  propio?: boolean;
   hotels: Hotel[];
   rentals: Rental[];
   food: Food[];

@@ -60,7 +60,7 @@ for (const t of VIAJES) {
     if (!(s.nights > 0)) P(`${id}/${s.slug}: sin noches`);
 
     const enPresupuesto = (s.hotels ?? []).filter((h) => !h.over);
-    if (enPresupuesto.length === 0) {
+    if (!s.propio && enPresupuesto.length === 0) {
       A(`${id}/${s.slug}: ningún hotel dentro de us$100 por persona`);
     }
 
@@ -118,6 +118,8 @@ for (const t of VIAJES) {
   const cama = t.stops.reduce((n, s) => {
     const pool = s.hotels.filter((h) => !h.over);
     const lista = pool.length ? pool : s.hotels;
+    // una parada donde ya tenemos dónde parar no suma nada
+    if (!lista.length) return n;
     return n + Math.min(...lista.map((h) => h.ppUsd)) * s.nights;
   }, 0);
   const act = t.days.flatMap((d) => d.acts).reduce((n, a) => n + a.ppUsd, 0);

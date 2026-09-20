@@ -2,7 +2,8 @@
 
 import FOTOS from "@/data/fotos.json";
 
-const MAPA = FOTOS as Record<string, string[]>;
+type Mapa = Record<string, string[]>;
+const PROPIAS = (FOTOS as { propias?: Mapa }).propias ?? {};
 
 /**
  * La foto n de un lugar. Los nombres de archivo salen de data/fotos.json,
@@ -22,7 +23,7 @@ export default function Photo({
   className?: string;
   style?: React.CSSProperties;
 }) {
-  const archivo = MAPA[dir]?.[n - 1];
+  const archivo = PROPIAS[dir]?.[n - 1];
   if (!archivo) return <span className={className} style={style} aria-hidden />;
 
   return (

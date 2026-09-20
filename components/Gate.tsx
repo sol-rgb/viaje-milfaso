@@ -3,7 +3,6 @@
 import { useEffect, useState } from "react";
 
 const KEY = "milfaso.quien";
-const PASS = "milfaso";
 
 export function useQuien() {
   const [quien, setQuien] = useState<string | null>(null);
@@ -21,19 +20,17 @@ export function useQuien() {
   return { quien, setQuien, listo };
 }
 
+/**
+ * No hay clave: el sitio es abierto. Solo pide el nombre, y es para firmar
+ * lo que cada uno vota y comenta.
+ */
 export default function Gate({ onEntrar }: { onEntrar: (n: string) => void }) {
   const [nombre, setNombre] = useState("");
-  const [clave, setClave] = useState("");
-  const [mal, setMal] = useState(false);
 
   function entrar(e: React.FormEvent) {
     e.preventDefault();
     const n = nombre.trim();
     if (!n) return;
-    if (clave.trim().toLowerCase() !== PASS) {
-      setMal(true);
-      return;
-    }
     try {
       localStorage.setItem(KEY, n);
     } catch {
@@ -44,12 +41,11 @@ export default function Gate({ onEntrar }: { onEntrar: (n: string) => void }) {
 
   return (
     <main className="gate">
-      <div className="gate-in rise">
-        <p className="label" style={{ marginBottom: 28 }}>Acceso</p>
-        <h1 className="display gate-h">Viaje<br />Milfaso</h1>
+      <div className="gate-in">
+        <h1 className="gate-h">Viaje Milfaso</h1>
 
         <form onSubmit={entrar} className="gate-form">
-          <label className="gate-field">
+          <label className="campo">
             <span className="campo-l">Tu nombre</span>
             <input
               value={nombre}
@@ -60,26 +56,13 @@ export default function Gate({ onEntrar }: { onEntrar: (n: string) => void }) {
             />
           </label>
 
-          <label className="gate-field">
-            <span className="campo-l">Clave</span>
-            <input
-              value={clave}
-              onChange={(e) => {
-                setClave(e.target.value);
-                setMal(false);
-              }}
-              type="password"
-              autoComplete="off"
-            />
-          </label>
-
-          <button type="submit" className="gate-go" disabled={!nombre.trim()}>
-            Entrar <span aria-hidden>→</span>
+          <button type="submit" className="boton lleno" disabled={!nombre.trim()}>
+            Entrar
           </button>
         </form>
 
-        <p className="gate-hint label">
-          {mal ? "Esa no es." : "La clave es el nombre del grupo, en minúscula."}
+        <p className="gate-hint">
+          Es solo para saber quién vota y quién comenta.
         </p>
       </div>
     </main>

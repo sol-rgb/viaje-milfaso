@@ -11,7 +11,9 @@
     "fotos": "node scripts/fotos.mjs",
     "prebuild": "node scripts/fotos.mjs",
     "datos": "node scripts/armar.mjs && node scripts/verificar.mjs",
-    "imagenes": "node scripts/imagenes.mjs"
+    "imagenes": "node scripts/imagenes.mjs",
+    "imagenes:browser": "node scripts/imagenes-browser.mjs",
+    "fotos:lugar": "node scripts/fotos-lugar.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.45.4",
@@ -24,6 +26,7 @@
     "@types/node": "^22.7.4",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
+    "playwright": "^1.63.0",
     "typescript": "^5.6.2"
   }
 }

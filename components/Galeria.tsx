@@ -1,16 +1,44 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { fotosDe } from "@/lib/fotos";
 
 /**
- * La tira de fotos de arriba. Nunca deja un hueco vacío: junta las fotos de
- * todas las paradas del viaje. Al tocar una se abre grande y se pasa con
- * las flechas.
+ * La tira de fotos de arriba. Junta las fotos de las dos paradas,
+ * intercaladas, se arrastra de costado y se abre en grande.
  */
 export default function Galeria({ dirs, alt }: { dirs: string[]; alt: string }) {
   const fotos = fotosDe(dirs);
+  const tira = useRef<HTMLDivElement>(null);
   const [abierta, setAbierta] = useState<number | null>(null);
+  const [puede, setPuede] = useState({ izq: false, der: false });
+
+  const medir = useCallback(() => {
+    const el = tira.current;
+    if (!el) return;
+    setPuede({
+      izq: el.scrollLeft > 8,
+      der: el.scrollLeft + el.clientWidth < el.scrollWidth - 8,
+    });
+  }, []);
+
+  useEffect(() => {
+    medir();
+    const el = tira.current;
+    if (!el) return;
+    el.addEventListener("scroll", medir, { passive: true });
+    window.addEventListener("resize", medir);
+    return () => {
+      el.removeEventListener("scroll", medir);
+      window.removeEventListener("resize", medir);
+    };
+  }, [medir]);
+
+  function correr(paso: number) {
+    const el = tira.current;
+    if (!el) return;
+    el.scrollBy({ left: paso * el.clientWidth * 0.8, behavior: "smooth" });
+  }
 
   const mover = useCallback(
     (paso: number) =>
@@ -36,25 +64,33 @@ export default function Galeria({ dirs, alt }: { dirs: string[]; alt: string }) 
 
   if (!fotos.length) return null;
 
-  const tira = fotos.slice(0, 5);
-
   return (
     <>
-      <div className="galeria">
-        {tira.map((f, i) => (
-          <button
-            key={f.src}
-            className="galeria-b"
-            onClick={() => setAbierta(i)}
-            aria-label={`${alt}, foto ${i + 1} de ${fotos.length}`}
-          >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={f.src} alt="" className="galeria-img" loading="lazy" decoding="async" />
-            {i === tira.length - 1 && fotos.length > tira.length && (
-              <span className="galeria-mas">+{fotos.length - tira.length}</span>
-            )}
+      <div className="galeria-marco">
+        <div className="galeria" ref={tira}>
+          {fotos.map((f, i) => (
+            <button
+              key={f.src}
+              className="galeria-b"
+              onClick={() => setAbierta(i)}
+              aria-label={`${alt}, foto ${i + 1} de ${fotos.length}`}
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={f.src} alt="" className="galeria-img" loading="lazy" decoding="async" />
+            </button>
+          ))}
+        </div>
+
+        {puede.izq && (
+          <button className="galeria-flecha izq" onClick={() => correr(-1)} aria-label="ver anteriores">
+            ←
           </button>
-        ))}
+        )}
+        {puede.der && (
+          <button className="galeria-flecha der" onClick={() => correr(1)} aria-label="ver siguientes">
+            →
+          </button>
+        )}
       </div>
 
       {abierta !== null && (
@@ -62,7 +98,6 @@ export default function Galeria({ dirs, alt }: { dirs: string[]; alt: string }) 
           <button className="lupa-x" onClick={() => setAbierta(null)} aria-label="cerrar">
             ×
           </button>
-
           <button
             className="lupa-flecha izq"
             onClick={(e) => {
