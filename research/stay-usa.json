@@ -1,0 +1,570 @@
+{
+  "destination": "usa",
+  "beach_verdict": "THE FLORIDA KEYS — Islamorada. Blunt version: at USD 100 per person per night the Bahamas and Aruba are simply not available in early March. Verified peak-season numbers: Exuma hotels average roughly USD 1,040/night in March (Kayak/Tripadvisor aggregate, March is the single most expensive month there) with no budget tier at all and restaurant mains starting at USD 18; Aruba's Palm Beach averages USD 559/night in March, Eagle Beach starts around USD 230 and runs 10-20% above Palm Beach; Turks & Caicos Grace Bay has a USD 229 floor with most decent properties at USD 500-850 and the Grace Bay Club at USD 896. Nassau/Paradise Island is the cheapest Caribbean option (deals from ~USD 225, cheapest room seen USD 124) but the good beach sits behind a resort gate, Baha Mar was quoting USD 465/night for late March, and Bahamian food costs (USD 40-70 per person for a mid-range dinner, everything imported) eat the rest of the budget. Every one of those three also costs a return flight from MIA (Nassau ~USD 263-279 rt, Exuma ~USD 293 rt, Providenciales ~USD 355 rt on AA) plus effectively two half-days of travel out of a nine-day trip. The Keys cost zero extra flights and a 1h45 drive, and they are the only option where the USD 100 rule actually survives contact with reality — not via hotels (Islamorada hotels average roughly USD 557/night in March, Key West around USD 260 average and up to USD 600) but via a 3-bedroom bayside house with a dock at USD 450-550/night split five ways = USD 90-110 pp. Honest downside you must accept: Keys beaches are NOT Caribbean beaches. The natural shoreline is coral rock and mangrove, most 'beach' is trucked-in sand, and the water is shallow and grassy inshore. The Keys payoff is ON the water — sandbars, the only living barrier reef in the continental US, boat days — not lying on it. Second honest caveat: March is the windy season in the Keys; cold fronts routinely cancel boat days, so book the charter early in the stay with a spare day behind it. If pure beach beauty is the real priority, Great Exuma or Turks & Caicos win outright and you should raise the budget to about USD 180 pp/night and accept it. At a hard USD 100, the Keys are the honest answer. Spring break: Key West does get spring breakers on Duval from early March, but Islamorada is largely a fishing/family island and is not ruined by it — which is another reason to base in Islamorada and treat Key West as a day trip.",
+  "stops": [
+    {
+      "slug": "miami",
+      "name": "Miami",
+      "nights": 3,
+      "area_note": "For a design-conscious group of five, the answer is NOT Ocean Drive. South Beach below 15th Street is the spring-break epicentre in early March and the Art Deco hotels there are loud, overpriced and tired. Two good bases instead: (1) WYNWOOD / EDGEWATER — the actual design and food centre of gravity (Wynwood Walls, Rubell Museum, Margulies, Design District 10 minutes north, PAMM 10 minutes south, Boia De and Mandolin nearby). Best choice if you rent a house or a big apartment, and cheaper than the beach. (2) UPPER SOUTH BEACH / COLLINS PARK (roughly 17th-30th St) and MID-BEACH (30th-60th) — you still walk to sand, but you are north of the mess; this is where Freehand, Esme, Circa 39 and Hotel Rendale sit. Brickell is glassy, corporate and dull for three nights. Little Havana is great to eat in and fine to sleep in on a budget (Life House) but it is not walkable to anything at night. Coconut Grove is lovely, green and leafy but sleepy and far from everything you listed. RESORT FEE TRAP — this is the single thing that wrecks the budget in Miami Beach: nearly every beach hotel adds a mandatory 'resort' or 'destination' fee on top of the advertised rate. Verified examples: The Standard Spa charges USD 55 + tax per night (some channels list USD 62.70); The Goodtime Hotel charges USD 45.60 per room per night PLUS USD 50 nightly valet; Esme guests report an 'amenities fee' that added roughly 33% to a three-night bill. Miami Beach lodging tax runs about 13% on top. So an advertised USD 200 room is realistically USD 200 + ~USD 40 fee + ~USD 45 valet parking = ~USD 285 before tax, ~USD 320 after — i.e. USD 160 pp, not USD 100 pp. Hotels in Wynwood/Downtown have lower or no resort fees but still charge USD 35-45/night for parking. All prices below are ESTIMATES for early March 2027 inferred from published peak-season ranges and current listings; Booking.com blocks automated price checks, so none of these are live quotes. Where a verified deep link to the hotel's Booking.com page was found it is given; otherwise a Booking.com search URL is given and flagged in the .md notes.",
+      "hotels": [
+        {
+          "name": "Hotel Rendale Miami Beach (formerly Generator Miami)",
+          "area": "Mid-Beach, 3120 Collins Ave (at 31st St)",
+          "rating": "3-star / hostel-hotel hybrid",
+          "guest_score": "Mixed, roughly 7/10 on booking channels; rebranded so review history is split",
+          "price_night_usd": 195,
+          "pp_night_usd": 98,
+          "why": "Only genuinely in-budget beach-block bed; note Generator brand is gone.",
+          "booking_url": "https://www.booking.com/hotel/us/generator-miami.html",
+          "site_url": "https://www.miamiandbeaches.com/l/hotels/hotel-rendale-miami-beach/13357",
+          "is_estimate": true
+        },
+        {
+          "name": "Life House, Little Havana",
+          "area": "Little Havana, 528 SW 9th Ave (4 blocks off Calle Ocho)",
+          "rating": "4-star boutique",
+          "guest_score": "4.0/5 Tripadvisor, ranked #52 of 143 Miami hotels",
+          "price_night_usd": 215,
+          "pp_night_usd": 108,
+          "why": "1920s mansion, 33 rooms, real design, cheapest good-taste option in March.",
+          "booking_url": "https://www.booking.com/hotel/us/life-house-little-havana.html",
+          "site_url": "https://www.lifehousehotels.com/hotels/miami/little-havana",
+          "is_estimate": true
+        },
+        {
+          "name": "Freehand Miami",
+          "area": "Upper South Beach / Collins Park, 2727 Indian Creek Dr",
+          "rating": "3-star design hostel-hotel",
+          "guest_score": "Strong on design and bar; rooms rated average",
+          "price_night_usd": 235,
+          "pp_night_usd": 118,
+          "why": "Broken Shaker bar, garden, private doubles; shared quads cut cost hard.",
+          "booking_url": "https://www.booking.com/hotel/us/freehand-miami.html",
+          "site_url": "https://freehandhotels.com/miami/",
+          "is_estimate": true
+        },
+        {
+          "name": "Circa 39 Miami Beach",
+          "area": "Mid-Beach, 3900 Collins Ave (beach across the road)",
+          "rating": "3-star boutique, IHG affiliated",
+          "guest_score": "4.0/5 Tripadvisor, ranked #36 of 211 Miami Beach hotels",
+          "price_night_usd": 245,
+          "pp_night_usd": 123,
+          "why": "Unpretentious boutique, WunderGarden, free beach chairs and umbrellas.",
+          "booking_url": "https://www.booking.com/hotel/us/circa-39.html",
+          "site_url": "https://www.circa39.com/",
+          "is_estimate": true
+        },
+        {
+          "name": "Arlo Wynwood",
+          "area": "Wynwood, 2217 NW Miami Ct (one block from Wynwood Walls)",
+          "rating": "4-star design hotel",
+          "guest_score": "4.0/5 Tripadvisor, ranked #6 of 154 Miami hotels",
+          "price_night_usd": 255,
+          "pp_night_usd": 128,
+          "why": "Best design-to-price ratio; rooftop pool, exposed concrete, in Wynwood.",
+          "booking_url": "https://www.booking.com/hotel/us/arlo-wynwood.html",
+          "site_url": "https://www.arlohotels.com/arlo-wynwood/",
+          "is_estimate": true
+        },
+        {
+          "name": "Esme Miami Beach",
+          "area": "South Beach, Espanola Way (between Washington and Drexel)",
+          "rating": "4-star boutique, 145 rooms",
+          "guest_score": "Well reviewed on Tripadvisor and Tablet Hotels; rooms small",
+          "price_night_usd": 290,
+          "pp_night_usd": 145,
+          "why": "OVER BUDGET. Prettiest hotel here, but watch the amenity fee.",
+          "booking_url": "https://www.booking.com/hotel/us/esme.html",
+          "site_url": "https://www.esmehotel.com/",
+          "is_estimate": true
+        },
+        {
+          "name": "The Standard Spa, Miami Beach",
+          "area": "Belle Isle (Venetian Causeway), between South Beach and Downtown",
+          "rating": "4/5-star adults-only spa hotel",
+          "guest_score": "Consistently high; the bay-side hamam and infinity pool are the draw",
+          "price_night_usd": 420,
+          "pp_night_usd": 210,
+          "why": "SPLURGE, double budget. Peak March runs USD 300-500 plus USD 55 fee.",
+          "booking_url": "https://www.booking.com/hotel/us/the-standard.html",
+          "site_url": "https://www.standardhotels.com/miami/properties/miami-beach",
+          "is_estimate": true
+        }
+      ],
+      "airbnbs": [
+        {
+          "name": "Private Saltwater Pool, Gated Off-Street Parking, 3Bed/2Bath, Sleeps 6 (VRBO listing 849934)",
+          "area": "Miami mainland (Coconut Grove / Coral Way side)",
+          "sleeps": 6,
+          "price_night_usd": 520,
+          "pp_night_usd": 104,
+          "why": "Real listing, pool, gated parking — parking alone saves USD 45/night.",
+          "url": "https://www.vrbo.com/849934",
+          "is_search_url": false
+        },
+        {
+          "name": "Waterfront Miami Dream Home, 5BR with pool (VRBO listing 4889237ha)",
+          "area": "Miami Shores (north of Design District, 20 min to Wynwood)",
+          "sleeps": 6,
+          "price_night_usd": 1500,
+          "pp_night_usd": 300,
+          "why": "OVER BUDGET by 3x. Listed here only as the ceiling reference point.",
+          "url": "https://www.vrbo.com/4889237ha",
+          "is_search_url": false
+        },
+        {
+          "name": "Wynwood / Edgewater 3BR apartment or townhouse, filtered search",
+          "area": "Wynwood and Edgewater",
+          "sleeps": 6,
+          "price_night_usd": 550,
+          "pp_night_usd": 110,
+          "why": "Best base for this group: walk to galleries, bars and restaurants.",
+          "url": "https://www.airbnb.com/s/Wynwood--Miami--FL/homes?adults=5&min_bedrooms=3&checkin=2027-03-03&checkout=2027-03-06",
+          "is_search_url": true
+        },
+        {
+          "name": "Little Havana 3-4BR house with pool, filtered search",
+          "area": "Little Havana / West Little Havana",
+          "sleeps": 6,
+          "price_night_usd": 430,
+          "pp_night_usd": 86,
+          "why": "Cheapest way to get a pool and a kitchen inside the city.",
+          "url": "https://www.airbnb.com/s/Little-Havana--Miami--FL/homes?adults=5&min_bedrooms=3&checkin=2027-03-03&checkout=2027-03-06",
+          "is_search_url": true
+        },
+        {
+          "name": "Coconut Grove pool house, VRBO filtered search",
+          "area": "Coconut Grove",
+          "sleeps": 6,
+          "price_night_usd": 620,
+          "pp_night_usd": 124,
+          "why": "Leafy, quiet, good houses; pricier and further from Wynwood nightlife.",
+          "url": "https://www.vrbo.com/vacation-rentals/pool/usa/florida/south-east/coconut-grove",
+          "is_search_url": true
+        },
+        {
+          "name": "Miami Beach 3BR condo in a legal short-term-rental zone, filtered search",
+          "area": "South Beach / North Beach — see warning",
+          "sleeps": 6,
+          "price_night_usd": 700,
+          "pp_night_usd": 140,
+          "why": "Legal STR zones only; most Miami Beach houses cannot rent under 6 months.",
+          "url": "https://www.airbnb.com/s/Miami-Beach--FL/homes?adults=5&min_bedrooms=3&checkin=2027-03-03&checkout=2027-03-06",
+          "is_search_url": true
+        }
+      ],
+      "activities": [
+        {
+          "day": 1,
+          "name": "Wynwood Walls plus the free gallery walk",
+          "what": "Ticketed Wynwood Walls courtyard, then walk NW 2nd Ave and NW 23rd-26th St for free street art and commercial galleries. Finish at Rubell Museum (Allapattah, 10 min away) — one of the best private contemporary collections in the US. Closed Mon and Tue.",
+          "price_pp_usd": 30,
+          "duration": "4-5 hours",
+          "when": "Day 1 afternoon (Wed-Sun only for Rubell)",
+          "url": "https://rubellmuseum.org/"
+        },
+        {
+          "day": 1,
+          "name": "Dinner at Los Felix, Coconut Grove",
+          "what": "Mexico-City-inspired, nixtamal-focused. Holds both a Michelin star and a Michelin Green Star in the 2026 Florida guide. Book weeks ahead.",
+          "price_pp_usd": 95,
+          "duration": "2.5 hours",
+          "when": "Day 1 evening",
+          "url": "https://guide.michelin.com/us/en/florida/miami/restaurant/los-felix"
+        },
+        {
+          "day": 2,
+          "name": "Design District architecture walk plus PAMM",
+          "what": "Morning in the Miami Design District: the Buckminster Fuller Fly's Eye Dome, Sou Fujimoto's Palm Court, the Museum Garage facade. Then drive 10 min to Perez Art Museum Miami — the Herzog and de Meuron building with hanging gardens is the real attraction. PAMM is CLOSED Tue and Wed; open late Thu to 9pm.",
+          "price_pp_usd": 18,
+          "duration": "5 hours",
+          "when": "Day 2 morning and afternoon, Thu-Mon",
+          "url": "https://www.pamm.org/"
+        },
+        {
+          "day": 2,
+          "name": "Little Havana Calle Ocho food walk",
+          "what": "Six tasting stops over 2.5 hours — Cuban sandwich, empanadas, pastelitos, tostones, croquetas, cafe cubano, plus a working cigar roller, Maximo Gomez Domino Park and the Calle Ocho Walk of Fame. Depart from 1543 SW 8th St. Book 24-48h ahead. Stay on afterwards for live son at Ball and Chain.",
+          "price_pp_usd": 79,
+          "duration": "2.5 hours",
+          "when": "Day 2 late afternoon",
+          "url": "https://www.miamiculinarytours.com/tour/little-havana-food-tour/"
+        },
+        {
+          "day": 3,
+          "name": "Private boat day on Biscayne Bay (the real split)",
+          "what": "Private captained charter from Miami Beach or Downtown: Key Biscayne sandbar, Star Island mansions, the Miami River. Typical 4h private charter is USD 400-600 total for up to 6, or USD 100-300/hour for a motorboat or pontoon. At USD 500 for four hours split five ways that is USD 100 pp. Tip the captain ~20% on top and bring your own drinks and food — that is where people overspend.",
+          "price_pp_usd": 100,
+          "duration": "4 hours",
+          "when": "Day 3 late morning, book the calmest forecast day",
+          "url": "https://www.getyourguide.com/miami-l176/miami-private-yacht-charter-t676399/"
+        },
+        {
+          "day": 3,
+          "name": "Vizcaya Museum and Gardens",
+          "what": "1916 Italianate villa on Biscayne Bay with formal gardens and the stone barge — the single most photogenic place in Miami. Adult admission currently USD 20 (reduced from USD 25 during restoration works). Go at opening or late afternoon for light and fewer people.",
+          "price_pp_usd": 20,
+          "duration": "2-3 hours",
+          "when": "Day 3 morning or late afternoon",
+          "url": "https://vizcaya.org/visit-2/planning-your-visit/"
+        },
+        {
+          "day": 3,
+          "name": "Key Biscayne bikes, or the Everglades airboat alternative",
+          "what": "Option A: rent bikes and ride the Rickenbacker Causeway to Crandon Park and Bill Baggs Cape Florida lighthouse — the best beach inside Miami-Dade and the best skyline view. Option B if you skip the boat: Everglades airboat at Everglades Safari Park (from USD 30) or Everglades Holiday Park (USD 41.99 + tax, includes gator show). Roughly 45 min west of the city; go at 9am before the tour buses.",
+          "price_pp_usd": 42,
+          "duration": "Half day",
+          "when": "Day 3, whichever half the boat does not take",
+          "url": "https://www.evergladessafaripark.com/"
+        }
+      ],
+      "food": [
+        {
+          "name": "Enriqueta's Sandwich Shop",
+          "what": "Wynwood counter Cuban since 1961. Pan con bistec and a colada for under USD 15. Cash-friendly, breakfast and lunch only, closes early.",
+          "price_level": "$"
+        },
+        {
+          "name": "Versailles Restaurant",
+          "what": "The Calle Ocho institution. Go for the ventanita (walk-up coffee window) and the people-watching more than the dining room. Ropa vieja, vaca frita, pastelitos.",
+          "price_level": "$$"
+        },
+        {
+          "name": "Mandolin Aegean Bistro",
+          "what": "Greek-Turkish in a converted 1940s house in Buena Vista, blue-and-white courtyard. A 2026 Michelin Bib Gourmand — the best value serious meal on this list.",
+          "price_level": "$$$"
+        },
+        {
+          "name": "Boia De",
+          "what": "Italian-leaning tasting-menu-ish room in a Buena Vista strip mall. One Michelin star in the 2026 guide. Tiny — reserve the day bookings open.",
+          "price_level": "$$$$"
+        },
+        {
+          "name": "Los Felix",
+          "what": "Coconut Grove. Heirloom-corn Mexican, house nixtamal, mezcal list. Michelin star plus Green Star 2026.",
+          "price_level": "$$$$"
+        },
+        {
+          "name": "Joe's Stone Crab",
+          "what": "South Beach, since 1913, October-May stone crab season only, so March works. No reservations — go at 5pm, or use Joe's Take Away next door for half the price.",
+          "price_level": "$$$$"
+        }
+      ],
+      "weather_note": "Early March is the best weather Miami gets. Average highs rise from 78F to 81F (26-27C) across the month, average low 70F (21C), sea temperature about 76F (24C) — swimmable but not warm for people used to it. March is statistically the DRIEST month: about 6 rainy days and ~53mm total, and the sky is clear or partly cloudy 68% of daylight hours. The real March variable is wind, not rain: cold fronts pushing down the peninsula bring two or three days of 15-25kt northerlies that flatten the water temperature and can cancel boat days. Pack one warm layer for evenings on the water."
+    },
+    {
+      "slug": "islamorada-keys",
+      "name": "Islamorada, Florida Keys",
+      "nights": 4,
+      "area_note": "Base: ISLAMORADA, mile markers 74-90 on US-1, about 1h45 from Miami with no traffic (allow 2h30 leaving Miami on a Friday). It is the sweet spot of the Keys: close enough that you lose no travel day, it has the marina and charter infrastructure for the boat day, it has the only real cluster of design-minded places in the Keys (Casa Morada, Amara Cay, Morada Bay), and it does NOT get the Duval Street spring-break scene. Key West is 80 miles further, a 2h drive each way, and in early March it is both the most expensive and the most crowded part of the Keys — treat it as one long day trip, or split 2 nights Islamorada + 2 nights Key West if Mallory Square and Dry Tortugas matter more than the boat day. KEY WEST RENTAL WARNING, this is important: the City of Key West bans rentals under 30 days without a transient licence, licences are capped and tied to specific transient-zoned properties, most residential zones prohibit short-term rentals outright, and enforcement is aggressive. A cheap-looking Key West 'Airbnb' is often illegal and can be cancelled on you. Islamorada and Key Largo have no such ban, which is another reason to base up-Keys. HOTEL REALITY: Islamorada hotel rates average roughly USD 557/night in March (against USD 234 in September); peak-season December-April rates run 40-60% above shoulder with 85%+ occupancy at waterfront properties January-March. There is effectively NO in-budget boutique hotel in Islamorada in early March. That is why the house is the recommendation, not a fallback. Prices below are ESTIMATES inferred from published peak-season ranges; Booking.com blocks automated price checks so none are live quotes, and where a verified Booking.com deep link was not found a search URL is given (flagged in the .md).",
+      "hotels": [
+        {
+          "name": "Amara Cay Resort",
+          "area": "Islamorada, 80001 Overseas Hwy (MM 80, oceanside)",
+          "rating": "4-star boutique resort, 110 rooms",
+          "guest_score": "#2 of 12 Best Hotels in Islamorada per U.S. News; Conde Nast Traveler listed",
+          "price_night_usd": 380,
+          "pp_night_usd": 190,
+          "why": "OVER BUDGET. Best mainstream design-resort pick; free kayaks, SUPs, bikes.",
+          "booking_url": "https://www.booking.com/searchresults.html?ss=Amara+Cay+Resort+Islamorada",
+          "site_url": "https://www.islamoradaresortcollection.com/amara-cay-resort",
+          "is_estimate": true
+        },
+        {
+          "name": "La Siesta Resort & Villas",
+          "area": "Islamorada, 80241 Overseas Hwy (MM 80.2, oceanside)",
+          "rating": "4-star resort with villas and cottages",
+          "guest_score": "Tripadvisor Travellers' Choice; #8 of 12 Islamorada hotels per U.S. News",
+          "price_night_usd": 360,
+          "pp_night_usd": 180,
+          "why": "OVER BUDGET as rooms, but the 2-3BR villas split five ways beat that.",
+          "booking_url": "https://www.booking.com/searchresults.html?ss=La+Siesta+Resort+Villas+Islamorada",
+          "site_url": "https://www.islamoradaresortcollection.com/la-siesta-resort",
+          "is_estimate": true
+        },
+        {
+          "name": "Three Waters Resort & Marina (formerly Postcard Inn at Holiday Isle)",
+          "area": "Islamorada, MM 84 oceanside (Holiday Isle)",
+          "rating": "4-star resort with full marina",
+          "guest_score": "Rebranded from Postcard Inn, so review history is split — check recent only",
+          "price_night_usd": 395,
+          "pp_night_usd": 198,
+          "why": "OVER BUDGET. Biggest sand beach in Islamorada; charter fleet on site.",
+          "booking_url": "https://www.booking.com/searchresults.html?ss=Three+Waters+Resort+Marina+Islamorada",
+          "site_url": "https://www.islamoradaresortcollection.com/three-waters-resort",
+          "is_estimate": true
+        },
+        {
+          "name": "Casa Morada",
+          "area": "Islamorada, 136 Madeira Rd / 82200 Overseas Hwy (MM 82, bayside)",
+          "rating": "Design boutique, all-suite, 16-48 suites, 16+ only",
+          "guest_score": "9.6/10 for couples on Booking.com; Tripadvisor mixed on value",
+          "price_night_usd": 450,
+          "pp_night_usd": 225,
+          "why": "OVER BUDGET. The one true design hotel; Raymond Jungles garden, bay sunsets.",
+          "booking_url": "https://www.booking.com/hotel/us/casa-morada-islamorada1.html",
+          "site_url": "https://www.casamorada.com/",
+          "is_estimate": true
+        },
+        {
+          "name": "The Islands of Islamorada",
+          "area": "Islamorada, 82779 Old Hwy (MM 82.8, oceanside)",
+          "rating": "Luxury villa-and-suite resort",
+          "guest_score": "Small property, high ratings, low review volume",
+          "price_night_usd": 430,
+          "pp_night_usd": 215,
+          "why": "OVER BUDGET. Villas sleep groups; private reef and sandbar charters on site.",
+          "booking_url": "https://www.booking.com/searchresults.html?ss=The+Islands+of+Islamorada",
+          "site_url": "https://www.theislandsofislamorada.com/",
+          "is_estimate": true
+        }
+      ],
+      "airbnbs": [
+        {
+          "name": "Lush Tropical Waterfront Oasis with Heated Pool, Dock and WiFi (VRBO listing 3747408ha)",
+          "area": "Islamorada, waterfront with private dock",
+          "sleeps": 6,
+          "price_night_usd": 495,
+          "pp_night_usd": 99,
+          "why": "Real listing, heated pool and dock — tie the charter up at the house.",
+          "url": "https://www.vrbo.com/3747408ha",
+          "is_search_url": false
+        },
+        {
+          "name": "Islamorada bayside 3BR canal house with dock, filtered search",
+          "area": "Islamorada bayside (Plantation Key / Lower Matecumbe canals)",
+          "sleeps": 6,
+          "price_night_usd": 475,
+          "pp_night_usd": 95,
+          "why": "The budget sweet spot: bayside canal, not oceanfront, still has a dock.",
+          "url": "https://www.vrbo.com/vacation-rentals/usa/florida/keys/islamorada-area/islamorada",
+          "is_search_url": true
+        },
+        {
+          "name": "Islamorada 4BR with private pool, filtered search",
+          "area": "Islamorada, private-pool inventory",
+          "sleeps": 6,
+          "price_night_usd": 650,
+          "pp_night_usd": 130,
+          "why": "OVER BUDGET. Private pool plus dock is the category that breaks USD 100pp.",
+          "url": "https://www.floridarentals.com/florida-keys/islamorada-vacation-rentals/private-pool/",
+          "is_search_url": true
+        },
+        {
+          "name": "Key Largo 3BR waterfront house, filtered search",
+          "area": "Key Largo (MM 95-105) — 30 min closer to Miami, cheaper than Islamorada",
+          "sleeps": 6,
+          "price_night_usd": 420,
+          "pp_night_usd": 84,
+          "why": "Cheapest legal option in the Keys; Pennekamp reef is on your doorstep.",
+          "url": "https://www.vrbo.com/vacation-rentals/usa/florida/keys/key-largo-area/key-largo",
+          "is_search_url": true
+        },
+        {
+          "name": "Long Key / Lower Matecumbe house, filtered search",
+          "area": "Long Key and Lower Matecumbe (MM 68-77)",
+          "sleeps": 6,
+          "price_night_usd": 450,
+          "pp_night_usd": 90,
+          "why": "Quietest stretch, best value, 20 min south of Islamorada restaurants.",
+          "url": "https://www.vrbo.com/vacation-rentals/usa/florida/keys/islamorada-area/long-key",
+          "is_search_url": true
+        },
+        {
+          "name": "Airbnb Islamorada, 5 guests, 3+ bedrooms, filtered search for your dates",
+          "area": "Islamorada, all of it",
+          "sleeps": 6,
+          "price_night_usd": 500,
+          "pp_night_usd": 100,
+          "why": "Cross-check against VRBO; the same houses are often listed on both.",
+          "url": "https://www.airbnb.com/s/Islamorada--FL/homes?adults=5&min_bedrooms=3&checkin=2027-03-06&checkout=2027-03-10",
+          "is_search_url": true
+        }
+      ],
+      "activities": [
+        {
+          "day": 4,
+          "name": "Drive Miami to Islamorada, then tarpon at Robbie's",
+          "what": "1h45 to 2h30 on US-1. Stop at Alabama Jack's (MM 104 approach, crab cakes on the water) or Key Largo Fisheries. Check in, then go to Robbie's of Islamorada at MM 77.5 to hand-feed 2m tarpon off the dock — dock access USD 2.50 pp, bucket of bait USD 5. Silly, five minutes long, everyone's favourite photo. Stay for sunset at Morada Bay Beach Cafe or Lorelei.",
+          "price_pp_usd": 10,
+          "duration": "Half day driving, 1 hour at Robbie's",
+          "when": "Day 4, leave Miami by 10am to beat the causeway",
+          "url": "https://www.robbies.com/"
+        },
+        {
+          "day": 5,
+          "name": "Private sandbar and reef boat day (book this first)",
+          "what": "Charter a captained boat out of Islamorada for 4-6 hours: Islamorada sandbar at low tide (waist-deep flats, anchor up, music, cooler), then snorkel Alligator Reef Lighthouse or Cheeca Rocks. Expect roughly USD 600-900 for a private half-day boat for 6 in peak season, i.e. USD 120-180 pp — this is the one splurge worth breaking the rule for. Cheaper alternative: Robbie's twice-daily group snorkel trips (10am and 1:30pm) or their party-boat fishing at USD 100 pp morning, USD 75 pp afternoon.",
+          "price_pp_usd": 140,
+          "duration": "4-6 hours",
+          "when": "Day 5, but move it to whichever day has the lightest wind forecast",
+          "url": "https://www.robbies.com/"
+        },
+        {
+          "day": 6,
+          "name": "Key West day trip: Mallory Square sunset and Duval",
+          "what": "2h drive each way down the Seven Mile Bridge (stop at Bahia Honda State Park, MM 37 — the only genuinely beautiful natural beach in the Keys, USD 8 per vehicle). In Key West: Hemingway House, Cuban coffee at Cuban Coffee Queen, the Southernmost Point queue, then the Mallory Square sunset celebration — free, buskers and street performers, starts about 90 min before sunset (~6:30pm in early March). Duval will have spring breakers; drink at the Green Parrot instead. Long day, nominate a driver.",
+          "price_pp_usd": 35,
+          "duration": "12 hours door to door",
+          "when": "Day 6, leave by 9am",
+          "url": "https://www.floridastateparks.org/parks-and-trails/bahia-honda-state-park"
+        },
+        {
+          "day": 7,
+          "name": "Snorkel John Pennekamp Coral Reef State Park",
+          "what": "Drive 40 min north to Key Largo (MM 102.5). The park's own 2.5-hour guided snorkel boat is USD 45 pp; private operators run from USD 50 pp, in-water guide about USD 120 plus USD 70 per extra person. Shallow patch reefs, the Christ of the Abyss statue, good visibility if the wind is down. Combine with the History of Diving Museum in Islamorada (MM 83) on the way back — small, genuinely odd, very good.",
+          "price_pp_usd": 45,
+          "duration": "Half day",
+          "when": "Day 7 morning, before the afternoon wind builds",
+          "url": "https://pennekamppark.com/snorkeling-tours/"
+        },
+        {
+          "day": 7,
+          "name": "Kayak Indian Key and Lignumvitae Key, then last sunset",
+          "what": "Free kayaks and SUPs come with most Islamorada resorts and many rental houses. Paddle from Indian Key Fill (MM 79) to Indian Key Historic State Park — ruins of an 1830s wrecking town on a tiny island. Calm bayside water, no boat needed. Finish with dinner and sunset at Morada Bay, feet in the sand.",
+          "price_pp_usd": 0,
+          "duration": "3 hours",
+          "when": "Day 7 late afternoon",
+          "url": "https://www.floridastateparks.org/parks-and-trails/indian-key-historic-state-park"
+        },
+        {
+          "day": 7,
+          "name": "If you split to Key West instead: Dry Tortugas ferry",
+          "what": "Only worth it if you overnight in Key West, because the Yankee Freedom III leaves at 7:30am and returns 5:30pm. USD 250 per adult including national park entry, snorkel gear, breakfast and lunch. Fort Jefferson, 110km out in the Gulf, is the single best thing in the Florida Keys — and comfortably the most expensive. Sells out weeks ahead in March.",
+          "price_pp_usd": 250,
+          "duration": "Full day, 7:30am-5:30pm",
+          "when": "Only with a Key West overnight",
+          "url": "https://www.drytortugas.com/day-trip-ferry-tickets/"
+        }
+      ],
+      "food": [
+        {
+          "name": "Morada Bay Beach Cafe",
+          "what": "MM 81 bayside. Tables in the sand, the best sunset in the Keys, decent seafood. Sister restaurant Pierre's upstairs is the fancy one.",
+          "price_level": "$$$"
+        },
+        {
+          "name": "Hungry Tarpon at Robbie's",
+          "what": "MM 77.5. Breakfast and fish tacos on the dock, tiny and packed. Go early, eat, then feed the tarpon.",
+          "price_level": "$$"
+        },
+        {
+          "name": "Lazy Days Restaurant",
+          "what": "MM 79.9 oceanside. Bring-your-own-catch or order theirs; the yellowtail snapper is the order. Straightforward, good, local.",
+          "price_level": "$$"
+        },
+        {
+          "name": "Chef Michael's",
+          "what": "MM 81.6. The best actual cooking in Islamorada — hogfish, local fish prepared four ways. Small room, book ahead in March.",
+          "price_level": "$$$"
+        },
+        {
+          "name": "Midway Cafe (Marathon, MM 80.5) and Key Largo Fisheries",
+          "what": "Coffee and stops on the drive. Key Largo Fisheries is a working fish house with a back-deck counter — cheapest good seafood in the Upper Keys.",
+          "price_level": "$"
+        }
+      ],
+      "weather_note": "The Keys in early March run 1-2C warmer than Miami: highs around 27-28C, lows around 21-22C, water about 24C. Rainfall is minimal — it is the dry season. The thing that actually matters is WIND. Late winter cold fronts sweep through every 5-10 days and bring 15-25kt northerlies for two or three days at a time, which makes the ocean side choppy, kills visibility on the reef and gets snorkel and charter trips cancelled. Practical rule: book the boat day for the calmest forecast day in your four, keep a spare day behind it, and have the bayside kayak plan as the backup. Also bring long sleeves — an evening on a boat in a March front is genuinely cold."
+    }
+  ],
+  "getting_around": "MIAMI NEEDS A CAR — this is not optional for the itinerary above. Wynwood to the Design District to PAMM to Vizcaya to Little Havana to Key Biscayne is a 40km loop and public transport between them is effectively non-existent (the free Metromover only covers Downtown and Brickell). Uber/Lyft works but at 5 people you need an XL for every trip: MIA to South Beach runs roughly USD 35-50, and a day of hopping neighbourhoods easily hits USD 80-120 for the group. A rental car from MIA in early March is roughly USD 50-80/day for a midsize plus about USD 20/day in taxes and fees — for a group of five with luggage, take a full-size SUV. THE HIDDEN COST IS PARKING, NOT THE CAR: Miami Beach hotel valet is USD 40-55 per night (The Goodtime charges USD 50), municipal garages run USD 2-4/hour, and street parking in South Beach requires the PayByPhone app. If you stay in a house or an apartment with a driveway or a parking space you erase that entire line item — another reason the rental beats the hotel. Argentine licences are accepted in Florida for short visits, but rental companies may ask for an International Driving Permit alongside it, and every driver must be on the contract; under-25 drivers pay a young-driver surcharge. KEYS: the car is mandatory, US-1 is the only road, there is no alternative route, and southbound traffic on Friday afternoons and northbound on Sunday afternoons is genuinely bad — add an hour. Mile markers descend from 106 (Key Largo) to 0 (Key West); everything is addressed by MM. Drink-driving enforcement on US-1 is heavy; nominate a driver for the Key West day. Keep the same rental for the whole nine days rather than returning and re-renting — one-way and short re-rentals in March are priced badly.",
+  "budget_reality_note": "BLUNT VERSION: USD 100 per person per night in early March in South Florida and the Caribbean does not buy a boutique hotel. It buys a share of a house. Here is the arithmetic. In Miami Beach, an advertised USD 200 double becomes USD 200 + a mandatory resort or destination fee (verified: USD 55+tax at The Standard, USD 45.60 at The Goodtime, an 'amenities fee' at Esme that guests report adding ~33% to a three-night bill) + USD 40-55 valet parking + ~13% lodging tax = roughly USD 300-320 actually charged, which is USD 150-160 pp, not USD 100. Also remember five people need three hotel rooms, not two-and-a-half. Three rooms at USD 240 is USD 720/night = USD 144 pp. A 3-bedroom Miami house or apartment at USD 500-550 with free parking and a kitchen is USD 100-110 pp all in, and it is a better trip — you can cook one meal a day and drink at home before going out, which in Miami is worth another USD 30-40 pp per night. In the Keys the gap is even wider: Islamorada hotels average about USD 557/night in March, so three rooms is USD 1,670/night = USD 334 pp, while a bayside 3-bedroom canal house with a dock at USD 450-550 is USD 90-110 pp. The rental is not a compromise here; it is the only version of this trip that fits the budget. What USD 100 pp/night genuinely buys in early March 2027: a good house in Little Havana, Wynwood-adjacent Edgewater, Coconut Grove or bayside Islamorada; a bed in a shared quad at Freehand; a room at Hotel Rendale in Mid-Beach or Life House in Little Havana if you insist on hotels. What it does not buy: anything oceanfront in the Keys, The Standard, The Goodtime, Casa Morada, or any night at all in the Bahamas, Aruba or Turks and Caicos. Budget separately for the things that are worth breaking the rule for: one private boat day in the Keys (USD 120-180 pp) and one or two serious Miami dinners (USD 95-140 pp at Los Felix or Boia De). Two further traps: (1) Miami Beach bans short-term rentals under 180 days in all single-family residential zones, with fines starting at USD 20,000 — only rent in the legal transect zones (South Beach Entertainment District, North Beach Town Center, RM-2/RM-3), and if a Miami Beach house looks cheap it is probably illegal. (2) The City of Key West prohibits rentals under 30 days without a capped transient licence and enforces hard — do not book a Key West house.",
+  "sources": [
+    "https://www.standardhotels.com/miami/properties/miami-beach/faqs",
+    "https://www.momondo.com/hotels/miami-beach/The-Standard-Spa-Miami-Beach.mhd1878.ksp",
+    "https://www.booking.com/hotel/us/the-standard.html",
+    "https://www.booking.com/hotel/us/freehand-miami.html",
+    "https://freehandhotels.com/miami/",
+    "https://www.booking.com/hotel/us/esme.html",
+    "https://www.esmehotel.com/",
+    "https://www.tablethotels.com/en/miami-hotels/esme-miami-beach",
+    "https://www.tripadvisor.com/Hotel_Review-g34439-d577730-Reviews-Esme_Hotel_Miami_Beach-Miami_Beach_Florida.html",
+    "https://www.booking.com/hotel/us/circa-39.html",
+    "https://www.circa39.com/",
+    "https://www.tripadvisor.com/Hotel_Review-g34439-d85107-Reviews-Circa_39_Miami_Beach-Miami_Beach_Florida.html",
+    "https://www.booking.com/hotel/us/arlo-wynwood.html",
+    "https://www.tripadvisor.com/Hotel_Review-g34438-d24889567-Reviews-Arlo_Wynwood-Miami_Florida.html",
+    "https://www.booking.com/hotel/us/life-house-little-havana.html",
+    "https://www.lifehousehotels.com/hotels/miami/little-havana",
+    "https://www.tripadvisor.com/Hotel_Review-g34438-d15344352-Reviews-or30-Life_House_Little_Havana-Miami_Florida.html",
+    "https://www.booking.com/hotel/us/the-goodtime.html",
+    "https://www.resortfeechecker.com/60966866-resort_fee_the_goodtime_hotel_miami_beach_tribute_portfolio_hotel.html",
+    "https://www.thegoodtimehotel.com/stay/",
+    "https://www.booking.com/hotel/us/generator-miami.html",
+    "https://www.miamiandbeaches.com/l/hotels/hotel-rendale-miami-beach/13357",
+    "https://www.yelp.com/biz/generator-miami-miami-beach-3",
+    "https://www.tripadvisor.com/Hotel_Review-g34439-d14995348-Reviews-Generator_Miami-Miami_Beach_Florida.html",
+    "https://vizcaya.org/visit-2/planning-your-visit/",
+    "https://rubellmuseum.org/",
+    "https://www.pamm.org/",
+    "https://www.timeout.com/miami/things-to-do/best-museums-in-miami",
+    "https://www.miamiculinarytours.com/tour/little-havana-food-tour/",
+    "https://www.getyourguide.com/miami-l176/-little-havana-walking-food-tour-miami-t30006/",
+    "https://www.getyourguide.com/miami-l176/miami-private-yacht-charter-t676399/",
+    "https://www.getmyboat.com/boat-rental/Miami--FL--United-States/",
+    "https://www.boatsetter.com/boat-rentals/miami--fl--united-states",
+    "https://www.evergladessafaripark.com/",
+    "https://www.evergladesholidaypark.com/about/airboat-tour-hours-and-prices/",
+    "https://www.getyourguide.com/miami-l176/everglades-national-park-airboat-tour-and-wildlife-show-t172401/",
+    "https://guide.michelin.com/us/en/florida/miami/restaurant/boia-de",
+    "https://blog.resy.com/2026/05/michelin-miami/",
+    "https://themiamiguide.com/miami-leads-floridas-2026-michelin-guide/",
+    "https://weatherspark.com/m/18622/3/Average-Weather-in-March-in-Miami-Florida-United-States",
+    "https://www.currentresults.com/Weather/Florida/Places/miami-weather-in-march.php",
+    "https://seatemperature.info/march/miami-water-temperature.html",
+    "https://www.weather2travel.com/florida/miami/march/",
+    "https://www.bnbcalc.com/blog/short-term-rental-regulation/Miami-Beach-Florida-guide",
+    "https://apps.miamibeachfl.gov/practicesaferenting",
+    "https://layla.eco/blogs/miami-beach-str-rules-fines-2026-update-for-hosts",
+    "https://www.steadily.com/blog/airbnb-short-term-rental-laws-regulations-miami",
+    "https://www.airbnb.com/wynwood-fl/stays",
+    "https://www.airbnb.com/miami-fl/stays/pools",
+    "https://www.vrbo.com/849934",
+    "https://www.vrbo.com/4889237ha",
+    "https://www.vrbo.com/vacation-rentals/pool/usa/florida/south-east/coconut-grove",
+    "https://www.kayak.com/flight-routes/Miami-MIA/Nassau-Intl-NAS",
+    "https://www.skyscanner.com/routes/mia/nas/miami-international-to-nassau-international.html",
+    "https://www.trip.com/hot/miami-to-nassau-flight-time/",
+    "https://www.expedia.com/cn/Exuma-Destination.d6247365.Flight-Destinations",
+    "https://www.tripadvisor.com/Hotels-g147429-Great_Exuma_Out_Islands_Bahamas-Hotels.html",
+    "https://www.kayak.com/Exuma-Hotels.r4570.dr.html",
+    "https://theworldtravelindex.com/en/caribbean/the-bahamas/great-exuma/is-great-exuma-expensive",
+    "https://radicalstorage.com/travel/is-the-bahamas-expensive/",
+    "https://www.tripadvisor.com/Hotels-g147417-Paradise_Island_New_Providence_Island_Bahamas-Hotels.html",
+    "https://www.nassauparadiseisland.com/hotels-resorts/boutique",
+    "https://www.kayak.com/Nassau-Hotels_Paradise-Island.N207437.11232.hotel.ksp",
+    "https://www.tripadvisor.com/Hotels-g147249-Palm_Eagle_Beach_Aruba-Hotels.html",
+    "https://onehappyisland.com/aruba-eagle-beach-hotels/",
+    "https://www.booking.com/city/aw/palm-beach.html",
+    "https://www.tripadvisor.com/Hotels-g10006284-Grace_Bay_Providenciales_Turks_and_Caicos-Hotels.html",
+    "https://www.visittci.com/providenciales/hotels",
+    "https://www.booking.com/city/tc/grace-bay.html",
+    "https://www.tripadvisor.com/Hotels-g34346-Islamorada_Florida_Keys_Florida-Hotels.html",
+    "https://www.islamoradaresortcollection.com/about-us/our-resorts",
+    "https://www.islamoradaresortcollection.com/amara-cay-resort",
+    "https://www.islamoradaresortcollection.com/la-siesta-resort",
+    "https://www.islamoradaresortcollection.com/three-waters-resort",
+    "https://www.casamorada.com/",
+    "https://www.booking.com/hotel/us/casa-morada-islamorada1.html",
+    "https://www.theislandsofislamorada.com/",
+    "https://www.kayak.com/Islamorada-Hotels-Casa-Morada.61709.ksp",
+    "https://www.kayak.com/Islamorada-Hotels-Amara-Cay-Resort.14661.ksp",
+    "https://www.vrbo.com/3747408ha",
+    "https://www.vrbo.com/vacation-rentals/usa/florida/keys/islamorada-area/islamorada",
+    "https://www.vrbo.com/vacation-rentals/usa/florida/keys/key-largo-area/key-largo",
+    "https://www.vrbo.com/vacation-rentals/usa/florida/keys/islamorada-area/long-key",
+    "https://www.floridarentals.com/florida-keys/islamorada-vacation-rentals/private-pool/",
+    "https://www.robbies.com/",
+    "https://pennekamppark.com/snorkeling-tours/",
+    "https://www.islandventure.com/snorkel-tours/",
+    "https://www.drytortugas.com/day-trip-ferry-tickets/",
+    "https://www.earthtrekkers.com/how-to-get-to-dry-tortugas-national-park/",
+    "https://vacationhomesofkeywest.com/spring-in-key-west/",
+    "https://www.cityofkeywest-fl.gov/Faq.aspx?QID=193",
+    "https://www.getchalet.com/rental-regulations/key-west-fl",
+    "https://www.rentkeywest.com/rentals-rules-policies",
+    "https://us.lastminute.com/hotels/us_united-states/key-west-fl-d1538147695"
+  ]
+}

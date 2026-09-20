@@ -1,0 +1,470 @@
+{
+  "destination": "usa",
+  "gateway": "MIA",
+  "generated_on": "2026-09-20",
+  "currency": "USD",
+  "cabin": "economy",
+  "pax": 5,
+  "price_basis": "Round-trip per person, economy, taxes included. All 2027 fares are ESTIMATES anchored on Sept-2026 published fare ranges for the same routes plus a documented Feb/Mar spring-break premium. See seasonality_note.",
+  "windows": [
+    {
+      "id": "w1",
+      "depart": "2027-02-27",
+      "return": "2027-03-06",
+      "alt_dates": "Depart Fri 26 Feb night (AA900/AA908/AR1302 are overnight, so a Fri-night departure lands Sat 27 Feb AM) or Sat 27 Feb. Return Sat 6 Mar or Sun 7 Mar.",
+      "assessment": "BEST OF THE THREE. Only the last day or two brush against US spring break. Cheapest fares and cheapest Bahamas hotels of the three windows.",
+      "direct": [
+        {
+          "airline": "American Airlines",
+          "flight_no": "AA 900",
+          "from": "EZE",
+          "to": "MIA",
+          "dep_time": "20:35",
+          "arr_time": "04:55+1",
+          "duration": "9h20m",
+          "rt_price_usd": 950,
+          "is_estimate": true,
+          "note": "Daily, Boeing 777-200/787. CONFIRMED overnight northbound - depart Fri night, land Sat dawn. Best fit for a Fri-26-Feb night departure. Return pair is AA 931 (MIA 21:20 to EZE 07:15+1) or AA 907 (MIA 22:45 to EZE 08:30+1), both also overnight. Fare est. from KAYAK typical BUE-MIA RT band 697-1008 USD plus modest late-Feb premium."
+        },
+        {
+          "airline": "American Airlines",
+          "flight_no": "AA 908",
+          "from": "EZE",
+          "to": "MIA",
+          "dep_time": "22:15",
+          "arr_time": "06:20+1",
+          "duration": "9h05m",
+          "rt_price_usd": 950,
+          "is_estimate": true,
+          "note": "Second AA overnight rotation. Same fare bucket as AA900; pick on schedule, not price."
+        },
+        {
+          "airline": "Aerolineas Argentinas",
+          "flight_no": "AR 1302",
+          "from": "EZE",
+          "to": "MIA",
+          "dep_time": "22:45",
+          "arr_time": "07:00+1",
+          "duration": "8h40m",
+          "rt_price_usd": 900,
+          "is_estimate": true,
+          "note": "Airbus A330, 272 seats. Operates Mon/Tue/Thu/Sat/Sun - NOT every day, check the specific date. Overnight northbound. Return is AR 1303/1305 (MIA 23:55 to EZE 10:00+1, or MIA 18:25 to EZE 04:30+1). Usually the cheapest of the three direct carriers for an Argentine-issued ticket, and pays in ARS."
+        },
+        {
+          "airline": "Aerolineas Argentinas",
+          "flight_no": "AR 1304",
+          "from": "EZE",
+          "to": "MIA",
+          "dep_time": "13:40",
+          "arr_time": "21:55",
+          "duration": "8h15m",
+          "rt_price_usd": 900,
+          "is_estimate": true,
+          "note": "DAYTIME northbound - the exception to the overnight pattern. Good if you prefer to sleep in Buenos Aires and fly rested, bad if you want to save a hotel night."
+        },
+        {
+          "airline": "LATAM",
+          "flight_no": "LA 542",
+          "from": "EZE",
+          "to": "MIA",
+          "dep_time": "10:55",
+          "arr_time": "17:50",
+          "duration": "9h05m",
+          "rt_price_usd": 980,
+          "is_estimate": true,
+          "note": "Boeing 787-8, daily. NEW ROUTE - LATAM launched nonstop MIA-EZE on 1 Dec 2025, so it is only ~15 months old at travel time and inventory behaviour is less predictable. Daytime northbound (it is the SCL-EZE-MIA tag). Return LA 543 MIA 23:55 to EZE 10:00+1 is overnight."
+        }
+      ],
+      "one_stop": [
+        {
+          "airline": "Avianca",
+          "from": "EZE",
+          "to": "MIA",
+          "via": "BOG",
+          "duration": "~11h53m total (shortest one-stop option on the route)",
+          "rt_price_usd": 760,
+          "is_estimate": true,
+          "note": "BOG is the most-used connecting hub on EZE-MIA (~24% of one-stop bookings) and has the shortest average total travel time. Typical layover ~1h45m. Avianca repeatedly shows as the cheapest carrier on this city pair (KAYAK lists it at 552 USD RT off-peak). Only ~2-3h longer than nonstop for roughly 200 USD less per person - the best value trade on this list."
+        },
+        {
+          "airline": "Copa Airlines",
+          "from": "EZE",
+          "to": "MIA",
+          "via": "PTY",
+          "duration": "~12-13h total (7h27m EZE-PTY + 3h08m PTY-MIA + 1h30m-3h layover)",
+          "rt_price_usd": 800,
+          "is_estimate": true,
+          "note": "Copa runs a high-frequency bank at Panama Tocumen, so there are several daily connection options and re-accommodation is easy if leg 1 slips. Reliable operationally. Watch the layover - short PTY connections are tight but Tocumen is a single-terminal transfer."
+        },
+        {
+          "airline": "LATAM",
+          "from": "EZE",
+          "to": "MIA",
+          "via": "SCL or LIM",
+          "duration": "~13-14h total (layover ~2h30m at SCL)",
+          "rt_price_usd": 840,
+          "is_estimate": true,
+          "note": "Backtracks west to Santiago or north to Lima. Only worth it if the fare gap to LA 542 nonstop is large, which it usually is not - LATAM tends to price its own nonstop close to its connection."
+        },
+        {
+          "airline": "Gol",
+          "from": "EZE",
+          "to": "MIA",
+          "via": "GRU",
+          "duration": "~13-14h total (2h50m EZE-GRU + ~8h GRU-MIA + layover)",
+          "rt_price_usd": 780,
+          "is_estimate": true,
+          "note": "Sao Paulo Guarulhos connection. Often the headline-cheapest but GRU is a slow, large transfer airport and Gol's long-haul product is thin. Verify Gol is actually marketing GRU-MIA itself on your dates rather than selling an American codeshare."
+        }
+      ],
+      "cheapest_direct_usd": 900,
+      "cheapest_onestop_usd": 760
+    },
+    {
+      "id": "w2",
+      "depart": "2027-03-06",
+      "return": "2027-03-13",
+      "alt_dates": "Depart Fri 5 Mar night or Sat 6 Mar, return Sat 13 Mar.",
+      "assessment": "WORST OF THE THREE - AVOID. University of Miami spring break 2027 is 6-13 March, an exact day-for-day overlap with this window. Miami and Nassau will be at their absolute annual peak for airfare, hotels and crowds.",
+      "direct": [
+        {
+          "airline": "American Airlines",
+          "flight_no": "AA 900",
+          "from": "EZE",
+          "to": "MIA",
+          "dep_time": "20:35",
+          "arr_time": "04:55+1",
+          "duration": "9h20m",
+          "rt_price_usd": 1200,
+          "is_estimate": true,
+          "note": "Same daily overnight service. Fare marked up ~25% over W1 for exact-overlap spring-break week. AA also has the most inventory of the three so it holds price hardest in peak weeks."
+        },
+        {
+          "airline": "American Airlines",
+          "flight_no": "AA 908",
+          "from": "EZE",
+          "to": "MIA",
+          "dep_time": "22:15",
+          "arr_time": "06:20+1",
+          "duration": "9h05m",
+          "rt_price_usd": 1200,
+          "is_estimate": true,
+          "note": "Second AA overnight rotation, same peak-week bucket."
+        },
+        {
+          "airline": "Aerolineas Argentinas",
+          "flight_no": "AR 1302",
+          "from": "EZE",
+          "to": "MIA",
+          "dep_time": "22:45",
+          "arr_time": "07:00+1",
+          "duration": "8h40m",
+          "rt_price_usd": 1150,
+          "is_estimate": true,
+          "note": "Mon/Tue/Thu/Sat/Sun only. 6 Mar 2027 is a Saturday so AR 1302 does operate that day. Overnight."
+        },
+        {
+          "airline": "LATAM",
+          "flight_no": "LA 542",
+          "from": "EZE",
+          "to": "MIA",
+          "dep_time": "10:55",
+          "arr_time": "17:50",
+          "duration": "9h05m",
+          "rt_price_usd": 1230,
+          "is_estimate": true,
+          "note": "Daily 787-8, daytime northbound. Peak-week pricing."
+        }
+      ],
+      "one_stop": [
+        {
+          "airline": "Avianca",
+          "from": "EZE",
+          "to": "MIA",
+          "via": "BOG",
+          "duration": "~11h53m total",
+          "rt_price_usd": 950,
+          "is_estimate": true,
+          "note": "One-stop discount widens in peak weeks because connecting inventory is deeper - the saving vs nonstop grows to roughly 250 USD per person here. If the group is locked into W2, this is where the money is."
+        },
+        {
+          "airline": "Copa Airlines",
+          "from": "EZE",
+          "to": "MIA",
+          "via": "PTY",
+          "duration": "~12-13h total",
+          "rt_price_usd": 990,
+          "is_estimate": true,
+          "note": "Panama connection. Peak-week markup applied."
+        },
+        {
+          "airline": "Gol",
+          "from": "EZE",
+          "to": "MIA",
+          "via": "GRU",
+          "duration": "~13-14h total",
+          "rt_price_usd": 960,
+          "is_estimate": true,
+          "note": "Sao Paulo connection. Cheapest headline number in peak week but longest and least comfortable."
+        },
+        {
+          "airline": "LATAM",
+          "from": "EZE",
+          "to": "MIA",
+          "via": "SCL or LIM",
+          "duration": "~13-14h total",
+          "rt_price_usd": 1050,
+          "is_estimate": true,
+          "note": "Rarely worth it against its own nonstop."
+        }
+      ],
+      "cheapest_direct_usd": 1150,
+      "cheapest_onestop_usd": 950
+    },
+    {
+      "id": "w3",
+      "depart": "2027-03-13",
+      "return": "2027-03-20",
+      "alt_dates": "Depart Fri 12 Mar or Sat 13 Mar, return Sat 20 Mar or Sun 21 Mar.",
+      "assessment": "MIDDLE. Still inside the broad March spring-break block - US school and college breaks stagger across the whole month - but past the University of Miami peak week. Cheaper than W2, dearer than W1.",
+      "direct": [
+        {
+          "airline": "American Airlines",
+          "flight_no": "AA 900",
+          "from": "EZE",
+          "to": "MIA",
+          "dep_time": "20:35",
+          "arr_time": "04:55+1",
+          "duration": "9h20m",
+          "rt_price_usd": 1100,
+          "is_estimate": true,
+          "note": "Daily overnight. Note 12 Mar 2027 is a Friday - a Fri-night AA900 departure arrives Sat 13 Mar 04:55, which effectively gives you the Saturday."
+        },
+        {
+          "airline": "American Airlines",
+          "flight_no": "AA 908",
+          "from": "EZE",
+          "to": "MIA",
+          "dep_time": "22:15",
+          "arr_time": "06:20+1",
+          "duration": "9h05m",
+          "rt_price_usd": 1100,
+          "is_estimate": true,
+          "note": "Second AA overnight rotation."
+        },
+        {
+          "airline": "Aerolineas Argentinas",
+          "flight_no": "AR 1302",
+          "from": "EZE",
+          "to": "MIA",
+          "dep_time": "22:45",
+          "arr_time": "07:00+1",
+          "duration": "8h40m",
+          "rt_price_usd": 1050,
+          "is_estimate": true,
+          "note": "Mon/Tue/Thu/Sat/Sun. 12 Mar 2027 is a Friday - AR 1302 does NOT operate Fridays, so a Fri-12-Mar Aerolineas departure is not available. Sat 13 Mar works."
+        },
+        {
+          "airline": "LATAM",
+          "flight_no": "LA 542",
+          "from": "EZE",
+          "to": "MIA",
+          "dep_time": "10:55",
+          "arr_time": "17:50",
+          "duration": "9h05m",
+          "rt_price_usd": 1130,
+          "is_estimate": true,
+          "note": "Daily 787-8, daytime northbound."
+        }
+      ],
+      "one_stop": [
+        {
+          "airline": "Avianca",
+          "from": "EZE",
+          "to": "MIA",
+          "via": "BOG",
+          "duration": "~11h53m total",
+          "rt_price_usd": 880,
+          "is_estimate": true,
+          "note": "Shortest one-stop, most-used hub, usually cheapest carrier on the pair."
+        },
+        {
+          "airline": "Copa Airlines",
+          "from": "EZE",
+          "to": "MIA",
+          "via": "PTY",
+          "duration": "~12-13h total",
+          "rt_price_usd": 920,
+          "is_estimate": true,
+          "note": "High-frequency Panama bank, good recovery options if leg 1 delays."
+        },
+        {
+          "airline": "Gol",
+          "from": "EZE",
+          "to": "MIA",
+          "via": "GRU",
+          "duration": "~13-14h total",
+          "rt_price_usd": 900,
+          "is_estimate": true,
+          "note": "Sao Paulo connection."
+        },
+        {
+          "airline": "LATAM",
+          "from": "EZE",
+          "to": "MIA",
+          "via": "SCL or LIM",
+          "duration": "~13-14h total",
+          "rt_price_usd": 970,
+          "is_estimate": true,
+          "note": "Backtrack via Santiago or Lima."
+        }
+      ],
+      "cheapest_direct_usd": 1050,
+      "cheapest_onestop_usd": 880
+    }
+  ],
+  "internal_flights": [
+    {
+      "route": "MIA-NAS",
+      "airline": "American Airlines + Bahamasair",
+      "duration": "1h05m-1h20m",
+      "rt_price_usd": 380,
+      "frequency": "Very high. Bahamasair 3x daily; AA multiple daily; ~45 flights/week total on NAS-MIA across carriers.",
+      "is_estimate": true,
+      "note": "EASIEST beach leg by a wide margin - highest frequency, shortest hop, most hotel supply. Off-peak RT starts ~267 USD on Bahamasair; 380 USD reflects a March spring-break booking. Nassau is ALSO the single most spring-break-saturated destination in the Bahamas, so you get the crowd you may be trying to escape. US pre-clearance at Nassau means you clear US immigration in NAS before boarding home."
+    },
+    {
+      "route": "MIA-GGT",
+      "airline": "American Airlines (American Eagle)",
+      "duration": "~1h40m",
+      "rt_price_usd": 400,
+      "frequency": "Up to 3x daily; ~26 nonstops per month.",
+      "is_estimate": true,
+      "note": "Great Exuma / George Town. Far quieter and prettier than Nassau - this is the swimming-pigs and sandbar territory. Off-peak RT from ~325 USD. Bahamasair also serves it. CAUTION: Exuma has thin hotel inventory, so March availability for 5 people needs booking well ahead of the flights."
+    },
+    {
+      "route": "MIA-GHB",
+      "airline": "American Airlines (American Eagle)",
+      "duration": "~1h18m",
+      "rt_price_usd": 400,
+      "frequency": "4x weekly - Mon/Wed/Fri/Sun. Outbound MIA 11:40 arr 12:58; return dep 13:24 arr 14:50.",
+      "is_estimate": true,
+      "note": "IMPORTANT CODE CORRECTION: GHB is GOVERNOR'S HARBOUR, in CENTRAL Eleuthera - it is NOT North Eleuthera and it is NOT the airport for Harbour Island. Route launched Feb 2024. Only 4 days a week, so it constrains your beach-leg dates hard. Use this if you want central/south Eleuthera."
+    },
+    {
+      "route": "MIA-ELH",
+      "airline": "American Airlines",
+      "duration": "1h27m",
+      "rt_price_usd": 380,
+      "frequency": "Up to 3x daily nonstop.",
+      "is_estimate": true,
+      "note": "THIS is the airport for HARBOUR ISLAND - North Eleuthera (ELH), not GHB. From ELH: ~5-10 min taxi to Three Island Dock, then ~10 min water taxi to Harbour Island. Budget ~15-20 USD per person for taxi + ferry each way, cash. Harbour Island pink sand is the premium pick of the Bahamas options and prices accordingly."
+    },
+    {
+      "route": "MIA-AUA",
+      "airline": "American Airlines (only nonstop carrier from MIA)",
+      "duration": "3h09m",
+      "rt_price_usd": 520,
+      "frequency": "~13 AA nonstops per week from MIA (~21 weekly total on the route incl. other carriers); daily service. Earliest dep MIA 10:05 arr 13:05.",
+      "is_estimate": true,
+      "note": "Most expensive and longest beach leg - it is a 3-hour flight, not a 1-hour hop, and it eats most of a travel day each way. Upside: Aruba sits outside the hurricane belt, is far less spring-break-infested than Nassau, and AUA has FULL US PRE-CLEARANCE so you clear US immigration in Aruba and land in Miami as a domestic arrival. JetBlue does NOT fly MIA-AUA nonstop - it serves Aruba from FLL/JFK, so verify before assuming a JetBlue option from Miami."
+    }
+  ],
+  "ground_transfers": [
+    {
+      "route": "MIA-Key West (Overseas Highway, US-1)",
+      "mode": "Rental car / self-drive",
+      "duration": "3h30m-4h00m each way, 166 miles / 267 km",
+      "cost_usd": 95,
+      "note": "PER PERSON estimate for 5 people sharing one minivan or large SUV over a 3-day Keys run: roughly 350-500 USD total for vehicle + fuel + parking, split 5 ways. This is the NO-EXTRA-FLIGHT alternative and it is dramatically cheaper than any island leg - it replaces a ~380-520 USD per-person flight with a ~95 USD per-person share. Add 30-60 min each way for Friday-afternoon and Sunday-evening traffic. Key West parking is expensive and scarce; many travellers park once and walk or cycle."
+    },
+    {
+      "route": "MIA-Key West by ferry",
+      "mode": "NOT AVAILABLE",
+      "duration": "n/a",
+      "cost_usd": 0,
+      "note": "There is NO ferry from Miami to Key West. The Key West Express operates only from Fort Myers Beach (year-round) and Marco Island (winter season only), both on Florida's Gulf coast roughly 3-4 hours' drive the WRONG way from Miami. Crossing is ~3h30m at 40mph. Using it from Miami makes no sense - drive US-1 instead."
+    },
+    {
+      "route": "MIA-FLL (Fort Lauderdale)",
+      "mode": "Car / rideshare / Tri-Rail",
+      "duration": "~45 min, ~30 miles",
+      "cost_usd": 40,
+      "note": "Relevant only as an alternative departure point for the beach leg. There are NO nonstop flights between EZE and FLL in either direction, so FLL is not a usable gateway for the main Buenos Aires leg."
+    },
+    {
+      "route": "ELH-Harbour Island",
+      "mode": "Taxi + water taxi",
+      "duration": "~20 min total",
+      "cost_usd": 18,
+      "note": "Per person each way, cash. Taxi from North Eleuthera airport to Three Island Dock, then water taxi across to Dunmore Town."
+    }
+  ],
+  "visa_note": "NOT A DEALBREAKER - but start now. VERDICT: Argentina is NOT in the US Visa Waiver Program as of September 2026, so all five travellers need a B1/B2 visitor visa. Argentina left the VWP in 2002 after the financial crisis. On 28 July 2025 DHS Secretary Kristi Noem signed a statement of intent with FM Gerardo Werthein and Security Minister Patricia Bullrich to begin Argentina's re-entry, but a statement of intent only starts a multi-year process - Argentina must still meet refusal-rate, biometric-passport, border-security and data-sharing criteria. Progress was reported PAUSED in September 2025 over US internal coordination. As of 16 September 2026 US Ambassador Peter Lamelas publicly reaffirmed he is pushing for it and Security Minister Alejandra Monteoliva said she expects it operational 'a inicios del 2027' - but the La Nacion piece states plainly it is 'todavia no vigente' (still not in effect). DO NOT PLAN AROUND VWP/ESTA ARRIVING BEFORE MARCH 2027. Treat any ESTA as upside, not the plan. THE GOOD NEWS: Buenos Aires is one of the FASTEST US consular posts in the world right now - current B1/B2 interview wait is about 15 days, and only about 8 days if anyone qualifies for the interview-waiver dropbox (Argentina has the lowest visa overstay rate in Latin America). With ~5 months of runway from September 2026, a March 2027 trip is comfortably feasible. COST per person: 185 USD MRV application fee, plus the new 250 USD Visa Integrity and Border Security Fee created by the One Big Beautiful Bill Act (signed 4 July 2025), charged only on issuance, not on denial - so budget up to 435 USD per person, about 2,175 USD for the group of five. Implementation of the 250 USD fee was still being rolled out post-by-post through mid-2026, so it may or may not be collected in Buenos Aires - budget for it anyway. A B1/B2 for Argentines is normally issued as a 10-year MULTIPLE-entry visa, which matters because the Bahamas or Aruba leg means RE-ENTERING the United States - confirm multiple entry on the visa foil before travelling. ACTION: book all five interviews immediately; the constraint is not the wait time, it is appointment slots filling before a high-demand travel month. BAHAMAS: Argentine citizens need NO visa, up to 3 months, but must show a return or onward ticket, accommodation details and proof of funds. ARUBA: Argentine citizens need NO visa, up to 30 days, but MUST complete the online Embarkation/Disembarkation (ED) card before arrival - it is mandatory and free.",
+  "aep_note": "AEP (Aeroparque Jorge Newbery) is USELESS for this trip - say it plainly. Aeroparque handles domestic Argentine routes plus short-haul regional South America only: Uruguay, Brazil, Paraguay, Chile, Bolivia, Peru and Colombia, about 58 nonstop destinations across 8 countries on 9 airlines, none of them in the United States. There is no nonstop and no realistic one-stop product marketed from AEP to Miami. All long-haul North America traffic from Buenos Aires goes from EZE (Ezeiza), Terminal P for AA, AR and LATAM. The only scenario where AEP appears is if someone self-connects a regional flight, which would require an inter-airport transfer in Buenos Aires (AEP to EZE is roughly 45-70 min by road depending on traffic) - do not do this on separate tickets. Book EZE. Also note: there are NO nonstop flights between EZE and FLL either, so Fort Lauderdale is not a gateway option for the long leg - it is only reachable as a 1-stop or by driving 45 min up from Miami.",
+  "seasonality_note": "FLAG THIS HARD - the date choice is worth several hundred dollars per person. Early-to-mid March 2027 is peak US spring break in both Miami and the Bahamas, and the whole month of March is described as extremely popular for Bahamas and Caribbean travel. THE DECISIVE DATA POINT: University of Miami's spring break 2027 runs 6-13 March - a day-for-day exact overlap with window W2. W2 is the single worst week of the three and should be dropped unless something non-negotiable forces it. W3 (12-20/21 March) is past the UMiami peak but still sits inside the broad March break block, since US school and college breaks stagger across the entire month. W1 (27 Feb - 6/7 March) is the clear winner: only its final day or two brush the peak, and it should come in roughly 200-250 USD per person cheaper on airfare than W2, with a larger saving again on Nassau and Harbour Island hotel rates. RANKING: W1 best, W3 middle, W2 worst. Secondary seasonal factors: January is the most expensive month on Buenos Aires-Miami (~1,055 USD RT per KAYAK) because of Argentine summer holidays, and Feb/March sits below that January peak from the Argentine outbound side while being pushed up from the US inbound side - the two effects partly cancel, which is why the estimates here land above the annual typical band of 697-1,008 USD RT but below January levels. BOOKING ADVICE: Bahamas spring-break resorts are commonly full before 1 December, so accommodation is a harder constraint than airfare - lock lodging before you lock flights. Booking roughly 8+ weeks out saves about 7% on the Miami-Nassau hop. For a group of 5 in peak season, book as one reservation or you will be split across fare buckets.",
+  "corrections": [
+    "SILVER AIRWAYS NO LONGER EXISTS. It abruptly ceased all operations and filed bankruptcy effective 11 June 2025 after a prospective buyer declined to continue flying. It previously served Bimini, Nassau and Freeport from Florida. Do not plan any Bahamas leg on Silver - the remaining carriers on these routes are American Airlines (incl. American Eagle) and Bahamasair.",
+    "GHB is Governor's Harbour (central Eleuthera), NOT North Eleuthera. The airport for Harbour Island is ELH (North Eleuthera). Both are served nonstop from MIA by American but on very different frequencies - ELH up to 3x daily, GHB only 4x weekly.",
+    "JetBlue does not operate MIA-AUA nonstop. American is the only nonstop carrier from Miami to Aruba. JetBlue serves Aruba from FLL and JFK.",
+    "There is no Miami-Key West ferry. Key West Express sails from Fort Myers Beach and Marco Island only.",
+    "Northbound overnight is typical but NOT universal: AA 900, AA 908 and AR 1302 are overnight, while AR 1304 (13:40) and LA 542 (10:55) are daytime departures."
+  ],
+  "sources": [
+    "https://ar.usembassy.gov/visa-waiver-program/",
+    "https://ar.usembassy.gov/secretary-noem-kickstarts-process-for-argentina-to-rejoin-visa-waiver-program/",
+    "https://www.dhs.gov/news/2025/07/28/secretary-noem-kickstarts-process-argentina-rejoin-visa-waiver-program",
+    "https://www.aila.org/library/dhs-secretary-signs-statement-of-intent-on-argentina-reentry-to-visa-waiver-program",
+    "https://discover.passportindex.org/policy-and-regulations/u-s-visa-waiver-for-argentina/",
+    "https://www.lanacion.com.ar/politica/visa-waiver-peter-lamelas-aseguro-que-trabaja-para-que-los-argentinos-puedan-ingresar-a-estados-nid16092026/",
+    "https://www.filo.news/noticia/2026/09/16/peter-lamelas-ratifico-que-impulsara-el-ingreso-de-argentinos-a-eeuu-sin-visa",
+    "https://www.americasquarterly.org/article/argentinas-complicated-u-s-visa-politics/",
+    "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/global-visa-wait-times.html",
+    "https://www.afnovisaguide.com/us-visa-wait-times/argentina",
+    "https://visagrader.com/us-visa-appointment-wait-times/argentina-arg",
+    "https://www.gtlaw-insidebusinessimmigration.com/visa-issuance/the-250-visa-integrity-fee-what-employers-and-foreign-nationals-need-to-know-about-the-latest-immigration-cost-increase/",
+    "https://www.bu.edu/isso/2026/05/19/visa-integrity-fee/",
+    "https://www.visa-requirements.io/blog/us-visa-fees-2026/",
+    "https://en.wikipedia.org/wiki/Visa_requirements_for_Argentine_citizens",
+    "https://www.bahamas.com/plan-your-trip/island-faq/visa-immigration",
+    "https://visitworld.today/bahamas/argentina-citizenship/travel",
+    "https://www.visitaruba.com/traveling-to-aruba/entry-requirements-and-visas/",
+    "https://www.aruba.com/us/plan-your-visit/getting-to-aruba/passports-and-visas",
+    "https://www.flightconnections.com/flights-from-eze-to-mia",
+    "https://www.flightconnections.com/flights-from-mia-to-eze",
+    "https://www.flightsfrom.com/EZE-MIA",
+    "https://www.airportia.com/flights/aa900/ezeiza/miami/",
+    "https://www.flightera.net/en/flight/American+Airlines-Buenos+Aires-Miami/AA900",
+    "https://www.airportia.com/flights/ar1302/ezeiza/miami/",
+    "https://www.flightstats.com/v2/flight-tracker/ar/1302",
+    "https://www.airportia.com/flights/la542/ezeiza/miami/",
+    "https://onemileatatime.com/news/latam-miami-buenos-aires-flights/",
+    "https://www.airwaysmag.com/new-post/latam-nonstop-miami-buenos-aires",
+    "https://www.kayak.com/flight-routes/Buenos-Aires-BUE/Miami-MIA",
+    "https://www.expedia.com/lp/flights/eze/mia/buenos-aires-to-miami",
+    "https://www.momondo.com/flights/buenos-aires/miami",
+    "https://en.wikipedia.org/wiki/Aeroparque_Jorge_Newbery",
+    "https://www.flightsfrom.com/AEP/destinations",
+    "https://www.flightroutes.com/EZE-FLL",
+    "https://www.flightsfrom.com/MIA-NAS",
+    "https://www.flightconnections.com/flights-from-mia-to-nas",
+    "https://www.expedia.com/lp/flights/mia/nas/miami-to-nassau",
+    "https://www.travelocity.com/lp/flights/mia/ggt/miami-intl-to-exuma-intl",
+    "https://www.prnewswire.com/news-releases/american-airlines-launches-nonstop-flights-to-eleuthera-from-miami-302054806.html",
+    "https://airserviceone.com/new-route-of-the-day-americas-3-february-2024-american-between-miami-and-governors-harbour/",
+    "https://news.miami-airport.com/mia-welcomes-new-flights-to-governors-harbour/",
+    "https://en.wikipedia.org/wiki/Governor%27s_Harbour_Airport",
+    "https://www.flightsfrom.com/MIA-ELH",
+    "https://www.kayak.com/flight-routes/Miami-MIA/Aruba-AW0",
+    "https://www.flightconnections.com/flights-from-mia-to-aua",
+    "https://www.aa.com/en-us/flights-from-miami-to-aruba",
+    "https://onemileatatime.com/news/silver-airways-ceases-operations/",
+    "https://www.travelweekly.com/Travel-News/Airline-News/Silver-Airways-ceases-operations",
+    "https://en.wikipedia.org/wiki/Silver_Airways",
+    "https://www.ststravel.com/college-spring-break/university-of-miami",
+    "https://www.ststravel.com/destination/spring-break/nassau-bahamas",
+    "https://www.keywestexpress.net/key-west-express-fares",
+    "https://www.enterprise.com/en/road-trips/destinations/florida/miami-to-key-west-1-day.html",
+    "https://www.shakaguide.com/article/overseas-highway/miami-to-key-west"
+  ]
+}

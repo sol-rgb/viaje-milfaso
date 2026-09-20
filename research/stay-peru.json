@@ -1,0 +1,592 @@
+{
+  "destination": "peru",
+  "trip_note": "9 days, early March 2027, ~5 friends flying from Buenos Aires. Lima 2 nights (Barranco) + Mancora 5 nights + Lima transit home. All prices are USD. Hotel per-person prices assume 2 sharing a double; Airbnb per-person prices assume 5 sharing. NO price below is a confirmed March-2027 quote: none of these properties publish rates 18 months out. Every price is the current (Sept 2026) rate seen on Booking.com, the hotel's own site or an OTA, so every hotel is marked is_estimate true. Early March is HIGH season on the north coast (Peruvian summer), so budget +15-30% over the figures shown.",
+  "stops": [
+    {
+      "slug": "lima",
+      "name": "Lima",
+      "nights": 2,
+      "area_note": "Barranco is the right call for this group: clifftop, walkable, street art, Hotel B / MATE / Pedro de Osma / Central / Kjolle / Isolina / Merito / Lady Bee all inside ~15 blocks, and the Miraflores malecon is a 25-min walk or 10-min taxi north. Miraflores is safer-feeling and has more hotel stock but is comparatively corporate. Airport (LIM) to Barranco is 45-70 min depending on traffic; use an official airport taxi or Uber/Cabify, roughly USD 20-30. HONESTY FLAG: Booking.com individual hotel pages could not be fetched directly (they return empty to automated fetches) - scores and prices below come from Booking.com's Barranco district and Lima design-hotel listing pages fetched 2026-09-20, plus hotel official sites. Two of the five Barranco booking URLs could not be confirmed as exact slugs, so a Booking.com search URL is given instead and flagged.",
+      "hotels": [
+        {
+          "name": "Second Home Peru",
+          "area": "Barranco - Domeyer 366, on the clifftop above Playa Los Pavos",
+          "rating": "4-star B&B / guesthouse (8 rooms)",
+          "guest_score": "9.3/10 Booking.com (865+ reviews)",
+          "price_night_usd": 130,
+          "pp_night_usd": 65,
+          "why": "Sculptor Victor Delfin's own cliff house: art everywhere, pool, Pacific view.",
+          "booking_url": "https://www.booking.com/hotel/pe/secondhomeperu.html",
+          "site_url": "https://www.secondhomeperu.com/",
+          "is_estimate": true,
+          "note": "Direct rates on secondhomeperu.com run USD 90-135 (deluxe/shared-terrace), 150-175 (ocean view), 200-220 (Mirador/Sirena panoramic). Booking.com district page showed USD 128.25. Verified operating: recent positive reviews from June 2025. Only 8 rooms - book early for March high season."
+        },
+        {
+          "name": "Casa Republica Barranco Boutique Hotel",
+          "area": "Barranco - Av. Saenz Pena 208, one block off the boulevard",
+          "rating": "4-star boutique (21 rooms)",
+          "guest_score": "9.0/10 Booking.com (381 verified reviews)",
+          "price_night_usd": 175,
+          "pp_night_usd": 88,
+          "why": "1920s republican mansion, rooftop terrace, free bikes, walk everywhere.",
+          "booking_url": "https://www.booking.com/hotel/pe/casa-republica-barranco.html",
+          "site_url": "https://casarepublica.com/",
+          "is_estimate": true,
+          "note": "Opened Dec 2018 after a USD 5m restoration. Quoted rates across OTAs in Sept 2026 ranged USD 97-413 depending on date/room; USD 167-187 was the commonly shown mid-range. 175 used as the March estimate."
+        },
+        {
+          "name": "Casa Caceres",
+          "area": "Barranco - quiet residential street, adults only",
+          "rating": "Boutique guesthouse (adults-only)",
+          "guest_score": "9.3/10 Booking.com",
+          "price_night_usd": 103,
+          "pp_night_usd": 52,
+          "why": "Adults-only, garden and terrace, quiet street, strong value in Barranco.",
+          "booking_url": "https://www.booking.com/searchresults.html?ss=Casa%20Caceres%20Barranco%20Lima",
+          "site_url": "",
+          "is_estimate": true,
+          "note": "HONESTY: exact Booking.com hotel-page slug not confirmed, so a Booking.com search URL is given. Price USD 102.60 seen on Booking.com's Barranco district page, 2026-09-20. No official website found."
+        },
+        {
+          "name": "Barranco Boutique Hotel by 3B",
+          "area": "Barranco - central, near Parque Municipal",
+          "rating": "Small boutique hotel",
+          "guest_score": "9.3/10 Booking.com",
+          "price_night_usd": 83,
+          "pp_night_usd": 42,
+          "why": "Cheapest genuinely good bed in Barranco; simple, clean, central, free parking.",
+          "booking_url": "https://www.booking.com/searchresults.html?ss=Barranco%20Boutique%20Hotel%20by%203B%20Lima",
+          "site_url": "",
+          "is_estimate": true,
+          "note": "HONESTY: exact Booking.com hotel-page slug not confirmed, so a search URL is given. USD 82.50 seen on Booking.com's Barranco district page and Lima design-hotels page, 2026-09-20. Design is plain-modern rather than characterful - this is the budget line, not the taste pick."
+        },
+        {
+          "name": "Hotel B",
+          "area": "Barranco - Av. Saenz Pena 204, next to MATE",
+          "rating": "5-star, Relais & Chateaux",
+          "guest_score": "9.1/10 Booking.com, 9.6/10 Expedia (210 reviews)",
+          "price_night_usd": 356,
+          "pp_night_usd": 178,
+          "why": "Belle Epoque mansion run as a living contemporary art gallery; Lima's best-looking hotel.",
+          "booking_url": "https://www.booking.com/hotel/pe/arts-boutique-b.html",
+          "site_url": "https://www.relaischateaux.com/us/hotel/hotel-b/",
+          "is_estimate": true,
+          "over_budget": true,
+          "note": "CLEARLY OVER BUDGET: USD 178 pp/night vs the USD 100 cap. Built 1914, hotel since May 2013, Peru's only Relais & Chateaux. Worth considering for ONE of the two Lima nights if the group wants a splurge. Villa Barranco by Ananay (https://www.booking.com/hotel/pe/villa-barranco.html, ~USD 259-301) and Atemporal by Andean in Miraflores (~USD 300+, 9.6-9.8 scores, 9 rooms) are the other over-budget design options."
+        }
+      ],
+      "airbnbs": [
+        {
+          "name": "Classic Barranco Vintage House - Boulevard & Park (entire house)",
+          "area": "Barranco, beside the boulevard and Parque Municipal",
+          "sleeps": 6,
+          "price_night_usd": 150,
+          "pp_night_usd": 30,
+          "why": "Period Barranco house for six, steps from the boulevard and the bars.",
+          "url": "https://www.airbnb.com/rooms/1094863601762208605",
+          "is_search_url": false,
+          "note": "Real listing, 4.76/5 from 38 reviews. PRICE IS AN ESTIMATE: Airbnb does not expose nightly rates to automated fetches without dates. Assume USD 120-200 for early March."
+        },
+        {
+          "name": "House in Barranco (artist host Giselle) - entire 3BR home",
+          "area": "Barranco, five blocks from the ocean, among the galleries",
+          "sleeps": 5,
+          "price_night_usd": 140,
+          "pp_night_usd": 28,
+          "why": "Three bedrooms, three baths, artist-owned, exactly five beds.",
+          "url": "https://www.airbnb.com/rooms/27774691",
+          "is_search_url": false,
+          "note": "Real listing verified 2026-09-20: 5 guests, 3 bedrooms, 3 baths, 4.75/5 from 181 reviews, host Giselle (4.8 across 705 reviews, 8 years hosting). Price is an estimate."
+        },
+        {
+          "name": "Hoomie | Fusion House _4BR (entire house)",
+          "area": "Barranco",
+          "sleeps": 8,
+          "price_night_usd": 200,
+          "pp_night_usd": 40,
+          "why": "Four bedrooms, professionally managed, room to spread out.",
+          "url": "https://www.airbnb.com/rooms/1010972266330542335",
+          "is_search_url": false,
+          "note": "Real listing, 4BR/2BA, 4.75/5 from 117 reviews. Price is an estimate."
+        },
+        {
+          "name": "Casa Barranco - apartment with terrace near the esplanade",
+          "area": "Barranco, near the malecon esplanade",
+          "sleeps": 5,
+          "price_night_usd": 120,
+          "pp_night_usd": 24,
+          "why": "New apartment with a private terrace in the middle of Barranco.",
+          "url": "https://www.airbnb.com/rooms/1464740181450363931",
+          "is_search_url": false,
+          "note": "Real listing URL verified. Exact capacity and price not confirmed - check before booking. Price is an estimate."
+        },
+        {
+          "name": "Barranco entire-home search (filter: 5+ guests, entire place)",
+          "area": "Barranco, Lima",
+          "sleeps": 6,
+          "price_night_usd": 160,
+          "pp_night_usd": 32,
+          "why": "Fallback search if the four listings above are taken for March.",
+          "url": "https://www.airbnb.com/barranco-peru/stays/houses",
+          "is_search_url": true,
+          "note": "This is an Airbnb area search URL, not a listing. Add your dates and set guests=5, 'Entire place'. Other real Barranco listing IDs found: 859331679218565293 (Loft in a Barranco house, 4.92/107), 904273913217029745 (Casa Corina, 4.75/24)."
+        }
+      ],
+      "activities": [
+        {
+          "day": 1,
+          "name": "Barranco street art and architecture walking tour",
+          "what": "Two-hour guided walk: Parque Municipal, Bajada de Banos murals, Puente de los Suspiros, malecon.",
+          "price_pp_usd": 25,
+          "duration": "2 hours",
+          "when": "Morning, 10:00 start",
+          "url": "https://www.getyourguide.com/lima-l39/colorful-barranco-tour-and-street-art-t853560/",
+          "note": "GetYourGuide lists this at 4.9/5 (67 reviews) from USD 20; a cheaper 'Street Art & Photo Stops' version (4.8/5, 114 reviews) runs from USD 2, and a 3-hour walk-plus-coffee version from USD 30. Booking page returns 403 to automated fetches - prices are from search results, verify on site."
+        },
+        {
+          "day": 1,
+          "name": "MATE - Museo Mario Testino",
+          "what": "Testino's fashion and Andean portrait photography in a restored 19th-century Barranco villa.",
+          "price_pp_usd": 8,
+          "duration": "1-1.5 hours",
+          "when": "Early afternoon (open ~10:00-19:00)",
+          "url": "https://mate.pe/",
+          "note": "PRICE UNCERTAIN: one 2026 source states MATE is now free entry; the historic ticket was around S/30 (USD 8) with student discounts, and Viator still sells a paid 'MATE Admission Ticket'. Official site returned 503 when fetched. Budget USD 8 and be happy if it is free. Address: Av. Pedro de Osma 409, Barranco."
+        },
+        {
+          "day": 1,
+          "name": "Museo Pedro de Osma",
+          "what": "Belle-epoque mansion 200m from MATE holding colonial painting, Andean silver and Amazonian art.",
+          "price_pp_usd": 10,
+          "duration": "1 hour",
+          "when": "Late afternoon",
+          "url": "https://museopedrodeosma.org/",
+          "note": "Price is an estimate from typical Lima private-museum admission (S/30-40). Not independently verified in this research pass."
+        },
+        {
+          "day": 1,
+          "name": "Dinner at Isolina, then pisco at Lady Bee",
+          "what": "Huge old-Lima taberna plates to share, then an agave-and-pisco cocktail bar in Barranco.",
+          "price_pp_usd": 55,
+          "duration": "3-4 hours",
+          "when": "Evening from 20:00",
+          "url": "https://www.isolina.pe/",
+          "note": "Isolina USD 25-50 pp for food (multiple sources agree); Lady Bee cocktails roughly USD 12-18 each - Lady Bee price NOT independently verified in this pass. Isolina takes bookings but the queue moves; go early or reserve. No reservation needed at Lady Bee."
+        },
+        {
+          "day": 2,
+          "name": "Huaca Pucllana guided visit",
+          "what": "Pre-Inca adobe pyramid standing inside residential Miraflores; guided walk over the terraces.",
+          "price_pp_usd": 5,
+          "duration": "1 hour",
+          "when": "Morning, 09:00-10:00 before the heat",
+          "url": "https://huacapucllanamiraflores.pe/",
+          "note": "Price estimate: entry has historically been around S/15-17 (USD 4-5) including the compulsory guide. Not re-verified in this pass. Night visits with lighting also run, and the on-site restaurant is a good lunch."
+        },
+        {
+          "day": 2,
+          "name": "Surquillo market tour plus ceviche cooking class",
+          "what": "Shop ajies, limes and fish at Mercado No.1 de Surquillo, then cook ceviche, causa and a pisco sour.",
+          "price_pp_usd": 75,
+          "duration": "4 hours",
+          "when": "Morning, 09:30 start (market is freshest early)",
+          "url": "https://www.getyourguide.com/lima-l39/cooking-classes-tc43/",
+          "note": "PRICE IS A RANGE ESTIMATE, USD 55-95 depending on operator - GetYourGuide product pages return 403 to automated fetches so no single price was confirmed. Surquillo market is across the Via Expresa from Miraflores, 10 min by taxi from Barranco."
+        },
+        {
+          "day": 2,
+          "name": "Malecon bike ride, Barranco to Miraflores",
+          "what": "Ride the 10km clifftop cycle path past Parque del Amor and Larcomar to Chorrillos and back.",
+          "price_pp_usd": 15,
+          "duration": "2-3 hours",
+          "when": "Late afternoon, 16:00-18:30 for the sunset",
+          "url": "https://www.getyourguide.com/lima-l39/bike-tours-tc180/",
+          "note": "Rental estimate USD 10-15 for a half day from Barranco/Miraflores shops; guided bike tours run USD 35-50. Several Barranco hotels (Casa Republica, Villa Barranco) lend bikes free."
+        },
+        {
+          "day": 2,
+          "name": "Tandem paragliding off the Miraflores cliffs",
+          "what": "Ten-minute tandem flight launching from Parque Raimondi over the malecon and Larcomar.",
+          "price_pp_usd": 100,
+          "duration": "10-15 min flight, allow 1 hour",
+          "when": "Afternoon, 12:00-17:00 when the sea breeze is up",
+          "url": "https://www.getyourguide.com/lima-l39/air-activities-tc2/",
+          "note": "PRICE NOT VERIFIED IN THIS PASS (web-search budget exhausted and GetYourGuide blocks automated fetch). Street rate has historically been around S/300-400 (USD 80-110) paid at the launch site in Parque Raimondi, Miraflores. Confirm on the day."
+        },
+        {
+          "day": 2,
+          "name": "Big-ticket dinner: Central, Kjolle, Maido or Mayta",
+          "what": "One of the world's-50-best Peruvian tasting menus. Kjolle shares a building with Central in Barranco.",
+          "price_pp_usd": 264,
+          "duration": "3-4 hours",
+          "when": "Evening, 19:00 or 20:00 seating",
+          "url": "https://kjolle.com/en/menu",
+          "note": "VERIFIED from official sites/2026 sources: Kjolle tasting menu S/988 (~USD 264), vegetal version S/456 (~USD 122) - kjolle.com/en/menu. Maido 'Maido Experience' S/1,295 (~USD 340), pairings S/1,985-2,525. Mayta Experience S/899 (~USD 240), a la carte USD 50-100. Central USD 267-440 pp depending on which menu and which source - Central quotes varied widely, treat as USD 300-440. RESERVATIONS: Central and Maido need to be booked 1-3 months out; Maido was named World's Best Restaurant 2025. Kjolle and Mayta are much easier and are the smarter picks for a group of five."
+        },
+        {
+          "day": 2,
+          "name": "Circuito Magico del Agua, Parque de la Reserva",
+          "what": "Thirteen choreographed fountains with a laser-and-projection show; gloriously kitsch, genuinely fun.",
+          "price_pp_usd": 2,
+          "duration": "1-1.5 hours",
+          "when": "After dark, 19:15/20:15/21:30 show times",
+          "url": "https://circuitomagicodelagua.com.pe/",
+          "note": "Price estimate: entry has been S/4-8 (USD 1-2) for years. Not re-verified in this pass. 20 min by taxi from Barranco. Do it before dinner if you take an early table, or swap it into day 1."
+        }
+      ],
+      "food": [
+        {
+          "name": "Kjolle (Barranco)",
+          "what": "Pia Leon's tasting menu in the Central building - the best-value world-class meal in Lima.",
+          "price_level": "$$$$ - S/988 (~USD 264) pp, vegetal menu S/456 (~USD 122). Verified on kjolle.com."
+        },
+        {
+          "name": "Isolina (Barranco)",
+          "what": "Old-Lima taberna; enormous shared plates of tacu tacu, cau cau, seco de asado.",
+          "price_level": "$$ - USD 25-50 pp"
+        },
+        {
+          "name": "Merito (Barranco)",
+          "what": "Small Venezuelan-Peruvian counter restaurant, wood fire, natural wine, the hip one.",
+          "price_level": "$$ - USD 30-50 pp"
+        },
+        {
+          "name": "Canta Rana (Barranco)",
+          "what": "Scruffy neighbourhood cevicheria, lunch only, fish ceviche around S/45.",
+          "price_level": "$ - USD 7-15 pp"
+        },
+        {
+          "name": "La Mar (Miraflores)",
+          "what": "Gaston Acurio's daytime cevicheria; no reservations, go at 12:30.",
+          "price_level": "$$ - USD 20-40 pp"
+        }
+      ],
+      "weather_note": "Early March is the tail of Lima's summer and the best weather of the year: highs around 26-28C, nights around 19-20C, high humidity (70-85%), very strong UV, and essentially no rain - Lima is a coastal desert and the grey garua drizzle is a May-October thing, not March. The sea is at its annual warmest but the Humboldt current still keeps it cool, roughly 20-22C, so the malecon beaches are swimmable-but-bracing rather than tropical. HONESTY: the web-search budget ran out before a Lima March climate page could be fetched, so these figures come from general climate knowledge rather than a source fetched in this pass - sanity-check on weather-and-climate.com or senamhi.gob.pe before packing."
+    },
+    {
+      "slug": "mancora",
+      "name": "Mancora (Piura / Tumbes north coast)",
+      "nights": 5,
+      "area_note": "The strip runs roughly north to south: Punta Sal / Canoas (25-45 min north, wide and calm, family-ish) - Mancora town (the party and the point break) - Las Pocitas (2km south, rock tide pools, the boutique hotels) - Vichayito (a further 5-10 min south, emptiest sand, whole-house rentals) - Los Organos (10-15 min south, fishing village, the advanced left called La Vuelta) - El Nuro (the turtle pier) - Cabo Blanco (40 min south, Hemingway's old fishing club and a world-class barrel on north swells). LAS POCITAS AND VICHAYITO ARE THE RIGHT BASE for this group: beautiful, quiet, and a S/5-15 mototaxi from Mancora's restaurants and bars, so you get the scene without sleeping in it. GETTING THERE from Lima: fly LIM to Talara (TYL, ~1h from Mancora), Tumbes (TBP, ~1h30) or Piura (PIU, ~2h30); LATAM and Sky fly all three. Pre-book a private transfer (roughly USD 40-60 for the car from Talara) or share a colectivo. HONESTY FLAG: Booking.com individual hotel pages return empty to automated fetches, so scores and prices below come from Booking.com's Mancora, Vichayito, Los Organos and Canoas de Punta Sal city listing pages plus the Mancora design-hotels page, all fetched 2026-09-20, cross-checked against hotel official sites. Where the exact Booking.com slug could not be confirmed, a Booking.com search URL is given and flagged.",
+      "hotels": [
+        {
+          "name": "DCO Suites, Lounge & Spa",
+          "area": "Playa Las Pocitas, Mancora - directly on the sand",
+          "rating": "3-4 star contemporary boutique",
+          "guest_score": "9.6/10 Booking.com",
+          "price_night_usd": 156,
+          "pp_night_usd": 78,
+          "why": "Best-designed room you can get on Pocitas sand inside budget; spa, private beach.",
+          "booking_url": "https://www.booking.com/searchresults.html?ss=DCO%20Suites%20Lounge%20%26%20Spa%20Mancora",
+          "site_url": "",
+          "is_estimate": true,
+          "note": "USD 156 from Booking.com's Mancora city page (2026-09-20); an independent Mancora guide quoted 'from USD 195'. Budget USD 160-200 for early March high season. HONESTY: exact Booking.com slug not confirmed (search URL given) and dcosuites.com does not resolve - no official site URL could be verified. Skews couples/adult; confirm they will take a group of five across suites. Expedia page: https://www.expedia.com/Mancora-Hotels-Dco.h94718336.Hotel-Information"
+        },
+        {
+          "name": "Makani Vichayito",
+          "area": "Playa Vichayito Norte, km 1155 Panamericana Norte, 5 min north of Los Organos",
+          "rating": "Beachfront bungalows, rooms and suites",
+          "guest_score": "9.2/10 Booking.com",
+          "price_night_usd": 109,
+          "pp_night_usd": 55,
+          "why": "Beachfront bungalows on the emptiest sand on the strip; the value pick.",
+          "booking_url": "https://www.booking.com/city/pe/vichayito.html",
+          "site_url": "https://www.makanivichayito.com/",
+          "is_estimate": true,
+          "note": "USD 108.90 from Booking.com's Vichayito city page (2026-09-20). Official site verified operating 2026-09-20: restaurant 08:30-17:00 daily, dinner by prior arrangement, reservasmakani@gmail.com / +51 981 317 293 - direct booking is likely cheaper. Booking URL given is the Vichayito city page because the individual slug was not confirmed. Downside: you will want mototaxis for every trip into Mancora (~S/15)."
+        },
+        {
+          "name": "Arennas Mancora",
+          "area": "Playa Las Pocitas, Mancora - beachfront, ~25 min walk from Pocitas centre",
+          "rating": "4.5-5 star resort",
+          "guest_score": "9.2/10 Booking.com (229 reviews)",
+          "price_night_usd": 220,
+          "pp_night_usd": 110,
+          "why": "The polished one: beachfront pool villas, two pools, best-looking resort on Pocitas.",
+          "booking_url": "https://www.booking.com/design/city/pe/mancora.html",
+          "site_url": "https://www.arennasmancora.com/en/home/",
+          "is_estimate": true,
+          "over_budget": true,
+          "note": "SLIGHTLY OVER BUDGET at USD 110 pp/night vs the USD 100 cap - and that is the entry Garden View rate. USD 219.73 seen on Booking.com Mancora city and design-hotel pages; an independent guide quoted 'from USD 220'. Official site verified operating 2026-09-20 with seven room categories up to Beachfront Pool Villa. Booking URL given is the Mancora design-hotels listing page because the individual slug was not confirmed."
+        },
+        {
+          "name": "Dunamar Beach House",
+          "area": "Los Organos beach, ~15 min south of Mancora",
+          "rating": "Small beach house / boutique",
+          "guest_score": "9.6/10 Booking.com (Exceptional)",
+          "price_night_usd": 180,
+          "pp_night_usd": 90,
+          "why": "Highest-rated place on the strip, right by the turtle pier and La Vuelta.",
+          "booking_url": "https://www.booking.com/city/pe/los-organos.html",
+          "site_url": "",
+          "is_estimate": true,
+          "note": "USD 180 from Booking.com's Los Organos city page (2026-09-20). HONESTY: individual Booking.com slug not confirmed, so the city page is given - filter for 'Dunamar Beach House'. No official website found. Los Organos is a working fishing village, quieter and plainer than Pocitas."
+        },
+        {
+          "name": "KiChic",
+          "area": "Las Pocitas / south Mancora, ~3km from town, directly beachfront",
+          "rating": "5-star design boutique, adults only, 9 rooms",
+          "guest_score": "9.5/10 Booking.com",
+          "price_night_usd": 260,
+          "pp_night_usd": 130,
+          "why": "Nine adults-only rooms, outdoor showers, organic kitchen; the design splurge.",
+          "booking_url": "https://www.booking.com/hotel/pe/kichic.html",
+          "site_url": "https://www.kichic.pe/en/",
+          "is_estimate": true,
+          "over_budget": true,
+          "note": "CLEARLY OVER BUDGET: USD 130 pp/night vs the USD 100 cap. Quoted USD 238-285 across sources in Sept 2026. Official site verified operating 2026-09-20: nine rooms in four categories plus a separate KiCHIC House, yoga, private cinema, vegetarian-and-fish kitchen, reservas@kichic.com / +51 922 104 569. ADULTS ONLY, children not permitted - fine for this group. Consider it for the last two of the five nights rather than all five."
+        }
+      ],
+      "airbnbs": [
+        {
+          "name": "Paradise en Vichayito II (entire beachfront house)",
+          "area": "Vichayito, beachfront",
+          "sleeps": 6,
+          "price_night_usd": 180,
+          "pp_night_usd": 36,
+          "why": "Beachfront Vichayito house, 245 reviews at 4.87 - the safest whole-house bet.",
+          "url": "https://www.airbnb.com/rooms/41271186",
+          "is_search_url": false,
+          "note": "Real listing verified on Airbnb's Las Pocitas beachfront collection page, 2026-09-20: max 6 guests, 4.87/5 from 245 reviews. PRICE IS AN ESTIMATE - Airbnb does not expose nightly rates to automated fetches without dates. Early March is high season; assume USD 150-250."
+        },
+        {
+          "name": "Private Oceanfront Bungalow, Personalized Service",
+          "area": "Vichayito / Mancora, oceanfront",
+          "sleeps": 5,
+          "price_night_usd": 160,
+          "pp_night_usd": 32,
+          "why": "Sleeps exactly five, oceanfront, 229 reviews at 4.91, host does the service.",
+          "url": "https://www.airbnb.com/rooms/50438354",
+          "is_search_url": false,
+          "note": "Real listing, sleeps 5, 4.91/5 from 229 reviews. Price is an estimate."
+        },
+        {
+          "name": "Beachfront Casa DIEM Eco-Luxury Vichayito",
+          "area": "Vichayito, beachfront",
+          "sleeps": 6,
+          "price_night_usd": 300,
+          "pp_night_usd": 60,
+          "why": "The design-forward whole house on Vichayito sand; eco-build, 4.89 rating.",
+          "url": "https://www.airbnb.com/rooms/53462358",
+          "is_search_url": false,
+          "note": "Real listing, 4.89/5 from 36 reviews. Price is an estimate and this one is likely the most expensive of the five - verify capacity before booking."
+        },
+        {
+          "name": "Vichayito piscina privada - Macondo by Wiro House",
+          "area": "Vichayito",
+          "sleeps": 6,
+          "price_night_usd": 220,
+          "pp_night_usd": 44,
+          "why": "Private pool plus Vichayito beach access; good for five people cooking in.",
+          "url": "https://www.airbnb.com/rooms/934355279961003141",
+          "is_search_url": false,
+          "note": "Real listing, 4.83/5 from 40 reviews. Price is an estimate."
+        },
+        {
+          "name": "Casa Claro de Luna - Las Pocitas (5BR whole house)",
+          "area": "Playa Las Pocitas, Mancora",
+          "sleeps": 10,
+          "price_night_usd": 400,
+          "pp_night_usd": 80,
+          "why": "Five bedrooms on Pocitas - everyone gets their own room, or invite five more.",
+          "url": "https://www.airbnb.com/rooms/657930837608148100",
+          "is_search_url": false,
+          "note": "Real listing, 5+ bedrooms sleeping 10, 4.92/5 from 104 reviews. Price is an estimate and at 5 people the per-head cost is poor; at 8-10 people it is the best deal on this list. Other real listing IDs found in the same area if these are taken: 25168604 (Casa sol Vichayito), 31136898 (Samay Wasi Vichayito, 4.87/148), 16205139 (Casa Nuro Beach Villa, 4.9/136), 16668976 (Casa de los Psicologos, 4.94/151), 1109685935939049308 (House with Private Pool for 8, 5.0/24), 34589448 (Unique beach house, Punta Sal, 4.91/131). Area search URL: https://www.airbnb.com/vichayito-peru/stays/beachfront"
+        }
+      ],
+      "activities": [
+        {
+          "day": 3,
+          "name": "Arrival: sunset in the Pocitas tide pools, ceviche and a cold Cusquena",
+          "what": "Walk Las Pocitas at low tide, sit in the natural rock pools, eat on the sand.",
+          "price_pp_usd": 15,
+          "duration": "2-3 hours",
+          "when": "16:30 to sunset (~18:30 in March)",
+          "url": "https://www.vivamancora.com/Peru/en/vichayito-beach/",
+          "note": "Free to do; USD 15 covers ceviche and beers. Check the tide table - the 'pocitas' only form at low tide, which is what the beach is named for."
+        },
+        {
+          "day": 4,
+          "name": "Surf lesson at the Mancora point break",
+          "what": "Long, mellow left reef break; the inside section is one of South America's best beginner waves.",
+          "price_pp_usd": 25,
+          "duration": "1.5-2 hours",
+          "when": "Early morning, 07:00-09:00, before the afternoon wind",
+          "url": "https://www.mancorakiteclub.com/solo-surf",
+          "note": "VERIFIED price range: group lessons S/60-100 (USD 16-27) for 1-2 hours; private 80-min lessons around S/50 at some schools; board rental S/20-40/hour, S/30-50 half day, S/50-80 full day. Mancora point works essentially year-round at 1-2.5m and gets crowded. Schools: Mancora Kite Club, Surf Point Mancora, Inca Warriors."
+        },
+        {
+          "day": 4,
+          "name": "Poza de Barro mud baths plus Mirador de Mancora",
+          "what": "Sulfurous thermal mud pool up the Fernandez valley, 11km inland, reached by mototaxi.",
+          "price_pp_usd": 30,
+          "duration": "2.5 hours",
+          "when": "Late morning or mid-afternoon",
+          "url": "https://www.getyourguide.com/mancora-l219469/mancora-poza-de-barro-hot-springs-and-mirador-de-mancora-t948558/",
+          "note": "VERIFIED: entrance S/5-15 (USD 1.50-4) if you go alone by mototaxi (~35 min each way). Organised tours with hotel pickup, mototaxi transfer, guide and the Mirador viewpoint run roughly USD 25-35 pp and last 2h30. You can also reach it on horseback (2h) or on foot (4h). GetYourGuide/Civitatis product pages return 403 to automated fetches so the tour price is a range estimate."
+        },
+        {
+          "day": 4,
+          "name": "Horseback ride along Vichayito beach at sunset",
+          "what": "Ride several kilometres of empty sand between Mancora and Vichayito in the golden hour.",
+          "price_pp_usd": 15,
+          "duration": "1-1.5 hours",
+          "when": "17:00-18:30, finishing at sunset",
+          "url": "https://travitour.pe/en/products/paseo-costero-en-caballo",
+          "note": "VERIFIED price: TraviTour lists the coastal horse ride at S/60 list, S/40 sale (USD 11-17). Finca Capitan Mancora (fincacapitanmancora.com) also runs guided rides. Book the day before; the sunset slot fills."
+        },
+        {
+          "day": 5,
+          "name": "Swim with green sea turtles at El Nuro pier",
+          "what": "Wild green turtles gather under the fishing pier for scraps; you snorkel among them from a small boat.",
+          "price_pp_usd": 10,
+          "duration": "2-3 hours including transport",
+          "when": "Morning, 08:00-11:00 (pier open 08:00-17:00, calmest and clearest early)",
+          "url": "https://www.getyourguide.com/mancora-l219469/desde-mancora-nado-con-tortugas-paseo-en-catamaran-y-avistamiento-de-aves-t953477/",
+          "note": "VERIFIED DIY cost: pier entry S/5, swim-with-turtles boat S/10-15, compulsory life jacket S/2, optional snorkel S/5 - about USD 6-8 all in, plus mototaxi/colectivo from Mancora (20km, ~S/15-25). Organised 3-hour tours from Mancora start around S/100 (USD 27) and go up to USD 45 for catamaran versions. SEASON HONESTY: one regional guide lists 'sea turtle swimming: June-Oct', but the El Nuro turtles are resident year-round because they follow the fishing boats - most operators run this daily all year. Confirm with your hotel the week before."
+        },
+        {
+          "day": 5,
+          "name": "Lunch in Los Organos and the La Vuelta left",
+          "what": "Fishing-village lunch, then watch (or surf) the powerful tubular left reef called La Vuelta.",
+          "price_pp_usd": 15,
+          "duration": "3-4 hours",
+          "when": "Midday to late afternoon",
+          "url": "https://www.vivamancora.com/Peru/en/surf-and-kitesurf/",
+          "note": "SEASON: VERIFIED GOOD FOR MARCH. La Vuelta works on north swells, October to April, up to 2.5m with multiple tube sections - described as one of the best waves in Peru. Advanced only; beginners should watch, not paddle out."
+        },
+        {
+          "day": 6,
+          "name": "Day trip north to Punta Sal / Canoas",
+          "what": "The strip's widest, calmest, emptiest beach, 25-45 min north in the Tumbes region.",
+          "price_pp_usd": 20,
+          "duration": "Full day",
+          "when": "Leave 09:00, back for sunset",
+          "url": "https://www.booking.com/city/pe/canoas-de-punta-sal.html",
+          "note": "Colectivo along the Panamericana runs roughly S/10-15 each way (USD 3-4); a private taxi for five is around USD 40-60 return. Lunch on the beach USD 15-25. If you want to stay a night, El Samay Hotel Boutique in Canoas de Punta Sal scores 9.8/10 on Booking.com across ~220 reviews at about USD 100/night (USD 50 pp) - the best value-per-quality on the whole coast."
+        },
+        {
+          "day": 6,
+          "name": "Cabo Blanco: Hemingway's fishing club and the barrel",
+          "what": "Forty minutes south; the 1950s big-game fishing club site and a world-famous tubing left.",
+          "price_pp_usd": 25,
+          "duration": "Half day",
+          "when": "Morning, dawn for the wave",
+          "url": "https://en.wikipedia.org/wiki/Cabo_Blanco,_Peru",
+          "note": "TWO HONESTY FLAGS. (1) SURF: verified good for March - Cabo Blanco is a left reef break working on north swells October to April, up to 3m, 'world famous for its long, perfect tubes', but it only truly breaks around 8 times a year and is advanced-only. (2) DEEP-SEA FISHING: Cabo Blanco is NO LONGER an organised sportfishing destination. Hemingway fished here in 1956 and Alfred Glassell's 1,560lb black marlin world record still stands from 1953, but current sources describe basic facilities and limited organised charters - you negotiate directly with local boats. Expect USD 250-450 for a boat for the day, cash, arranged through your hotel. Peru-wide charters on FishingBooker start around USD 245. NONE OF THIS IS A CONFIRMED QUOTE."
+        },
+        {
+          "day": 7,
+          "name": "Kitesurfing lesson - ONLY IF THE WIND SHOWS UP",
+          "what": "Mobile schools cover Mancora, Pocitas, Vichayito, Los Organos and El Nuro and come to your hotel.",
+          "price_pp_usd": 245,
+          "duration": "6 hours over 2-3 afternoons",
+          "when": "Afternoon, 11:00-17:00 when the thermal wind builds",
+          "url": "https://mancorakiteclub.com/",
+          "note": "SEASON HONESTY - MARCH IS THE WRONG MONTH. Verified: the Mancora kite season runs roughly April/May to December, with the most constant wind in August, September and October. Early March is at the bottom of the wind cycle. Keep this as an opportunistic 'if it is blowing' item, not a planned day. VERIFIED prices when it does run: USD 245 for a 6-hour semi-private beginner course, USD 360 for 3 afternoons of private lessons; a local guide quotes S/200-350 for single lessons."
+        },
+        {
+          "day": 7,
+          "name": "Last-day slow plan: SUP or snorkel, then sunset drinks in Mancora",
+          "what": "Paddleboard the flat Vichayito water in the morning, then the Mancora beach bars for sunset.",
+          "price_pp_usd": 25,
+          "duration": "Half day plus evening",
+          "when": "SUP 08:00-10:00 (glassiest); bars from 18:00",
+          "url": "https://www.makanivichayito.com/",
+          "note": "SUP rental roughly S/40-60/hour (USD 11-16) from hotels along Vichayito and Pocitas. Mancora's beach bars are lively but not a party-hostel scene before ~22:00; after that the main drag gets loud."
+        },
+        {
+          "day": 0,
+          "name": "WHALE WATCHING - NOT AVAILABLE IN MARCH",
+          "what": "Humpbacks migrating from Antarctica to calve off Los Organos, Punta Sal and Mancora.",
+          "price_pp_usd": 0,
+          "duration": "2-3 hours",
+          "when": "Mid-July to late October only",
+          "url": "https://www.vivamancora.com/Peru/en/whale-watching/",
+          "note": "CLEAR NO. Multiple independent sources confirm the season starts mid-July and ends late October. Early March is four months outside it and there will be no humpbacks. Listed here only so nobody in the group books a March 'whale tour' from an operator happy to take the money. When it does run it costs S/80-150 (USD 22-40) for 2-3 hours from Los Organos. Day 0 is a deliberate marker, not a trip day."
+        }
+      ],
+      "food": [
+        {
+          "name": "La Sirena d'Juan (Mancora, main strip)",
+          "what": "The town's long-standing fine-dining room; Peruvian-Japanese seafood, tiny, book ahead.",
+          "price_level": "$$$ - roughly USD 30-50 pp"
+        },
+        {
+          "name": "At(e)lier (Mancora)",
+          "what": "Dim, atmospheric small-plates and craft cocktails; inventive dishes like banana gnocchi, vegan options.",
+          "price_level": "$$$ - higher-end for Mancora, roughly USD 25-45 pp"
+        },
+        {
+          "name": "Tokuyo (Mancora)",
+          "what": "Mancora's sushi and Nikkei spot; vegan makis and poke bowls as well as the raw fish.",
+          "price_level": "$$ - mid-range, roughly USD 15-30 pp"
+        },
+        {
+          "name": "La Biodega / Blacksheep Cafe (Mancora)",
+          "what": "Daytime cafes for coffee, chai, brunch and working wifi; Blacksheep is air-conditioned and mural-covered.",
+          "price_level": "$ - roughly USD 6-14 pp"
+        },
+        {
+          "name": "Side-street cevicherias (Mancora and Los Organos)",
+          "what": "Ceviche S/20-35, arroz con mariscos S/25-40, grilled fish S/20-30, set lunch (menu) S/10-15.",
+          "price_level": "$ - USD 3-11 pp; far better value than the main strip"
+        }
+      ],
+      "weather_note": "March is Mancora's hottest month and the best swimming of the year: daytime highs around 30-31C (the national weather service puts the March average high at 30.8C), nights around 23-24C, sea temperature around 25C - the warmest it gets - and about 10.6 hours of sun a day. December to April is the peak beach season, so early March is hot, sunny and BUSY, with high-season room rates. THE HONEST CAVEAT: March is also statistically the wettest month on the north coast, averaging around 128mm of rain. That average is heavily skewed by El Nino years; in a normal year you get a handful of short, heavy afternoon downpours and high humidity rather than washed-out days, but it is not a guaranteed-dry month the way August is. Pack for heat and humidity, bring reef-safe sunscreen, and do not count on five consecutive cloudless days."
+    }
+  ],
+  "getting_around": "MANCORA: mototaxis (tuk-tuks) are the whole transport system and they are everywhere. Verified fares: S/2-5 (USD 0.50-1.30) within Mancora town; S/5-10 to Las Pocitas; S/10-15 to Vichayito; S/15-25 to Los Organos or El Nuro. Always agree the fare before you get in - prices move with demand and time of day, and after midnight they roughly double. Colectivos (shared vans) run up and down the Panamericana for S/3-8 and are how you get to Punta Sal or Cabo Blanco cheaply. Bicycle rental is S/20-30 a day; motorbike rental exists but the highway is fast and badly lit. Mancora town itself is walkable end to end in about 15 minutes. From Las Pocitas you can walk to town along the beach at low tide in 25-30 minutes. Several Pocitas and Vichayito hotels run their own shuttles - ask, it is often free. AIRPORTS: Talara (TYL) ~1h, Tumbes (TBP) ~1h30, Piura (PIU) ~2h30; a private transfer from Talara is roughly USD 40-60 for the car, and companies like Texa Tours and Talara Express do airport-to-beach runs. LIMA: use Uber, Cabify or DiDi rather than street taxis; Barranco to Miraflores is USD 4-7, Barranco to the airport USD 20-30 and 45-70 minutes depending on traffic. Barranco itself is entirely walkable and the Miraflores malecon is a flat 10km cycle path.",
+  "sources": [
+    "https://www.booking.com/district/pe/lima/barranco.html",
+    "https://www.booking.com/design/city/pe/lima.html",
+    "https://www.booking.com/city/pe/mancora.html",
+    "https://www.booking.com/design/city/pe/mancora.html",
+    "https://www.booking.com/city/pe/vichayito.html",
+    "https://www.booking.com/city/pe/los-organos.html",
+    "https://www.booking.com/city/pe/canoas-de-punta-sal.html",
+    "https://www.booking.com/hotel/pe/secondhomeperu.html",
+    "https://www.booking.com/hotel/pe/casa-republica-barranco.html",
+    "https://www.booking.com/hotel/pe/arts-boutique-b.html",
+    "https://www.booking.com/hotel/pe/villa-barranco.html",
+    "https://www.booking.com/hotel/pe/kichic.html",
+    "https://www.secondhomeperu.com/",
+    "https://casarepublica.com/",
+    "https://www.relaischateaux.com/us/hotel/hotel-b/",
+    "https://villabarranco.ananayhotels.com/",
+    "https://www.kichic.pe/en/",
+    "https://www.arennasmancora.com/en/home/",
+    "https://www.makanivichayito.com/",
+    "https://www.casadeplayamancora.net/",
+    "https://www.expedia.com/Mancora-Hotels-Dco.h94718336.Hotel-Information",
+    "https://www.airbnb.com/vichayito-peru/stays/houses",
+    "https://www.airbnb.com/las-pocitas-peru/stays/beachfront",
+    "https://www.airbnb.com/vichayito-peru/stays/beachfront",
+    "https://www.airbnb.com/barranco-peru/stays/houses",
+    "https://www.airbnb.com/rooms/27774691",
+    "https://kjolle.com/en/menu",
+    "https://joinpearl.co/blogs/a-realistic-guide-to-visiting-maido-in-2026",
+    "https://joinpearl.co/blogs/planning-a-visit-to-central-in-2026",
+    "https://www.peruforless.com/blog/best-restaurants-in-lima",
+    "https://www.getperu.com/best-restaurants-lima",
+    "https://www.getperu.com/mancora",
+    "https://nomapsorfoottracks.com/foot-tracks/mancora-peru",
+    "https://www.vivamancora.com/Peru/en/surf-and-kitesurf/",
+    "https://www.vivamancora.com/Peru/en/whale-watching/",
+    "https://www.vivamancora.com/Peru/en/vichayito-beach/",
+    "https://www.mancorakiteclub.com/faq",
+    "https://www.mancorakiteclub.com/solo-surf",
+    "https://www.getyourguide.com/mancora-l219469/mancora-poza-de-barro-hot-springs-and-mirador-de-mancora-t948558/",
+    "https://www.getyourguide.com/mancora-l219469/desde-mancora-nado-con-tortugas-paseo-en-catamaran-y-avistamiento-de-aves-t953477/",
+    "https://www.getyourguide.com/lima-l39/colorful-barranco-tour-and-street-art-t853560/",
+    "https://travitour.pe/en/products/paseo-costero-en-caballo",
+    "https://www.chullostravelperu.com/blog/en/el-nuro-beach",
+    "https://www.lonelyplanet.com/peru/north-coast/mancora/activities/poza-de-barro/a/poi-act/1166225/363416",
+    "https://en.climate-data.org/south-america/peru/piura/mancora-33713/",
+    "https://weather-and-climate.com/mancora-March-averages",
+    "https://en.wikipedia.org/wiki/Cabo_Blanco,_Peru",
+    "https://fishingbooker.com/destinations/country/pe",
+    "https://www.tiffanywhsu.com/home/lima-barranco",
+    "https://mate.pe/"
+  ]
+}

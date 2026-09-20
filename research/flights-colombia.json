@@ -1,0 +1,457 @@
+{
+  "destination": "colombia",
+  "gateway": "CTG",
+  "headline_finding": "Aerolineas Argentinas launches a genuine NONSTOP Buenos Aires-Cartagena route on 01JAN27 (AR1362/AR1363, AEP not EZE, 737 MAX 8, 5x weekly Mon/Thu/Fri/Sat/Sun) scheduled through 29MAR27. It covers all three windows on every requested date. This did not exist before 2027 and overturns the assumption that no nonstop exists.",
+  "windows": [
+    {
+      "id": "w1",
+      "depart": "2027-02-27",
+      "return": "2027-03-06",
+      "alt_dates": "Depart Fri 26 Feb also operates (AR1362 is a 12:45 midday departure, not a night flight). Return Sun 7 Mar also operates. AR1363 leaves CTG 20:15 and lands AEP 05:20 the next morning, so a 'Sat 6 Mar return' means arriving Buenos Aires Sun 7 Mar.",
+      "direct": [
+        {
+          "airline": "Aerolineas Argentinas",
+          "flight_no": "AR1362",
+          "from": "AEP",
+          "to": "CTG",
+          "dep_time": "12:45",
+          "arr_time": "17:55",
+          "duration": "7h10m",
+          "rt_price_usd": 750,
+          "is_estimate": true,
+          "note": "TRUE NONSTOP AEP-CTG, no gateway hop needed. Return AR1363 CTG 20:15 - AEP 05:20+1 (7h05m). Boeing 737 MAX 8, 170 seats (8 Premium Economy / 162 Economy). Operates Mon/Thu/Fri/Sat/Sun (aeroroutes code x23 = all days except Tue/Wed). Confirmed 01JAN27-29MAR27. Price basis: Kayak BUE-CTG currently shows Aerolineas nonstop Feb/Mar inventory at ~USD 706-771 RT; route average USD 694, typical band 604-844."
+        },
+        {
+          "airline": "Avianca",
+          "flight_no": "AV218",
+          "from": "EZE",
+          "to": "BOG",
+          "dep_time": "01:35",
+          "arr_time": "05:41",
+          "duration": "6h06m",
+          "rt_price_usd": 660,
+          "is_estimate": true,
+          "note": "DIRECT-TO-GATEWAY option: nonstop EZE-BOG, then a separate 1h30 domestic hop to CTG (add ~USD 90-130 RT). Daily. Best fit for a 'Friday night' departure: leaves EZE 01:35 Saturday, i.e. you go to the airport Friday night. Price is the EZE-BOG leg only. Basis: Kayak EZE-BOG typical 558-741 RT, Avianca nonstop 631, February 671."
+        },
+        {
+          "airline": "Avianca",
+          "flight_no": "AV88",
+          "from": "EZE",
+          "to": "BOG",
+          "dep_time": "07:10",
+          "arr_time": "11:30",
+          "duration": "6h20m",
+          "rt_price_usd": 660,
+          "is_estimate": true,
+          "note": "Second daily Avianca nonstop EZE-BOG (some sources list 07:30-11:55). Daily, A320neo or 787-8. Morning arrival in BOG leaves the whole afternoon of BOG-CTG hops open. Avianca is the ONLY carrier with nonstop EZE-BOG; LATAM does not fly it nonstop."
+        },
+        {
+          "airline": "Aerolineas Argentinas",
+          "flight_no": "AR1360",
+          "from": "AEP",
+          "to": "BOG",
+          "dep_time": "12:45",
+          "arr_time": "17:30",
+          "duration": "6h45m",
+          "rt_price_usd": 650,
+          "is_estimate": true,
+          "note": "Aerolineas also flies AEP-BOG nonstop. Relevant only as a backup; if you are on Aerolineas anyway, AR1362 straight to CTG is strictly better."
+        }
+      ],
+      "one_stop": [
+        {
+          "airline": "Avianca",
+          "from": "EZE",
+          "to": "CTG",
+          "via": "BOG",
+          "duration": "10h30m-13h00m",
+          "rt_price_usd": 690,
+          "is_estimate": true,
+          "note": "Single Avianca through-ticket, one bag rule, one check-in, protected connection. AV218 or AV88 into BOG then any of ~15 daily BOG-CTG departures. Most reliable one-stop. Basis: Kayak shows Avianca BUE-CTG at USD 671 RT."
+        },
+        {
+          "airline": "Copa Airlines",
+          "from": "EZE",
+          "to": "CTG",
+          "via": "PTY",
+          "duration": "10h00m-12h00m",
+          "rt_price_usd": 650,
+          "is_estimate": true,
+          "note": "EZE-PTY nonstop (Copa is the only carrier on it, ~6h46m) + PTY-CTG daily (~1h10m). Copa's average PTY connection is 90 minutes. Panama-Cartagena is CTG's single busiest international route, so frequency is good. Basis: Kayak EZE-BOG page lists Copa at USD 573; CTG adds a little."
+        },
+        {
+          "airline": "JetSMART",
+          "from": "EZE",
+          "to": "CTG",
+          "via": "LIM",
+          "duration": "14h00m-18h00m",
+          "rt_price_usd": 450,
+          "is_estimate": true,
+          "note": "CHEAPEST OPTION BY FAR but it is an ultra-low-cost self-connect. JetSMART flies EZE-LIM and JetSMART Peru flies LIM-CTG (3h50m). Kayak shows JetSMART as the cheapest BUE-CTG carrier at USD 415 RT. Warning: base fare is personal item only; carry-on and checked bags are paid extras, long layovers are common, and a missed connection is not protected if the legs are on separate tickets. For 5 people with beach luggage, add roughly USD 80-160 per person in bag fees."
+        },
+        {
+          "airline": "LATAM",
+          "from": "EZE",
+          "to": "CTG",
+          "via": "LIM",
+          "duration": "11h30m-14h00m",
+          "rt_price_usd": 680,
+          "is_estimate": true,
+          "note": "LATAM EZE-LIM (16x weekly on the route overall) + LATAM Peru LIM-CTG. The LIM-CTG corridor has 30 flights per week between LATAM and JetSMART, so connection options are plentiful."
+        },
+        {
+          "airline": "Avianca / LATAM",
+          "from": "EZE",
+          "to": "CTG",
+          "via": "SCL",
+          "duration": "12h00m-15h00m",
+          "rt_price_usd": 700,
+          "is_estimate": true,
+          "note": "WEAKER OPTION. Avianca operates SCL-CTG only as a SEASONAL route and I could not confirm it is loaded for Feb/Mar 2027. Treat SCL as a routing that usually resolves to SCL-BOG-CTG (two stops). Do not plan around it."
+        },
+        {
+          "airline": "n/a",
+          "from": "EZE",
+          "to": "CTG",
+          "via": "GRU",
+          "duration": "n/a",
+          "rt_price_usd": 0,
+          "is_estimate": false,
+          "note": "NOT A VALID ONE-STOP. No airline flies GRU-CTG nonstop; Cartagena has no Brazil service at all. Anything routed via Sao Paulo becomes EZE-GRU-BOG-CTG, i.e. two stops and 16h+. Rule it out."
+        }
+      ],
+      "cheapest_direct_usd": 750,
+      "cheapest_onestop_usd": 450
+    },
+    {
+      "id": "w2",
+      "depart": "2027-03-06",
+      "return": "2027-03-13",
+      "alt_dates": "Depart Fri 5 Mar also operates. Return Sat 13 Mar operates. All requested W2 dates fall on AR operating days.",
+      "direct": [
+        {
+          "airline": "Aerolineas Argentinas",
+          "flight_no": "AR1362",
+          "from": "AEP",
+          "to": "CTG",
+          "dep_time": "12:45",
+          "arr_time": "17:55",
+          "duration": "7h10m",
+          "rt_price_usd": 740,
+          "is_estimate": true,
+          "note": "Same nonstop. W2 sits in the post-Carnaval, pre-Semana Santa lull and is likely the cheapest of the three windows by a small margin. Return AR1363 CTG 20:15 - AEP 05:20+1."
+        },
+        {
+          "airline": "Avianca",
+          "flight_no": "AV218",
+          "from": "EZE",
+          "to": "BOG",
+          "dep_time": "01:35",
+          "arr_time": "05:41",
+          "duration": "6h06m",
+          "rt_price_usd": 650,
+          "is_estimate": true,
+          "note": "Gateway leg only; add BOG-CTG hop ~USD 90-130 RT. Depart Fri 5 Mar night = wheels up 01:35 Sat 6 Mar."
+        },
+        {
+          "airline": "Avianca",
+          "flight_no": "AV88",
+          "from": "EZE",
+          "to": "BOG",
+          "dep_time": "07:10",
+          "arr_time": "11:30",
+          "duration": "6h20m",
+          "rt_price_usd": 650,
+          "is_estimate": true,
+          "note": "Daily morning nonstop EZE-BOG."
+        }
+      ],
+      "one_stop": [
+        {
+          "airline": "Avianca",
+          "from": "EZE",
+          "to": "CTG",
+          "via": "BOG",
+          "duration": "10h30m-13h00m",
+          "rt_price_usd": 675,
+          "is_estimate": true,
+          "note": "Single-ticket Avianca via its BOG hub. Cleanest one-stop."
+        },
+        {
+          "airline": "Copa Airlines",
+          "from": "EZE",
+          "to": "CTG",
+          "via": "PTY",
+          "duration": "10h00m-12h00m",
+          "rt_price_usd": 640,
+          "is_estimate": true,
+          "note": "EZE-PTY-CTG. Good connection discipline at Tocumen, ~90 min typical."
+        },
+        {
+          "airline": "JetSMART",
+          "from": "EZE",
+          "to": "CTG",
+          "via": "LIM",
+          "duration": "14h00m-18h00m",
+          "rt_price_usd": 440,
+          "is_estimate": true,
+          "note": "Cheapest. ULCC self-connect via Lima, bag fees on top. See W1 note."
+        },
+        {
+          "airline": "LATAM",
+          "from": "EZE",
+          "to": "CTG",
+          "via": "LIM",
+          "duration": "11h30m-14h00m",
+          "rt_price_usd": 670,
+          "is_estimate": true,
+          "note": "Full-service alternative through Lima."
+        }
+      ],
+      "cheapest_direct_usd": 740,
+      "cheapest_onestop_usd": 440
+    },
+    {
+      "id": "w3",
+      "depart": "2027-03-13",
+      "return": "2027-03-20",
+      "alt_dates": "Depart Fri 12 Mar also operates. Return Sat 20 Mar operates. Return Sun 21 Mar also operates BUT 21 Mar 2027 is Palm Sunday, the first day of Semana Santa.",
+      "warning": "W3 is the most expensive and most crowded window. Its tail runs into Semana Santa 2027 (21-28 March), the single biggest domestic travel surge in Colombia. A Sun 21 Mar return competes with the whole country moving. Prefer the Sat 20 Mar return, and book W3 earlier than the other two.",
+      "direct": [
+        {
+          "airline": "Aerolineas Argentinas",
+          "flight_no": "AR1362",
+          "from": "AEP",
+          "to": "CTG",
+          "dep_time": "12:45",
+          "arr_time": "17:55",
+          "duration": "7h10m",
+          "rt_price_usd": 800,
+          "is_estimate": true,
+          "note": "Same nonstop, priced higher for the Semana Santa run-up. Note the season is scheduled only to 29MAR27, so W3 is close to the end of the route's season and inventory thins out. Return AR1363 CTG 20:15 - AEP 05:20+1."
+        },
+        {
+          "airline": "Avianca",
+          "flight_no": "AV218",
+          "from": "EZE",
+          "to": "BOG",
+          "dep_time": "01:35",
+          "arr_time": "05:41",
+          "duration": "6h06m",
+          "rt_price_usd": 700,
+          "is_estimate": true,
+          "note": "Gateway leg only; add BOG-CTG hop, which itself gets pricier (USD 120-180 RT) into Semana Santa."
+        },
+        {
+          "airline": "Avianca",
+          "flight_no": "AV88",
+          "from": "EZE",
+          "to": "BOG",
+          "dep_time": "07:10",
+          "arr_time": "11:30",
+          "duration": "6h20m",
+          "rt_price_usd": 700,
+          "is_estimate": true,
+          "note": "Daily morning nonstop EZE-BOG."
+        }
+      ],
+      "one_stop": [
+        {
+          "airline": "Avianca",
+          "from": "EZE",
+          "to": "CTG",
+          "via": "BOG",
+          "duration": "10h30m-13h00m",
+          "rt_price_usd": 760,
+          "is_estimate": true,
+          "note": "Domestic BOG-CTG legs are the part that spikes for Semana Santa, so the via-BOG one-stop loses more of its price advantage in W3 than the other routings do."
+        },
+        {
+          "airline": "Copa Airlines",
+          "from": "EZE",
+          "to": "CTG",
+          "via": "PTY",
+          "duration": "10h00m-12h00m",
+          "rt_price_usd": 700,
+          "is_estimate": true,
+          "note": "Routing via Panama sidesteps Colombian domestic Semana Santa demand entirely, which makes Copa relatively better value in W3."
+        },
+        {
+          "airline": "JetSMART",
+          "from": "EZE",
+          "to": "CTG",
+          "via": "LIM",
+          "duration": "14h00m-18h00m",
+          "rt_price_usd": 520,
+          "is_estimate": true,
+          "note": "Still cheapest, but ULCC fares are the most volatile into a holiday peak and sell out first at the low buckets. See W1 bag-fee warning."
+        },
+        {
+          "airline": "LATAM",
+          "from": "EZE",
+          "to": "CTG",
+          "via": "LIM",
+          "duration": "11h30m-14h00m",
+          "rt_price_usd": 730,
+          "is_estimate": true,
+          "note": "Via Lima, also avoids Colombian domestic peak."
+        }
+      ],
+      "cheapest_direct_usd": 800,
+      "cheapest_onestop_usd": 520
+    }
+  ],
+  "internal_flights": [
+    {
+      "route": "BOG-CTG",
+      "airline": "Avianca",
+      "duration": "1h30m",
+      "rt_price_usd": 120,
+      "frequency": "Multiple daily; the BOG-CTG corridor has ~103 flights/week (~15/day) across all carriers, first departure 00:20, last 23:55",
+      "is_estimate": true,
+      "note": "Safest choice if your international ticket is also Avianca, because it can be sold as one through-ticket with protected connection and through-checked bags. Avianca Classic and Flex include a 23kg checked bag; Basic and Light do NOT. Since 27JAN26 Avianca Light on international Americas routes does include a 10kg carry-on."
+    },
+    {
+      "route": "BOG-CTG",
+      "airline": "LATAM Colombia",
+      "duration": "1h30m",
+      "rt_price_usd": 115,
+      "frequency": "Multiple daily",
+      "is_estimate": true,
+      "note": "One-way commonly USD 40-70 in normal season. Economy Basic is personal item only - no cabin bag, no checked bag. Light adds a 10kg cabin bag but still no checked bag. You need Plus to get a hold bag."
+    },
+    {
+      "route": "BOG-CTG",
+      "airline": "Wingo",
+      "duration": "1h30m",
+      "rt_price_usd": 95,
+      "frequency": "Daily",
+      "is_estimate": true,
+      "note": "BAGGAGE TRAP. The headline fare includes only a personal item of max 6kg at 40x35x25cm - smaller than a normal backpack. A real carry-on (12kg, 55x45x25) is a paid add-on and a 20kg checked bag is another, with checked-bag charges running roughly USD 40-70 per bag per direction depending on route and when you buy. Buying bags at the airport rather than online costs materially more. For 5 people each with one checked bag round trip, Wingo's apparent saving vs Avianca disappears completely."
+    },
+    {
+      "route": "BOG-CTG",
+      "airline": "JetSMART Colombia",
+      "duration": "1h30m",
+      "rt_price_usd": 90,
+      "frequency": "Daily",
+      "is_estimate": true,
+      "note": "Same ULCC structure and the same bag trap as Wingo. JetSMART Colombia does serve BOG-CTG."
+    },
+    {
+      "route": "BOG-CTG",
+      "airline": "Clic",
+      "duration": "n/a",
+      "rt_price_usd": 0,
+      "frequency": "Does not operate this route",
+      "is_estimate": false,
+      "note": "CORRECTION: Clic does NOT fly Bogota-Cartagena. Clic's Cartagena service is seasonal and regional only - Bucaramanga and Cucuta from 26DEC26, and Ibague, Medellin-Olaya Herrera and Pereira from 18DEC26. Do not plan a BOG-CTG hop on Clic."
+    },
+    {
+      "route": "CTG-SMR",
+      "airline": "none",
+      "duration": "n/a",
+      "rt_price_usd": 0,
+      "frequency": "No nonstop service exists",
+      "is_estimate": false,
+      "note": "There is NO nonstop Cartagena-Santa Marta flight. Santa Marta (SMR) is served only from Bogota, Medellin, Cali, Pereira, Bucaramanga and Panama City. Flying CTG-SMR means backtracking through BOG or MDE for 4-6 hours door to door, which is worse than the 4-hour road transfer. Drive instead."
+    }
+  ],
+  "ground_transfers": [
+    {
+      "route": "Cartagena (Muelle de la Bodeguita) - Playa Blanca, Baru",
+      "mode": "Shared speedboat / lancha",
+      "duration": "45-60 min direct; ~2h on a tour boat that stops en route",
+      "cost_usd": 8,
+      "note": "COP 20,000-40,000 one way. Nearly all boats depart in a single morning wave by about 09:00, with no meaningful midday departures, so a late start means you are not going by boat that day."
+    },
+    {
+      "route": "Cartagena - Playa Blanca, Baru",
+      "mode": "Road, via the Pasacaballos bridge (taxi / private van)",
+      "duration": "1h15m-1h45m",
+      "cost_usd": 80,
+      "note": "USD 60-100 ROUND TRIP FOR THE WHOLE VEHICLE, not per person - for 5 people this is the clear winner at roughly USD 16 each. The last stretch to Playa Blanca is unpaved. A private van is also the only option that lets you leave and return on your own schedule rather than the 09:00 boat wave."
+    },
+    {
+      "route": "Cartagena - Playa Blanca, Baru",
+      "mode": "Public bus to Pasacaballos + mototaxi",
+      "duration": "60-70 min bus + ~20 min mototaxi",
+      "cost_usd": 6,
+      "note": "Cheapest option. Fine for 1-2 people, awkward for a group of 5 with luggage."
+    },
+    {
+      "route": "Cartagena - Islas del Rosario",
+      "mode": "Speedboat day tour",
+      "duration": "1h-1h15m each way",
+      "cost_usd": 47,
+      "note": "About COP 159,000 (~USD 40) per adult for the standard day tour including lunch, PLUS a separate national park entry tax of about COP 29,000 (~USD 7) that is almost never included in the advertised price. Budget the tax separately for all 5 people."
+    },
+    {
+      "route": "Cartagena (Bocagrande / Castillogrande) - Tierra Bomba",
+      "mode": "Lancha",
+      "duration": "10-25 min",
+      "cost_usd": 5,
+      "note": "COP 10,000-25,000 per person one way depending on how many share the boat. Departure point is behind the hospital in Bocagrande. Boats leave when full. By far the easiest beach escape - closest island, shortest crossing, doable as a half day."
+    },
+    {
+      "route": "Cartagena - Santa Marta",
+      "mode": "Minivan / shuttle (Marsol and similar)",
+      "duration": "4h direct; ~5h30m if it routes through Barranquilla",
+      "cost_usd": 23,
+      "note": "Marsol runs about COP 80,000 (~USD 20-23) but uses its own terminals at both ends, so budget separate taxis to and from. Door-to-door operators cost more but pick up at your hotel, which is worth it for a group of 5."
+    },
+    {
+      "route": "Cartagena - Santa Marta",
+      "mode": "Long-distance bus",
+      "duration": "4h30m-5h30m",
+      "cost_usd": 17,
+      "note": "From about USD 16, average ~USD 18. Cheaper and slower than the minivans."
+    },
+    {
+      "route": "Santa Marta - Palomino",
+      "mode": "Bus / colectivo along the coast road",
+      "duration": "~2h",
+      "cost_usd": 7,
+      "note": "ESTIMATE. Frequent departures on the Santa Marta-Riohacha road. Total Cartagena-Palomino is roughly 6-7h by road with the change in Santa Marta, so treat Palomino as a separate multi-night leg, not a day trip."
+    }
+  ],
+  "aep_note": "The brief's premise that AEP is 'mostly regional' is now out of date and this is the single most important finding. AEP is the airport you actually want for this trip. From 01JAN27 Aerolineas Argentinas operates AR1362/AR1363 AEP-CTG NONSTOP, 5x weekly (Mon/Thu/Fri/Sat/Sun), Boeing 737 MAX 8, scheduled through 29MAR27 - so it is live for all three windows on every date requested. AEP also already has nonstop service to Bogota on two carriers: Avianca AV154 (07:00-11:30, A320neo) and Aerolineas AR1360 (12:45-17:30). Practical consequence for a group of 5 living in Buenos Aires: AEP is inside the city, roughly 15-30 minutes from most neighbourhoods, versus 45-75 minutes and a much bigger taxi bill out to Ezeiza. The only catch is the 12:45 departure time - AR1362 is a midday flight, so 'leave Friday night' does not work on the nonstop. If the group cannot take Friday off, the night-departure option is Avianca AV218 out of EZE at 01:35, which is effectively Friday night, connecting in Bogota.",
+  "seasonality_note": "Late February and March is the dry season on the Colombian Caribbean and it is HIGH season, so expect to pay a premium. February is the driest month of the year in Cartagena (about 1mm of rain) and sits inside the December-February peak; hoteliers apply high-season rates through February. On the Kayak data for Buenos Aires-Cartagena the spread between the cheapest and most expensive month is 39%, with January the worst at USD 833 and November the best at USD 596 - your windows sit in the upper half of that range. Three date-specific points. (1) Carnaval de Barranquilla 2027 falls on 6-9 February, BEFORE all three windows, so you dodge it - good news, since it distorts prices and accommodation across the whole coast. (2) After Carnaval, occupancy eases through March: weather stays dry, prices stay high but availability improves. That makes W2 (5/6-13 March) the sweet spot - past the February peak, clear of Semana Santa. (3) Semana Santa 2027 runs 21-28 March, with Palm Sunday on 21 March. W3 ends exactly as Colombia's biggest domestic travel week begins, so a Sunday 21 March return is the worst single date in the whole set. Prefer Saturday 20 March, and note the Aerolineas nonstop season is only scheduled to 29 March, so W3 is near the end of the route's window. Booking guidance: roughly 16 weeks ahead saves about 16% on the Buenos Aires-Bogota corridor, which for a late-February 2027 departure means booking around early November 2026. For 5 people, book as one booking where possible, since the cheapest fare buckets rarely have 5 seats left once the window gets close.",
+  "recommendation": "W2 on the Aerolineas AEP-CTG nonstop is the best combination of price, convenience and timing: ~USD 740 per person round trip, 7h10m each way, no connection, no domestic hop, no separate bag re-check, and it departs from the city airport. If the group is price-driven rather than time-driven, JetSMART via Lima is roughly USD 440 but costs a full extra day of travel in each direction plus bag fees. Copa via Panama at ~USD 640-700 is the best compromise one-stop and is the most resilient option for W3 because it never touches Colombian domestic Semana Santa demand.",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Rafael_N%C3%BA%C3%B1ez_International_Airport",
+    "https://www.aeroroutes.com/eng/260903-ar1q27ctg",
+    "https://www.sirchandler.com.ar/2026/08/aerolineas-argentinas-volara-a-curazao-%F0%9F%87%A8%F0%9F%87%BC-y-cartagena-%F0%9F%87%A8%F0%9F%87%B4/",
+    "https://volavi.co/aviacion/noticias/aerolineas-argentinas-vuelos-cartagena-buenos-aires",
+    "https://www.infobae.com/economia/2026/08/26/aerolineas-argentinas-suma-dos-destinos-nuevos-en-el-caribe-para-el-verano-2027-uno-de-ellos-fue-sensacion-en-el-mundial/",
+    "https://www.flightconnections.com/flights-from-eze-to-bog",
+    "https://www.flightconnections.com/flights-from-aep-to-bog",
+    "https://www.flightconnections.com/flights-from-bog-to-ctg",
+    "https://www.airportia.com/flights/av218/ezeiza/bogota/",
+    "https://www.airportia.com/flights/av88/ezeiza/bogota/",
+    "https://www.kayak.com/flight-routes/Buenos-Aires-BUE/Cartagena-Rafael-Nunez-CTG",
+    "https://www.kayak.com/flight-routes/Buenos-Aires-Ministro-Pistarini-EZE/Bogota-El-Dorado-BOG",
+    "https://www.kayak.com/flight-routes/Buenos-Aires-Ministro-Pistarini-EZE/Panama-City-Tocumen-Intl-PTY",
+    "https://www.flightconnections.com/flights-from-eze-to-lim",
+    "https://www.flightconnections.com/flights-from-lim-to-ctg",
+    "https://en.wikipedia.org/wiki/Sim%C3%B3n_Bol%C3%ADvar_International_Airport_(Colombia)",
+    "https://www.copaair.com/en-us/discover-copa-airlines/airport-experience/",
+    "https://cielo.travel/wingo-airline-review/",
+    "https://deeparrival.com/airlines/latam/baggage-fees/",
+    "https://deeparrival.com/airlines/avianca/baggage-fees/",
+    "https://www.avianca.com/en/my-booking/prepare-your-trip/baggage",
+    "https://baquianos.com/en/blog/how-to-get-to-playa-blanca",
+    "https://www.cartagenaexplorer.com/playa-blanca-colombia-cartagena-guide/",
+    "https://www.cartagenaexplorer.com/tierra-bomba-island-guide/",
+    "https://baquianos.com/en/blog/how-to-get-to-tierrabomba",
+    "https://www.bookaway.com/routes/colombia/cartagena-to-isla-tierra-bomba",
+    "https://en.mividaviajera.com/colombia/baru/",
+    "https://www.geckoroutes.com/colombia/santa-marta-to-cartagena/",
+    "https://www.busbud.com/en/bus-cartagena-santa-marta/r/d3f74v-d3gpzq",
+    "https://www.alongdustyroads.com/posts/how-to-get-from-cartagena-to-santa-marta",
+    "https://www.tomplanmytrip.com/best-time-to-visit-cartagena-de-indias-colombia/",
+    "https://mycartagenatrip.com/when-to-visit-cartagena/",
+    "https://impulsetravel.co/barranquilla-carnival-guide/",
+    "https://jetsmart.com/ofertas/en-us/flights-to-cartagena-de-indias"
+  ]
+}

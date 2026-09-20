@@ -1,0 +1,440 @@
+{
+  "destination": "mexico",
+  "gateway": "MEX",
+  "research_date": "2026-09-20",
+  "currency": "USD",
+  "group_size": 5,
+  "cabin": "economy",
+  "price_basis": "Round-trip per person, economy, EZE<->MEX. All 2027 fares are ESTIMATES derived from KAYAK/Expedia 12-month route data pulled 2026-09-20 plus known Feb/Mar seasonality. No Feb/Mar 2027 fare is directly quotable today.",
+  "windows": [
+    {
+      "id": "w1",
+      "depart": "2027-02-27",
+      "return": "2027-03-06",
+      "depart_alt": "2027-02-26 (Fri night - best fit for the AM29 23:25/23:55 redeye)",
+      "return_alt": "2027-03-07",
+      "direct": [
+        {
+          "airline": "Aeromexico",
+          "flight_no": "AM29 (AM029)",
+          "from": "EZE",
+          "to": "MEX",
+          "dep_time": "23:25-23:55",
+          "arr_time": "06:05-06:20 +1",
+          "duration": "9h40m",
+          "rt_price_usd": 880,
+          "is_estimate": true,
+          "note": "Overnight rotation, Boeing 787-8/-9, EZE Terminal A/P -> MEX Terminal 2. Verified as the ONLY nonstop EZE-MEX operator (FlightConnections, AeroRoutes 1Q26, Wikipedia MEX destinations). Exact 23:25 vs 23:55 depends on season; AeroRoutes lists 23:55->06:20+1 for the Jan 11 - Feb 28 2026 period, which is the closest published analogue to this window. Ideal for a Fri-night departure: leave Fri 26 Feb late, land Sat 27 Feb early morning, connect same morning to the Pacific coast. Estimate basis: KAYAK EZE-MEX nonstop from $772 RT, route average $886 RT, typical band $771-$1057; late Feb is a post-peak shoulder month out of Argentina."
+        },
+        {
+          "airline": "Aeromexico",
+          "flight_no": "AM31 (AM031)",
+          "from": "EZE",
+          "to": "MEX",
+          "dep_time": "12:00",
+          "arr_time": "18:35",
+          "duration": "9h35m",
+          "rt_price_usd": 900,
+          "is_estimate": true,
+          "note": "Daytime rotation (return leg AM32/AM030). Boeing 787. Aeromexico's own route page states departures on this route range from 12:00 to 23:55, and Flightera/Airportia both carry AM31 as EZE 12:00 -> MEX 18:35. This second rotation runs when the route is at 9 weekly rather than 7 - NOT guaranteed present every day of Feb/Mar 2027. Arriving 18:35 means you overnight in CDMX before any domestic connection."
+        }
+      ],
+      "one_stop": [
+        {
+          "airline": "Avianca",
+          "from": "EZE",
+          "to": "MEX",
+          "via": "BOG",
+          "duration": "14h-16h total",
+          "rt_price_usd": 720,
+          "is_estimate": true,
+          "note": "EZE-BOG ~6h25m + BOG-MEX ~4h30m, layover 2-4h at El Dorado. KAYAK names Avianca the cheapest carrier on EZE-MEX at $689 RT (12-month low). Usually the cheapest of all one-stops. Cheapest option but a long day and a single point of failure in Bogota."
+        },
+        {
+          "airline": "Copa Airlines",
+          "from": "EZE",
+          "to": "MEX",
+          "via": "PTY",
+          "duration": "13h30m-15h total",
+          "rt_price_usd": 740,
+          "is_estimate": true,
+          "note": "EZE-PTY ~7h24m + PTY-MEX ~3h59m = 11h23m airborne, plus a typically short 1h30m-2h Panama hub connection. Copa is the only nonstop EZE-PTY operator. KAYAK quotes Copa at $692 RT on EZE-MEX. Best reliability-per-dollar of the one-stops; Tocumen connections are tight and well drilled."
+        },
+        {
+          "airline": "LATAM",
+          "from": "EZE",
+          "to": "MEX",
+          "via": "LIM",
+          "duration": "13h-15h total",
+          "rt_price_usd": 790,
+          "is_estimate": true,
+          "note": "EZE-LIM ~5h + LIM-MEX ~6h10m, 2 connections/day. LATAM one-way band quoted $360-$1375. Lima hub, LATAM's strongest Pacific connection bank. Baggage: LATAM Basic sells hand-baggage-only on regional fares - check before assuming a checked bag."
+        },
+        {
+          "airline": "LATAM",
+          "from": "EZE",
+          "to": "MEX",
+          "via": "SCL",
+          "duration": "14h-16h total",
+          "rt_price_usd": 810,
+          "is_estimate": true,
+          "note": "EZE-SCL ~2h20m + SCL-MEX ~8h, 1-2 per day. Longer total than the Lima routing because the SCL-MEX leg is nearly as long as the nonstop. Only worth it if the price gap is large or Lima timings are bad."
+        },
+        {
+          "airline": "Aeromexico / Gol",
+          "from": "EZE",
+          "to": "MEX",
+          "via": "GRU",
+          "duration": "16h-18h total",
+          "rt_price_usd": 830,
+          "is_estimate": true,
+          "note": "EZE-GRU ~3h (Gol/Aerolineas/LATAM) + GRU-MEX ~10h (Aeromexico). The worst total travel time of the realistic one-stops because Sao Paulo is the wrong direction. Only consider if Aeromexico prices it as a single SkyTeam ticket cheaper than the nonstop. Avoid splitting into two separate tickets - GRU connections are not protected."
+        }
+      ],
+      "cheapest_direct_usd": 880,
+      "cheapest_onestop_usd": 720,
+      "window_note": "Cleanest of the three windows. No Mexican public holiday, no Semana Santa pressure, and late Feb is the cheapest of the three out of Buenos Aires. Recommended if the domestic Pacific leg matters to you."
+    },
+    {
+      "id": "w2",
+      "depart": "2027-03-06",
+      "return": "2027-03-13",
+      "depart_alt": "2027-03-05 (Fri night on AM29)",
+      "return_alt": null,
+      "direct": [
+        {
+          "airline": "Aeromexico",
+          "flight_no": "AM29 (AM029)",
+          "from": "EZE",
+          "to": "MEX",
+          "dep_time": "23:25-23:55",
+          "arr_time": "06:05-06:20 +1",
+          "duration": "9h40m",
+          "rt_price_usd": 870,
+          "is_estimate": true,
+          "note": "Same overnight rotation, 787-8/-9. Early March is still shoulder season out of Argentina (school year has restarted, demand drops). Estimate basis: KAYAK nonstop floor $772 RT, route average $886 RT. Watch the return: Sat 13 Mar is the start of Mexico's Benito Juarez long weekend (Mon 15 Mar), which loads the DOMESTIC network, not so much the international leg."
+        },
+        {
+          "airline": "Aeromexico",
+          "flight_no": "AM31 (AM031)",
+          "from": "EZE",
+          "to": "MEX",
+          "dep_time": "12:00",
+          "arr_time": "18:35",
+          "duration": "9h35m",
+          "rt_price_usd": 890,
+          "is_estimate": true,
+          "note": "Daytime rotation, subject to the same caveat as W1 - only present when the route runs above 7 weekly."
+        }
+      ],
+      "one_stop": [
+        {
+          "airline": "Avianca",
+          "from": "EZE",
+          "to": "MEX",
+          "via": "BOG",
+          "duration": "14h-16h total",
+          "rt_price_usd": 710,
+          "is_estimate": true,
+          "note": "Cheapest one-stop in this window too. Same routing and caveats as W1."
+        },
+        {
+          "airline": "Copa Airlines",
+          "from": "EZE",
+          "to": "MEX",
+          "via": "PTY",
+          "duration": "13h30m-15h total",
+          "rt_price_usd": 730,
+          "is_estimate": true,
+          "note": "EZE-PTY-MEX. Copa runs multiple PTY-MEX banks a day, so a misconnect is recoverable same-day - unusual among the one-stops."
+        },
+        {
+          "airline": "LATAM",
+          "from": "EZE",
+          "to": "MEX",
+          "via": "LIM",
+          "duration": "13h-15h total",
+          "rt_price_usd": 780,
+          "is_estimate": true,
+          "note": "Two Lima connections daily. Same caveats as W1."
+        },
+        {
+          "airline": "LATAM",
+          "from": "EZE",
+          "to": "MEX",
+          "via": "SCL",
+          "duration": "14h-16h total",
+          "rt_price_usd": 800,
+          "is_estimate": true,
+          "note": "Santiago routing. Same caveats as W1."
+        },
+        {
+          "airline": "Aeromexico / Gol",
+          "from": "EZE",
+          "to": "MEX",
+          "via": "GRU",
+          "duration": "16h-18h total",
+          "rt_price_usd": 820,
+          "is_estimate": true,
+          "note": "Sao Paulo backtrack. Same caveats as W1."
+        }
+      ],
+      "cheapest_direct_usd": 870,
+      "cheapest_onestop_usd": 710,
+      "window_note": "Likely the cheapest international pricing of the three. The catch is the return date: Sat 13 Mar is day one of the Benito Juarez puente (holiday Mon 15 Mar), so the PXM/HUX -> MEX domestic leg that morning will be expensive and full. Fly the coast-to-CDMX leg on Fri 12 Mar and overnight in CDMX if you can."
+    },
+    {
+      "id": "w3",
+      "depart": "2027-03-13",
+      "return": "2027-03-20",
+      "depart_alt": "2027-03-12 (Fri night on AM29)",
+      "return_alt": "2027-03-21",
+      "direct": [
+        {
+          "airline": "Aeromexico",
+          "flight_no": "AM29 (AM029)",
+          "from": "EZE",
+          "to": "MEX",
+          "dep_time": "23:25-23:55",
+          "arr_time": "06:05-06:20 +1",
+          "duration": "9h40m",
+          "rt_price_usd": 950,
+          "is_estimate": true,
+          "note": "Most expensive of the three windows. Two pressures stack: arrival Sat 13 Mar lands inside Mexico's Benito Juarez long weekend (Mon 15 Mar), and the return Sat 20 / Sun 21 Mar is the run-up to Semana Santa (Palm Sunday is Sun 21 Mar 2027; Easter Sunday is Sun 28 Mar 2027). Estimate basis: KAYAK route average $886 RT plus roughly 8-12% holiday-adjacent loading, still inside the quoted $771-$1057 typical band."
+        },
+        {
+          "airline": "Aeromexico",
+          "flight_no": "AM31 (AM031)",
+          "from": "EZE",
+          "to": "MEX",
+          "dep_time": "12:00",
+          "arr_time": "18:35",
+          "duration": "9h35m",
+          "rt_price_usd": 970,
+          "is_estimate": true,
+          "note": "Daytime rotation, same seasonal loading, same presence caveat."
+        }
+      ],
+      "one_stop": [
+        {
+          "airline": "Avianca",
+          "from": "EZE",
+          "to": "MEX",
+          "via": "BOG",
+          "duration": "14h-16h total",
+          "rt_price_usd": 790,
+          "is_estimate": true,
+          "note": "Still the cheapest one-stop, but the gap to the nonstop widens in this window as Aeromexico's nonstop inventory tightens."
+        },
+        {
+          "airline": "Copa Airlines",
+          "from": "EZE",
+          "to": "MEX",
+          "via": "PTY",
+          "duration": "13h30m-15h total",
+          "rt_price_usd": 810,
+          "is_estimate": true,
+          "note": "EZE-PTY-MEX. Same routing as other windows."
+        },
+        {
+          "airline": "LATAM",
+          "from": "EZE",
+          "to": "MEX",
+          "via": "LIM",
+          "duration": "13h-15h total",
+          "rt_price_usd": 860,
+          "is_estimate": true,
+          "note": "Lima routing. Same caveats."
+        },
+        {
+          "airline": "LATAM",
+          "from": "EZE",
+          "to": "MEX",
+          "via": "SCL",
+          "duration": "14h-16h total",
+          "rt_price_usd": 880,
+          "is_estimate": true,
+          "note": "Santiago routing. Same caveats."
+        },
+        {
+          "airline": "Aeromexico / Gol",
+          "from": "EZE",
+          "to": "MEX",
+          "via": "GRU",
+          "duration": "16h-18h total",
+          "rt_price_usd": 900,
+          "is_estimate": true,
+          "note": "Sao Paulo backtrack. Same caveats."
+        }
+      ],
+      "cheapest_direct_usd": 950,
+      "cheapest_onestop_usd": 790,
+      "window_note": "WORST of the three for the beach leg. Departure Fri 12 / Sat 13 Mar runs straight into the Benito Juarez puente (Mon 15 Mar) and the return Sat 20 / Sun 21 Mar is Palm Sunday weekend, the opening of Semana Santa. Puerto Escondido domestic fares and hotel rates both spike. If you must take W3, pick the Sat 20 Mar return over Sun 21 Mar."
+    }
+  ],
+  "internal_flights": [
+    {
+      "route": "MEX-PXM",
+      "airline": "Viva Aerobus",
+      "duration": "1h18m nonstop",
+      "rt_price_usd": 190,
+      "ow_price_usd": 95,
+      "frequency": "~14 flights/week (about 2 daily), the highest frequency operator on the route; also operates NLU (AIFA)-PXM",
+      "is_estimate": true,
+      "note": "Route 12-month average is $147 RT with a typical band of $111-$196 (KAYAK, pulled 2026-09-20); peak month December is $170. March is dry/high season on the Oaxaca coast, so $190 RT is the realistic planning number and $230+ if you touch the Mar 13-15 puente or the Semana Santa run-up. BAGGAGE TRAP: the base 'Zero' fare includes ONLY a 45x35x20cm underseat personal item - no overhead carry-on at all. Checked bags are sold by weight (15kg to 32kg), cheapest prepaid at booking, and the price roughly doubles at the airport and again at the gate. Budget an extra USD 35-60 per person round trip for one checked bag. Viva uses MEX Terminal 1."
+    },
+    {
+      "route": "MEX-PXM",
+      "airline": "Volaris",
+      "duration": "1h18m nonstop",
+      "rt_price_usd": 190,
+      "ow_price_usd": 95,
+      "frequency": "~7 flights/week (1 daily). Also flies PXM from Guadalajara and Tijuana; Puebla-PXM starts 1 Dec 2026",
+      "is_estimate": true,
+      "note": "Same price band as Viva - KAYAK's cheapest one-way on the route was $40 on Volaris. BAGGAGE TRAP: only the underseat personal item is free; on the basic fare the personal item plus carry-on together must stay under 15kg and the overhead carry-on itself is a paid add-on (roughly USD 30-45 if bought at booking, far more at the airport). Checked bag is separate at 25kg. Overweight 32-45kg bags run up to ~USD 220. Volaris uses MEX Terminal 1. Surfboards are charged as oversize - relevant for Puerto Escondido."
+    },
+    {
+      "route": "MEX-PXM",
+      "airline": "Aeromexico / Aeromexico Connect",
+      "duration": "1h18m nonstop",
+      "rt_price_usd": 230,
+      "ow_price_usd": 115,
+      "frequency": "~7 flights/week (1 daily)",
+      "is_estimate": true,
+      "note": "The one that actually matters for this trip: Aeromexico departs MEX Terminal 2, the SAME terminal the EZE nonstop arrives into, and it can be sold on ONE through-ticket with AM29. That removes the T1/T2 transfer, removes the self-connect risk, and protects you if the EZE leg is late. Typically USD 40-60 more per person than Viva/Volaris - and it includes a checked bag, which erases most of that gap. PXM runway is 2,300m/7,546ft and the airport has 3 narrowbody stands, so A320/737/E190 is the size limit - no widebodies, and capacity is genuinely constrained."
+    },
+    {
+      "route": "MEX-HUX",
+      "airline": "Aeromexico Connect / Viva Aerobus / Volaris",
+      "duration": "1h26m nonstop",
+      "rt_price_usd": 200,
+      "ow_price_usd": 100,
+      "frequency": "~28 nonstop flights/week (about 4 daily), spread evenly across all days",
+      "is_estimate": true,
+      "note": "Route 12-month average $173 RT, typical band $142-$224, December peak $238 (KAYAK). March high season puts the planning number near $200. Huatulco has a longer runway and more capacity than PXM, and Aeromexico Connect is the most punctual operator on it at 94% on-time. Good fallback if PXM fares spike or sell out. Huatulco to Puerto Escondido by road is about 2h30m-3h on Highway 200 if you want HUX as the gateway and PXM as the destination."
+    },
+    {
+      "route": "MEX-ZIH",
+      "airline": "Aeromexico Connect / Volaris",
+      "duration": "1h13m nonstop",
+      "rt_price_usd": 180,
+      "ow_price_usd": 90,
+      "frequency": "~20 nonstop flights/week (2-3 daily); Aeromexico ~14/wk, Volaris ~7/wk. Viva Aerobus does NOT serve MEX-ZIH",
+      "is_estimate": true,
+      "note": "Route 12-month average $164 RT, typical band $130-$228 (KAYAK). Aeromexico runs 95% on-time here. Different coast entirely - Guerrero, not Oaxaca - so it is an alternative destination, not an alternative gateway to Puerto Escondido. Thinner competition than PXM/HUX because only two carriers fly it."
+    },
+    {
+      "route": "MEX-PVR",
+      "airline": "Aeromexico / Viva Aerobus / Volaris",
+      "duration": "1h42m nonstop",
+      "rt_price_usd": 150,
+      "ow_price_usd": 75,
+      "frequency": "~63 nonstop flights/week (about 9 daily); Aeromexico ~42/wk, Viva ~14/wk",
+      "is_estimate": true,
+      "note": "Cheapest and by far the best-served of the beach options - 12-month average $140 RT, typical band $113-$185, and February is the cheapest month at ~$108 RT (KAYAK). The huge frequency means a missed connection is recoverable the same day, which is not true at PXM. Trade-off: Puerto Vallarta is a mass-market resort town 1,000km up the coast from Oaxaca, a completely different trip from Puerto Escondido."
+    },
+    {
+      "route": "MEX-OAX",
+      "airline": "Aeromexico / Viva Aerobus / Volaris",
+      "duration": "1h19m nonstop",
+      "rt_price_usd": 175,
+      "ow_price_usd": 88,
+      "frequency": "~54 nonstop flights/week (7-8 daily)",
+      "is_estimate": true,
+      "note": "The hedge routing. 12-month average $163 RT, typical band $129-$226 (KAYAK). With 7-8 daily flights this leg almost never strands you, unlike the 3-4 daily into PXM. Fly MEX-OAX, spend a night or two in Oaxaca City, then drive the new Barranca Larga-Ventanilla supercarretera to Puerto Escondido in 2h30m-3h30m. Often ends up cheaper AND more reliable than MEX-PXM in March, and gives you Oaxaca City for free."
+    },
+    {
+      "route": "OAX-PXM",
+      "airline": "Aerotucan (also Aerovega)",
+      "duration": "35-45 min",
+      "rt_price_usd": 240,
+      "ow_price_usd": 120,
+      "frequency": "At least 2 daily year-round; the classic departure is ~07:00 arriving ~07:40",
+      "is_estimate": true,
+      "note": "Cessna Caravan 208, roughly 12-14 seats. Aerotucan is effectively the only scheduled operator on OAX-PXM. Quoted from about MXN 3,205 one way depending on day and season (~USD 120-160). HARD 15kg baggage limit with per-kg excess fees - a real problem for a 5-person group with boards or big bags. Book well ahead: a 5-seat block on a Caravan in March high season is a meaningful chunk of the aircraft. Most groups take the road instead."
+    }
+  ],
+  "ground_transfers": [
+    {
+      "route": "Oaxaca City (OAX) -> Puerto Escondido",
+      "mode": "Shared shuttle van (Ruta Coatlanes-Costa, Transportes Bahia Colotepec) via the Barranca Larga-Ventanilla supercarretera",
+      "duration": "2h30m-3h30m",
+      "cost_usd": 18,
+      "note": "About MXN 300 per person. Coatlanes-Costa departs roughly every 20 minutes; Bahia Colotepec runs hourly 07:00-20:00. The 104.2km supercarretera opened fully and cut this trip from about 7 hours to 2.5-3.5 hours. Two toll plazas: Barranca Larga (km 1+500) and Ventanilla (km 92+000). This is the single biggest change to Oaxaca coast logistics in decades and it is why the OAX routing is now competitive."
+    },
+    {
+      "route": "Oaxaca City (OAX) -> Puerto Escondido",
+      "mode": "Private van / transfer for the group",
+      "duration": "2h30m-3h30m",
+      "cost_usd": 190,
+      "note": "Per vehicle, not per person - about USD 38 each split 5 ways. Worth it over the colectivo with 5 people and luggage. Tolls typically included; confirm when booking."
+    },
+    {
+      "route": "PXM airport -> Puerto Escondido town (Zicatela / La Punta / Rinconada)",
+      "mode": "Taxi or colectivo",
+      "duration": "10-20 min",
+      "cost_usd": 12,
+      "note": "The airport is right next to town. Colectivo cheaper, private taxi about MXN 200-250 for the car."
+    },
+    {
+      "route": "Huatulco (HUX) -> Puerto Escondido",
+      "mode": "Road (Highway 200) - shuttle, bus or private transfer",
+      "duration": "2h30m-3h",
+      "cost_usd": 25,
+      "note": "Relevant only if you use HUX as the gateway because PXM fares spiked. Private transfer for a group of 5 runs roughly USD 150-200 per vehicle."
+    },
+    {
+      "route": "MEX Terminal 1 <-> Terminal 2 (Aerotren / AirTrain)",
+      "mode": "Free automated people mover, boarding pass required",
+      "duration": "5 min ride, allow 45-60 min door to door",
+      "cost_usd": 0,
+      "note": "CRITICAL CONNECTION TRAP. Aeromexico's EZE nonstop arrives Terminal 2. Volaris and Viva Aerobus both depart Terminal 1. The 3km Aerotren runs 05:00-23:00 only and requires a boarding pass; outside those hours it is a 24h connection bus taking 10-25 minutes depending on traffic. Budget 45-60 minutes minimum between terminals, and that is BEFORE immigration and re-screening. Arriving internationally at 06:05-06:20 you must clear migracion and customs first, so a self-connect onto a Volaris/Viva T1 departure before about 10:00 is genuinely risky. Booking Aeromexico Connect MEX-PXM keeps you in T2 and on one ticket."
+    },
+    {
+      "route": "Mexico City -> Puerto Escondido",
+      "mode": "Overnight bus (ADO / OCC)",
+      "duration": "14-17h",
+      "cost_usd": 60,
+      "note": "The no-fly fallback. Only worth it if the domestic legs are absurd in Semana Santa week. Most groups will not want this after a 9h40m redeye from Buenos Aires."
+    }
+  ],
+  "visa_note": "NO VISA REQUIRED. Argentine citizens holding ordinary/common passports do not need a visa to enter Mexico as tourists, for stays of up to 180 consecutive days. This is confirmed directly by the Argentine Consulate General in Mexico (cancilleria.gob.ar) as of 2026 - Mexico has tightened requirements for several other South American nationalities (Brazil, Peru, Ecuador, Venezuela, Colombia at various points), but Argentina is NOT among them. What you actually need: (1) a passport valid for the entire stay - the DNI is NOT accepted; (2) the FMM Digital (FMMd) tourist card, completed on arrival by scanning the QR code at the migration filter or in advance via the INM portal - the paper FMM has been replaced by the digital form at air borders and there is no fee for stays under 180 days when arriving by air (it is bundled into the airfare as the DNI/TUA tax); (3) a confirmed return ticket with a fixed date inside 180 days - NOT an open or standby ticket; (4) proof of funds of at least USD 500 per person per week, plus USD 50 for each extra day, shown as cash or credit card limits; (5) the consulate explicitly states paid accommodation bookings for the whole stay may be required. The immigration officer sets the actual number of days granted - it is discretionary and often less than 180. Tourist status prohibits any paid activity in Mexico. PRACTICAL ADVICE for a group of 5: have the hotel/Airbnb confirmations and the return e-ticket on your phone before you reach the migration desk at MEX. Argentines occasionally get secondary-screened at MEX; having the paperwork ready resolves it in minutes.",
+  "aep_note": "AEP IS NOT USABLE FOR THIS TRIP. Aeroparque Jorge Newbery has NO service to Mexico and no service to Central America - not nonstop, and not as a practical connecting gateway. AEP's entire international network is regional South America: Montevideo and Punta del Este (Uruguay), Asuncion (Paraguay), Santa Cruz de la Sierra (Bolivia), Santiago (Chile), Lima (Peru), Bogota (Colombia), Cartagena (seasonal Jan-Mar, from Jan 2027), and about fifteen Brazilian airports. There is no Panama City service from AEP either, so the Copa routing is EZE-only. In theory you could fly AEP-BOG on Avianca or Aerolineas and connect to MEX, or AEP-LIM and connect on LATAM, but that requires a self-transfer risk and separate tickets in most cases, and it saves nothing - EZE is where every Mexico itinerary is actually priced and ticketed. Plan the whole trip out of EZE. The only real AEP consideration is the ground transfer: if anyone in the group is coming from a domestic Argentine city into AEP, budget 45-75 minutes and about USD 25-35 for the AEP-to-EZE crosstown transfer, and do not book a tight same-day connection between the two airports.",
+  "seasonality_note": "March is DRY SEASON and HIGH SEASON on the Oaxaca coast - the best surf and weather of the year at Puerto Escondido, and priced accordingly. Two specific 2027 collisions to flag. (1) SEMANA SANTA: Easter Sunday 2027 is 28 March, Palm Sunday is 21 March, Holy Thursday 25 March, Good Friday 26 March (a Mexican federal holiday). Semana Santa proper therefore runs 21-28 March 2027. W3's return of Sun 21 Mar lands exactly on Palm Sunday, the opening of the holiday, when Mexican domestic demand toward the coast surges. W1 and W2 are clear of it. If you take W3, return Sat 20 Mar, not Sun 21 Mar. (2) THE BENITO JUAREZ PUENTE: Natalicio de Benito Juarez is a Mexican federal holiday observed on the third Monday of March, which in 2027 is MONDAY 15 MARCH. That creates a national long weekend of Sat 13 - Mon 15 March. This hits W3's departure (Fri 12 / Sat 13 Mar arrival) AND W2's return (Sat 13 Mar) head-on. The effect is concentrated on the DOMESTIC legs - MEX-PXM and MEX-HUX fares and Puerto Escondido hotel rates, not the Buenos Aires nonstop. RANKING: W1 (26 Feb - 6/7 Mar) is the cleanest and cheapest window, clear of both holidays. W2 (5/6 - 13 Mar) is close behind, with the single fix of flying PXM-MEX on Fri 12 Mar and overnighting in CDMX instead of connecting on Sat 13. W3 (12/13 - 20/21 Mar) is the most expensive and most congested on both ends. Booking timing: KAYAK's own data says book EZE-MEX at least 9 weeks out to save ~35%, and MEX-PXM 23 weeks out to save ~29% - researching this in September 2026 for a February/March 2027 trip puts you in the ideal booking window for both. Also note a separate risk unrelated to season: Ezeiza ran partial runway closures 25 Oct - 11 Nov 2026 for works, during which Aeromexico suspended EZE-MEX entirely and rebooked passengers via Santiago and Lima on LATAM. Those works are scheduled to end well before your travel dates, but confirm no further phases are announced for early 2027 before you commit to nonrefundable fares.",
+  "recommendation": "Best combination: W1, departing Fri 26 Feb 2027 on Aeromexico AM29 out of EZE at ~23:25-23:55, landing MEX ~06:05-06:20 on Sat 27 Feb, connecting same-morning to Puerto Escondido on Aeromexico Connect out of Terminal 2 on a single through-ticket. Estimated all-in per person: ~USD 880 international + ~USD 230 domestic = ~USD 1,110 round trip, or about USD 5,550 for the group of five. Cheapest viable alternative: Avianca via Bogota plus a Viva Aerobus MEX-PXM self-connect with an overnight in CDMX, roughly USD 720 + 190 + bags = ~USD 950 per person, but with a terminal change and no connection protection.",
+  "sources": [
+    "https://www.flightconnections.com/flights-from-eze-to-mex",
+    "https://www.flightconnections.com/flights-from-mex-to-eze",
+    "https://www.flightconnections.com/flights-from-buenos-aires-aep",
+    "https://www.aeroroutes.com/eng/250827-am1q26eze",
+    "https://www.aeromexico.com/en_us/flights-from-buenos-aires-to-mexico-city",
+    "https://www.flightera.net/en/flight/Aerom%C3%A9xico-Buenos+Aires-Mexico+City/AM31",
+    "https://www.airportia.com/flights/am31/ezeiza/mexico-city/",
+    "https://en.wikipedia.org/wiki/List_of_Aerol%C3%ADneas_Argentinas_destinations",
+    "https://en.wikipedia.org/wiki/Mexico_City_International_Airport",
+    "https://en.wikipedia.org/wiki/Puerto_Escondido_International_Airport",
+    "https://en.wikipedia.org/wiki/Aeroparque_Jorge_Newbery",
+    "https://www.kayak.com/flight-routes/Buenos-Aires-Ministro-Pistarini-EZE/Mexico-City-Benito-Juarez-MEX",
+    "https://www.kayak.com/flight-routes/Mexico-City-MEX/Puerto-Escondido-PXM",
+    "https://www.kayak.com/flight-routes/Mexico-City-MEX/Huatulco-HUX",
+    "https://www.kayak.com/flight-routes/Mexico-City-MEX/Ixtapa-Zihuatanejo-ZIH",
+    "https://www.kayak.com/flight-routes/Mexico-City-MEX/Puerto-Vallarta-PVR",
+    "https://www.kayak.com/flight-routes/Mexico-City-MEX/Oaxaca-OAX",
+    "https://cmexi.cancilleria.gob.ar/es/requisitos-para-ingresar-m%C3%A9xico-como-turista",
+    "https://publicholidays.mx/easter/",
+    "https://www.officeholidays.com/holidays/mexico/benito-juarezs-birthday",
+    "https://www.mexicoturismo.com.mx/en/holy-week-2027.html",
+    "https://www.gob.mx/capufe/articulos/autopista-barranca-larga-ventanilla",
+    "https://www.mexicodesconocido.com.mx/nueva-autopista-oaxaca-puerto-escondido.html",
+    "https://www.mexicotravelandleisure.com/blog/oaxaca-to-puerto-escondido/",
+    "https://www.alternativeairlines.com/aerotucan",
+    "https://www.livelikeitstheweekend.com/oaxaca-to-puerto-escondido-mexico/",
+    "https://deeparrival.com/airlines/volaris/baggage-fees/",
+    "https://deeparrival.com/airlines/viva-aerobus/baggage-fees/",
+    "https://cms.volaris.com/en/travel-info/baggage-policy/",
+    "https://aeropuerto-mex.com/en/connection-terminals",
+    "https://www.aicm.com.mx/en/passengers/services/aicm-services/airtrain",
+    "https://www.sirchandler.com.ar/2026/05/aeromexico-cancelo-sus-vuelos-en-las-semanas-de-restricciones-de-ezeiza/",
+    "https://argentina.ladevi.info/transporte/companias-aereas/obras-ezeiza-aeromexico-cancela-sus-vuelos-y-reubica-pasajeros-n100766"
+  ]
+}

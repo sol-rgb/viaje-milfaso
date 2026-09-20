@@ -1,0 +1,653 @@
+{
+  "destination": "peru",
+  "gateway": "LIM",
+  "generated_on": "2026-09-20",
+  "currency": "USD",
+  "pax": 5,
+  "cabin": "economy",
+  "price_basis": "round trip, per person, taxes included, hand-luggage/basic fare level unless noted; checked bag extra on JetSMART and Sky",
+  "windows": [
+    {
+      "id": "w1",
+      "depart": "2027-02-27",
+      "return": "2027-03-06",
+      "alt_dates_note": "Also viable: red-eye out Fri 26 Feb night (AR1365-style 21:45 / JA7800 21:55 pattern exists LIM-BUE; southbound EZE/AEP-LIM evening departure is LA2368 20:05 from AEP). Return Sun 7 Mar adds roughly USD 15-30 vs Sat 6 Mar.",
+      "direct": [
+        {
+          "airline": "JetSMART",
+          "flight_no": "JA (EZE-LIM, number not yet published for NS27)",
+          "from": "EZE",
+          "to": "LIM",
+          "dep_time": "n/a - schedule not yet filed for Feb 2027",
+          "arr_time": "n/a",
+          "duration": "4h50m",
+          "rt_price_usd": 335,
+          "is_estimate": true,
+          "note": "Route starts 07NOV26, 5x weekly from 14DEC26, daily (7x) from 01JAN27 per AeroRoutes NW26 filing, A320. Cheapest nonstop. Basic fare, personal item only; checked bag ~USD 35-55 each way. Late-Feb departure still carries Argentine summer premium."
+        },
+        {
+          "airline": "Sky Airline",
+          "flight_no": "H2 5800",
+          "from": "EZE",
+          "to": "LIM",
+          "dep_time": "05:00",
+          "arr_time": "08:00",
+          "duration": "4h50m",
+          "rt_price_usd": 370,
+          "is_estimate": true,
+          "note": "A320neo, year-round. Sky's own site publishes a Feb-2027 BUE-LIM lead-in of USD 396 RT vs USD 220 for March 2027 - that gap is the whole story of W1 vs W2/W3."
+        },
+        {
+          "airline": "LATAM",
+          "flight_no": "LA 2376",
+          "from": "EZE",
+          "to": "LIM",
+          "dep_time": "03:55",
+          "arr_time": "06:45",
+          "duration": "4h50m",
+          "rt_price_usd": 455,
+          "is_estimate": true,
+          "note": "A320. Return counterpart LA 2375 LIM-EZE 20:25-02:45+1. Full-service fare with carry-on; LATAM is the most expensive nonstop but the only one with 2 daily EZE frequencies."
+        },
+        {
+          "airline": "LATAM",
+          "flight_no": "LA 2946",
+          "from": "EZE",
+          "to": "LIM",
+          "dep_time": "07:35",
+          "arr_time": "10:25",
+          "duration": "4h50m",
+          "rt_price_usd": 455,
+          "is_estimate": true,
+          "note": "Second LATAM EZE frequency. Return counterpart LA 2947 LIM-EZE 23:45-06:10+1."
+        },
+        {
+          "airline": "Aerolineas Argentinas",
+          "flight_no": "AR 1364 / AR 1365",
+          "from": "AEP",
+          "to": "LIM",
+          "dep_time": "17:10",
+          "arr_time": "20:00",
+          "duration": "4h50m (return 4h20m)",
+          "rt_price_usd": 430,
+          "is_estimate": true,
+          "note": "AR flies Lima from AEROPARQUE (AEP), not Ezeiza. Return AR1365 LIM 21:45 - AEP 04:05+1 (overnight, B737 MAX 8). AR promo fares of USD 359 RT ex-AEP were published in May 2026 for off-peak dates."
+        },
+        {
+          "airline": "JetSMART",
+          "flight_no": "JA 7801 / JA 7800",
+          "from": "AEP",
+          "to": "LIM",
+          "dep_time": "05:30",
+          "arr_time": "08:20",
+          "duration": "4h50m (return 4h20m)",
+          "rt_price_usd": 345,
+          "is_estimate": true,
+          "note": "Daily A320. Return JA7800 LIM 21:55 - AEP 04:20+1. Best combo for a group: cheap fare AND downtown Buenos Aires airport."
+        },
+        {
+          "airline": "Sky Airline",
+          "flight_no": "H2 5810 / H2 5811",
+          "from": "AEP",
+          "to": "LIM",
+          "dep_time": "04:40",
+          "arr_time": "07:35",
+          "duration": "4h50m (return 4h20m)",
+          "rt_price_usd": 375,
+          "is_estimate": true,
+          "note": "Daily A320neo. Return H2 5811 LIM 02:00 - AEP 08:30. Brutal check-in time at AEP (pre-03:00)."
+        },
+        {
+          "airline": "LATAM",
+          "flight_no": "LA 2464 / LA 2381 / LA 2368",
+          "from": "AEP",
+          "to": "LIM",
+          "dep_time": "08:40 / 17:35 / 20:05",
+          "arr_time": "11:25 / 20:20 / 23:00",
+          "duration": "4h50m",
+          "rt_price_usd": 460,
+          "is_estimate": true,
+          "note": "Three daily AEP frequencies. Returns LA2465 01:15-07:40, LA2445 02:05-08:30, LA2380 09:30-16:00, LA2369 12:00-18:30. LA2368 (20:05) is the best fit for a Friday-night departure."
+        }
+      ],
+      "one_stop": [
+        {
+          "airline": "JetSMART",
+          "from": "EZE",
+          "to": "LIM",
+          "via": "SCL",
+          "duration": "8h30m-10h30m (2h15 + 2h-4h layover + 3h45)",
+          "rt_price_usd": 300,
+          "is_estimate": true,
+          "note": "Cheapest one-stop. SCL is the layover for ~97% of all one-stop BUE-LIM itineraries. Warning: JetSMART sells EZE-SCL and SCL-LIM as separate legs unless booked as one PNR - self-transfer risk, and you clear Chilean immigration."
+        },
+        {
+          "airline": "Sky Airline",
+          "from": "EZE",
+          "to": "LIM",
+          "via": "SCL",
+          "duration": "8h45m-11h",
+          "rt_price_usd": 320,
+          "is_estimate": true,
+          "note": "Sky sells this as a through ticket. Only ~USD 50 under its own nonstop - the saving is thin."
+        },
+        {
+          "airline": "JetSMART",
+          "from": "AEP",
+          "to": "LIM",
+          "via": "SCL",
+          "duration": "8h30m-11h",
+          "rt_price_usd": 310,
+          "is_estimate": true,
+          "note": "AEP-SCL is a dense JetSMART/Sky/LATAM route, so AEP one-stops via Santiago are plentiful."
+        },
+        {
+          "airline": "Boliviana de Aviacion (BoA)",
+          "from": "EZE",
+          "to": "LIM",
+          "via": "VVI",
+          "duration": "10h-16h (3h10 + long layover + 2h40)",
+          "rt_price_usd": 330,
+          "is_estimate": true,
+          "note": "BoA went daily VVI-LIM in 2026. Historically the bargain-basement Argentine option, but layovers in Santa Cruz are often 5-10h and schedule reliability is the weakest of the set. Not recommended for a 5-person group on a 7-day trip."
+        },
+        {
+          "airline": "Avianca",
+          "from": "EZE",
+          "to": "LIM",
+          "via": "BOG",
+          "duration": "13h-16h",
+          "rt_price_usd": 395,
+          "is_estimate": true,
+          "note": "Kayak logs BOG-layover itineraries averaging USD 393 RT. Geographically absurd (LIM is 2,000km south of BOG) - only worth it if a fare sale appears."
+        },
+        {
+          "airline": "LATAM / GOL",
+          "from": "EZE",
+          "to": "LIM",
+          "via": "GRU",
+          "duration": "12h-15h",
+          "rt_price_usd": 415,
+          "is_estimate": true,
+          "note": "Eastward detour via Sao Paulo. Almost never cheaper than the nonstop on this pair."
+        }
+      ],
+      "cheapest_direct_usd": 335,
+      "cheapest_onestop_usd": 300,
+      "saving_onestop_vs_direct_usd": 35,
+      "window_note": "Most expensive of the three windows. Departure 26-27 Feb sits in the tail of the Argentine summer-holiday peak; Sky's own published Feb-2027 lead-in is USD 396 RT vs USD 220 for March. The one-stop saving (~USD 35) does not justify 5-6 extra hours for a group."
+    },
+    {
+      "id": "w2",
+      "depart": "2027-03-06",
+      "return": "2027-03-13",
+      "alt_dates_note": "Fri 5 Mar night departure via LA2368 (AEP 20:05) or an AR1364 17:10 - both get you into Lima the same night. Cheapest window of the three.",
+      "direct": [
+        {
+          "airline": "JetSMART",
+          "flight_no": "JA (EZE-LIM, number not yet published for NS27)",
+          "from": "EZE",
+          "to": "LIM",
+          "dep_time": "n/a - schedule not yet filed",
+          "arr_time": "n/a",
+          "duration": "4h50m",
+          "rt_price_usd": 270,
+          "is_estimate": true,
+          "note": "Daily from 01JAN27. JetSMART publishes BUE-LIM one-ways from USD 72-115 in its own fare calendar; USD 270 RT is a realistic all-in weekend price for March. Cheapest nonstop across all three windows."
+        },
+        {
+          "airline": "Sky Airline",
+          "flight_no": "H2 5800",
+          "from": "EZE",
+          "to": "LIM",
+          "dep_time": "05:00",
+          "arr_time": "08:00",
+          "duration": "4h50m",
+          "rt_price_usd": 290,
+          "is_estimate": true,
+          "note": "Sky's own booking engine shows a March-2027 BUE-LIM lead-in of USD 220 RT. USD 220 is reachable on midweek dates; USD 290 is realistic for Sat-out/Sat-back."
+        },
+        {
+          "airline": "LATAM",
+          "flight_no": "LA 2376 / LA 2946",
+          "from": "EZE",
+          "to": "LIM",
+          "dep_time": "03:55 / 07:35",
+          "arr_time": "06:45 / 10:25",
+          "duration": "4h50m",
+          "rt_price_usd": 385,
+          "is_estimate": true,
+          "note": "Returns LA2375 (20:25-02:45+1) and LA2947 (23:45-06:10+1). Includes carry-on; add ~USD 60 RT for a checked bag on the LCCs to compare like for like."
+        },
+        {
+          "airline": "Aerolineas Argentinas",
+          "flight_no": "AR 1364 / AR 1365",
+          "from": "AEP",
+          "to": "LIM",
+          "dep_time": "17:10",
+          "arr_time": "20:00",
+          "duration": "4h50m (return 4h20m)",
+          "rt_price_usd": 360,
+          "is_estimate": true,
+          "note": "Matches the USD 359 RT promo level AR published ex-AEP in 2026. Overnight return AR1365 LIM 21:45 - AEP 04:05+1 maximises the last day in Peru."
+        },
+        {
+          "airline": "JetSMART",
+          "flight_no": "JA 7801 / JA 7800",
+          "from": "AEP",
+          "to": "LIM",
+          "dep_time": "05:30",
+          "arr_time": "08:20",
+          "duration": "4h50m (return 4h20m)",
+          "rt_price_usd": 280,
+          "is_estimate": true,
+          "note": "Best value-for-hassle option of the whole study: LCC fare, nonstop, and Aeroparque instead of Ezeiza."
+        },
+        {
+          "airline": "Sky Airline",
+          "flight_no": "H2 5810 / H2 5811",
+          "from": "AEP",
+          "to": "LIM",
+          "dep_time": "04:40",
+          "arr_time": "07:35",
+          "duration": "4h50m (return 4h20m)",
+          "rt_price_usd": 295,
+          "is_estimate": true,
+          "note": "Return H2 5811 departs LIM 02:00 - an ugly hour but you land AEP 08:30 with a full day left."
+        },
+        {
+          "airline": "LATAM",
+          "flight_no": "LA 2464 / LA 2381 / LA 2368",
+          "from": "AEP",
+          "to": "LIM",
+          "dep_time": "08:40 / 17:35 / 20:05",
+          "arr_time": "11:25 / 20:20 / 23:00",
+          "duration": "4h50m",
+          "rt_price_usd": 390,
+          "is_estimate": true,
+          "note": "LA2368 at 20:05 is the natural Friday-night departure if you want to leave after work on Fri 5 Mar."
+        }
+      ],
+      "one_stop": [
+        {
+          "airline": "JetSMART",
+          "from": "EZE",
+          "to": "LIM",
+          "via": "SCL",
+          "duration": "8h30m-10h30m",
+          "rt_price_usd": 245,
+          "is_estimate": true,
+          "note": "Cheapest itinerary found in the whole study. Saving over the cheapest nonstop is only ~USD 25 - genuinely not worth it for 5 people with bags."
+        },
+        {
+          "airline": "Sky Airline",
+          "from": "EZE",
+          "to": "LIM",
+          "via": "SCL",
+          "duration": "8h45m-11h",
+          "rt_price_usd": 260,
+          "is_estimate": true,
+          "note": "Through-ticketed, bags checked to LIM."
+        },
+        {
+          "airline": "JetSMART",
+          "from": "AEP",
+          "to": "LIM",
+          "via": "SCL",
+          "duration": "8h30m-11h",
+          "rt_price_usd": 255,
+          "is_estimate": true,
+          "note": "AEP-SCL-LIM. Same caveat about self-transfer at Santiago."
+        },
+        {
+          "airline": "Boliviana de Aviacion (BoA)",
+          "from": "EZE",
+          "to": "LIM",
+          "via": "VVI",
+          "duration": "10h-16h",
+          "rt_price_usd": 285,
+          "is_estimate": true,
+          "note": "No longer undercuts JetSMART now that JetSMART flies EZE-LIM nonstop daily. Skip."
+        },
+        {
+          "airline": "Avianca",
+          "from": "EZE",
+          "to": "LIM",
+          "via": "BOG",
+          "duration": "13h-16h",
+          "rt_price_usd": 345,
+          "is_estimate": true,
+          "note": "More expensive AND slower than the nonstop in March. No reason to book it."
+        }
+      ],
+      "cheapest_direct_usd": 270,
+      "cheapest_onestop_usd": 245,
+      "saving_onestop_vs_direct_usd": 25,
+      "window_note": "Best value window. Fully inside the March price trough, clear of both the Argentine summer peak and Peru's Semana Santa. Recommended."
+    },
+    {
+      "id": "w3",
+      "depart": "2027-03-13",
+      "return": "2027-03-20",
+      "alt_dates_note": "Return Sun 21 Mar 2027 is PALM SUNDAY - the first day of Semana Santa (Easter Sunday 2027 = 28 Mar). Expect roughly USD 30-60 more per person on that return and noticeably tighter availability on LIM-north-coast flights and Mancora hotels. Sat 20 Mar return is the cheaper choice.",
+      "direct": [
+        {
+          "airline": "JetSMART",
+          "flight_no": "JA (EZE-LIM, number not yet published for NS27)",
+          "from": "EZE",
+          "to": "LIM",
+          "dep_time": "n/a - schedule not yet filed",
+          "arr_time": "n/a",
+          "duration": "4h50m",
+          "rt_price_usd": 285,
+          "is_estimate": true,
+          "note": "Still in the March trough but the Semana Santa run-up starts lifting the back half of the window."
+        },
+        {
+          "airline": "Sky Airline",
+          "flight_no": "H2 5800",
+          "from": "EZE",
+          "to": "LIM",
+          "dep_time": "05:00",
+          "arr_time": "08:00",
+          "duration": "4h50m",
+          "rt_price_usd": 305,
+          "is_estimate": true,
+          "note": "Based on Sky's published March-2027 lead-in of USD 220 plus a weekend/late-March premium."
+        },
+        {
+          "airline": "LATAM",
+          "flight_no": "LA 2376 / LA 2946",
+          "from": "EZE",
+          "to": "LIM",
+          "dep_time": "03:55 / 07:35",
+          "arr_time": "06:45 / 10:25",
+          "duration": "4h50m",
+          "rt_price_usd": 400,
+          "is_estimate": true,
+          "note": "Returns LA2375 / LA2947, both overnight."
+        },
+        {
+          "airline": "Aerolineas Argentinas",
+          "flight_no": "AR 1364 / AR 1365",
+          "from": "AEP",
+          "to": "LIM",
+          "dep_time": "17:10",
+          "arr_time": "20:00",
+          "duration": "4h50m (return 4h20m)",
+          "rt_price_usd": 370,
+          "is_estimate": true,
+          "note": "AR only serves Lima from Aeroparque. 4-7 weekly depending on season; daily from 01 March per current filings."
+        },
+        {
+          "airline": "JetSMART",
+          "flight_no": "JA 7801 / JA 7800",
+          "from": "AEP",
+          "to": "LIM",
+          "dep_time": "05:30",
+          "arr_time": "08:20",
+          "duration": "4h50m (return 4h20m)",
+          "rt_price_usd": 295,
+          "is_estimate": true,
+          "note": "Daily A320, 7x weekly on the AEP-LIM pairing."
+        },
+        {
+          "airline": "Sky Airline",
+          "flight_no": "H2 5810 / H2 5811",
+          "from": "AEP",
+          "to": "LIM",
+          "dep_time": "04:40",
+          "arr_time": "07:35",
+          "duration": "4h50m (return 4h20m)",
+          "rt_price_usd": 310,
+          "is_estimate": true,
+          "note": "Return H2 5811 LIM 02:00 - AEP 08:30."
+        },
+        {
+          "airline": "LATAM",
+          "flight_no": "LA 2464 / LA 2381 / LA 2368",
+          "from": "AEP",
+          "to": "LIM",
+          "dep_time": "08:40 / 17:35 / 20:05",
+          "arr_time": "11:25 / 20:20 / 23:00",
+          "duration": "4h50m",
+          "rt_price_usd": 405,
+          "is_estimate": true,
+          "note": "Most frequency of any carrier on the Buenos Aires-Lima market (roughly 21 weekly ex-BUE)."
+        }
+      ],
+      "one_stop": [
+        {
+          "airline": "JetSMART",
+          "from": "EZE",
+          "to": "LIM",
+          "via": "SCL",
+          "duration": "8h30m-10h30m",
+          "rt_price_usd": 255,
+          "is_estimate": true,
+          "note": "Cheapest option for this window; ~USD 30 under the cheapest nonstop."
+        },
+        {
+          "airline": "Sky Airline",
+          "from": "EZE",
+          "to": "LIM",
+          "via": "SCL",
+          "duration": "8h45m-11h",
+          "rt_price_usd": 275,
+          "is_estimate": true,
+          "note": "Through ticket, bags checked through."
+        },
+        {
+          "airline": "JetSMART",
+          "from": "AEP",
+          "to": "LIM",
+          "via": "SCL",
+          "duration": "8h30m-11h",
+          "rt_price_usd": 265,
+          "is_estimate": true,
+          "note": "Aeroparque departure, Santiago connection."
+        },
+        {
+          "airline": "Boliviana de Aviacion (BoA)",
+          "from": "EZE",
+          "to": "LIM",
+          "via": "VVI",
+          "duration": "10h-16h",
+          "rt_price_usd": 295,
+          "is_estimate": true,
+          "note": "Daily Santa Cruz-Lima since mid-2026, but long layovers."
+        },
+        {
+          "airline": "Avianca",
+          "from": "EZE",
+          "to": "LIM",
+          "via": "BOG",
+          "duration": "13h-16h",
+          "rt_price_usd": 355,
+          "is_estimate": true,
+          "note": "Not competitive."
+        }
+      ],
+      "cheapest_direct_usd": 285,
+      "cheapest_onestop_usd": 255,
+      "saving_onestop_vs_direct_usd": 30,
+      "window_note": "Second-best value. Peru's north coast is at its warmest in mid-March (sea ~25C), so this window has the best beach weather of the three - but the Sun 21 Mar return collides with the start of Semana Santa. Fly home Sat 20 Mar."
+    }
+  ],
+  "internal_flights": [
+    {
+      "route": "LIM-TYL",
+      "airline": "LATAM Peru; Sky Airline Peru",
+      "duration": "1h50m nonstop",
+      "ow_price_usd": 70,
+      "rt_price_usd": 150,
+      "frequency": "~27-30 weekly, 3-5 departures/day; departures spread 05:35-19:05",
+      "is_estimate": true,
+      "note": "Closest airport to Mancora (Talara, Capitan FAP Victor Montes Arias). Kayak typical RT band USD 121-210, cheapest seen USD 97, cheapest OW USD 54. March is the cheapest month on this route (~USD 130 avg); February the dearest. Use USD 150 RT for W1 and USD 130 RT for W2/W3. JetSMART Peru does NOT serve Talara."
+    },
+    {
+      "route": "LIM-TBP",
+      "airline": "LATAM Peru; Sky Airline Peru",
+      "duration": "1h55m nonstop",
+      "ow_price_usd": 65,
+      "rt_price_usd": 140,
+      "frequency": "~32-34 weekly, 4-6 departures/day, both carriers daily",
+      "is_estimate": true,
+      "note": "Tumbes (Pedro Canga Rodriguez). Kayak typical RT band USD 121-203, average USD 154, cheapest seen USD 84. More frequency and usually a few dollars cheaper than Talara, but ~30 min further from Mancora by road. February is the most expensive month (50% swing vs May). JetSMART Peru does NOT serve Tumbes."
+    },
+    {
+      "route": "LIM-PIU",
+      "airline": "LATAM Peru; Sky Airline Peru; JetSMART Peru",
+      "duration": "1h45m nonstop",
+      "ow_price_usd": 50,
+      "rt_price_usd": 120,
+      "frequency": "~78 weekly, 11-12 departures/day",
+      "is_estimate": true,
+      "note": "NOT requested but the cheapest and most flexible northern gateway. Piura: Kayak typical RT USD 104-166, cheapest RT USD 76. The only northern airport JetSMART Peru serves. Trade-off: 2h25-3h drive to Mancora vs 1h15 from Talara. For 5 people the fare saving (~USD 30/pax = USD 150) roughly cancels out against a private van, so only pick Piura if Talara/Tumbes fares spike."
+    },
+    {
+      "route": "LIM-PIO",
+      "airline": "NONE - no scheduled commercial passenger service",
+      "duration": "n/a",
+      "ow_price_usd": 0,
+      "rt_price_usd": 0,
+      "frequency": "0",
+      "is_estimate": false,
+      "note": "Pisco (Capitan FAP Renan Elias Olivera) has NO scheduled airline service to Lima and has not had regular commercial passenger flights since before COVID. Current PIO activity is Nazca Lines sightseeing overflights plus occasional charter. Paracas is a ROAD trip from Lima - do not plan on flying. Distance is only ~240 km, so nobody would fly it anyway."
+    }
+  ],
+  "ground_transfers": [
+    {
+      "route": "Talara airport (TYL) - Mancora",
+      "mode": "private transfer / taxi (car or van, pre-booked)",
+      "duration": "1h15m-1h30m (~78 km)",
+      "cost_usd": 55,
+      "per": "per vehicle (approx USD 11-15 pp for a group of 5 in a van)",
+      "note": "Standard tourist transfer sold by Tangol / GetYourGuide / hotels. Best option for 5 people with surfboards or luggage."
+    },
+    {
+      "route": "Talara airport (TYL) - Mancora",
+      "mode": "colectivo / combi (shared)",
+      "duration": "1h30m-2h30m",
+      "cost_usd": 4,
+      "per": "per person",
+      "note": "Colectivos outside the terminal charge ~S/10-20 pp; drivers inside quote ~S/50 for the whole car. Public bus is ~USD 3-4 and takes 2h30m."
+    },
+    {
+      "route": "Tumbes airport (TBP) - Mancora",
+      "mode": "private transfer / taxi",
+      "duration": "1h30m-1h50m (~110 km)",
+      "cost_usd": 70,
+      "per": "per vehicle (~S/250; approx USD 14-25 pp)",
+      "note": "Widely sold as a shared airport transfer at ~USD 25 pp. Bus/combi alternative is USD 5-8 pp in ~1h45m."
+    },
+    {
+      "route": "Piura airport (PIU) - Mancora",
+      "mode": "private van / bus",
+      "duration": "2h25m-3h00m (~185 km)",
+      "cost_usd": 90,
+      "per": "per vehicle; scheduled bus (Super Semeria etc.) ~USD 31 pp in 2h35m",
+      "note": "Only relevant if you fly into Piura instead of Talara/Tumbes."
+    },
+    {
+      "route": "Lima (LIM airport or Miraflores) - Paracas",
+      "mode": "Cruz del Sur bus (Ejecutivo / Cruzero)",
+      "duration": "3h15m-3h45m (~245 km via Panamericana Sur)",
+      "cost_usd": 25,
+      "per": "per person",
+      "note": "Fastest scheduled bus on the route (3h15m). Departs Terminal Javier Prado / Plaza Norte, NOT the airport - add 45-60 min and ~USD 15-20 for a taxi from LIM. Buses cannot enter Paracas town centre, so you are dropped 15-20 min walk from most hotels."
+    },
+    {
+      "route": "Lima - Paracas",
+      "mode": "Peru Hop (hop-on/hop-off tourist bus)",
+      "duration": "4h+ (includes Pachacamac / Chincha stops)",
+      "cost_usd": 79,
+      "per": "per person (Lima-Paracas leg of a pass)",
+      "note": "Only operator that does hotel pickup in Lima and drops in the centre of Paracas. Worth the premium if you do not want to deal with terminals and taxis; overpriced if you just want A to B."
+    },
+    {
+      "route": "Lima - Paracas",
+      "mode": "budget bus (Jaksa, Peru Bus)",
+      "duration": "3h45m-4h10m",
+      "cost_usd": 15,
+      "per": "per person",
+      "note": "~91 buses/day across all operators, first 04:00, last 22:35. Cheapest fares seen USD 13. Lower comfort and safety standards than Cruz del Sur."
+    },
+    {
+      "route": "Lima - Paracas",
+      "mode": "private van / minibus (5 pax)",
+      "duration": "3h15m",
+      "cost_usd": 180,
+      "per": "per vehicle (~USD 36 pp for 5) - direct LIM airport to hotel door",
+      "note": "For a group of 5 this is usually the smart choice: roughly Cruz del Sur price once you add taxis, with door-to-door service."
+    },
+    {
+      "route": "LIM airport - Lima (Miraflores / Barranco)",
+      "mode": "taxi / Uber / Airport Express",
+      "duration": "45-60 min (longer in rush hour)",
+      "cost_usd": 18,
+      "per": "per car",
+      "note": "Relevant for every itinerary - the new Jorge Chavez terminal opened in 2025 and is further from the old access road."
+    },
+    {
+      "route": "Lima - Mancora",
+      "mode": "overnight bus (Cruz del Sur, Oltursa, Excluciva)",
+      "duration": "17h-20h",
+      "cost_usd": 55,
+      "per": "per person",
+      "note": "Listed only for completeness. Do not do this on a 7-day trip - fly."
+    }
+  ],
+  "aep_note": "AEP DOES have usable international service to Lima - this is the single most useful finding in this research, and it contradicts the common assumption (and the currently-stale English Wikipedia destinations table for Aeroparque). Since Argentina opened Aeroparque to regional international traffic (Mercosur plus Peru and Colombia), AEP-LIM has become a heavily served nonstop market: roughly 18 weekly departures AEP-LIM and 22 weekly LIM-AEP, flown by FOUR carriers - Aerolineas Argentinas (AR1364/AR1365), LATAM (LA2464/LA2381/LA2368 out, LA2465/LA2445/LA2380/LA2369 back), JetSMART (JA7801/JA7800) and Sky Airline (H2 5810/H2 5811). Aerolineas Argentinas in fact serves Lima ONLY from Aeroparque - it has no EZE-LIM nonstop. Ezeiza has its own separate nonstops (LATAM LA2376 and LA2946, Sky H2 5800, and JetSMART daily from 01 Jan 2027). Practical read for a group of 5 living in Buenos Aires: AEP is ~10 min and a few thousand pesos from Palermo/Belgrano versus ~50-70 min and ~USD 30-40 by remis to Ezeiza, so a marginally higher AEP fare is often the cheaper door-to-door trip. Verify the airport on every quote before booking - some OTAs show 'BUE' and you will only discover which terminal at checkout.",
+  "seasonality_note": "Two different seasonal clocks are at work. (1) AIRFARE from Buenos Aires is driven by ARGENTINE outbound demand: January and December are peak (Kayak logs ~USD 520-529 RT average for January, ~USD 460 for December), the market breaks sharply once Argentine schools go back at the start of March, and June is the annual floor (~USD 352-360). Sky Airline's own booking engine makes the cliff explicit: a BUE-LIM lead-in of USD 396 RT for February 2027 versus USD 220 RT for March 2027. That is why W2 and W3 are materially cheaper than W1, and why moving the W1 departure from Fri 26 Feb to the following weekend is worth roughly USD 60-70 per person, i.e. USD 300-350 for the group. (2) WEATHER: late Feb/March is the tail of the Peruvian coastal summer. Mancora and the whole north coast are at their best - March is statistically the hottest month there (avg ~27C, highs to 31C) with the warmest sea of the year (~25C in mid-March), which makes W3 the best window for the beach even though it is not the cheapest. The only caveat is that March is also the wettest month on the north coast (~35 mm over ~5 days) and an El Nino year would make that much worse. Lima at the same time is at the end of its summer: warm (25-28C), humid, hazy, and the garua fog season begins in April, so late Feb/March is genuinely the last good stretch for Lima's beaches and rooftops. For the Andes (Cusco, Machu Picchu) this is the WET season and low season - relevant only if anyone wants to bolt on a Cusco leg. Finally, book by late October 2026: both Kayak and the airlines' own data put the optimal booking point at 18-24 weeks out, worth roughly 23-25% versus a late booking, and a 5-seat block is exactly what disappears first in a cheap fare bucket. One date trap: Easter Sunday 2027 is 28 March, so Semana Santa runs 21-28 March. W3's optional Sun 21 Mar return is Palm Sunday and will price and fill accordingly - return Sat 20 Mar instead.",
+  "verdict": {
+    "cheapest_window": "w2",
+    "recommendation": "W2 (Sat 6 Mar - Sat 13 Mar 2027), nonstop, JetSMART or Sky ex-AEP, ~USD 270-295 pp RT. Add a LIM-TBP or LIM-TYL round trip at ~USD 130-150 pp for Mancora. Total air budget ~USD 400-445 pp, ~USD 2,000-2,225 for the group of 5.",
+    "internal_verdict": "Fly LIM-TBP (Tumbes) or LIM-TYL (Talara) for Mancora - both are 1h50-1h55 nonstop on LATAM or Sky, 4-6 daily, USD 130-150 RT. Talara is 30 min closer to Mancora; Tumbes has more frequency and is usually slightly cheaper. Paracas is NOT flyable: Pisco has no scheduled commercial service, so it is a 3h15m road transfer from Lima.",
+    "one_stop_verdict": "One-stops via Santiago exist and are real, but the saving is only USD 25-35 per person for 4-6 extra hours each way. With JetSMART and Sky now flying EZE-LIM and AEP-LIM nonstop at LCC prices, the classic 'connect to save' play is dead on this route. Book nonstop."
+  },
+  "sources": [
+    "https://www.flightconnections.com/flights-from-eze-to-lim",
+    "https://www.flightconnections.com/flights-from-lim-to-eze",
+    "https://www.flightconnections.com/flights-from-aep-to-lim",
+    "https://www.flightconnections.com/flights-from-lim-to-aep",
+    "https://www.flightconnections.com/flights-from-eze-to-scl",
+    "https://www.flightconnections.com/flights-from-scl-to-lim",
+    "https://www.aeroroutes.com/eng/260818-janw26eze",
+    "https://info.flightmapper.net/flight/Aerolineas_Argentinas_AR_1364",
+    "https://www.infoviajera.com/2026/03/relato-de-vuelo-desde-el-nuevo-aeropuerto-de-lima-peru-hacia-buenos-aires-con-aerolineas-argentinas/",
+    "https://gestion.pe/economia/empresas/la-nueva-ruta-de-jetsmart-que-acerca-lima-al-centro-financiero-de-buenos-aires-con-aterrizaje-en-aeroparque-noticia/",
+    "https://www.argentina.gob.ar/noticias/con-los-vuelos-de-aerolineas-argentinas-comienza-la-nueva-etapa-internacional-de-aeroparque",
+    "https://www.infobae.com/economia/2023/02/24/a-partir-de-ahora-las-aerolineas-extranjeras-podran-volar-desde-aeroparque-a-cualquier-parte-del-mundo/",
+    "https://www.kayak.com/flight-routes/Buenos-Aires-EZE/Lima-LIM",
+    "https://www.kayak.com/flight-routes/Buenos-Aires-BUE/Lima-J-Chavez-Intl-LIM",
+    "https://www.kayak.com/flight-routes/Buenos-Aires-Jorge-Newbery-AEP/Lima-J-Chavez-Intl-LIM",
+    "https://www.kayak.com/flight-routes/Lima-J-Chavez-Intl-LIM/Talara-TYL",
+    "https://www.kayak.com/flight-routes/Lima-J-Chavez-Intl-LIM/Tumbes-TBP",
+    "https://www.kayak.com/flight-routes/Lima-J-Chavez-Intl-LIM/Piura-PIU",
+    "https://www.skyairline.com/flights/en/flights-from-lima-to-buenos-aires",
+    "https://www.skyairline.com/flights/en/flights-from-buenos-aires-to-lima",
+    "https://jetsmart.com/ofertas/en-us/flights-from-buenos-aires-to-lima",
+    "https://jetsmart.com/ofertas/en-us/flights-from-lima-to-buenos-aires",
+    "https://promociones-aereas.com.ar/2026/05/muy-buenos-vuelos-a-lima-directos-desde-aeroparque-aerolineas-argentinas-rt-p.html",
+    "https://www.aerolineas.com.ar/destinos/peru/vuelos-directos-a-lima",
+    "https://www.turiweb.pe/boliviana-de-aviacion-boa-operara-vuelos-diarios-entre-lima-y-santa-cruz-desde-junio/",
+    "https://www.flightradar24.com/data/airports/pio/routes",
+    "https://www.flightsfrom.com/PIO",
+    "https://www.rome2rio.com/s/Talara-Airport-TYL/M%C3%A1ncora",
+    "https://www.rome2rio.com/s/Tumbes-Airport-TBP/M%C3%A1ncora",
+    "https://www.rome2rio.com/s/Piura-Airport-PIU/Arennas-Mancora-M%C3%A1ncora",
+    "https://www.tangol.com/eng/peru/mancora/transfers/airport-hotel-arrivals/from-talara-airport-to-mancora-punta-sal-and-zorritos_t_5124",
+    "https://www.getyourguide.com/tumbes-l198931/tumbes-airport-transfer-mancora-punta-sal-zorritos-t533964/",
+    "https://www.checkmybus.com/lima-lp/paracas-ic",
+    "https://www.theonlyperuguide.com/bus/lima-to-paracas/",
+    "https://www.theonlyperuguide.com/research/cruz-del-sur-vs-peru-hop-which-bus-service-is-better-for-backpacking-in-peru/",
+    "https://www.huacachina.com/travel-tips/how-to-get-from-lima-to-paracas-bus-vs-shuttle-vs-peru-hop/",
+    "https://www.weather2travel.com/peru/mancora/",
+    "https://www.seatemperature.org/south-america/peru/mancora.htm",
+    "https://www.weather-atlas.com/en/peru/mancora-district-climate",
+    "https://www.timeanddate.com/holidays/peru/easter-sunday",
+    "https://en.wikipedia.org/wiki/Ezeiza_International_Airport",
+    "https://en.wikipedia.org/wiki/Aeroparque_Jorge_Newbery"
+  ]
+}
