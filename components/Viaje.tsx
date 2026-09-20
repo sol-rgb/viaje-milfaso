@@ -93,10 +93,11 @@ function Vuelos({ t }: { t: Trip }) {
   const { semana } = useSemana();
   const [modo, setModo] = useState<"directo" | "escala">("directo");
   const lista = (t.flights[semana] ?? []).filter((f) => f.kind === modo);
+  const hayInternos = t.hops.length > 0 || t.transfers.length > 0;
 
   return (
     <section className="bloque">
-      <div className="bloque-cab">
+      <div className="bloque-cab bloque-cab-apilado">
         <h2 className="bloque-t">Vuelos</h2>
         <div className="tabs">
           {(["directo", "escala"] as const).map((m) => (
@@ -111,68 +112,81 @@ function Vuelos({ t }: { t: Trip }) {
         </div>
       </div>
 
-      <div className="chips">
-        {lista.length === 0 && <p className="vacio">No hay en esta semana.</p>}
+      <div className={hayInternos ? "vuelos dos" : "vuelos"}>
+        <div className="vuelos-col">
+          <p className="sub-label">Desde Buenos Aires</p>
+          <div className="chips">
+            {lista.length === 0 && <p className="vacio">No hay en esta semana.</p>}
+            {lista.map((f, i) => (
+              <Pop
+                key={`${modo}${i}`}
+                clase="chip chip-vuelo"
+                d={{
+                  titulo: f.airline,
+                  target: `vuelo:${t.slug}:${semana}:${modo}:${i}`,
+                  linea: `${f.route}${f.via ? `, vía ${f.via}` : ""}. ${f.duration}.`,
+                  precio: f.priceUsd,
+                  unidad: "ida y vuelta",
+                  extra: [f.note, f.estimate ? "precio estimado" : ""].filter(
+                    Boolean
+                  ) as string[],
+                }}
+              >
+                {f.airline}
+                <em className="chip-n">
+                  {f.estimate ? "~" : ""}
+                  {plata(f.priceUsd)}
+                </em>
+              </Pop>
+            ))}
+          </div>
+        </div>
 
-        {lista.map((f, i) => (
-          <Pop
-            key={`${modo}${i}`}
-            clase="chip chip-vuelo"
-            d={{
-              titulo: f.airline,
-              target: `vuelo:${t.slug}:${semana}:${modo}:${i}`,
-              linea: `${f.route}${f.via ? `, vía ${f.via}` : ""}. ${f.duration}.`,
-              precio: f.priceUsd,
-              unidad: "ida y vuelta",
-              extra: [f.note, f.estimate ? "precio estimado" : ""].filter(
-                Boolean
-              ) as string[],
-            }}
-          >
-            {f.airline}
-            <em className="chip-n">
-              {f.estimate ? "~" : ""}
-              {plata(f.priceUsd)}
-            </em>
-          </Pop>
-        ))}
+        {hayInternos && (
+          <div className="vuelos-col">
+            <p className="sub-label">Una vez allá</p>
+            <div className="chips">
+              {t.hops.map((h, i) => (
+                <Pop
+                  key={`hop${i}`}
+                  clase="chip chip-vuelo"
+                  d={{
+                    titulo: h.route,
+                    target: `hop:${t.slug}:${i}`,
+                    linea: `${h.airline}. ${h.duration}.${h.frequency ? ` ${h.frequency}.` : ""}`,
+                    precio: h.priceUsd,
+                    unidad: "ida y vuelta",
+                    extra: h.estimate ? ["precio estimado"] : [],
+                  }}
+                >
+                  {h.route}
+                  <em className="chip-n">
+                    {h.estimate ? "~" : ""}
+                    {plata(h.priceUsd)}
+                  </em>
+                </Pop>
+              ))}
 
-        {t.hops.map((h, i) => (
-          <Pop
-            key={`hop${i}`}
-            clase="chip chip-vuelo"
-            d={{
-              titulo: h.route,
-              target: `hop:${t.slug}:${i}`,
-              linea: `${h.airline}. ${h.duration}.${h.frequency ? ` ${h.frequency}.` : ""}`,
-              precio: h.priceUsd,
-              unidad: "ida y vuelta",
-              extra: h.estimate ? ["precio estimado"] : [],
-            }}
-          >
-            {h.route}
-            <em className="chip-n">
-              {h.estimate ? "~" : ""}
-              {plata(h.priceUsd)}
-            </em>
-          </Pop>
-        ))}
-
-        {t.transfers.map((x, i) => (
-          <Pop
-            key={`tr${i}`}
-            clase="chip chip-suave"
-            d={{
-              titulo: x.route,
-              target: `traslado:${t.slug}:${i}`,
-              linea: [x.mode, x.duration].filter(Boolean).join(". "),
-              precio: x.costUsd,
-            }}
-          >
-            {x.route}
-          </Pop>
-        ))}
+              {t.transfers.map((x, i) => (
+                <Pop
+                  key={`tr${i}`}
+                  clase="chip chip-suave"
+                  d={{
+                    titulo: x.route,
+                    target: `traslado:${t.slug}:${i}`,
+                    linea: [x.mode, x.duration].filter(Boolean).join(". "),
+                    precio: x.costUsd,
+                  }}
+                >
+                  {x.route}
+                </Pop>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
+
+      <Hilo target={`vuelos:${t.slug}`} etiqueta="Nota" />
     </section>
   );
 }

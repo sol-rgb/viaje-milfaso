@@ -33,7 +33,7 @@ export const VIAJES: Trip[] = [
             "ppUsd": 78,
             "why": "La casa del escultor Victor Delfin sobre el acantilado: arte por todos lados, pileta, vista al Pacífico.",
             "url": "https://www.booking.com/hotel/pe/secondhomeperu.html",
-            "score": "9.3/10 Booking.com (865+ reviews)",
+            "score": "9,3 en Booking, 865 opiniones",
             "site": "https://www.secondhomeperu.com/",
             "estimate": true
           },
@@ -44,7 +44,7 @@ export const VIAJES: Trip[] = [
             "ppUsd": 98,
             "why": "Casona republicana de los años 20, terraza en la azotea, bicis gratis, todo a pie.",
             "url": "https://www.booking.com/hotel/pe/casa-republica-barranco.html",
-            "score": "9.0/10 Booking.com (381 verified reviews)",
+            "score": "9,0 en Booking, 381 opiniones",
             "site": "https://casarepublica.com/",
             "estimate": true
           },
@@ -55,7 +55,7 @@ export const VIAJES: Trip[] = [
             "ppUsd": 62,
             "why": "Solo adultos, jardín y terraza, calle tranquila, muy buen precio en Barranco.",
             "url": "https://www.booking.com/searchresults.html?ss=Casa%20Caceres%20Barranco%20Lima",
-            "score": "9.3/10 Booking.com",
+            "score": "9,3 Booking",
             "estimate": true
           },
           {
@@ -65,7 +65,7 @@ export const VIAJES: Trip[] = [
             "ppUsd": 155,
             "why": "La casa mediana mejor diseñada de Barranco; la restauración de Ananay es realmente buena.",
             "url": "https://www.booking.com/hotel/pe/villa-barranco.html",
-            "score": "4/5 Tripadvisor, ranked #45 of 298 Lima hotels",
+            "score": "4/5 Tripadvisor, puesto 45 de 298 en Lima hoteles",
             "site": "https://villabarranco.ananayhotels.com/",
             "over": true,
             "estimate": true
@@ -77,7 +77,7 @@ export const VIAJES: Trip[] = [
             "ppUsd": 214,
             "why": "Mansión belle époque funcionando como galería viva de arte contemporáneo; el hotel más lindo de Lima.",
             "url": "https://www.booking.com/hotel/pe/arts-boutique-b.html",
-            "score": "9.1/10 Booking.com, 9.6/10 Expedia (210 reviews)",
+            "score": "9,1 Booking, 9.6/10 Expedia (210 opiniones)",
             "site": "https://www.relaischateaux.com/us/hotel/hotel-b/",
             "over": true,
             "estimate": true
@@ -168,7 +168,7 @@ export const VIAJES: Trip[] = [
             "ppUsd": 94,
             "why": "El cuarto mejor diseñado en la arena de Pocitas dentro del presupuesto; spa, playa privada.",
             "url": "https://www.booking.com/searchresults.html?ss=DCO%20Suites%20Lounge%20%26%20Spa%20Mancora",
-            "score": "9.6/10 Booking.com",
+            "score": "9,6 Booking",
             "estimate": true
           },
           {
@@ -178,7 +178,7 @@ export const VIAJES: Trip[] = [
             "ppUsd": 65,
             "why": "Bungalows frente al mar en la arena más vacía de la zona; la opción conveniente.",
             "url": "https://www.booking.com/city/pe/vichayito.html",
-            "score": "9.2/10 Booking.com",
+            "score": "9,2 Booking",
             "site": "https://www.makanivichayito.com/",
             "estimate": true
           },
@@ -189,7 +189,7 @@ export const VIAJES: Trip[] = [
             "ppUsd": 60,
             "why": "El mejor puntuado de la costa norte, playa privada, la mitad del precio de Pocitas.",
             "url": "https://www.booking.com/city/pe/canoas-de-punta-sal.html",
-            "score": "9.8/10 Booking.com (~220 reviews) - the highest score on the whole coast",
+            "score": "9,8 Booking (~220 opiniones) - el más alto del viaje",
             "estimate": true
           },
           {
@@ -199,7 +199,7 @@ export const VIAJES: Trip[] = [
             "ppUsd": 132,
             "why": "El pulido: villas con pileta sobre la playa, dos piletas, el resort más lindo de Pocitas.",
             "url": "https://www.booking.com/design/city/pe/mancora.html",
-            "score": "9.2/10 Booking.com (229 reviews)",
+            "score": "9,2 en Booking, 229 opiniones",
             "site": "https://www.arennasmancora.com/en/home/",
             "over": true,
             "estimate": true
@@ -211,7 +211,7 @@ export const VIAJES: Trip[] = [
             "ppUsd": 156,
             "why": "Nueve habitaciones solo adultos, duchas al aire libre, cocina orgánica; el lujo de diseño.",
             "url": "https://www.booking.com/hotel/pe/kichic.html",
-            "score": "9.5/10 Booking.com",
+            "score": "9,5 Booking",
             "site": "https://www.kichic.pe/en/",
             "over": true,
             "estimate": true
@@ -743,7 +743,7 @@ export const VIAJES: Trip[] = [
             "ppUsd": 89,
             "why": "La elección de diseño: interiores de hotel de arte, la mejor terraza de la ciudad amurallada, solo hacen falta dos habitaciones.",
             "url": "https://www.booking.com/hotel/co/townhouse-boutique.en.html",
-            "score": "8.9/10 Very good (169 reviews, Kayak)",
+            "score": "8,9 muy bueno (169 opiniones, Kayak)",
             "site": "https://www.townhousecartagena.com/",
             "estimate": true
           },
@@ -754,7 +754,7 @@ export const VIAJES: Trip[] = [
             "ppUsd": 97,
             "why": "El mejor puntuado en presupuesto dentro de las murallas; pileta, desayuno, la calma de San Diego, 25 habitaciones.",
             "url": "https://www.booking.com/hotel/co/hotel-kartaxa.en.html",
-            "score": "9.4/10 Wonderful (913 reviews, Kayak)",
+            "score": "9,4 excelente (913 opiniones, Kayak)",
             "estimate": true
           },
           {
@@ -764,7 +764,7 @@ export const VIAJES: Trip[] = [
             "ppUsd": 90,
             "why": "Doce habitaciones, murales, pileta en la terraza, dirección top del Centro por noventa por cabeza.",
             "url": "https://www.booking.com/hotel/co/casa-del-coliseo.en.html",
-            "score": "9.2/10 Wonderful (936 reviews, Kayak)",
+            "score": "9,2 excelente (936 opiniones, Kayak)",
             "estimate": true
           },
           {
@@ -774,7 +774,7 @@ export const VIAJES: Trip[] = [
             "ppUsd": 84,
             "why": "El más barato por cabeza entre los buenos; pileta en el patio, spa, azotea, 1.900 reseñas.",
             "url": "https://www.booking.com/hotel/co/casa-pizarro-boutique.en.html",
-            "score": "8.9/10 Very good (1,933 reviews, Kayak)",
+            "score": "8,9 muy bueno (1,933 opiniones, Kayak)",
             "estimate": true
           },
           {
@@ -784,7 +784,7 @@ export const VIAJES: Trip[] = [
             "ppUsd": 108,
             "why": "El hotel más lindo al alcance: pileta en la azotea con jacuzzi, spa, suites de dos cuartos.",
             "url": "https://www.booking.com/hotel/co/capellan-de-getsemani.en.html",
-            "score": "9.3/10 Wonderful (836 reviews, Kayak)",
+            "score": "9,3 excelente (836 opiniones, Kayak)",
             "site": "https://hotelcapellandegetsemani.com/en/",
             "over": true,
             "estimate": true
@@ -875,7 +875,7 @@ export const VIAJES: Trip[] = [
             "ppUsd": 84,
             "why": "El mejor hotel de playa en presupuesto en Barú; kayak y paddle gratis, cuartos familiares con vista al mar.",
             "url": "https://www.booking.com/hotel/co/thani-ecobeach-baru.html",
-            "score": "Strong; 234 verified Booking.com reviews",
+            "score": "Strong, 234 Booking reviews",
             "estimate": true
           },
           {
@@ -885,7 +885,7 @@ export const VIAJES: Trip[] = [
             "ppUsd": 87,
             "why": "Entra en presupuesto para cinco, playa privada y calma, a quince minutos en lancha de los Rosarios.",
             "url": "https://www.booking.com/region/co/baru.html",
-            "score": "Mixed-positive on Tripadvisor; praised for beach and service",
+            "score": "Mixed-positive en Tripadvisor, praised for beach and service",
             "estimate": true
           },
           {
@@ -895,7 +895,6 @@ export const VIAJES: Trip[] = [
             "ppUsd": 114,
             "why": "Al que se va por la comida; entorno de manglar, mucho más tranquilo que Playa Blanca.",
             "url": "https://www.booking.com/region/co/baru.html",
-            "score": "NOT VERIFIED - listed as a recommended property, score not captured",
             "over": true,
             "estimate": true
           },
@@ -906,7 +905,7 @@ export const VIAJES: Trip[] = [
             "ppUsd": 157,
             "why": "200 metros de arena blanca privada, de verdad aislada; la mejor playa de la lista.",
             "url": "https://www.booking.com/region/co/baru.html",
-            "score": "9.0/10 Wonderful (582 reviews, Kayak)",
+            "score": "9,0 excelente (582 opiniones, Kayak)",
             "over": true,
             "estimate": true
           }
@@ -1448,7 +1447,7 @@ export const VIAJES: Trip[] = [
             "ppUsd": 137,
             "why": "El hotel más barato para cinco bajo un techo; las villas se renovaron hasta fines de 2026.",
             "url": "https://www.booking.com/searchresults.html?ss=La+Siesta+Resort+Villas+Islamorada",
-            "score": "Tripadvisor Travellers' Choice; #8 of 12 Islamorada hotels per U.S. News",
+            "score": "Tripadvisor Travellers' Choice, #8 of 12 Islamorada hoteles según U.S. News",
             "site": "https://www.islamoradaresortcollection.com/la-siesta-resort",
             "over": true,
             "estimate": true
@@ -1460,7 +1459,7 @@ export const VIAJES: Trip[] = [
             "ppUsd": 170,
             "why": "Se pasa del presupuesto. El mejor resort de diseño masivo de acá; los deportes náuticos gratis lo compensan.",
             "url": "https://www.booking.com/searchresults.html?ss=Amara+Cay+Resort+Islamorada",
-            "score": "#2 of 12 Best Hotels in Islamorada per U.S. News; Conde Nast Traveler listed",
+            "score": "puesto 2 de 12 en mejores hoteles de Islamorada según U.S. News",
             "site": "https://www.islamoradaresortcollection.com/amara-cay-resort",
             "over": true,
             "estimate": true
@@ -1484,7 +1483,7 @@ export const VIAJES: Trip[] = [
             "ppUsd": 174,
             "why": "Se pasa del presupuesto. La mejor playa y marina de Islamorada; el diseño es resort de playa anticuado.",
             "url": "https://www.booking.com/searchresults.html?ss=Three+Waters+Resort+Marina+Islamorada",
-            "score": "Rebranded from Postcard Inn, read only post-rebrand reviews",
+            "score": "Antes se llamaba Postcard Inn",
             "site": "https://www.islamoradaresortcollection.com/three-waters-resort",
             "over": true,
             "estimate": true
@@ -1496,7 +1495,7 @@ export const VIAJES: Trip[] = [
             "ppUsd": 196,
             "why": "Se pasa 2x del presupuesto. El único hotel de diseño real de los Cayos: jardín de Raymond Jungles.",
             "url": "https://www.booking.com/hotel/us/casa-morada-islamorada1.html",
-            "score": "9.6/10 for couples on Booking.com; Tripadvisor mixed on value",
+            "score": "9,6 for couples en Booking, Tripadvisor mixed on value",
             "site": "https://www.casamorada.com/",
             "over": true,
             "estimate": true
@@ -1977,7 +1976,7 @@ export const VIAJES: Trip[] = [
             "ppUsd": 75,
             "why": "Casona porfiriana, pisos de parquet, balcones al patio, bar en la terraza L'Enfant.",
             "url": "https://www.booking.com/hotel/mx/casa-prim-boutique.html",
-            "score": "9.0/10 Booking.com (approx. 202 reviews); location scored 9/10",
+            "score": "9,0 Booking (unas. 202 opiniones), ubicación 9/10",
             "site": "https://casaprim.com.mx/",
             "estimate": true
           },
@@ -1988,7 +1987,6 @@ export const VIAJES: Trip[] = [
             "ppUsd": 72,
             "why": "Art Deco de verdad en Condesa, lounge en la terraza, bicis gratis, desayuno incluido.",
             "url": "https://www.booking.com/hotel/mx/casa-decu.html",
-            "score": "Not verified this session - check Booking.com listing",
             "site": "https://www.decuhotels.com/casa-decu",
             "estimate": true
           },
@@ -2010,7 +2008,6 @@ export const VIAJES: Trip[] = [
             "ppUsd": 120,
             "why": "Fachada de listones de madera, minimalismo blanco, rafia y lino; la habitación más linda de acá.",
             "url": "https://www.booking.com/hotel/mx/octavia-casa.html",
-            "score": "Not verified this session",
             "site": "https://octaviacasa.mx/",
             "over": true,
             "estimate": true
@@ -2022,7 +2019,6 @@ export const VIAJES: Trip[] = [
             "ppUsd": 159,
             "why": "Clásico austero de Grupo Habita; pileta en la terraza sobre el Zocalo y el Templo Mayor.",
             "url": "https://www.booking.com/hotel/mx/circulo-mexicano.html",
-            "score": "Not verified this session - Tripadvisor and Booking listings both live",
             "site": "https://circulomexicano.com/",
             "over": true,
             "estimate": true
@@ -2112,7 +2108,7 @@ export const VIAJES: Trip[] = [
             "ppUsd": 64,
             "why": "Lo más conveniente de la costa: villa entera de 3 cuartos, terraza privada, a pasos de la caleta donde se nada.",
             "url": "https://www.booking.com/hotel/mx/villas-carrizalillo-puerto-escondido1.html",
-            "score": "9.2-9.3/10 Booking.com (360 verified reviews); couples rate the location 9.7",
+            "score": "9.2-9.3/10 Booking (360 opiniones), couples rate the location 9.7",
             "site": "https://www.villascarrizalillo.com/",
             "estimate": true
           },
@@ -2123,7 +2119,6 @@ export const VIAJES: Trip[] = [
             "ppUsd": 51,
             "why": "La cama decente más barata cerca de la caleta donde se nada; con encanto y verde, no de arquitectura.",
             "url": "https://www.booking.com/hotel/mx/villa-mozart-y-macondo.html",
-            "score": "Tripadvisor listing live with 66+ reviews; score not re-verified this session",
             "estimate": true
           },
           {
@@ -2133,7 +2128,7 @@ export const VIAJES: Trip[] = [
             "ppUsd": 86,
             "why": "Bungalows de techo de paja, madera y piedra, desayuno y yoga incluidos; La Punta a pie.",
             "url": "https://www.booking.com/hotel/mx/raiz-boutique.html",
-            "score": "4.0/5 Tripadvisor, ranked #22 of 66 in Puerto Escondido - but only 13 reviews and they are polarised",
+            "score": "4.0/5 Tripadvisor, puesto 22 de 66 en Puerto Escondido - pero solo 13 opiniones and they are polarised",
             "site": "https://www.raiz-hotel.com/en/",
             "estimate": true
           },
@@ -2144,7 +2139,7 @@ export const VIAJES: Trip[] = [
             "ppUsd": 107,
             "why": "Lo mejor puntuado de La Punta; cuartos modernos y limpios, pileta amplia, cinco minutos a la punta.",
             "url": "https://www.booking.com/hotel/mx/casa-bicachi.html",
-            "score": "9.5/10 Booking.com (308 verified reviews) - the highest verified score of any property on this list",
+            "score": "9,5 Booking (308 opiniones) - el más alto del viaje",
             "site": "https://www.casabicachi.com/",
             "over": true,
             "estimate": true
@@ -2156,7 +2151,6 @@ export const VIAJES: Trip[] = [
             "ppUsd": 149,
             "why": "La elección arquitectónica: hormigón encofrado en tablas de Godefroy, cisternas y sombra, bar de vinos Glou Glou.",
             "url": "https://www.booking.com/hotel/mx/casa-to.html",
-            "score": "Not verified this session",
             "site": "https://www.casato.mx/",
             "over": true,
             "estimate": true

@@ -181,6 +181,57 @@ function vuelo(f, kind) {
 const limpioNombre = (n) =>
   sinRaya(String(n ?? "").replace(/\s*\[[^\]]*\]\s*/g, " ").replace(/\s{2,}/g, " ").trim());
 
+/**
+ * Los puntajes vienen en inglés y con ruido: "9.0/10 Booking.com (381
+ * verified reviews)". Acá quedan cortos y en castellano.
+ */
+function puntaje(v) {
+  let x = sinRaya(String(v ?? "").trim());
+  if (!x) return "";
+
+  if (/not verified|no re-verified|score not re-verified/i.test(x)) return "";
+
+  x = x
+    .replace(/\bBooking\.com\b/gi, "Booking")
+    .replace(/\bTripadvisor\b/gi, "Tripadvisor")
+    .replace(/\((\d[\d.,]*)\+?\s*(?:verified\s+)?reviews?\)/gi, "($1 opiniones)")
+    .replace(/(\d[\d.,]*)\+?\s*(?:verified\s+)?reviews?/gi, "$1 opiniones")
+    .replace(/\bverified\b/gi, "")
+    .replace(/\bthe highest\b.*/i, "el más alto del viaje")
+    .replace(/\bRebranded from\b/i, "Antes se llamaba")
+    .replace(/\bread only post-rebrand\b.*/i, "")
+    .replace(/\blisting live with\b/i, "con")
+    .replace(/\bscore\b/gi, "puntaje")
+    .replace(/\bon\b\s+(Booking|Tripadvisor)/gi, "en $1")
+    .replace(/\bVery good\b/gi, "muy bueno")
+    .replace(/\bWonderful\b/gi, "excelente")
+    .replace(/\bExcellent\b/gi, "excelente")
+    .replace(/\bGood\b/gi, "bueno")
+    .replace(/\bSuperb\b/gi, "muy bueno")
+    .replace(/\bFabulous\b/gi, "excelente")
+    .replace(/\branked\s*#?(\d+)\s*of\s*([\d.,]+)\s*(?:in|of)?\s*/gi, "puesto $1 de $2 en ")
+    .replace(/^#?(\d+)\s*of\s*([\d.,]+)\s*/i, "puesto $1 de $2 en ")
+    .replace(/\bBest Hotels in\b/gi, "mejores hoteles de")
+    .replace(/\bper U\.?S\.? News[^,]*/gi, "según U.S. News")
+    .replace(/\bhotels?\b/gi, "hoteles")
+    .replace(/\blocation scored\b/gi, "ubicación")
+    .replace(/\bapprox\.?\b/gi, "unas")
+    .replace(/\bbut only\b/gi, "pero solo")
+    .replace(/\s*;\s*/g, ", ")
+    .replace(/\s{2,}/g, " ")
+    .replace(/[,\s]+$/, "")
+    .trim();
+
+  // "9.0/10 Booking (381 opiniones)" -> "9,0 en Booking, 381 opiniones"
+  x = x.replace(
+    /^([\d]+)[.,]([\d]+)\/10\s+(\w+)\s*\(([\d.,]+) opiniones\)$/,
+    "$1,$2 en $3, $4 opiniones"
+  );
+  x = x.replace(/^([\d]+)[.,]([\d]+)\/10/, "$1,$2");
+
+  return x;
+}
+
 function hotel(h) {
   const grupo = num(h.group_night_usd) || num(h.price_night_usd) * 3;
   const pp = num(h.pp_night_usd) || Math.round(grupo / 5);
@@ -192,7 +243,8 @@ function hotel(h) {
     why: t(h.why),
     url: http(h.booking_url) || http(h.site_url),
   };
-  if (h.guest_score) o.score = sinRaya(String(h.guest_score));
+  const pts = puntaje(h.guest_score);
+  if (pts) o.score = pts;
   if (http(h.site_url)) o.site = http(h.site_url);
   if (pp > 100) o.over = true;
   if (h.is_estimate) o.estimate = true;

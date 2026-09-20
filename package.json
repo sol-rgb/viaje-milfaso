@@ -13,7 +13,8 @@
     "datos": "node scripts/armar.mjs && node scripts/verificar.mjs",
     "imagenes": "node scripts/imagenes.mjs",
     "imagenes:browser": "node scripts/imagenes-browser.mjs",
-    "fotos:lugar": "node scripts/fotos-lugar.mjs"
+    "fotos:lugar": "node scripts/fotos-lugar.mjs",
+    "comprimir": "node scripts/comprimir.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.45.4",
@@ -27,6 +28,7 @@
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "playwright": "^1.63.0",
+    "sharp": "^0.35.4",
     "typescript": "^5.6.2"
   }
 }
