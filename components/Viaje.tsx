@@ -16,10 +16,7 @@ export default function Viaje({ t }: { t: Trip }) {
   const p = precio(t, semana);
 
   return (
-    <main
-      className="viaje"
-      style={{ ["--tint" as string]: t.tint, ["--accent" as string]: t.accent }}
-    >
+    <main className="viaje wrap max">
       <Hero t={t} />
 
       <Seccion n={1} titulo="cuándo">
@@ -27,7 +24,7 @@ export default function Viaje({ t }: { t: Trip }) {
           <div className="cuando-l">
             <Picker compacto />
             <p className="body-s cuando-nota">{s.note}</p>
-            <Hilo target={`semana:${semana}`} etiqueta="anotar algo de las fechas" />
+            <Hilo target={`semana:${semana}`} etiqueta="nota" />
           </div>
           <Plata t={t} p={p} />
         </div>
@@ -64,21 +61,24 @@ export default function Viaje({ t }: { t: Trip }) {
 
 function Hero({ t }: { t: Trip }) {
   return (
-    <header className="hero wrap max">
-      <div className="hero-txt">
-        <span className="idx">{t.n}</span>
+    <header className="hero">
+      <div className="hero-cab">
         <h1 className="display hero-h">{t.name}</h1>
-        <p className="lede hero-lede">{t.summary}</p>
-        <div className="hero-acc">
-          <Voto target={`viaje:${t.slug}`} />
-          <Hilo target={`viaje:${t.slug}`} etiqueta="qué te parece" />
-        </div>
+        <span className="label">{t.place}</span>
       </div>
 
       <div className="hero-fotos" aria-hidden>
-        {[1, 2, 3].map((n) => (
-          <Photo key={n} dir={t.heroDir} n={n} tint={t.tint} className="hero-foto" />
+        {[1, 2, 3, 4, 5].map((n) => (
+          <Photo key={n} dir={t.heroDir} n={n} className="hero-foto" />
         ))}
+      </div>
+
+      <div className="hero-pie">
+        <p className="hero-lede">{t.summary}</p>
+        <div className="hero-acc">
+          <Voto target={`viaje:${t.slug}`} />
+          <Hilo target={`viaje:${t.slug}`} etiqueta="nota" />
+        </div>
       </div>
     </header>
   );
@@ -96,9 +96,9 @@ function Seccion({
   children: React.ReactNode;
 }) {
   return (
-    <section className="sec wrap max">
+    <section className="sec">
       <div className="sec-cab">
-        <span className="idx">n{String(n).padStart(2, "0")}.</span>
+        <span className="idx">{String(n).padStart(2, "0")}</span>
         <h2 className="sec-t">{titulo}</h2>
       </div>
       <div className="sec-cuerpo">{children}</div>
@@ -137,7 +137,7 @@ function Plata({ t, p }: { t: Trip; p: ReturnType<typeof precio> }) {
           con vuelo directo: us$ {plata(p.totalDirecto)}
         </p>
       )}
-      <Hilo target={`plata:${t.slug}`} etiqueta="anotar algo del presupuesto" />
+      <Hilo target={`plata:${t.slug}`} etiqueta="nota" />
     </div>
   );
 }
@@ -219,14 +219,14 @@ function Vuelos({ t }: { t: Trip }) {
                 <span className="fila-d label">
                   {x.mode} · {x.duration}
                 </span>
-                <span className="fila-p">{x.costUsd ? plata(x.costUsd) : "—"}</span>
+                <span className="fila-p">{x.costUsd ? plata(x.costUsd) : "s/c"}</span>
               </li>
             ))}
           </ul>
         </>
       )}
 
-      <Hilo target={`vuelos:${t.slug}`} etiqueta="anotar algo de los vuelos" />
+      <Hilo target={`vuelos:${t.slug}`} etiqueta="nota" />
     </div>
   );
 }
@@ -289,7 +289,7 @@ function Dia({ d, slug }: { d: Day; slug: string }) {
           />
           <div className="dia-pie">
             <Aportar tipo="actividad" viaje={slug} parada={`dia${d.n}`} />
-            <Hilo target={target} etiqueta="anotar algo del día" />
+            <Hilo target={target} etiqueta="nota" />
           </div>
         </div>
       )}
@@ -406,7 +406,7 @@ function Cama({ h, i, target }: { h: Hotel; i: number; target: string }) {
               </a>
             )}
           </p>
-          <Hilo target={target} etiqueta="anotar algo" />
+          <Hilo target={target} etiqueta="nota" />
         </div>
       )}
     </li>
@@ -453,7 +453,7 @@ function Casa({ r, i, target }: { r: Rental; i: number; target: string }) {
               {r.isSearch ? "buscar en airbnb" : "ver"} <em className="ext">↗</em>
             </a>
           </p>
-          <Hilo target={target} etiqueta="anotar algo" />
+          <Hilo target={target} etiqueta="nota" />
         </div>
       )}
     </li>
@@ -490,9 +490,9 @@ function Fuentes({ t }: { t: Trip }) {
   if (!t.sources.length) return null;
 
   return (
-    <section className="fuentes wrap max">
+    <section className="fuentes">
       <button className="hilo-abrir" onClick={() => setAbierto(!abierto)}>
-        <span aria-hidden>{abierto ? "−" : "+"}</span> de dónde salieron los números
+        <span aria-hidden>{abierto ? "−" : "+"}</span> fuentes
       </button>
       {abierto && (
         <ul className="fuentes-l">

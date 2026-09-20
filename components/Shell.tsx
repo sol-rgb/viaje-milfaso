@@ -3,7 +3,6 @@
 import Link from "next/link";
 import Gate, { useQuien } from "./Gate";
 import { EstadoProvider } from "./Estado";
-import Aviso from "./Aviso";
 import { SemanaProvider } from "./Semana";
 
 export default function Shell({ children }: { children: React.ReactNode }) {
@@ -16,7 +15,6 @@ export default function Shell({ children }: { children: React.ReactNode }) {
     <EstadoProvider quien={quien}>
       <SemanaProvider>
         <Barra quien={quien} salir={() => setQuien(null)} />
-        <Aviso />
         {children}
       </SemanaProvider>
     </EstadoProvider>

@@ -1,57 +1,50 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
 import Photo from "./Photo";
-import { Contador } from "./Notas";
-import Voto from "./Voto";
 import { useSemana } from "./Semana";
-import { precio, plata, noches } from "@/lib/precio";
+import { precio, plata } from "@/lib/precio";
 import type { Trip } from "@/lib/types";
 
-export default function TripCard({ t, i }: { t: Trip; i: number }) {
+/** Una ficha de la tira: nombre, foto, precio. */
+export default function TripCard({
+  t,
+  i,
+  apagada,
+  onFoco,
+}: {
+  t: Trip;
+  i: number;
+  apagada: boolean;
+  onFoco: (slug: string | null) => void;
+}) {
   const { semana } = useSemana();
-  const [on, setOn] = useState(false);
   const p = precio(t, semana);
 
   return (
     <Link
       href={`/viaje/${t.slug}`}
-      className={on ? "card on" : "card"}
-      onMouseEnter={() => setOn(true)}
-      onMouseLeave={() => setOn(false)}
-      onFocus={() => setOn(true)}
-      onBlur={() => setOn(false)}
-      style={{ ["--tint" as string]: t.tint, ["--accent" as string]: t.accent }}
+      className={apagada ? "ficha apagada" : "ficha"}
+      onMouseEnter={() => onFoco(t.slug)}
+      onMouseLeave={() => onFoco(null)}
+      onFocus={() => onFoco(t.slug)}
+      onBlur={() => onFoco(null)}
     >
-      <div className="card-photo">
-        <Photo dir={t.heroDir} n={1} tint={t.tint} alt="" className="card-img" />
-        <span className="card-veil" aria-hidden />
-      </div>
+      <span className="ficha-cab">
+        <span className="idx">{String(i + 1).padStart(2, "0")}</span>
+        <span className="ficha-n">{t.name}</span>
+      </span>
 
-      <div className="card-top">
-        <span className="idx">n{String(i + 1).padStart(2, "0")}.</span>
-        <span className="card-acc">
-          <Voto target={`viaje:${t.slug}`} chico />
-          <Contador target={`viaje:${t.slug}`} />
+      <span className="ficha-marco">
+        <Photo dir={t.heroDir} n={1} alt="" className="ficha-img" />
+      </span>
+
+      <span className="ficha-pie">
+        <span className="ficha-precio">
+          <span className="ficha-cur">us$</span>
+          {plata(p.total)}
         </span>
-      </div>
-
-      <div className="card-mid">
-        <h2 className="display card-name">{t.name}</h2>
-        <span className="card-place label">{t.place}</span>
-      </div>
-
-      <div className="card-foot">
-        <span className="card-precio">
-          <span className="card-cur">us$</span> {plata(p.total)}
-        </span>
-        <span className="card-meta label">
-          {noches(t)} noches · por persona
-        </span>
-      </div>
-
-      <span className="card-line" aria-hidden />
+      </span>
     </Link>
   );
 }

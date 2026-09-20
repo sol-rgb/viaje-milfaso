@@ -1,8 +1,9 @@
 "use client";
 
+import { useState } from "react";
 import Shell from "@/components/Shell";
-import Drift from "@/components/Drift";
 import TripCard from "@/components/TripCard";
+import Indice from "@/components/Indice";
 import Picker, { useSemana } from "@/components/Semana";
 import Hilo from "@/components/Notas";
 import Aportar, { ListaAportes } from "@/components/Aportar";
@@ -19,46 +20,47 @@ export default function Page() {
 
 function Casa() {
   const { semana } = useSemana();
+  const [foco, setFoco] = useState<string | null>(null);
   const s = SEMANA_POR_ID[semana];
 
   return (
-    <main className="casa">
-      <Drift />
+    <main className="casa wrap max">
       <h1 className="oculto">Viaje Milfaso: cuatro viajes para marzo 2027</h1>
 
-      <section className="casa-semana wrap max">
-        <div className="casa-semana-l">
-          <span className="label">semana</span>
-          <Picker />
-        </div>
-        <div className="casa-semana-r">
-          <p className="casa-nota body-s">{s.note}</p>
-          <Hilo target={`semana:${semana}`} etiqueta="anotar algo de las fechas" />
+      <section className="semanas">
+        <Picker />
+        <div className="semanas-r">
+          <p className="body-s semanas-nota">{s.note}</p>
+          <Hilo target={`semana:${semana}`} etiqueta="nota" />
         </div>
       </section>
 
-      <hr className="rule" />
+      {VIAJES.length > 0 && (
+        <>
+          <section className="tira">
+            {VIAJES.map((t, i) => (
+              <TripCard
+                key={t.slug}
+                t={t}
+                i={i}
+                apagada={foco !== null && foco !== t.slug}
+                onFoco={setFoco}
+              />
+            ))}
+          </section>
 
-      <section className="grid wrap max">
-        {VIAJES.map((t, i) => (
-          <TripCard key={t.slug} t={t} i={i} />
-        ))}
+          <Indice viajes={VIAJES} foco={foco} onFoco={setFoco} />
+        </>
+      )}
+
+      <section className="propuestos">
+        <ListaAportes tipo="viaje" unidad="/ p" />
+        <Aportar tipo="viaje" />
       </section>
 
-      <section className="propuestos wrap max">
-        <div className="sec-cab">
-          <span className="idx">n05.</span>
-          <h2 className="sec-t">lo que propusieron ustedes</h2>
-        </div>
-        <div className="sec-cuerpo">
-          <ListaAportes tipo="viaje" unidad="/ p" />
-          <Aportar tipo="viaje" />
-        </div>
-      </section>
-
-      <footer className="pie wrap max">
-        <span className="label">salimos de Buenos Aires · eze / aep</span>
-        <span className="label">precios por persona, en dólares</span>
+      <footer className="pie">
+        <span className="label">Buenos Aires · eze / aep</span>
+        <span className="label">por persona, en dólares</span>
       </footer>
     </main>
   );

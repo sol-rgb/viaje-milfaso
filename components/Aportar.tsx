@@ -12,28 +12,28 @@ const COPY: Record<
   { abrir: string; nombre: string; zona: string; precio: string; url: string }
 > = {
   hotel: {
-    abrir: "proponer un hotel",
+    abrir: "sumar un hotel",
     nombre: "nombre del hotel",
     zona: "barrio o playa",
     precio: "us$ la noche, las habitaciones para los 5",
     url: "link para reservar",
   },
   airbnb: {
-    abrir: "proponer un airbnb",
+    abrir: "sumar un airbnb",
     nombre: "cómo se llama",
     zona: "barrio o playa",
     precio: "us$ la noche, la casa entera",
     url: "link del aviso",
   },
   actividad: {
-    abrir: "proponer algo para hacer",
+    abrir: "sumar algo para hacer",
     nombre: "qué es",
     zona: "dónde",
     precio: "us$ por persona",
     url: "link",
   },
   viaje: {
-    abrir: "proponer otro viaje",
+    abrir: "sumar otro viaje",
     nombre: "a dónde",
     zona: "las paradas",
     precio: "us$ por persona, si tenés idea",
@@ -103,7 +103,7 @@ export default function Aportar({
       </div>
 
       <label className="aportar-campo ancho">
-        <span className="label">por qué está bueno</span>
+        <span className="label">por qué</span>
         <textarea
           value={detalle}
           onChange={(e) => setDetalle(e.target.value)}
@@ -223,7 +223,7 @@ function Item({
           <span className="idx fila-i">+{String(i + 1).padStart(2, "0")}</span>
           <span className="fila-n">{a.nombre}</span>
           <span className="fila-d label">
-            {[a.zona, `propuso ${a.quien}`].filter(Boolean).join(" · ")}
+            {[a.zona, `${a.quien}`].filter(Boolean).join(" · ")}
           </span>
           <span className="fila-p">
             {a.precio ? (
@@ -258,7 +258,7 @@ function Item({
           <Hilo target={target} etiqueta="anotar algo" />
           {mio && (
             <button className="hilo-cancel borrar-aporte" onClick={borrar}>
-              borrar lo que propuse
+              borrar
             </button>
           )}
         </div>
