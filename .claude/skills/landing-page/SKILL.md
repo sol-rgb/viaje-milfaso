@@ -26,12 +26,34 @@ element earns its place, it does not. Build the sparse version first.
    (trips, candidates, venues, pricing). Fan out subagents, get real numbers
    and real URLs, then build. A beautiful page full of invented data is a
    failure. Never invent a price, a link or a name.
+4. **Anything unverified ships behind a visible PLACEHOLDER flag**, loud
+   enough that nobody mistakes it for real. A quiet "TBD" gets published by
+   accident; a flag does not. Every figure on the page should trace to a
+   named source.
 
-## The look
+## Colour: steal it, do not invent it
 
-The direction that survived: **black and white, warm off-white ground,
-grotesque type, hairlines, a lot of air.** Swiss and editorial, not
-"minimal" in the sense of empty.
+If the page is for a company that already has a site, **pull the real tokens
+off its live computed styles and keep the client's own names for them**
+(`--black-600`, `--greige-100`, `--color-stone-20`). Record the date you
+pulled them. Six of Sol's repos do this and the two that document it treat
+an invented palette as a defect, not a style choice.
+
+**One accent, rationed.** The budget is literal: if the accent appears more
+than roughly eight times on a page it is being wasted. Never a large fill of
+it, never the accent as body text. It marks the one thing that matters on a
+screen, and a second use halves the first.
+
+**Ground is warm off-white or near-black, never grey.** Seen in production:
+`#faf9f5`, `#ece8de`, `#f9f8f3` on the light side; `#000000` and `#141212`
+on the dark. Which side to use is a per-project decision with no house
+default, so ask rather than assume.
+
+## The house look, when there is no brand to borrow
+
+The direction that survived a full build with no client brand: **black and
+white, warm off-white ground, grotesque type, hairlines, a lot of air.**
+Swiss and editorial, not "minimal" in the sense of empty.
 
 ```css
 :root {
@@ -50,10 +72,21 @@ No accent colour. No colour at all unless Sol asks. Photography goes
 `filter: grayscale(1)`. Dark cards are a near-black block (`#1a1a18`) on the
 warm ground, which is the one high-contrast move the style allows.
 
-**Type.** One grotesque plus one mono. Archivo (300/400/500/600/700) and IBM
-Plex Mono, from Google Fonts, both loaded in the root layout. Large text gets
-tight negative tracking (`-0.03em` to `-0.045em`); small mono labels get
-positive tracking (`0.06em`). Nothing is ever set in all capitals.
+**Type.** Three tiers, and five of seven repos use exactly this triad: a
+display face, a sans for body, a mono for eyebrows, indices and counters.
+
+The display face is usually a serif **set at weight 400, never bold** and
+never faux-bolded; this project is the exception, a grotesque at 700, which
+is what "way larger and bolded" asked for. Either is fine. What is not fine
+is a 600-weight serif.
+
+**Tracking scales with size, and inverts by tier.** Display type gets
+negative tracking, more negative as it grows: about −0.015em at 24px down to
+−0.05em at 96px. The mono label tier goes the other way, +0.14em to +0.2em.
+Body sits near zero.
+
+Nothing is ever set in all capitals. One repo prescribes uppercase labels in
+its own README and bans them in its CSS; the stated preference settles it.
 
 **A type scale, enforced.** This is the most repeated correction: *a heading
 must always be larger than the thing underneath it.* Declare the scale once
@@ -69,15 +102,34 @@ and use the variables, so an inversion becomes impossible:
 If a section heading is 15px and the sub-items under it are 22px, Sol notices this
 immediately, and has caught it twice.
 
-**Structure.** Hairlines between sections, never boxes inside boxes. No
-border-radius (except a circular icon button). No shadows, no gradients
-beyond a photo scrim, no texture or grain. Numbered index rows read as a
-catalogue; a bare `↗` on a row is enough to say it is clickable.
+**Structure.** Hairlines between sections, never boxes inside boxes.
 
-**Motion.** Slow and few: 300 to 900ms on `cubic-bezier(0.19, 1, 0.22, 1)`.
-Images scale ~1.04 on hover. Honour `prefers-reduced-motion`. Sol does want
-*something* moving, but it must come from the content (a photo strip, a
-revealed price), never from decoration.
+The card rule, worth quoting because it settles most layout arguments:
+*never a fill with a contrasting border. A block is one flat colour edge to
+edge, or it is not a block at all and its rows are divided by a hairline.*
+
+Radii are tokenised and small (4/8/10/12/16 plus a 999px pill) or zero; this
+project used zero, and one repo gets its edges from `clip-path` chamfers
+instead. Shadows are close to absent, and when they appear they mean "this
+navigates" rather than "this is elevated": a 3px lift on hover, nothing
+else. No gradients beyond a photo scrim, no texture or grain. Numbered index
+rows read as a catalogue; a bare arrow on a row says it is clickable.
+
+**Motion.** Declare one easing token per project and use only that. Every
+project lands on the same expo-out shape: `cubic-bezier(0.19, 1, 0.22, 1)`,
+`cubic-bezier(0.22, 1, 0.36, 1)`, `cubic-bezier(0.16, 1, 0.3, 1)`. Reveals
+travel 12 to 38px over 0.3 to 0.6s and fire once. Images scale ~1.04 on
+hover.
+
+**Never drive an animation from a scroll event listener.** Use CSS
+scroll-driven timelines, or a requestAnimationFrame loop if you must. A
+smooth-scroll library was adopted and then removed with the note that it
+re-smooths input macOS already smooths, which reads as lag.
+
+`prefers-reduced-motion` is handled in all seven repos, so treat it as
+required rather than polish. Sol does want *something* moving, but it must
+come from the content (a photo strip, a revealed price), never from
+decoration.
 
 ## Text, which is where most corrections land
 
@@ -166,8 +218,16 @@ For fetching images for named places and venues, see
 ## Stack and deployment
 
 Next.js App Router, TypeScript, plain CSS in one `globals.css` with custom
-properties. No Tailwind, no component library, no CSS-in-JS: the whole style
-is about a hundred lines of tokens, and a utility framework hides them.
+properties. This project used no Tailwind and no component library, on the
+grounds that the whole style is about a hundred lines of tokens and a
+utility framework hides them. Across the wider set of repos the Tailwind
+question splits evenly with no stated rule, so follow whatever the repo you
+are in already does, and ask if it is new.
+
+**Keep content out of layout.** Every repo does this, in a `lib/content.ts`,
+a `src/content/` file per page, or typed constants in `data/`. The reason
+given is that copy edits should never touch layout, which also means a
+non-engineer can change the words.
 
 - Repo on GitHub, deployed on Vercel from that repo.
 - **Do not rely on the npm `prebuild` hook.** Vercel may invoke `next build`
@@ -180,8 +240,11 @@ is about a hundred lines of tokens, and a utility framework hides them.
   useless for the people it is meant for. Turn it off
   (`ssoProtection: null`) and verify the deployed URL returns 200 without a
   session.
-- **Commit messages in Spanish**, lowercase first word, explaining what
-  changed and why, not a list of files.
+- **Commit subjects are a plain imperative sentence** and the body explains
+  the actual cause, not the files touched. Real examples: "Pricing goes
+  quiet", "Counters count again on every visit". Match the language the repo
+  already uses; English is the default and this Spanish-language project was
+  the exception.
 
 ## Shared state
 
@@ -195,6 +258,16 @@ being provisioned. Optimistic updates, and let people delete only their own.
 
 Details and a working shape in `references/estado.md`.
 
+## Write the brief down
+
+Three repos carry a `DESIGN.md` with fixed headings, and they are the ones
+that needed the fewest redesign rounds. Use them: Project, Audience, Type,
+Color, Space, Layout, Components, Motion, Imagery, Voice, Constraints,
+References, and a **Ratified** line with the date the direction was agreed.
+
+The Ratified line is the useful part. It converts "I don't like this" from a
+restart into a diff against something already settled.
+
 ## Verify before you say it is done
 
 Screenshot the built page with Playwright at 1440px and at 390px, log in if
@@ -202,6 +275,14 @@ there is a gate, open a modal, and look at the images. Several regressions
 here were invisible in the code and obvious in a screenshot: broken images
 from a stale manifest, an inverted type scale, a form with no styles. Send
 the screenshot rather than describing the page.
+
+## When a choice feels arbitrary
+
+`references/convenciones.md` records what recurs across the other seven
+repos, with the actual values, and separates what is settled from what
+genuinely splits (light ground or dark, Tailwind or hand-CSS, TypeScript or
+JavaScript, serif or grotesque display). Read it when starting for a client
+with an existing brand, or before guessing on one of those four.
 
 ## What gets pushed back on
 
