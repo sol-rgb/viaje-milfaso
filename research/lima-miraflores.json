@@ -1,0 +1,560 @@
+[
+ {
+  "nombre": "Casa Huaca",
+  "url": "https://www.booking.com/hotel/pe/huaca-host-house.es-ar.html",
+  "direccion": "742 Calle General Borgoño, Miraflores, Lima, Perú",
+  "lat": -12.1135399,
+  "lon": -77.033452,
+  "totalUsd2h": 87,
+  "ppNoche2h": 9,
+  "puntaje": "9,1",
+  "opiniones": "207",
+  "duerme5EnDosCuartos": true,
+  "config": "1×Habitación Individual GrandeVarios tipos de camasCancelación gratisSin pago por adelantado - Pagás en el alojamiento1×Habitación Doble - 2 camas2 camas doblesCancelación gratisSin pago por adelantado - Pagás en el alojamiento",
+  "aPie": {
+   "Maido": 1353,
+   "Rafael": 1328,
+   "LaMar": 1294,
+   "Mayta": 2316,
+   "ParqueKennedy": 974
+  },
+  "enAuto": {
+   "KjolleCentral": 4499,
+   "Merito": 4368,
+   "Isolina": 3978,
+   "Cosme": 989,
+   "AstridYGaston": 1910
+  },
+  "aeropuerto": {
+   "km": 18.5,
+   "min": 26
+  }
+ },
+ {
+  "nombre": "The Lighthouse Bed and Breakfast",
+  "url": "https://www.booking.com/hotel/pe/the-lighthouse-bed-and-breakfast.es-ar.html",
+  "direccion": "Cesareo Chacaltana N°162, Miraflores, LIMA 18 Lima, Perú",
+  "lat": -12.1157543,
+  "lon": -77.03985,
+  "totalUsd2h": 125,
+  "ppNoche2h": 13,
+  "puntaje": "9,4",
+  "opiniones": "1.087",
+  "duerme5EnDosCuartos": false,
+  "config": "1×Habitación con cama grande y baño compartido1 cama doble grandeDesayuno incluidoCancelación gratisSin pago por adelantado - Pagás en el alojamiento1×Habitación Doble con baño privado - 2 camas2 camas (1 individual, 1 doble grande)Desayuno",
+  "aPie": {
+   "Maido": 1469,
+   "Rafael": 1407,
+   "LaMar": 653,
+   "Mayta": 2458,
+   "ParqueKennedy": 1225
+  },
+  "enAuto": {
+   "KjolleCentral": 4506,
+   "Merito": 4372,
+   "Isolina": 4022,
+   "Cosme": 743,
+   "AstridYGaston": 2210
+  },
+  "aeropuerto": {
+   "km": 17.8,
+   "min": 25
+  }
+ },
+ {
+  "nombre": "Radisson RED Miraflores",
+  "url": "https://www.booking.com/hotel/pe/radisson-red-miraflores.es-ar.html",
+  "direccion": "Calle Bolivar 210-230-236/Calle Alcanflores, Miraflores, Miraflores, Lima, Perú",
+  "lat": -12.1258495,
+  "lon": -77.0269163,
+  "totalUsd2h": 199,
+  "ppNoche2h": 20,
+  "puntaje": "8,8",
+  "opiniones": "2.512",
+  "duerme5EnDosCuartos": true,
+  "config": "1×Habitación - 1 cama extragrande - No fumadores1 cama doble extragrandeDesayuno incluidoCancelación gratisSin pago por adelantado - Pagás en el alojamiento1×Habitación Doble con 2 camas dobles - No fumadores2 camas doblesDesayuno incluidoC",
+  "aPie": {
+   "Maido": 405,
+   "Rafael": 487,
+   "LaMar": 2436,
+   "Mayta": 797,
+   "ParqueKennedy": 592
+  },
+  "enAuto": {
+   "KjolleCentral": 3009,
+   "Merito": 2882,
+   "Isolina": 2473,
+   "Cosme": 2428,
+   "AstridYGaston": 3389
+  },
+  "aeropuerto": {
+   "km": 21,
+   "min": 28
+  }
+ },
+ {
+  "nombre": "Hotel Antigua Miraflores",
+  "url": "https://www.booking.com/hotel/pe/antigua-miraflores.es-ar.html",
+  "direccion": "Av. Grau, 350, Miraflores, Lima 18 Lima, Perú",
+  "lat": -12.1216585,
+  "lon": -77.0352888,
+  "totalUsd2h": 227,
+  "ppNoche2h": 23,
+  "puntaje": "9,3",
+  "opiniones": "2.131",
+  "duerme5EnDosCuartos": true,
+  "config": "1×Habitación Doble - 2 camas2 camas individualesDesayuno incluidoCancelación gratisSin pago por adelantado - Pagás en el alojamiento1×Habitación Colonial TripleVarios tipos de camasDesayuno incluidoCancelación gratisSin pago por adelantado ",
+  "aPie": {
+   "Maido": 656,
+   "Rafael": 589,
+   "LaMar": 1429,
+   "Mayta": 1636,
+   "ParqueKennedy": 529
+  },
+  "enAuto": {
+   "KjolleCentral": 3706,
+   "Merito": 3573,
+   "Isolina": 3212,
+   "Cosme": 1533,
+   "AstridYGaston": 2805
+  },
+  "aeropuerto": {
+   "km": 18.4,
+   "min": 25
+  }
+ },
+ {
+  "nombre": "Girasoles Hotel",
+  "url": "https://www.booking.com/hotel/pe/girasoles.es-ar.html",
+  "direccion": "Av. Diez Canseco 696, Miraflores, 18 Lima, Perú",
+  "lat": -12.1218954,
+  "lon": -77.0231186,
+  "totalUsd2h": 244,
+  "ppNoche2h": 24,
+  "puntaje": "9,0",
+  "opiniones": "559",
+  "duerme5EnDosCuartos": true,
+  "config": "1×Habitación Doble - 2 camas2 camas individualesDesayuno incluidoCancelación gratis1×Habitación Triple3 camas individualesDesayuno incluidoCancelación gratis",
+  "aPie": {
+   "Maido": 902,
+   "Rafael": 974,
+   "LaMar": 2595,
+   "Mayta": 1252,
+   "ParqueKennedy": 794
+  },
+  "enAuto": {
+   "KjolleCentral": 3412,
+   "Merito": 3291,
+   "Isolina": 2864,
+   "Cosme": 2436,
+   "AstridYGaston": 3115
+  },
+  "aeropuerto": {
+   "km": 19.9,
+   "min": 28
+  }
+ },
+ {
+  "nombre": "Casa Andina Select Miraflores",
+  "url": "https://www.booking.com/hotel/pe/casa-andina-select-miraflores.es-ar.html",
+  "direccion": "Calle Schell 452, Miraflores, Miraflores, L18 Lima, Perú",
+  "lat": -12.1234704,
+  "lon": -77.0272159,
+  "totalUsd2h": 268,
+  "ppNoche2h": 27,
+  "puntaje": "8,9",
+  "opiniones": "1.199",
+  "duerme5EnDosCuartos": true,
+  "config": "1×Habitación Doble Superior - 2 camas2 camas individualesDesayuno incluidoCancelación gratisSin pago por adelantado - Pagás en el alojamiento1×Habitación Triple Superior3 camas individualesDesayuno incluidoCancelación gratisSin pago por ade",
+  "aPie": {
+   "Maido": 426,
+   "Rafael": 495,
+   "LaMar": 2268,
+   "Mayta": 1063,
+   "ParqueKennedy": 396
+  },
+  "enAuto": {
+   "KjolleCentral": 3276,
+   "Merito": 3148,
+   "Isolina": 2738,
+   "Cosme": 2210,
+   "AstridYGaston": 3125
+  },
+  "aeropuerto": {
+   "km": 20.6,
+   "min": 28
+  }
+ },
+ {
+  "nombre": "Sonesta Hotel Miraflores",
+  "url": "https://www.booking.com/hotel/pe/sonesta-hotel-miraflores.es-ar.html",
+  "direccion": "Calle Alcanfores 290- Miraflores, Miraflores, 018 Lima, Perú",
+  "lat": -12.1221466,
+  "lon": -77.0279858,
+  "totalUsd2h": 275,
+  "ppNoche2h": 28,
+  "puntaje": "8,8",
+  "opiniones": "251",
+  "duerme5EnDosCuartos": true,
+  "config": "1×Habitación Doble Estándar1 cama dobleDesayuno incluidoCancelación gratisSin pago por adelantado - Pagás en el alojamiento1×Habitación Doble Superior2 camas dobles grandesDesayuno incluidoCancelación gratisSin pago por adelantado - Pagás e",
+  "aPie": {
+   "Maido": 460,
+   "Rafael": 509,
+   "LaMar": 2124,
+   "Mayta": 1224,
+   "ParqueKennedy": 268
+  },
+  "enAuto": {
+   "KjolleCentral": 3434,
+   "Merito": 3307,
+   "Isolina": 2899,
+   "Cosme": 2047,
+   "AstridYGaston": 2961
+  },
+  "aeropuerto": {
+   "km": 20.7,
+   "min": 28
+  }
+ },
+ {
+  "nombre": "Hotel Estelar Miraflores",
+  "url": "https://www.booking.com/hotel/pe/estelar-miraflores.es-ar.html",
+  "direccion": "Av. Benavides, 415 - Miraflores, Miraflores, Lima 18 Lima, Perú",
+  "lat": -12.1243688,
+  "lon": -77.0291837,
+  "totalUsd2h": 312,
+  "ppNoche2h": 31,
+  "puntaje": "8,7",
+  "opiniones": "1.272",
+  "duerme5EnDosCuartos": true,
+  "config": "1×Habitación Estándar - 1 cama grande 1 cama doble grandeDesayuno incluidoCancelación gratisSin pago por adelantado - Pagás en el alojamiento1×Habitación Doble Superior - 2 camas2 camas dobles grandesDesayuno incluidoCancelación gratisSin p",
+  "aPie": {
+   "Maido": 192,
+   "Rafael": 259,
+   "LaMar": 2140,
+   "Mayta": 1026,
+   "ParqueKennedy": 318
+  },
+  "enAuto": {
+   "KjolleCentral": 3218,
+   "Merito": 3088,
+   "Isolina": 2691,
+   "Cosme": 2144,
+   "AstridYGaston": 3171
+  },
+  "aeropuerto": {
+   "km": 21,
+   "min": 29
+  }
+ },
+ {
+  "nombre": "Aloft by Marriott Lima Miraflores",
+  "url": "https://www.booking.com/hotel/pe/aloft-lima-miraflores.es-ar.html",
+  "direccion": "Av. 28 de Julio N° 894, Miraflores, 0 Lima, Perú",
+  "lat": -12.1291018,
+  "lon": -77.0239398,
+  "totalUsd2h": 315,
+  "ppNoche2h": 32,
+  "puntaje": "9,2",
+  "opiniones": "478",
+  "duerme5EnDosCuartos": true,
+  "config": "1×Habitación Urban con vistas al patio - Cama extragrande1 cama doble extragrandeDesayuno incluidoCancelación gratisSin pago por adelantado - Pagás en el alojamiento1×Habitación Breezy más amplia - 2 camas grandes2 camas doblesDesayuno incl",
+  "aPie": {
+   "Maido": 834,
+   "Rafael": 911,
+   "LaMar": 2910,
+   "Mayta": 458,
+   "ParqueKennedy": 1077
+  },
+  "enAuto": {
+   "KjolleCentral": 2614,
+   "Merito": 2492,
+   "Isolina": 2068,
+   "Cosme": 2913,
+   "AstridYGaston": 3829
+  },
+  "aeropuerto": {
+   "km": 21.6,
+   "min": 28
+  }
+ },
+ {
+  "nombre": "Humano, Lima, a Tribute Portfolio Hotel",
+  "url": "https://www.booking.com/hotel/pe/humano-lima-a-tribute-portfolio.es-ar.html",
+  "direccion": "Revett Street N° 151-165 Miraflores, 15074 Lima, Perú",
+  "lat": -12.1224212,
+  "lon": -77.0332128,
+  "totalUsd2h": 331,
+  "ppNoche2h": 33,
+  "puntaje": "9,6",
+  "opiniones": "65",
+  "duerme5EnDosCuartos": true,
+  "config": "1×Habitación Superior con cama extragrande 1 cama doble extragrandeCancelación gratisSin pago por adelantado - Pagás en el alojamiento1×Habitación Doble Superior con 2 camas dobles2 camas doblesCancelación gratisSin pago por adelantado - Pa",
+  "aPie": {
+   "Maido": 435,
+   "Rafael": 379,
+   "LaMar": 1658,
+   "Mayta": 1430,
+   "ParqueKennedy": 312
+  },
+  "enAuto": {
+   "KjolleCentral": 3548,
+   "Merito": 3415,
+   "Isolina": 3041,
+   "Cosme": 1715,
+   "AstridYGaston": 2896
+  },
+  "aeropuerto": {
+   "km": 19,
+   "min": 27
+  }
+ },
+ {
+  "nombre": "INNSiDE by Meliá Lima Miraflores",
+  "url": "https://www.booking.com/hotel/pe/innside-by-melia-lima-miraflores.es-ar.html",
+  "direccion": "Av. Diez Canseco 344, Miraflores, LIMA 18 Lima, Perú",
+  "lat": -12.1220933,
+  "lon": -77.025372,
+  "totalUsd2h": 351,
+  "ppNoche2h": 35,
+  "puntaje": "9,0",
+  "opiniones": "1.894",
+  "duerme5EnDosCuartos": true,
+  "config": "1×Habitación Innside - 2 camas dobles2 camas individualesCancelación gratisSin pago por adelantado - Pagás en el alojamiento1×Loft Familiar3 camas (2 cuchetas, 1 doble grande)Cancelación gratisSin pago por adelantado - Pagás en el alojamien",
+  "aPie": {
+   "Maido": 677,
+   "Rafael": 743,
+   "LaMar": 2378,
+   "Mayta": 1201,
+   "ParqueKennedy": 550
+  },
+  "enAuto": {
+   "KjolleCentral": 3403,
+   "Merito": 3279,
+   "Isolina": 2859,
+   "Cosme": 2255,
+   "AstridYGaston": 3042
+  },
+  "aeropuerto": {
+   "km": 20.8,
+   "min": 28
+  }
+ },
+ {
+  "nombre": "Courtyard by Marriott Lima Miraflores",
+  "url": "https://www.booking.com/hotel/pe/courtyard-by-marriott-lima-miraflores.es-ar.html",
+  "direccion": "Calle Schell N°400, Miraflores, Lima 01 Lima, Perú",
+  "lat": -12.1233841,
+  "lon": -77.0275589,
+  "totalUsd2h": 354,
+  "ppNoche2h": 35,
+  "puntaje": "8,9",
+  "opiniones": "150",
+  "duerme5EnDosCuartos": true,
+  "config": "2×Habitación Doble Estándar con 2 camas dobles4 camas doblesDesayuno incluidoCancelación gratisSin pago por adelantado - Pagás en el alojamiento",
+  "aPie": {
+   "Maido": 399,
+   "Rafael": 466,
+   "LaMar": 2231,
+   "Mayta": 1080,
+   "ParqueKennedy": 359
+  },
+  "enAuto": {
+   "KjolleCentral": 3291,
+   "Merito": 3163,
+   "Isolina": 2755,
+   "Cosme": 2177,
+   "AstridYGaston": 3106
+  },
+  "aeropuerto": {
+   "km": 20.6,
+   "min": 28
+  }
+ },
+ {
+  "nombre": "Crowne Plaza Lima - Miraflores by IHG",
+  "url": "https://www.booking.com/hotel/pe/crowne-plaza-lima.es-ar.html",
+  "direccion": "Av. Benavides 300, Miraflores, 18 Lima, Perú",
+  "lat": -12.1247151,
+  "lon": -77.0301338,
+  "totalUsd2h": 358,
+  "ppNoche2h": 36,
+  "puntaje": "8,9",
+  "opiniones": "923",
+  "duerme5EnDosCuartos": true,
+  "config": "1×Habitación Doble Estándar con vistas a la ciudad1 cama doble grandeCancelación gratisSin pago por adelantado - Pagás en el alojamiento1×Habitación Premium con cama grande y vistas a la ciudad2 camas dobles grandesCancelación gratisSin pag",
+  "aPie": {
+   "Maido": 91,
+   "Rafael": 149,
+   "LaMar": 2079,
+   "Mayta": 1036,
+   "ParqueKennedy": 328
+  },
+  "enAuto": {
+   "KjolleCentral": 3206,
+   "Merito": 3075,
+   "Isolina": 2685,
+   "Cosme": 2113,
+   "AstridYGaston": 3190
+  },
+  "aeropuerto": {
+   "km": 20,
+   "min": 27
+  }
+ },
+ {
+  "nombre": "Casa Andina Premium Miraflores",
+  "url": "https://www.booking.com/hotel/pe/casa-andina-private-collection-miraflores.es-ar.html",
+  "direccion": "Av La Paz, 463 - Miraflores, Miraflores, Lima 18 Lima, Perú",
+  "lat": -12.1220265,
+  "lon": -77.0266065,
+  "totalUsd2h": 379,
+  "ppNoche2h": 38,
+  "puntaje": "8,5",
+  "opiniones": "1.424",
+  "duerme5EnDosCuartos": true,
+  "config": "1×Habitación Doble Tradicional1 cama doble grandeDesayuno incluidoCancelación gratisSin pago por adelantado - Pagás en el alojamiento1×Habitación Triple Superior3 camas individualesDesayuno incluidoCancelación gratisSin pago por adelantado ",
+  "aPie": {
+   "Maido": 574,
+   "Rafael": 633,
+   "LaMar": 2253,
+   "Mayta": 1214,
+   "ParqueKennedy": 416
+  },
+  "enAuto": {
+   "KjolleCentral": 3425,
+   "Merito": 3299,
+   "Isolina": 2885,
+   "Cosme": 2148,
+   "AstridYGaston": 2991
+  },
+  "aeropuerto": {
+   "km": 20.7,
+   "min": 28
+  }
+ },
+ {
+  "nombre": "Hilton Lima Miraflores",
+  "url": "https://www.booking.com/hotel/pe/hilton-lima-miraflores.es-ar.html",
+  "direccion": "Avenida La Paz 1099, Miraflores, 18 Lima, Perú",
+  "lat": -12.1289484,
+  "lon": -77.0265011,
+  "totalUsd2h": 414,
+  "ppNoche2h": 41,
+  "puntaje": "8,8",
+  "opiniones": "215",
+  "duerme5EnDosCuartos": true,
+  "config": "2×Habitación con 2 camas grandes4 camas dobles grandesCancelación gratisSin pago por adelantado - Pagás en el alojamiento",
+  "aPie": {
+   "Maido": 597,
+   "Rafael": 666,
+   "LaMar": 2682,
+   "Mayta": 450,
+   "ParqueKennedy": 904
+  },
+  "enAuto": {
+   "KjolleCentral": 2662,
+   "Merito": 2534,
+   "Isolina": 2126,
+   "Cosme": 2726,
+   "AstridYGaston": 3733
+  },
+  "aeropuerto": {
+   "km": 20.8,
+   "min": 28
+  }
+ },
+ {
+  "nombre": "Nhow Lima",
+  "url": "https://www.booking.com/hotel/pe/nhow-lima.es-ar.html",
+  "direccion": "Calle Atahualpa 155, 15074, Miraflores, Lima, Perú",
+  "lat": -12.1132091,
+  "lon": -77.0311714,
+  "totalUsd2h": 424,
+  "ppNoche2h": 42,
+  "puntaje": "9,4",
+  "opiniones": "523",
+  "duerme5EnDosCuartos": false,
+  "config": "1×Habitación Doble Nhow1 cama doble extragrandeCancelación gratisSin pago por adelantado - Pagás en el alojamiento1×Suite Nhow con cama supletoriaSuite privada • 51 m²1 cama doble extragrandeCancelación gratisSin pago por adelantado - Pagás",
+  "aPie": {
+   "Maido": 1356,
+   "Rafael": 1346,
+   "LaMar": 1541,
+   "Mayta": 2272,
+   "ParqueKennedy": 957
+  },
+  "enAuto": {
+   "KjolleCentral": 4476,
+   "Merito": 4347,
+   "Isolina": 3946,
+   "Cosme": 1198,
+   "AstridYGaston": 1913
+  },
+  "aeropuerto": {
+   "km": 17.5,
+   "min": 27
+  }
+ },
+ {
+  "nombre": "Hotel Indigo Lima Miraflores by IHG",
+  "url": "https://www.booking.com/hotel/pe/indigo-lima-miraflores-by-ihg.es-ar.html",
+  "direccion": "",
+  "lat": -12.127623,
+  "lon": -77.0281011,
+  "totalUsd2h": 458,
+  "ppNoche2h": 46,
+  "puntaje": "9,3",
+  "opiniones": "255",
+  "duerme5EnDosCuartos": true,
+  "config": "1×Habitación adaptada para personas de movilidad reducida con cama extragrande1 cama doble extragrandeCancelación gratisSin pago por adelantado - Pagás en el alojamiento1×Habitación Estándar con vistas a la ciudad - 2 camas grandes2 camas d",
+  "aPie": {
+   "Maido": 369,
+   "Rafael": 438,
+   "LaMar": 2454,
+   "Mayta": 648,
+   "ParqueKennedy": 697
+  },
+  "enAuto": {
+   "KjolleCentral": 2839,
+   "Merito": 2710,
+   "Isolina": 2311,
+   "Cosme": 2504,
+   "AstridYGaston": 3550
+  },
+  "aeropuerto": {
+   "km": 20.6,
+   "min": 27
+  }
+ },
+ {
+  "nombre": "AC Hotel by Marriott Lima Miraflores",
+  "url": "https://www.booking.com/hotel/pe/ac-lima-miraflores.es-ar.html",
+  "direccion": "Malecón de la Reserva 729 Miraflores, Miraflores, Lima, Perú",
+  "lat": -12.1327823,
+  "lon": -77.029193,
+  "totalUsd2h": 538,
+  "ppNoche2h": 54,
+  "puntaje": "9,2",
+  "opiniones": "396",
+  "duerme5EnDosCuartos": true,
+  "config": "1×Habitación con cama extragrande y vistas a la ciudad - Planta baja1 cama doble extragrandeDesayuno incluidoCancelación gratisSin pago por adelantado - Pagás en el alojamiento1×Habitación con 2 camas dobles y vistas a la ciudad - Planta ba",
+  "aPie": {
+   "Maido": 836,
+   "Rafael": 864,
+   "LaMar": 2781,
+   "Mayta": 394,
+   "ParqueKennedy": 1231
+  },
+  "enAuto": {
+   "KjolleCentral": 2316,
+   "Merito": 2184,
+   "Isolina": 1810,
+   "Cosme": 2935,
+   "AstridYGaston": 4092
+  },
+  "aeropuerto": {
+   "km": 19.8,
+   "min": 28
+  }
+ }
+]

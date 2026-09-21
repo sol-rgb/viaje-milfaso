@@ -24,8 +24,80 @@ export const VIAJES: Trip[] = [
         "slug": "lima",
         "name": "Lima",
         "nights": 2,
-        "note": "Barranco: casonas, museos chicos y el mar abajo del acantilado.",
+        "note": "Dormimos en Miraflores, que deja Maido y Rafael a pie, y Barranco a diez minutos en taxi.",
         "hotels": [
+          {
+            "name": "Hotel Antigua Miraflores",
+            "area": "Miraflores, Av. Grau 350, a diez cuadras de Maido",
+            "nightUsd": 114,
+            "ppUsd": 23,
+            "why": "Casona de los años 20 con patio. Doble más colonial triple. La nota alta mejor respaldada de Miraflores.",
+            "url": "https://www.booking.com/hotel/pe/antigua-miraflores.es-ar.html",
+            "score": "9,3 en Booking, 2.131 opiniones"
+          },
+          {
+            "name": "Humano, a Tribute Portfolio Hotel",
+            "area": "Miraflores, Revett 151, a una cuadra del Parque Kennedy",
+            "nightUsd": 166,
+            "ppUsd": 33,
+            "why": "Lo abrió Marriott hace poco y es el más de diseño que entra en presupuesto. A cuatro cuadras de Rafael.",
+            "url": "https://www.booking.com/hotel/pe/humano-lima.es-ar.html",
+            "score": "9,6 en Booking, 65 opiniones"
+          },
+          {
+            "name": "Hotel Indigo Lima Miraflores",
+            "area": "Miraflores, Alcanfores 1332, cerca de Mayta",
+            "nightUsd": 229,
+            "ppUsd": 46,
+            "why": "Terraza con pileta en el último piso. El más cerca de Mayta de los buenos, a 650 m.",
+            "url": "https://www.booking.com/hotel/pe/indigo-lima-miraflores-by-ihg.es-ar.html",
+            "score": "9,3 en Booking, 255 opiniones"
+          },
+          {
+            "name": "Casa Andina Select Miraflores",
+            "area": "Miraflores, Schell 452, a cuatro cuadras de Maido",
+            "nightUsd": 134,
+            "ppUsd": 27,
+            "why": "Cadena peruana sin sorpresas. Doble con dos camas más una triple.",
+            "url": "https://www.booking.com/hotel/pe/casa-andina-select-miraflores.es-ar.html",
+            "score": "8,9 en Booking, 1.199 opiniones"
+          },
+          {
+            "name": "Nhow Lima",
+            "area": "Miraflores, Atahualpa 155, cerca de La Mar y de Cosme",
+            "nightUsd": 212,
+            "ppUsd": 42,
+            "why": "El de diseño más marcado. Queda más al norte: más lejos de Maido, más cerca de La Mar y de Cosme.",
+            "url": "https://www.booking.com/hotel/pe/nhow-lima.es-ar.html",
+            "score": "9,4 en Booking, 523 opiniones"
+          },
+          {
+            "name": "Crowne Plaza Lima Miraflores",
+            "area": "Miraflores, Av. Benavides 300, a media cuadra de Maido",
+            "nightUsd": 179,
+            "ppUsd": 36,
+            "why": "Está a 91 metros de Maido y a 149 de Rafael. No hay nada más cerca.",
+            "url": "https://www.booking.com/hotel/pe/crowne-plaza-lima.es-ar.html",
+            "score": "8,9 en Booking, 923 opiniones"
+          },
+          {
+            "name": "Radisson RED Miraflores",
+            "area": "Miraflores, Bolívar 210, a cuatro cuadras de Maido",
+            "nightUsd": 100,
+            "ppUsd": 20,
+            "why": "El más barato de los que están bien ubicados. Una habitación con cama extragrande y otra con dos dobles.",
+            "url": "https://www.booking.com/hotel/pe/radisson-red-miraflores.es-ar.html",
+            "score": "8,8 en Booking, 2.512 opiniones"
+          },
+          {
+            "name": "AC Hotel by Marriott Lima Miraflores",
+            "area": "Miraflores, Malecón de la Reserva 729, sobre el acantilado",
+            "nightUsd": 269,
+            "ppUsd": 54,
+            "why": "Sobre el malecón al lado de Larcomar, con la mejor vista al mar. El más caro de la lista y aun así entra.",
+            "url": "https://www.booking.com/hotel/pe/ac-lima-miraflores.es-ar.html",
+            "score": "9,2 en Booking, 396 opiniones"
+          },
           {
             "name": "Second Home Peru",
             "area": "Barranco, Domeyer 366, sobre el acantilado arriba de Playa Los Pavos",

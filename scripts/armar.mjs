@@ -44,7 +44,7 @@ const PROSA = {
     gettingAround:
       "En Máncora se anda en mototaxi y para cinco hacen falta dos o tres. De Talara al pueblo, hora y cuarto en van.",
     notas: {
-      lima: "Barranco: casonas, museos chicos y el mar abajo del acantilado.",
+      lima: "Dormimos en Miraflores, que deja Maido y Rafael a pie, y Barranco a diez minutos en taxi.",
       mancora: "Las Pocitas y Vichayito, al sur del pueblo, es donde están las casas.",
     },
     dias: {
@@ -161,6 +161,79 @@ const YA_TENEMOS = {
  * panel de reserva de Airbnb para el 8 al 12 de marzo de 2027, cinco
  * personas, cuatro noches. El presupuesto es us$1.800 por las cuatro.
  */
+/**
+ * Hoteles de Miraflores para las dos noches en Lima. Precio real de
+ * Booking para el 27 de febrero al 1 de marzo de 2027, cinco personas en
+ * dos habitaciones, total por las dos noches. La distancia a Maido es en
+ * línea recta. Todo el detalle está en research/lima-miraflores.md.
+ */
+const HOTELES_MIRAFLORES = [
+  {
+    name: "Hotel Antigua Miraflores",
+    zona: "Miraflores, Av. Grau 350, a diez cuadras de Maido",
+    totalUsd: 227,
+    score: "9,3 en Booking, 2.131 opiniones",
+    why: "Casona de los años 20 con patio. Doble más colonial triple. La nota alta mejor respaldada de Miraflores.",
+    url: "https://www.booking.com/hotel/pe/antigua-miraflores.es-ar.html",
+  },
+  {
+    name: "Humano, a Tribute Portfolio Hotel",
+    zona: "Miraflores, Revett 151, a una cuadra del Parque Kennedy",
+    totalUsd: 331,
+    score: "9,6 en Booking, 65 opiniones",
+    why: "Lo abrió Marriott hace poco y es el más de diseño que entra en presupuesto. A cuatro cuadras de Rafael.",
+    url: "https://www.booking.com/hotel/pe/humano-lima.es-ar.html",
+  },
+  {
+    name: "Hotel Indigo Lima Miraflores",
+    zona: "Miraflores, Alcanfores 1332, cerca de Mayta",
+    totalUsd: 458,
+    score: "9,3 en Booking, 255 opiniones",
+    why: "Terraza con pileta en el último piso. El más cerca de Mayta de los buenos, a 650 m.",
+    url: "https://www.booking.com/hotel/pe/indigo-lima-miraflores-by-ihg.es-ar.html",
+  },
+  {
+    name: "Casa Andina Select Miraflores",
+    zona: "Miraflores, Schell 452, a cuatro cuadras de Maido",
+    totalUsd: 268,
+    score: "8,9 en Booking, 1.199 opiniones",
+    why: "Cadena peruana sin sorpresas. Doble con dos camas más una triple.",
+    url: "https://www.booking.com/hotel/pe/casa-andina-select-miraflores.es-ar.html",
+  },
+  {
+    name: "Nhow Lima",
+    zona: "Miraflores, Atahualpa 155, cerca de La Mar y de Cosme",
+    totalUsd: 424,
+    score: "9,4 en Booking, 523 opiniones",
+    why: "El de diseño más marcado. Queda más al norte: más lejos de Maido, más cerca de La Mar y de Cosme.",
+    url: "https://www.booking.com/hotel/pe/nhow-lima.es-ar.html",
+  },
+  {
+    name: "Crowne Plaza Lima Miraflores",
+    zona: "Miraflores, Av. Benavides 300, a media cuadra de Maido",
+    totalUsd: 358,
+    score: "8,9 en Booking, 923 opiniones",
+    why: "Está a 91 metros de Maido y a 149 de Rafael. No hay nada más cerca.",
+    url: "https://www.booking.com/hotel/pe/crowne-plaza-lima.es-ar.html",
+  },
+  {
+    name: "Radisson RED Miraflores",
+    zona: "Miraflores, Bolívar 210, a cuatro cuadras de Maido",
+    totalUsd: 199,
+    score: "8,8 en Booking, 2.512 opiniones",
+    why: "El más barato de los que están bien ubicados. Una habitación con cama extragrande y otra con dos dobles.",
+    url: "https://www.booking.com/hotel/pe/radisson-red-miraflores.es-ar.html",
+  },
+  {
+    name: "AC Hotel by Marriott Lima Miraflores",
+    zona: "Miraflores, Malecón de la Reserva 729, sobre el acantilado",
+    totalUsd: 538,
+    score: "9,2 en Booking, 396 opiniones",
+    why: "Sobre el malecón al lado de Larcomar, con la mejor vista al mar. El más caro de la lista y aun así entra.",
+    url: "https://www.booking.com/hotel/pe/ac-lima-miraflores.es-ar.html",
+  },
+];
+
 const CASAS_MANCORA = [
   {
     name: "Las Pocitas, casa de estreno",
@@ -394,7 +467,21 @@ const VIAJES = Object.entries(PROSA).map(([id, p]) => {
     ...(propias.includes(st.slug) ? { propio: true } : {}),
     hotels: propias.includes(st.slug)
       ? []
-      : (st.hotels ?? []).filter((h) => h.fits_5 !== false).slice(0, 5).map(hotel),
+      : [
+          // los de Miraflores que investigamos van primero
+          ...(id === "peru" && st.slug === "lima"
+            ? HOTELES_MIRAFLORES.map((h) => ({
+                name: h.name,
+                area: h.zona,
+                nightUsd: Math.round(h.totalUsd / 2),
+                ppUsd: Math.round(h.totalUsd / 2 / 5),
+                why: h.why,
+                url: h.url,
+                score: h.score,
+              }))
+            : []),
+          ...(st.hotels ?? []).filter((h) => h.fits_5 !== false).slice(0, 5).map(hotel),
+        ],
     rentals: propias.includes(st.slug)
       ? []
       : [
