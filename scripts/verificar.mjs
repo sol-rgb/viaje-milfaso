@@ -4,7 +4,8 @@
  * Corre con:  node --experimental-strip-types scripts/verificar.mjs
  * o después del build:  npm run verificar
  */
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
+import { createHash } from "node:crypto";
 
 const src = readFileSync(new URL("../data/viajes.ts", import.meta.url), "utf8");
 
@@ -127,6 +128,26 @@ for (const t of VIAJES) {
   console.log(
     `  ${t.slug.padEnd(9)} ${noches} noches · vuelo ${min} · internos ${hops} · camas ${cama} · cosas ${act} · total w2 ${min + hops + cama + act}`
   );
+}
+
+// El nombre de cada foto lleva el hash de la clave del alojamiento. Si se
+// corren los índices y no se renombran los archivos, dos alojamientos
+// terminan apuntando al mismo archivo y uno pisa las fotos del otro.
+const manifiesto = new URL("../data/galerias.json", import.meta.url).pathname;
+if (existsSync(manifiesto)) {
+  const galerias = JSON.parse(readFileSync(manifiesto, "utf8"));
+  const duenos = new Map();
+  for (const [clave, fotos] of Object.entries(galerias)) {
+    const esperado = createHash("sha1").update(clave).digest("hex").slice(0, 12);
+    for (const foto of fotos) {
+      if (!foto.startsWith(esperado)) {
+        problemas.push(`galerias.json: ${clave} apunta a ${foto}, que no es su hash (${esperado})`);
+      }
+      const otro = duenos.get(foto);
+      if (otro) problemas.push(`galerias.json: ${foto} está en ${otro} y en ${clave}`);
+      else duenos.set(foto, clave);
+    }
+  }
 }
 
 if (avisos.length) {

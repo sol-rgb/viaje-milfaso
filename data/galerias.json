@@ -1,25 +1,4 @@
 {
-  "hotel:peru:lima:9": [
-    "5b3a124a4e4d-0.webp",
-    "5b3a124a4e4d-1.webp",
-    "5b3a124a4e4d-2.webp",
-    "5b3a124a4e4d-3.webp",
-    "5b3a124a4e4d-4.webp",
-    "5b3a124a4e4d-5.webp",
-    "5b3a124a4e4d-6.webp",
-    "5b3a124a4e4d-7.webp",
-    "5b3a124a4e4d-8.webp",
-    "5b3a124a4e4d-9.webp"
-  ],
-  "hotel:peru:lima:8": [
-    "7f44c3b08b37-0.webp",
-    "7f44c3b08b37-1.webp",
-    "7f44c3b08b37-2.webp",
-    "7f44c3b08b37-3.webp",
-    "7f44c3b08b37-4.webp",
-    "7f44c3b08b37-5.webp",
-    "7f44c3b08b37-6.webp"
-  ],
   "airbnb:peru:lima:0": [
     "89aa0282343a-0.webp",
     "89aa0282343a-1.webp",
@@ -29,14 +8,6 @@
     "89aa0282343a-5.webp",
     "89aa0282343a-6.webp",
     "89aa0282343a-7.webp"
-  ],
-  "hotel:peru:lima:12": [
-    "9f19be13c28a-0.webp",
-    "9f19be13c28a-1.webp",
-    "9f19be13c28a-2.webp",
-    "9f19be13c28a-3.webp",
-    "9f19be13c28a-4.webp",
-    "9f19be13c28a-5.webp"
   ],
   "airbnb:peru:lima:3": [
     "d63dca996656-0.webp",
@@ -218,28 +189,81 @@
     "72286ca08fca-7.webp",
     "72286ca08fca-8.webp"
   ],
-  "hotel:peru:lima:11": [
+  "hotel:peru:lima:10": [
+    "1fb769506e70-0.webp",
+    "1fb769506e70-1.webp",
+    "1fb769506e70-2.webp",
+    "1fb769506e70-3.webp",
+    "1fb769506e70-4.webp",
+    "1fb769506e70-5.webp",
+    "1fb769506e70-6.webp",
+    "1fb769506e70-7.webp",
+    "1fb769506e70-8.webp",
+    "1fb769506e70-9.webp"
+  ],
+  "hotel:peru:lima:0": [
+    "7f44c3b08b37-2.webp",
+    "7f44c3b08b37-3.webp",
+    "7f44c3b08b37-4.webp",
+    "7f44c3b08b37-6.webp",
+    "7f44c3b08b37-5.webp",
+    "7f44c3b08b37-9.webp",
+    "7f44c3b08b37-8.webp"
+  ],
+  "hotel:peru:lima:1": [
+    "5b3a124a4e4d-0.webp",
+    "5b3a124a4e4d-1.webp",
+    "5b3a124a4e4d-2.webp",
+    "5b3a124a4e4d-3.webp",
+    "5b3a124a4e4d-4.webp"
+  ],
+  "hotel:peru:lima:7": [
+    "777c474b3987-0.webp",
+    "777c474b3987-1.webp",
+    "777c474b3987-2.webp",
+    "777c474b3987-3.webp",
+    "777c474b3987-4.webp",
+    "777c474b3987-5.webp",
+    "777c474b3987-6.webp",
+    "777c474b3987-7.webp"
+  ],
+  "hotel:peru:lima:4": [
+    "9f19be13c28a-0.webp",
+    "9f19be13c28a-1.webp",
+    "9f19be13c28a-2.webp",
+    "9f19be13c28a-3.webp",
+    "9f19be13c28a-4.webp",
+    "9f19be13c28a-5.webp",
+    "9f19be13c28a-6.webp",
+    "9f19be13c28a-7.webp",
+    "9f19be13c28a-8.webp",
+    "9f19be13c28a-9.webp"
+  ],
+  "hotel:peru:lima:6": [
+    "d812fe7397a0-4.webp",
+    "d812fe7397a0-8.webp",
+    "d812fe7397a0-10.webp",
+    "d812fe7397a0-5.webp",
+    "d812fe7397a0-2.webp",
+    "d812fe7397a0-1.webp"
+  ],
+  "hotel:peru:lima:5": [
+    "533367536ee7-10.webp",
+    "533367536ee7-6.webp",
+    "533367536ee7-8.webp",
+    "533367536ee7-11.webp",
+    "533367536ee7-7.webp",
+    "533367536ee7-1.webp"
+  ],
+  "hotel:peru:lima:3": [
     "16d2becd323b-0.webp",
     "16d2becd323b-1.webp",
-    "16d2becd323b-2.webp",
     "16d2becd323b-3.webp",
-    "16d2becd323b-5.webp",
-    "16d2becd323b-6.webp",
+    "16d2becd323b-4.webp",
     "16d2becd323b-7.webp",
     "16d2becd323b-8.webp",
     "16d2becd323b-9.webp",
-    "16d2becd323b-10.webp"
-  ],
-  "hotel:peru:lima:10": [
-    "f12cd7653657-0.webp",
-    "f12cd7653657-1.webp",
-    "f12cd7653657-2.webp",
-    "f12cd7653657-3.webp",
-    "f12cd7653657-4.webp",
-    "f12cd7653657-5.webp",
-    "f12cd7653657-6.webp",
-    "f12cd7653657-7.webp",
-    "f12cd7653657-8.webp",
-    "f12cd7653657-9.webp"
+    "16d2becd323b-10.webp",
+    "16d2becd323b-11.webp"
   ]
 }
