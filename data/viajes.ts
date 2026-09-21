@@ -219,6 +219,103 @@ export const VIAJES: Trip[] = [
         ],
         "rentals": [
           {
+            "name": "Las Pocitas, casa de estreno",
+            "zona": "Las Pocitas, segunda fila",
+            "area": "Las Pocitas, segunda fila",
+            "sleeps": 12,
+            "nightUsd": 455,
+            "ppUsd": 91,
+            "totalUsd": 1820,
+            "score": "4,96 en Airbnb, 28 opiniones",
+            "why": "Guardián en la casa, cuatro cuartos, cinco baños, pileta.",
+            "url": "https://www.airbnb.com/rooms/1321133264832239578",
+            "favorita": true
+          },
+          {
+            "name": "Casa Sahuaro Norte",
+            "zona": "Máncora",
+            "area": "Máncora",
+            "sleeps": 6,
+            "nightUsd": 330,
+            "ppUsd": 66,
+            "totalUsd": 1318,
+            "score": "4,94 en Airbnb, 17 opiniones",
+            "why": "La más barata de las que quedan cerca del pueblo.",
+            "url": "https://www.airbnb.com/rooms/936206844235812054"
+          },
+          {
+            "name": "ANAHATA",
+            "zona": "Las Pocitas, primera fila",
+            "area": "Las Pocitas, primera fila",
+            "sleeps": 7,
+            "nightUsd": 456,
+            "ppUsd": 91,
+            "totalUsd": 1825,
+            "score": "4,88 en Airbnb, 17 opiniones",
+            "why": "Frente al mar, pero solo dos cuartos para cinco.",
+            "url": "https://www.airbnb.com/rooms/47588033"
+          },
+          {
+            "name": "Casa Carpe II Eco-Luxury",
+            "zona": "Vichayito",
+            "area": "Vichayito",
+            "sleeps": 8,
+            "nightUsd": 279,
+            "ppUsd": 56,
+            "totalUsd": 1116,
+            "score": "4,94 en Airbnb, 16 opiniones",
+            "why": "Cámaras, playa a 100 metros, beach club al lado.",
+            "url": "https://www.airbnb.com/rooms/1398079145603022656"
+          },
+          {
+            "name": "Casa Norte",
+            "zona": "Máncora",
+            "area": "Máncora",
+            "sleeps": 10,
+            "nightUsd": 495,
+            "ppUsd": 99,
+            "totalUsd": 1978,
+            "score": "5,0 en Airbnb, solo 2 opiniones",
+            "why": "Frente al mar y con cocinera, pero casi sin historial.",
+            "url": "https://www.airbnb.com/rooms/1238373248843447855"
+          },
+          {
+            "name": "Frente al mar en Las Pocitas",
+            "zona": "Las Pocitas, condominio cerrado",
+            "area": "Las Pocitas, condominio cerrado",
+            "sleeps": 12,
+            "nightUsd": 640,
+            "ppUsd": 128,
+            "totalUsd": 2560,
+            "score": "5,0 en Airbnb, 10 opiniones",
+            "why": "Condominio cerrado de cuatro casas, salida directa a la playa.",
+            "url": "https://www.airbnb.com/rooms/1675507390981901540"
+          },
+          {
+            "name": "Casa Palma de Máncora",
+            "zona": "Las Pocitas, primera fila",
+            "area": "Las Pocitas, primera fila",
+            "sleeps": 12,
+            "nightUsd": 652,
+            "ppUsd": 130,
+            "totalUsd": 2608,
+            "score": "5,0 en Airbnb, 9 opiniones",
+            "why": "Frente al mar, anfitriona superhost, la más cara.",
+            "url": "https://www.airbnb.com/rooms/681820181339814466"
+          },
+          {
+            "name": "La Morada Punta Sal",
+            "zona": "Punta Sal, Tumbes",
+            "area": "Punta Sal, Tumbes",
+            "sleeps": 5,
+            "nightUsd": 238,
+            "ppUsd": 48,
+            "totalUsd": 952,
+            "score": "4,87 en Airbnb, 61 opiniones",
+            "why": "La más barata, pero Punta Sal está a una hora de Máncora.",
+            "url": "https://www.airbnb.com/rooms/1280397732957486133"
+          },
+          {
             "name": "Casa Claro de Luna - Las Pocitas (entire 5-bedroom beach house)",
             "area": "Playa Las Pocitas, Máncora",
             "sleeps": 10,
@@ -763,6 +860,7 @@ export const VIAJES: Trip[] = [
   },
   {
     "slug": "colombia",
+    "oculto": true,
     "n": "02",
     "name": "Cartagena & Barú",
     "place": "Colombia",
@@ -1489,6 +1587,7 @@ export const VIAJES: Trip[] = [
   },
   {
     "slug": "usa",
+    "oculto": true,
     "n": "03",
     "name": "Miami & los Cayos",
     "place": "Estados Unidos",
@@ -2104,6 +2203,7 @@ export const VIAJES: Trip[] = [
   },
   {
     "slug": "mexico",
+    "oculto": true,
     "n": "04",
     "name": "Ciudad de México & Puerto Escondido",
     "place": "México",

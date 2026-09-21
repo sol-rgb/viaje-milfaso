@@ -148,10 +148,94 @@ const TRAMOS = {
   mexico: ["MEX-PXM"],
 };
 
+/** Elegimos Perú: los otros tres quedan guardados pero no se muestran. */
+const DESCARTADOS = ["colombia", "usa", "mexico"];
+
 /** Paradas donde ya tenemos dónde dormir, así que no buscamos nada. */
 const YA_TENEMOS = {
   usa: ["miami"],
 };
+
+/**
+ * Las ocho casas que estamos mirando para Máncora. Precio real leído del
+ * panel de reserva de Airbnb para el 8 al 12 de marzo de 2027, cinco
+ * personas, cuatro noches. El presupuesto es us$1.800 por las cuatro.
+ */
+const CASAS_MANCORA = [
+  {
+    name: "Las Pocitas, casa de estreno",
+    zona: "Las Pocitas, segunda fila",
+    sleeps: 12,
+    totalUsd: 1820,
+    score: "4,96 en Airbnb, 28 opiniones",
+    why: "Guardián en la casa, cuatro cuartos, cinco baños, pileta.",
+    url: "https://www.airbnb.com/rooms/1321133264832239578",
+    favorita: true,
+  },
+  {
+    name: "Casa Sahuaro Norte",
+    zona: "Máncora",
+    sleeps: 6,
+    totalUsd: 1318,
+    score: "4,94 en Airbnb, 17 opiniones",
+    why: "La más barata de las que quedan cerca del pueblo.",
+    url: "https://www.airbnb.com/rooms/936206844235812054",
+  },
+  {
+    name: "ANAHATA",
+    zona: "Las Pocitas, primera fila",
+    sleeps: 7,
+    totalUsd: 1825,
+    score: "4,88 en Airbnb, 17 opiniones",
+    why: "Frente al mar, pero solo dos cuartos para cinco.",
+    url: "https://www.airbnb.com/rooms/47588033",
+  },
+  {
+    name: "Casa Carpe II Eco-Luxury",
+    zona: "Vichayito",
+    sleeps: 8,
+    totalUsd: 1116,
+    score: "4,94 en Airbnb, 16 opiniones",
+    why: "Cámaras, playa a 100 metros, beach club al lado.",
+    url: "https://www.airbnb.com/rooms/1398079145603022656",
+  },
+  {
+    name: "Casa Norte",
+    zona: "Máncora",
+    sleeps: 10,
+    totalUsd: 1978,
+    score: "5,0 en Airbnb, solo 2 opiniones",
+    why: "Frente al mar y con cocinera, pero casi sin historial.",
+    url: "https://www.airbnb.com/rooms/1238373248843447855",
+  },
+  {
+    name: "Frente al mar en Las Pocitas",
+    zona: "Las Pocitas, condominio cerrado",
+    sleeps: 12,
+    totalUsd: 2560,
+    score: "5,0 en Airbnb, 10 opiniones",
+    why: "Condominio cerrado de cuatro casas, salida directa a la playa.",
+    url: "https://www.airbnb.com/rooms/1675507390981901540",
+  },
+  {
+    name: "Casa Palma de Máncora",
+    zona: "Las Pocitas, primera fila",
+    sleeps: 12,
+    totalUsd: 2608,
+    score: "5,0 en Airbnb, 9 opiniones",
+    why: "Frente al mar, anfitriona superhost, la más cara.",
+    url: "https://www.airbnb.com/rooms/681820181339814466",
+  },
+  {
+    name: "La Morada Punta Sal",
+    zona: "Punta Sal, Tumbes",
+    sleeps: 5,
+    totalUsd: 952,
+    score: "4,87 en Airbnb, 61 opiniones",
+    why: "La más barata, pero Punta Sal está a una hora de Máncora.",
+    url: "https://www.airbnb.com/rooms/1280397732957486133",
+  },
+];
 
 const ARCHIVOS = {
   peru: ["flights-peru.json", "stay-peru.json"],
@@ -313,10 +397,28 @@ const VIAJES = Object.entries(PROSA).map(([id, p]) => {
       : (st.hotels ?? []).filter((h) => h.fits_5 !== false).slice(0, 5).map(hotel),
     rentals: propias.includes(st.slug)
       ? []
-      : (st.airbnbs ?? [])
-          .filter((b) => (num(b.sleeps) || 0) >= 5)
-          .slice(0, 5)
-          .map(casa),
+      : [
+          // las que mandó Sol van primero
+          ...(id === "peru" && st.slug === "mancora"
+            ? CASAS_MANCORA.map((c) => ({
+                name: c.name,
+                zona: c.zona,
+                area: c.zona,
+                sleeps: c.sleeps,
+                nightUsd: Math.round(c.totalUsd / 4),
+                ppUsd: Math.round(c.totalUsd / 4 / 5),
+                totalUsd: c.totalUsd,
+                score: c.score,
+                why: c.why,
+                url: c.url,
+                ...(c.favorita ? { favorita: true } : {}),
+              }))
+            : []),
+          ...(st.airbnbs ?? [])
+            .filter((b) => (num(b.sleeps) || 0) >= 5)
+            .slice(0, 5)
+            .map(casa),
+        ],
     food: (st.food ?? []).slice(0, 4).map((f) => ({
       name: limpioNombre(f.name),
       what: t(f.what),
@@ -391,6 +493,7 @@ const VIAJES = Object.entries(PROSA).map(([id, p]) => {
 
   return {
     slug: p.slug,
+    ...(DESCARTADOS.includes(p.slug) ? { oculto: true } : {}),
     n: p.n,
     name: p.name,
     place: p.place,

@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Galeria from "./Galeria";
 import { Derecha, Mas, Menos } from "./Icono";
+import Link from "next/link";
 import { Prosa } from "./Pop";
 import Pop from "./Pop";
 import Modal from "./Modal";
@@ -20,7 +21,6 @@ export default function Viaje({ t }: { t: Trip }) {
     <main className="viaje wrap max">
       <Hero t={t} />
       <Vuelos t={t} />
-      <Camas t={t} />
       <Ruta t={t} />
       <Plata t={t} />
       <Fuentes t={t} />
@@ -35,7 +35,12 @@ function Hero({ t }: { t: Trip }) {
     <header className="hero">
       <div className="hero-cab">
         <h1 className="hero-h">{t.name}</h1>
-        <Antes t={t} />
+        <div className="hero-botones">
+          <Link href={`/viaje/${t.slug}/hospedaje`} className="antes lleno">
+            Hospedaje <Derecha size={15} />
+          </Link>
+          <Antes t={t} />
+        </div>
       </div>
 
       <Galeria dirs={t.photoDirs} alt={t.name} />
@@ -205,6 +210,7 @@ function Vuelos({ t }: { t: Trip }) {
                   }}
                 >
                   {x.route}
+                  <em className="chip-n">{plata(x.costUsd)}</em>
                 </Pop>
               ))}
             </div>
@@ -295,139 +301,6 @@ function DiaFila({
         </div>
       </div>
     </li>
-  );
-}
-
-/* ---------------------------------------------------------- camas */
-
-function Camas({ t }: { t: Trip }) {
-  return (
-    <section className="bloque camas">
-      <div className="bloque-cab">
-        <h2 className="bloque-t">Dónde dormir</h2>
-      </div>
-      <div className="paradas">
-        {t.stops.map((st) => (
-          <Parada key={st.slug} st={st} slug={t.slug} dirs={t.photoDirs} />
-        ))}
-      </div>
-    </section>
-  );
-}
-
-function Parada({ st, slug, dirs }: { st: Stop; slug: string; dirs: string[] }) {
-  const [modo, setModo] = useState<"hotel" | "airbnb">("hotel");
-
-  return (
-    <div className="parada">
-      <div className="parada-cab">
-        {/* al pasar el mouse por el nombre sale el detalle del lugar */}
-        <h3 className="parada-t" data-nota={st.note || undefined}>
-          {st.name}
-          <span className="label parada-n">{st.nights} noches</span>
-        </h3>
-        {!st.propio && (
-          <div className="tabs">
-            {(["hotel", "airbnb"] as const).map((m) => (
-              <button
-                key={m}
-                className={modo === m ? "tab on" : "tab"}
-                onClick={() => setModo(m)}
-              >
-                {m === "hotel" ? "Hoteles" : "Airbnb"}
-              </button>
-            ))}
-          </div>
-        )}
-      </div>
-
-      {st.propio && <p className="propio">Ya tenemos dónde parar.</p>}
-
-      <div className="chips">
-        {st.propio ? null : modo === "hotel"
-          ? st.hotels.map((h, i) => (
-              <Pop
-                key={h.name}
-                clase={h.over ? "chip chip-cama caro" : "chip chip-cama"}
-                d={{
-                  titulo: h.name,
-                  target: `hotel:${slug}:${st.slug}:${i}`,
-                  dirs,
-                  linea: h.why,
-                  precio: h.ppUsd,
-                  unidad: "por persona por noche",
-                  url: h.url || h.site,
-                  extra: [
-                    `us$${plata(h.nightUsd)} la noche para los cinco`,
-                    h.area,
-                    h.score,
-                    h.over ? "se pasa del presupuesto" : "",
-                  ].filter(Boolean) as string[],
-                }}
-              >
-                {h.name}
-                <em className="chip-n">
-                  {h.estimate ? "~" : ""}
-                  {plata(h.ppUsd)}
-                </em>
-              </Pop>
-            ))
-          : st.rentals.map((r, i) => (
-              <Pop
-                key={r.name}
-                clase="chip chip-cama"
-                d={{
-                  titulo: r.name,
-                  target: `airbnb:${slug}:${st.slug}:${i}`,
-                  dirs,
-                  linea: r.why,
-                  precio: r.ppUsd,
-                  unidad: "por persona por noche",
-                  url: r.url,
-                  extra: [
-                    `us$${plata(r.nightUsd)} la casa entera`,
-                    `duerme ${r.sleeps}`,
-                    r.area,
-                    r.isSearch ? "es una búsqueda, no un aviso" : "",
-                  ].filter(Boolean) as string[],
-                }}
-              >
-                {r.name}
-                <em className="chip-n">{plata(r.ppUsd)}</em>
-              </Pop>
-            ))}
-
-        {!st.propio && (
-          <>
-            <ListaAportes tipo={modo} viaje={slug} parada={st.slug} />
-            <Aportar tipo={modo} viaje={slug} parada={st.slug} />
-          </>
-        )}
-      </div>
-
-      {st.food.length > 0 && (
-        <>
-          <p className="sub-label">Dónde comer</p>
-          <div className="chips">
-            {st.food.map((f, i) => (
-              <Pop
-                key={i}
-                clase="chip chip-suave"
-                d={{
-                  titulo: f.name,
-                  target: `comer:${slug}:${st.slug}:${i}`,
-                  dirs,
-                  linea: f.what,
-                  extra: f.level ? [f.level] : [],
-                }}
-              >
-                {f.name}
-              </Pop>
-            ))}
-          </div>
-        </>
-      )}
-    </div>
   );
 }
 

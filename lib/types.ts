@@ -58,6 +58,14 @@ export type Hotel = {
 
 export type Rental = {
   name: string;
+  /** zona declarada por el aviso: Las Pocitas, Vichayito, Punta Sal */
+  zona?: string;
+  /** puntaje y cantidad de opiniones */
+  score?: string;
+  /** total de las noches, no la noche suelta */
+  totalUsd?: number;
+  /** la elegida por ahora */
+  favorita?: boolean;
   area: string;
   sleeps: number;
   nightUsd: number;
@@ -100,6 +108,8 @@ export type Stop = {
 
 export type Trip = {
   slug: string;
+  /** los viajes descartados quedan en los datos pero no se muestran */
+  oculto?: boolean;
   n: string;
   name: string;
   place: string;

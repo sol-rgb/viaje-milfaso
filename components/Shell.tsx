@@ -24,14 +24,16 @@ export default function Shell({ children }: { children: React.ReactNode }) {
 }
 
 function Barra() {
-  const ruta = usePathname();
+  const ruta = usePathname() ?? "/";
   const dentro = ruta !== "/";
+  // desde /viaje/peru/hospedaje se vuelve a /viaje/peru, no al home
+  const arriba = dentro ? ruta.split("/").slice(0, -1).join("/") || "/" : "/";
 
   return (
     <header className="barra wrap">
       <div className="barra-l">
         {dentro && (
-          <Link href="/" className="volver" aria-label="Volver">
+          <Link href={arriba} className="volver" aria-label="Volver">
             <Izquierda size={17} />
           </Link>
         )}

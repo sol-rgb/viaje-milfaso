@@ -13,6 +13,7 @@ const RAICES = [
   { dir: new URL("../public/photos", import.meta.url).pathname, ancho: 1400, anidado: true },
   { dir: new URL("../public/photos-extra", import.meta.url).pathname, ancho: 1400, anidado: true },
   { dir: new URL("../public/fotos", import.meta.url).pathname, ancho: 900, anidado: false },
+  { dir: new URL("../public/hospedaje", import.meta.url).pathname, ancho: 1400, anidado: false },
 ];
 
 const ES_IMG = /\.(jpe?g|png|webp|avif)$/i;
@@ -21,6 +22,8 @@ let antes = 0;
 let despues = 0;
 
 async function pasar(ruta, ancho) {
+  // un webp ya pasado por acá no se vuelve a comprimir: cada pasada pierde calidad
+  if (ruta.endsWith(".webp")) return;
   const orig = statSync(ruta).size;
   antes += orig;
 
@@ -77,6 +80,21 @@ if (existsSync(mf)) {
   }
   writeFileSync(mf, JSON.stringify(d, null, 2) + "\n");
   console.log(`\n${n} entradas del manifiesto actualizadas`);
+}
+
+// el manifiesto de galerías también guarda nombres de archivo
+const mg = new URL("../data/galerias.json", import.meta.url).pathname;
+if (existsSync(mg)) {
+  const d = JSON.parse(readFileSync(mg, "utf8"));
+  let n = 0;
+  for (const [k, v] of Object.entries(d)) {
+    d[k] = v.map((f) => {
+      if (renombres.has(f)) { n++; return renombres.get(f); }
+      return f;
+    });
+  }
+  writeFileSync(mg, JSON.stringify(d, null, 2) + "\n");
+  console.log(`${n} fotos de galerías actualizadas`);
 }
 
 const mb = (b) => (b / 1024 / 1024).toFixed(1);

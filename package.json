@@ -13,7 +13,8 @@
     "imagenes": "node scripts/imagenes.mjs",
     "imagenes:browser": "node scripts/imagenes-browser.mjs",
     "fotos:lugar": "node scripts/fotos-lugar.mjs",
-    "comprimir": "node scripts/comprimir.mjs"
+    "comprimir": "node scripts/comprimir.mjs",
+    "fotos:hospedaje": "node scripts/fotos-hospedaje.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.45.4",
